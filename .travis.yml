@@ -1,0 +1,19 @@
+language: python
+
+python:
+ - 3.6
+
+install:
+ - pip install -r requirements.txt
+
+script:
+ - pytest --pylint
+ - python test_sample.py test
+
+notifications:
+ email:
+   - nrpandes@ncsu.edu
+   - arames22@ncsu.edu
+   - nkashya@ncsu.edu
+   - mvijaya2@ncsu.edu
+   - sbangal2@ncsu.edu
