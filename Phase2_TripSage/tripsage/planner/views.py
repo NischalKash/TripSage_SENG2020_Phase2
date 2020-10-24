@@ -56,21 +56,33 @@ def data(request):
         data_dict = xmltodict.parse(requests.get(api).content)
         results = json.loads(json.dumps(data_dict))
 
-        f = open('/Users/nischalkashyap/Downloads/Fall 2020/SE2020/meta.yaml', 'w+')
+        f = open('meta.yaml', 'w+')
         yaml.dump(results, f, allow_unicode=True)
 
-        with open("/Users/nischalkashyap/Downloads/Fall 2020/SE2020/meta.yaml", 'r') as stream:
+        with open("meta.yaml", 'r') as stream:
             try:
                 yaml_content = yaml.safe_load(stream)
             except yaml.YAMLError as exc:
                 print(exc)
+        path = []
+        contents = yaml_content['DirectionsResponse']['route']['leg']['step']
+        total_distance = yaml_content['DirectionsResponse']['route']['leg']['distance']['text']
+        total_duration = yaml_content['DirectionsResponse']['route']['leg']['duration']['text']
+        start_location = yaml_content['DirectionsResponse']['route']['leg']['end_address']
+        end_location = yaml_content['DirectionsResponse']['route']['leg']['start_address']
 
-        yaml_content['DirectionsResponse']['route']['leg']['step']
-        geolocator = Nominatim(user_agent="Your_Name")
-        location_origin = geolocator.geocode(origin)
-        location_destination = geolocator.geocode(destination)
-        location_origin = (location_origin.latitude,location_origin.longitude)
-        location_destination = (location_destination.latitude,location_destination.longitude)
-        distance_between = str(geodesic(location_origin, location_destination).km)+"kms"
+        for i in contents:
+            directions = i['html_instructions'].replace('<b>',"")
+            directions = directions.replace('</b>', "")
+            directions = directions.replace('<wbr/>', "")
+            path.append([i['distance']['text'],i['duration']['text'],directions])
+        f = open("sentences.txt", "w")
+        f.write("")
+        f.close()
+        for i in path:
+            f = open("sentences.txt", "a")
+            f.write(i[2]+"\n")
+            f.close()
+
 
         return HttpResponse(json.dumps(final_data))
