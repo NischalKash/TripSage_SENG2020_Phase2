@@ -3,8 +3,6 @@ import googlemaps
 import pprint
 import time
 from datetime import datetime
-#from geopy.geocoders import Nominatim
-#import pandas as pd
 from geotext import GeoText
 import os
 import itertools
@@ -42,38 +40,17 @@ def Places_Recommendation(gmaps, Place, PlaceType):
     
     return stored_results
 
-# Define the Client
-API_KEY = 'AIzaSyCOUCDt77J8v4d2BnWcarXbHzsJpIAhNVQ'
-gmaps = googlemaps.Client(key = API_KEY)
-
-# Main Dictionary
-fileDir = os.path.dirname(os.path.realpath('__file__'))
-filename = os.path.join(fileDir, '../tripsage/sentences.txt')
-with open(filename, 'r') as reader:
-    lines = reader.readlines()
-
-cities_list = []
-for line in lines:
-    city_name = GeoText(line).cities
-    if city_name:
-        cities_list.append(city_name)
-
-print(cities_list)
-cities_list1 = list(itertools.chain.from_iterable(cities_list))
-print(cities_list1)
-cities_list = list(unique_everseen(cities_list1))
-print(cities_list)
-dictionary = {}
-
-# Fetching the tourist attraction near source and destination. 
-for city in set(cities_list):
-    # Grepping all the tourist attraction.
+def getRecommendation(placename):
+    # Define the Client
+    API_KEY = 'AIzaSyCOUCDt77J8v4d2BnWcarXbHzsJpIAhNVQ'
+    gmaps = googlemaps.Client(key = API_KEY)
+    dictionary = {}
     if city not in dictionary:
         dictionary[city] = {}
-    dictionary[city]['tourist_attraction'] = Places_Recommendation(gmaps, city, 'tourist_attraction')
-    dictionary[city]['food'] = Places_Recommendation(gmaps, city, 'food')
-    dictionary[city]['amusement_park'] = Places_Recommendation(gmaps, city, 'amusement_park')
-    print(dictionary)
+    dictionary[city]['tourist_attraction'] = Places_Recommendation(gmaps, placename, 'tourist_attraction')
+    dictionary[city]['food'] = Places_Recommendation(gmaps, placename, 'food')
+    dictionary[city]['amusement_park'] = Places_Recommendation(gmaps, placename, 'amusement_park')
+    return dictionary
 
 
 
