@@ -1,9 +1,8 @@
 from __future__ import absolute_import
-import json
 from django.shortcuts import render
-import requests
 import xmltodict
 import yaml
+from places_recommendation import *
 
 TYPES_PLACE_MAP = {
     "adventures": ["tourist_attraction", "stadium"],
@@ -13,15 +12,15 @@ TYPES_PLACE_MAP = {
 def home(request):
     return render(request,'planner/home.html')
 
-def getalltouristspots(city):
-    print("Entering")
-
 def find_spots(request):
     if request.method == 'POST':
         city = request.POST.get("city", "")
-        tourist_spots = getalltouristspots(city)
-        print(tourist_spots)
-        return
+        tourist_spots = getRecommendation(city)
+        f = open('user_recommended.yaml', 'w+')
+        yaml.dump(tourist_spots, f, allow_unicode=True)
+        #tourist_spots contains all the recommended places a user can visit when he traverses through his trip!
+        #render a html template here but make sure that he can enter a city again if he wants in the following template
+
 
 def myfunction(origin,destination):
     api = (
@@ -46,8 +45,8 @@ def myfunction(origin,destination):
     contents = yaml_content['DirectionsResponse']['route']['leg']['step']
     total_distance = yaml_content['DirectionsResponse']['route']['leg']['distance']['text']
     total_duration = yaml_content['DirectionsResponse']['route']['leg']['duration']['text']
-    start_location = yaml_content['DirectionsResponse']['route']['leg']['end_address']
-    end_location = yaml_content['DirectionsResponse']['route']['leg']['start_address']
+    start_location = yaml_content['DirectionsResponse']['route']['leg']['start_address']
+    end_location = yaml_content['DirectionsResponse']['route']['leg']['end_address']
 
     for i in contents:
         directions = i['html_instructions'].replace('<b>', "")
@@ -61,13 +60,14 @@ def myfunction(origin,destination):
     f = open("sentences.txt", "a")
     f.write(start_location + "\n")
     f.close()
+
     for i in path:
         f = open("sentences.txt", "a")
         f.write(i[2] + "\n")
         f.close()
 
     f = open("sentences.txt", "a")
-    f.write(start_location + "\n")
+    f.write(end_location + "\n")
     f.close()
 
     return path
@@ -77,6 +77,9 @@ def directions(request):
         origin = request.POST.get("origin", "")
         destination = request.POST.get("dest", "")
         direct = myfunction(origin,destination)
+
+        #Here in the directions.html, you have to display the routes and the cities users can enter!
+        #Also display the total_distance and total_duration taken to travel
         return render(request, 'planner/directions.html')
 
 
