@@ -4,6 +4,8 @@ from django.shortcuts import render
 from django.http import HttpResponse
 import requests
 import xmltodict
+from geopy.geocoders import Nominatim
+from geopy.distance import geodesic
 
 TYPES_PLACE_MAP = {
     "adventures": ["tourist_attraction", "stadium"],
@@ -27,8 +29,7 @@ def data(request):
                     + place
                     + "+in+"
                     + destination
-                    + "&key=AIzaSyAIsboWfXVchmgBxPGKG5lUF9AENUKcSI8"
-                )
+                    + "&key=AIzaSyAIsboWfXVchmgBxPGKG5lUF9AENUKcSI8")
             data_dict = xmltodict.parse(requests.get(api).content)
             results = json.loads(json.dumps(data_dict))
 
@@ -43,4 +44,12 @@ def data(request):
                     loaded_r = json.loads(json.dumps(values))
                     complete_data[str(loaded_r["name"])] = str(loaded_r["rating"])
         final_data[destination] = complete_data
+
+        geolocator = Nominatim(user_agent="Your_Name")
+        location_origin = geolocator.geocode(origin)
+        location_destination = geolocator.geocode(destination)
+        location_origin = (location_origin.latitude,location_origin.longitude)
+        location_destination = (location_destination.latitude,location_destination.longitude)
+        distance_between = str(geodesic(location_origin, location_destination).km)+"kms"
+
         return HttpResponse(json.dumps(final_data))
