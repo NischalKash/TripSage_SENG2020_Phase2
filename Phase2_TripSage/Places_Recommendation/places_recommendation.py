@@ -5,8 +5,14 @@ import time
 from datetime import datetime
 #from geopy.geocoders import Nominatim
 #import pandas as pd
+from geotext import GeoText
+import os
+import itertools
+from more_itertools import unique_everseen
 
-def Places_Recommendation(Gobj, Place, PlaceType):
+
+def Places_Recommendation(gmaps, Place, PlaceType):
+    print(Place)
     Address = Place
     geocode_result = gmaps.geocode(Address)
     x = geocode_result[0]['geometry']['location']['lat']
@@ -16,7 +22,7 @@ def Places_Recommendation(Gobj, Place, PlaceType):
     places_result  = gmaps.places_nearby(location= coordinate_string, radius = 40000, open_now =False , type = PlaceType)
     time.sleep(3)
 
-    place_result  = gmaps.places_nearby(page_token = places_result['next_page_token'])
+    #place_result  = gmaps.places_nearby(page_token = places_result['next_page_token'])
     stored_results = []
 
     # loop through each of the places in the results, and get the place details.      
@@ -41,11 +47,33 @@ API_KEY = 'AIzaSyCOUCDt77J8v4d2BnWcarXbHzsJpIAhNVQ'
 gmaps = googlemaps.Client(key = API_KEY)
 
 # Main Dictionary
-places_recommendation = {}
+fileDir = os.path.dirname(os.path.realpath('__file__'))
+filename = os.path.join(fileDir, '../tripsage/sentences.txt')
+with open(filename, 'r') as reader:
+    lines = reader.readlines()
+
+cities_list = []
+for line in lines:
+    city_name = GeoText(line).cities
+    if city_name:
+        cities_list.append(city_name)
+
+print(cities_list)
+cities_list1 = list(itertools.chain.from_iterable(cities_list))
+print(cities_list1)
+cities_list = list(unique_everseen(cities_list1))
+print(cities_list)
+dictionary = {}
 
 # Fetching the tourist attraction near source and destination. 
-stored_results = Places_Recommendation(gmaps, 'Chicago', 'tourist_attraction')
-pprint.pprint(stored_results)
+for city in set(cities_list):
+    # Grepping all the tourist attraction.
+    if city not in dictionary:
+        dictionary[city] = {}
+    dictionary[city]['tourist_attraction'] = Places_Recommendation(gmaps, city, 'tourist_attraction')
+    dictionary[city]['food'] = Places_Recommendation(gmaps, city, 'food')
+    dictionary[city]['amusement_park'] = Places_Recommendation(gmaps, city, 'amusement_park')
+    print(dictionary)
 
 
 
