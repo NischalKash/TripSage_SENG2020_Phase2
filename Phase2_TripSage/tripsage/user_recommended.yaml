@@ -1,0 +1,1506 @@
+New York:
+  amusement_park:
+  - formatted_address: 182 NJ-10, East Hanover, NJ 07936, USA
+    formatted_phone_number: (973) 428-1166
+    geometry:
+      location:
+        lat: 40.8102778
+        lng: -74.37722219999999
+    name: The Funplex
+    opening_hours:
+      open_now: true
+      periods:
+      - close:
+          day: 0
+          time: '2000'
+        open:
+          day: 0
+          time: '1100'
+      - close:
+          day: 4
+          time: '2000'
+        open:
+          day: 4
+          time: '1200'
+      - close:
+          day: 5
+          time: '2100'
+        open:
+          day: 5
+          time: '1200'
+      - close:
+          day: 6
+          time: '2200'
+        open:
+          day: 6
+          time: '1100'
+      weekday_text:
+      - 'Monday: Closed'
+      - 'Tuesday: Closed'
+      - 'Wednesday: Closed'
+      - 'Thursday: 12:00 – 8:00 PM'
+      - 'Friday: 12:00 – 9:00 PM'
+      - 'Saturday: 11:00 AM – 10:00 PM'
+      - 'Sunday: 11:00 AM – 8:00 PM'
+    website: http://thefunplex.com/
+  - formatted_address: 40 Fort Lee Rd, Leonia, NJ 07605, USA
+    formatted_phone_number: (855) 999-9010
+    geometry:
+      location:
+        lat: 40.8729132
+        lng: -73.990647
+    name: 'Field Station: Dinosaurs'
+    opening_hours:
+      open_now: false
+      periods:
+      - close:
+          day: 0
+          time: '0502'
+        open:
+          day: 0
+          time: '0500'
+      weekday_text:
+      - 'Monday: Closed'
+      - 'Tuesday: Closed'
+      - 'Wednesday: Closed'
+      - 'Thursday: Closed'
+      - 'Friday: Closed'
+      - 'Saturday: Closed'
+      - 'Sunday: 5:00 – 5:02 AM'
+    website: http://www.fieldstationdinosaurs.com/
+  - formatted_address: 275 Beachway Ave, Keansburg, NJ 07734, USA
+    formatted_phone_number: (732) 495-5240
+    geometry:
+      location:
+        lat: 40.4547395
+        lng: -74.1382078
+    name: Runaway Rapids Waterpark
+    opening_hours:
+      open_now: false
+      periods:
+      - close:
+          day: 0
+          time: '1800'
+        open:
+          day: 0
+          time: '1000'
+      - close:
+          day: 1
+          time: '1700'
+        open:
+          day: 1
+          time: '1100'
+      - close:
+          day: 2
+          time: '1700'
+        open:
+          day: 2
+          time: '1100'
+      - close:
+          day: 3
+          time: '1700'
+        open:
+          day: 3
+          time: '1100'
+      - close:
+          day: 4
+          time: '1700'
+        open:
+          day: 4
+          time: '1100'
+      - close:
+          day: 5
+          time: '1700'
+        open:
+          day: 5
+          time: '1100'
+      - close:
+          day: 6
+          time: '1800'
+        open:
+          day: 6
+          time: '1000'
+      weekday_text:
+      - 'Monday: 11:00 AM – 5:00 PM'
+      - 'Tuesday: 11:00 AM – 5:00 PM'
+      - 'Wednesday: 11:00 AM – 5:00 PM'
+      - 'Thursday: 11:00 AM – 5:00 PM'
+      - 'Friday: 11:00 AM – 5:00 PM'
+      - 'Saturday: 10:00 AM – 6:00 PM'
+      - 'Sunday: 10:00 AM – 6:00 PM'
+    website: http://www.keansburgamusementpark.com/
+  - formatted_address: 1 Playland Pkwy, Rye, NY 10580, USA
+    formatted_phone_number: (914) 813-7010
+    geometry:
+      location:
+        lat: 40.96514189999999
+        lng: -73.6751251
+    name: Playland Park
+    website: http://www.playlandpark.org/
+  - formatted_address: New York, NY 10019, USA
+    formatted_phone_number: (212) 982-2229
+    geometry:
+      location:
+        lat: 40.76777939999999
+        lng: -73.97446630000002
+    name: Victorian Gardens Amusement Park
+    opening_hours:
+      open_now: true
+      periods:
+      - close:
+          day: 0
+          time: '2000'
+        open:
+          day: 0
+          time: '1000'
+      - close:
+          day: 1
+          time: '1900'
+        open:
+          day: 1
+          time: '1100'
+      - close:
+          day: 2
+          time: '1900'
+        open:
+          day: 2
+          time: '1100'
+      - close:
+          day: 3
+          time: '1900'
+        open:
+          day: 3
+          time: '1100'
+      - close:
+          day: 4
+          time: '1900'
+        open:
+          day: 4
+          time: '1100'
+      - close:
+          day: 5
+          time: '2000'
+        open:
+          day: 5
+          time: '1100'
+      - close:
+          day: 6
+          time: '2100'
+        open:
+          day: 6
+          time: '1000'
+      weekday_text:
+      - 'Monday: 11:00 AM – 7:00 PM'
+      - 'Tuesday: 11:00 AM – 7:00 PM'
+      - 'Wednesday: 11:00 AM – 7:00 PM'
+      - 'Thursday: 11:00 AM – 7:00 PM'
+      - 'Friday: 11:00 AM – 8:00 PM'
+      - 'Saturday: 10:00 AM – 9:00 PM'
+      - 'Sunday: 10:00 AM – 8:00 PM'
+    website: https://www.victoriangardensnyc.com/
+  - formatted_address: 3059 W 12th St, Brooklyn, NY 11224, USA
+    formatted_phone_number: (718) 372-2592
+    geometry:
+      location:
+        lat: 40.5738964
+        lng: -73.97916479999999
+    name: Deno's Wonder Wheel Amusement Park
+    website: http://www.denoswonderwheel.com/?utm_source=GMBSocialClimb&utm_medium=Deno'sWonderWheelAmusementPark
+  - formatted_address: North Bergen, NJ 07047, USA
+    formatted_phone_number: (315) 849-1087
+    geometry:
+      location:
+        lat: 40.8053731
+        lng: -74.0241367
+    name: Travel in Style
+    opening_hours:
+      open_now: false
+      periods:
+      - close:
+          day: 0
+          time: '1400'
+        open:
+          day: 0
+          time: '1000'
+      - close:
+          day: 1
+          time: '2100'
+        open:
+          day: 1
+          time: 0800
+      - close:
+          day: 2
+          time: '2100'
+        open:
+          day: 2
+          time: 0800
+      - close:
+          day: 3
+          time: '2100'
+        open:
+          day: 3
+          time: 0800
+      - close:
+          day: 4
+          time: '2100'
+        open:
+          day: 4
+          time: 0800
+      - close:
+          day: 5
+          time: '2100'
+        open:
+          day: 5
+          time: 0800
+      - close:
+          day: 6
+          time: '1700'
+        open:
+          day: 6
+          time: 0900
+      weekday_text:
+      - 'Monday: 8:00 AM – 9:00 PM'
+      - 'Tuesday: 8:00 AM – 9:00 PM'
+      - 'Wednesday: 8:00 AM – 9:00 PM'
+      - 'Thursday: 8:00 AM – 9:00 PM'
+      - 'Friday: 8:00 AM – 9:00 PM'
+      - 'Saturday: 9:00 AM – 5:00 PM'
+      - 'Sunday: 10:00 AM – 2:00 PM'
+  - formatted_address: 39 W 32nd St 4th floor, New York, NY 10001, USA
+    formatted_phone_number: (646) 964-5783
+    geometry:
+      location:
+        lat: 40.748168
+        lng: -73.98735099999999
+    name: Clue Chase Escape Room | Herald Square NYC
+    opening_hours:
+      open_now: true
+      periods:
+      - close:
+          day: 1
+          time: '0000'
+        open:
+          day: 0
+          time: '1100'
+      - close:
+          day: 2
+          time: '0000'
+        open:
+          day: 1
+          time: '1100'
+      - close:
+          day: 3
+          time: '0000'
+        open:
+          day: 2
+          time: '1100'
+      - close:
+          day: 4
+          time: '0000'
+        open:
+          day: 3
+          time: '1100'
+      - close:
+          day: 5
+          time: '0000'
+        open:
+          day: 4
+          time: '1100'
+      - close:
+          day: 6
+          time: '0000'
+        open:
+          day: 5
+          time: '1100'
+      - close:
+          day: 0
+          time: '0000'
+        open:
+          day: 6
+          time: '1100'
+      weekday_text:
+      - 'Monday: 11:00 AM – 12:00 AM'
+      - 'Tuesday: 11:00 AM – 12:00 AM'
+      - 'Wednesday: 11:00 AM – 12:00 AM'
+      - 'Thursday: 11:00 AM – 12:00 AM'
+      - 'Friday: 11:00 AM – 12:00 AM'
+      - 'Saturday: 11:00 AM – 12:00 AM'
+      - 'Sunday: 11:00 AM – 12:00 AM'
+    website: http://cluechase.com/
+  - formatted_address: 47-11 Van Dam St, Long Island City, NY 11101, USA
+    formatted_phone_number: (917) 979-6215
+    geometry:
+      location:
+        lat: 40.74220680000001
+        lng: -73.933695
+    name: Virtual World VR
+  - formatted_address: 80-28 Cooper Ave Regal Cinemas Building, Queens, NY 11385,
+      USA
+    formatted_phone_number: (347) 599-1919
+    geometry:
+      location:
+        lat: 40.70944809999999
+        lng: -73.86878320000001
+    name: Laser Bounce - Family Fun Center
+    opening_hours:
+      open_now: true
+      periods:
+      - close:
+          day: 0
+          time: '2200'
+        open:
+          day: 0
+          time: '1000'
+      - close:
+          day: 1
+          time: '2200'
+        open:
+          day: 1
+          time: '1100'
+      - close:
+          day: 2
+          time: '2200'
+        open:
+          day: 2
+          time: '1100'
+      - close:
+          day: 3
+          time: '2200'
+        open:
+          day: 3
+          time: '1100'
+      - close:
+          day: 4
+          time: '2200'
+        open:
+          day: 4
+          time: '1100'
+      - close:
+          day: 6
+          time: '0000'
+        open:
+          day: 5
+          time: '1100'
+      - close:
+          day: 0
+          time: '0000'
+        open:
+          day: 6
+          time: '1000'
+      weekday_text:
+      - 'Monday: 11:00 AM – 10:00 PM'
+      - 'Tuesday: 11:00 AM – 10:00 PM'
+      - 'Wednesday: 11:00 AM – 10:00 PM'
+      - 'Thursday: 11:00 AM – 10:00 PM'
+      - 'Friday: 11:00 AM – 12:00 AM'
+      - 'Saturday: 10:00 AM – 12:00 AM'
+      - 'Sunday: 10:00 AM – 10:00 PM'
+    website: http://laserbounce.com/
+  - formatted_address: 5351 111th St, Corona, NY 11368, USA
+    formatted_phone_number: (718) 788-2676
+    geometry:
+      location:
+        lat: 40.7432938
+        lng: -73.8492741
+    name: Fantasy Forest Amusement Park
+    website: http://fantasyforestnyc.com/
+  - formatted_address: 69 Wesley St, South Hackensack, NJ 07606, USA
+    formatted_phone_number: (201) 212-6454
+    geometry:
+      location:
+        lat: 40.86925529999999
+        lng: -74.0531888
+    name: Urban Air Trampoline Park
+    opening_hours:
+      open_now: true
+      periods:
+      - close:
+          day: 0
+          time: '2100'
+        open:
+          day: 0
+          time: '1000'
+      - close:
+          day: 1
+          time: '2000'
+        open:
+          day: 1
+          time: '1500'
+      - close:
+          day: 2
+          time: '2000'
+        open:
+          day: 2
+          time: '1500'
+      - close:
+          day: 3
+          time: '2000'
+        open:
+          day: 3
+          time: '1500'
+      - close:
+          day: 4
+          time: '2000'
+        open:
+          day: 4
+          time: '1500'
+      - close:
+          day: 5
+          time: '2300'
+        open:
+          day: 5
+          time: '1200'
+      - close:
+          day: 6
+          time: '2300'
+        open:
+          day: 6
+          time: '1000'
+      weekday_text:
+      - 'Monday: 3:00 – 8:00 PM'
+      - 'Tuesday: 3:00 – 8:00 PM'
+      - 'Wednesday: 3:00 – 8:00 PM'
+      - 'Thursday: 3:00 – 8:00 PM'
+      - 'Friday: 12:00 – 11:00 PM'
+      - 'Saturday: 10:00 AM – 11:00 PM'
+      - 'Sunday: 10:00 AM – 9:00 PM'
+    website: https://www.urbanairtrampolinepark.com/locations/new-jersey/south-hackensack
+  - formatted_address: 33 Lecount Pl, New Rochelle, NY 10801, USA
+    formatted_phone_number: (914) 740-8407
+    geometry:
+      location:
+        lat: 40.9110427
+        lng: -73.7796455
+    name: Sky Zone Trampoline Park
+    opening_hours:
+      open_now: true
+      periods:
+      - close:
+          day: 0
+          time: '2200'
+        open:
+          day: 0
+          time: 0900
+      - close:
+          day: 1
+          time: '2100'
+        open:
+          day: 1
+          time: 0900
+      - close:
+          day: 2
+          time: '2100'
+        open:
+          day: 2
+          time: 0900
+      - close:
+          day: 3
+          time: '2100'
+        open:
+          day: 3
+          time: 0900
+      - close:
+          day: 4
+          time: '2100'
+        open:
+          day: 4
+          time: 0900
+      - close:
+          day: 5
+          time: '2200'
+        open:
+          day: 5
+          time: 0900
+      - close:
+          day: 6
+          time: '2200'
+        open:
+          day: 6
+          time: 0900
+      weekday_text:
+      - 'Monday: 9:00 AM – 9:00 PM'
+      - 'Tuesday: 9:00 AM – 9:00 PM'
+      - 'Wednesday: 9:00 AM – 9:00 PM'
+      - 'Thursday: 9:00 AM – 9:00 PM'
+      - 'Friday: 9:00 AM – 10:00 PM'
+      - 'Saturday: 9:00 AM – 10:00 PM'
+      - 'Sunday: 9:00 AM – 10:00 PM'
+    website: https://www.skyzone.com/newrochelle?y_source=1_MTUwOTE2NDItNzE1LWxvY2F0aW9uLndlYnNpdGU%3D
+  - formatted_address: 275 Beachway Ave, Keansburg, NJ 07734, USA
+    formatted_phone_number: (732) 495-1400
+    geometry:
+      location:
+        lat: 40.4547442
+        lng: -74.138195
+    name: Keansburg Amusement Park NJ
+    opening_hours:
+      open_now: true
+      periods:
+      - close:
+          day: 0
+          time: '1900'
+        open:
+          day: 0
+          time: '1100'
+      - close:
+          day: 6
+          time: '1900'
+        open:
+          day: 6
+          time: '1100'
+      weekday_text:
+      - 'Monday: Closed'
+      - 'Tuesday: Closed'
+      - 'Wednesday: Closed'
+      - 'Thursday: Closed'
+      - 'Friday: Closed'
+      - 'Saturday: 11:00 AM – 7:00 PM'
+      - 'Sunday: 11:00 AM – 7:00 PM'
+    website: http://keansburgamusementpark.com/
+  - formatted_address: 44 Jericho Turnpike f, Mineola, NY 11501, USA
+    formatted_phone_number: (516) 246-9939
+    geometry:
+      location:
+        lat: 40.75103000000001
+        lng: -73.636361
+    name: Can You Escape? LI
+    opening_hours:
+      open_now: true
+      periods:
+      - close:
+          day: 0
+          time: '2100'
+        open:
+          day: 0
+          time: '1230'
+      - close:
+          day: 1
+          time: '2100'
+        open:
+          day: 1
+          time: '1200'
+      - close:
+          day: 2
+          time: '2100'
+        open:
+          day: 2
+          time: '1200'
+      - close:
+          day: 3
+          time: '2100'
+        open:
+          day: 3
+          time: '1200'
+      - close:
+          day: 4
+          time: '2100'
+        open:
+          day: 4
+          time: '1200'
+      - close:
+          day: 5
+          time: '2230'
+        open:
+          day: 5
+          time: '1200'
+      - close:
+          day: 6
+          time: '2230'
+        open:
+          day: 6
+          time: '1200'
+      weekday_text:
+      - 'Monday: 12:00 – 9:00 PM'
+      - 'Tuesday: 12:00 – 9:00 PM'
+      - 'Wednesday: 12:00 – 9:00 PM'
+      - 'Thursday: 12:00 – 9:00 PM'
+      - 'Friday: 12:00 – 10:30 PM'
+      - 'Saturday: 12:00 – 10:30 PM'
+      - 'Sunday: 12:30 – 9:00 PM'
+    website: https://www.canyouescapeli.com/
+  - formatted_address: W Front St, Keyport, NJ 07735, USA
+    formatted_phone_number: (973) 256-4190
+    geometry:
+      location:
+        lat: 40.4361049
+        lng: -74.2065152
+    name: Keyport Fireman's Fair
+    website: http://campys.com/
+  - formatted_address: Woodhaven Blvd &, Forest Park Dr, Woodhaven, NY 11421, USA
+    formatted_phone_number: (718) 788-2676
+    geometry:
+      location:
+        lat: 40.70036169999999
+        lng: -73.85673059999999
+    name: Forest Park Carousel Amusement Village
+    opening_hours:
+      open_now: false
+      periods:
+      - close:
+          day: 6
+          time: '0130'
+        open:
+          day: 6
+          time: '0100'
+      weekday_text:
+      - 'Monday: Closed'
+      - 'Tuesday: Closed'
+      - 'Wednesday: Closed'
+      - 'Thursday: Closed'
+      - 'Friday: Closed'
+      - 'Saturday: 1:00 – 1:30 AM'
+      - 'Sunday: Closed'
+    website: http://www.forestparkcarousel.com/
+  - formatted_address: 80 Commerce Dr, Allendale, NJ 07401, USA
+    formatted_phone_number: (201) 574-1800
+    geometry:
+      location:
+        lat: 41.0395444
+        lng: -74.1178018
+    name: Sky Zone Trampoline Park
+    opening_hours:
+      open_now: true
+      periods:
+      - close:
+          day: 0
+          time: '1800'
+        open:
+          day: 0
+          time: '1100'
+      - close:
+          day: 3
+          time: '1900'
+        open:
+          day: 3
+          time: '1500'
+      - close:
+          day: 4
+          time: '1900'
+        open:
+          day: 4
+          time: '1500'
+      - close:
+          day: 5
+          time: '1900'
+        open:
+          day: 5
+          time: '1500'
+      - close:
+          day: 6
+          time: '1900'
+        open:
+          day: 6
+          time: '1100'
+      weekday_text:
+      - 'Monday: Closed'
+      - 'Tuesday: Closed'
+      - 'Wednesday: 3:00 – 7:00 PM'
+      - 'Thursday: 3:00 – 7:00 PM'
+      - 'Friday: 3:00 – 7:00 PM'
+      - 'Saturday: 11:00 AM – 7:00 PM'
+      - 'Sunday: 11:00 AM – 6:00 PM'
+    website: https://www.skyzone.com/allendale?y_source=1_MTUwOTE1OTMtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D
+  - formatted_address: 1824 Shore Pkwy, Brooklyn, NY 11214, USA
+    formatted_phone_number: (718) 975-2748
+    geometry:
+      location:
+        lat: 40.5906694
+        lng: -73.99469409999999
+    name: Adventurers Amusement Park
+    website: http://www.adventurerspark.com/
+  - formatted_address: 76 Carter Dr, Edison, NJ 08817, USA
+    formatted_phone_number: (732) 997-7552
+    geometry:
+      location:
+        lat: 40.531583
+        lng: -74.394987
+    name: Revolution Action Park
+    website: https://www.revolutionactionpark.com/
+  food:
+  - formatted_address: New York, NY, USA
+    geometry:
+      location:
+        lat: 40.7127753
+        lng: -74.0059728
+    name: New York
+    website: http://www.nyc.gov/
+  - formatted_address: Newark, NJ, USA
+    geometry:
+      location:
+        lat: 40.735657
+        lng: -74.1723667
+    name: Newark
+    website: http://www.ci.newark.nj.us/
+  tourist_attraction:
+  - formatted_address: Manhattan, New York, NY 10174, USA
+    geometry:
+      location:
+        lat: 40.751764
+        lng: -73.9755228
+    name: Chrysler Building
+  - formatted_address: Manhattan, NY 10036, USA
+    geometry:
+      location:
+        lat: 40.7579747
+        lng: -73.9855426
+    name: Times Square
+    opening_hours:
+      open_now: true
+      periods:
+      - close:
+          day: 0
+          time: '1900'
+        open:
+          day: 0
+          time: '1000'
+      - close:
+          day: 1
+          time: '2000'
+        open:
+          day: 1
+          time: 0900
+      - close:
+          day: 2
+          time: '2000'
+        open:
+          day: 2
+          time: 0900
+      - close:
+          day: 3
+          time: '2000'
+        open:
+          day: 3
+          time: 0900
+      - close:
+          day: 4
+          time: '2000'
+        open:
+          day: 4
+          time: 0900
+      - close:
+          day: 5
+          time: '2000'
+        open:
+          day: 5
+          time: 0900
+      - close:
+          day: 6
+          time: '1900'
+        open:
+          day: 6
+          time: '1000'
+      weekday_text:
+      - 'Monday: 9:00 AM – 8:00 PM'
+      - 'Tuesday: 9:00 AM – 8:00 PM'
+      - 'Wednesday: 9:00 AM – 8:00 PM'
+      - 'Thursday: 9:00 AM – 8:00 PM'
+      - 'Friday: 9:00 AM – 8:00 PM'
+      - 'Saturday: 10:00 AM – 7:00 PM'
+      - 'Sunday: 10:00 AM – 7:00 PM'
+    website: http://timessquarenyc.org/
+  - formatted_address: 2152 Henry Hudson Pkwy, The Bronx, NY 10463, USA
+    formatted_phone_number: (212) 304-5001
+    geometry:
+      location:
+        lat: 40.8777134
+        lng: -73.9224308
+    name: Henry Hudson Bridge
+    opening_hours:
+      open_now: true
+      periods:
+      - open:
+          day: 0
+          time: '0000'
+      weekday_text:
+      - 'Monday: Open 24 hours'
+      - 'Tuesday: Open 24 hours'
+      - 'Wednesday: Open 24 hours'
+      - 'Thursday: Open 24 hours'
+      - 'Friday: Open 24 hours'
+      - 'Saturday: Open 24 hours'
+      - 'Sunday: Open 24 hours'
+  - formatted_address: Lincoln Center Plaza, New York, NY 10023, USA
+    formatted_phone_number: (212) 875-5456
+    geometry:
+      location:
+        lat: 40.7724641
+        lng: -73.9834889
+    name: Lincoln Center for the Performing Arts
+    website: http://www.lincolncenter.org/
+  - formatted_address: 1260 6th Ave, New York, NY 10020, USA
+    formatted_phone_number: (212) 465-6741
+    geometry:
+      location:
+        lat: 40.75997599999999
+        lng: -73.9799772
+    name: Radio City Music Hall
+    website: https://www.msg.com/radio-city-music-hall?cmp=van_radiocity
+  - formatted_address: 45 Rockefeller Plaza, New York, NY 10111, USA
+    formatted_phone_number: (212) 588-8601
+    geometry:
+      location:
+        lat: 40.7587402
+        lng: -73.9786736
+    name: Rockefeller Center
+    opening_hours:
+      open_now: true
+      periods:
+      - open:
+          day: 0
+          time: '0000'
+      weekday_text:
+      - 'Monday: Open 24 hours'
+      - 'Tuesday: Open 24 hours'
+      - 'Wednesday: Open 24 hours'
+      - 'Thursday: Open 24 hours'
+      - 'Friday: Open 24 hours'
+      - 'Saturday: Open 24 hours'
+      - 'Sunday: Open 24 hours'
+    website: https://www.rockefellercenter.com/
+  - formatted_address: 11 W 53rd St, New York, NY 10019, USA
+    formatted_phone_number: (212) 708-9400
+    geometry:
+      location:
+        lat: 40.7614327
+        lng: -73.97762159999999
+    name: The Museum of Modern Art
+    opening_hours:
+      open_now: false
+      periods:
+      - close:
+          day: 0
+          time: '1730'
+        open:
+          day: 0
+          time: '1030'
+      - close:
+          day: 1
+          time: '1730'
+        open:
+          day: 1
+          time: '1030'
+      - close:
+          day: 2
+          time: '1730'
+        open:
+          day: 2
+          time: '1030'
+      - close:
+          day: 3
+          time: '1730'
+        open:
+          day: 3
+          time: '1030'
+      - close:
+          day: 4
+          time: '1730'
+        open:
+          day: 4
+          time: '1030'
+      - close:
+          day: 5
+          time: '1730'
+        open:
+          day: 5
+          time: '1030'
+      - close:
+          day: 6
+          time: '1730'
+        open:
+          day: 6
+          time: '1030'
+      weekday_text:
+      - 'Monday: 10:30 AM – 5:30 PM'
+      - 'Tuesday: 10:30 AM – 5:30 PM'
+      - 'Wednesday: 10:30 AM – 5:30 PM'
+      - 'Thursday: 10:30 AM – 5:30 PM'
+      - 'Friday: 10:30 AM – 5:30 PM'
+      - 'Saturday: 10:30 AM – 5:30 PM'
+      - 'Sunday: 10:30 AM – 5:30 PM'
+    website: https://www.moma.org/
+  - formatted_address: 200 Central Park West, New York, NY 10024, USA
+    formatted_phone_number: (212) 769-5100
+    geometry:
+      location:
+        lat: 40.78132409999999
+        lng: -73.9739882
+    name: American Museum of Natural History
+    opening_hours:
+      open_now: false
+      periods:
+      - close:
+          day: 0
+          time: '1730'
+        open:
+          day: 0
+          time: '1000'
+      - close:
+          day: 3
+          time: '1730'
+        open:
+          day: 3
+          time: '1000'
+      - close:
+          day: 4
+          time: '1730'
+        open:
+          day: 4
+          time: '1000'
+      - close:
+          day: 5
+          time: '1730'
+        open:
+          day: 5
+          time: '1000'
+      - close:
+          day: 6
+          time: '1730'
+        open:
+          day: 6
+          time: '1000'
+      weekday_text:
+      - 'Monday: Closed'
+      - 'Tuesday: Closed'
+      - 'Wednesday: 10:00 AM – 5:30 PM'
+      - 'Thursday: 10:00 AM – 5:30 PM'
+      - 'Friday: 10:00 AM – 5:30 PM'
+      - 'Saturday: 10:00 AM – 5:30 PM'
+      - 'Sunday: 10:00 AM – 5:30 PM'
+    website: https://www.amnh.org/
+  - formatted_address: 20 W 34th St, New York, NY 10001, USA
+    formatted_phone_number: (212) 736-3100
+    geometry:
+      location:
+        lat: 40.7484405
+        lng: -73.98566439999999
+    name: Empire State Building
+    opening_hours:
+      open_now: true
+      periods:
+      - close:
+          day: 0
+          time: '2200'
+        open:
+          day: 0
+          time: '1100'
+      - close:
+          day: 1
+          time: '2200'
+        open:
+          day: 1
+          time: '1100'
+      - close:
+          day: 2
+          time: '2200'
+        open:
+          day: 2
+          time: '1100'
+      - close:
+          day: 3
+          time: '2200'
+        open:
+          day: 3
+          time: '1100'
+      - close:
+          day: 4
+          time: '2200'
+        open:
+          day: 4
+          time: '1100'
+      - close:
+          day: 5
+          time: '2200'
+        open:
+          day: 5
+          time: '1100'
+      - close:
+          day: 6
+          time: '2200'
+        open:
+          day: 6
+          time: '1100'
+      weekday_text:
+      - 'Monday: 11:00 AM – 10:00 PM'
+      - 'Tuesday: 11:00 AM – 10:00 PM'
+      - 'Wednesday: 11:00 AM – 10:00 PM'
+      - 'Thursday: 11:00 AM – 10:00 PM'
+      - 'Friday: 11:00 AM – 10:00 PM'
+      - 'Saturday: 11:00 AM – 10:00 PM'
+      - 'Sunday: 11:00 AM – 10:00 PM'
+    website: https://www.esbnyc.com/
+  - formatted_address: 1071 5th Ave, New York, NY 10128, USA
+    formatted_phone_number: (212) 423-3500
+    geometry:
+      location:
+        lat: 40.7829796
+        lng: -73.9589706
+    name: Solomon R. Guggenheim Museum
+    opening_hours:
+      open_now: false
+      periods:
+      - close:
+          day: 0
+          time: '1800'
+        open:
+          day: 0
+          time: '1100'
+      - close:
+          day: 1
+          time: '1800'
+        open:
+          day: 1
+          time: '1100'
+      - close:
+          day: 4
+          time: '1800'
+        open:
+          day: 4
+          time: '1100'
+      - close:
+          day: 5
+          time: '1800'
+        open:
+          day: 5
+          time: '1100'
+      - close:
+          day: 6
+          time: '1800'
+        open:
+          day: 6
+          time: '1100'
+      weekday_text:
+      - 'Monday: 11:00 AM – 6:00 PM'
+      - 'Tuesday: Closed'
+      - 'Wednesday: Closed'
+      - 'Thursday: 11:00 AM – 6:00 PM'
+      - 'Friday: 11:00 AM – 6:00 PM'
+      - 'Saturday: 11:00 AM – 6:00 PM'
+      - 'Sunday: 11:00 AM – 6:00 PM'
+    website: https://www.guggenheim.org/
+  - formatted_address: 4 Pennsylvania Plaza, New York, NY 10001, USA
+    formatted_phone_number: (212) 465-6741
+    geometry:
+      location:
+        lat: 40.7505045
+        lng: -73.9934387
+    name: Madison Square Garden
+    website: https://www.msg.com/madison-square-garden?cmp=van_thegarden
+  - formatted_address: 99 Margaret Corbin Dr, New York, NY 10040, USA
+    formatted_phone_number: (212) 923-3700
+    geometry:
+      location:
+        lat: 40.86486279999999
+        lng: -73.9317274
+    name: The Met Cloisters
+    opening_hours:
+      open_now: false
+      periods:
+      - close:
+          day: 0
+          time: '1700'
+        open:
+          day: 0
+          time: '1000'
+      - close:
+          day: 1
+          time: '1700'
+        open:
+          day: 1
+          time: '1000'
+      - close:
+          day: 4
+          time: '1700'
+        open:
+          day: 4
+          time: '1000'
+      - close:
+          day: 5
+          time: '1700'
+        open:
+          day: 5
+          time: '1000'
+      - close:
+          day: 6
+          time: '1700'
+        open:
+          day: 6
+          time: '1000'
+      weekday_text:
+      - 'Monday: 10:00 AM – 5:00 PM'
+      - 'Tuesday: Closed'
+      - 'Wednesday: Closed'
+      - 'Thursday: 10:00 AM – 5:00 PM'
+      - 'Friday: 10:00 AM – 5:00 PM'
+      - 'Saturday: 10:00 AM – 5:00 PM'
+      - 'Sunday: 10:00 AM – 5:00 PM'
+    website: https://www.metmuseum.org/visit/plan-your-visit/met-cloisters
+  - formatted_address: Pier 86, W 46th St, New York, NY 10036, USA
+    formatted_phone_number: (212) 245-0072
+    geometry:
+      location:
+        lat: 40.7645266
+        lng: -73.99960759999999
+    name: Intrepid Sea, Air & Space Museum
+    opening_hours:
+      open_now: false
+      periods:
+      - close:
+          day: 0
+          time: '1700'
+        open:
+          day: 0
+          time: '1000'
+      - close:
+          day: 3
+          time: '1700'
+        open:
+          day: 3
+          time: '1000'
+      - close:
+          day: 4
+          time: '1700'
+        open:
+          day: 4
+          time: '1000'
+      - close:
+          day: 5
+          time: '1700'
+        open:
+          day: 5
+          time: '1000'
+      - close:
+          day: 6
+          time: '1700'
+        open:
+          day: 6
+          time: '1000'
+      weekday_text:
+      - 'Monday: Closed'
+      - 'Tuesday: Closed'
+      - 'Wednesday: 10:00 AM – 5:00 PM'
+      - 'Thursday: 10:00 AM – 5:00 PM'
+      - 'Friday: 10:00 AM – 5:00 PM'
+      - 'Saturday: 10:00 AM – 5:00 PM'
+      - 'Sunday: 10:00 AM – 5:00 PM'
+    website: http://www.intrepidmuseum.org/
+  - formatted_address: 476 5th Ave, New York, NY 10018, USA
+    formatted_phone_number: (917) 275-6975
+    geometry:
+      location:
+        lat: 40.75318230000001
+        lng: -73.9822534
+    name: New York Public Library - Stephen A. Schwarzman Building
+    website: http://www.nypl.org/locations/schwarzman
+  - formatted_address: 602 Surf Ave, Brooklyn, NY 11224, USA
+    formatted_phone_number: (718) 265-3474
+    geometry:
+      location:
+        lat: 40.5742632
+        lng: -73.9748754
+    name: New York Aquarium
+    opening_hours:
+      open_now: false
+      periods:
+      - close:
+          day: 0
+          time: '1700'
+        open:
+          day: 0
+          time: '1000'
+      - close:
+          day: 1
+          time: '1700'
+        open:
+          day: 1
+          time: '1000'
+      - close:
+          day: 2
+          time: '1700'
+        open:
+          day: 2
+          time: '1000'
+      - close:
+          day: 3
+          time: '1700'
+        open:
+          day: 3
+          time: '1000'
+      - close:
+          day: 4
+          time: '1700'
+        open:
+          day: 4
+          time: '1000'
+      - close:
+          day: 5
+          time: '1700'
+        open:
+          day: 5
+          time: '1000'
+      - close:
+          day: 6
+          time: '1700'
+        open:
+          day: 6
+          time: '1000'
+      weekday_text:
+      - 'Monday: 10:00 AM – 5:00 PM'
+      - 'Tuesday: 10:00 AM – 5:00 PM'
+      - 'Wednesday: 10:00 AM – 5:00 PM'
+      - 'Thursday: 10:00 AM – 5:00 PM'
+      - 'Friday: 10:00 AM – 5:00 PM'
+      - 'Saturday: 10:00 AM – 5:00 PM'
+      - 'Sunday: 10:00 AM – 5:00 PM'
+    website: http://www.nyaquarium.com/
+  - formatted_address: 5th Ave, New York, NY 10022, USA
+    formatted_phone_number: (212) 753-2261
+    geometry:
+      location:
+        lat: 40.7586117
+        lng: -73.9761953
+    name: St. Patrick's Cathedral
+    opening_hours:
+      open_now: true
+      periods:
+      - close:
+          day: 0
+          time: '2030'
+        open:
+          day: 0
+          time: '0700'
+      - close:
+          day: 1
+          time: '2030'
+        open:
+          day: 1
+          time: '0700'
+      - close:
+          day: 2
+          time: '2030'
+        open:
+          day: 2
+          time: '0700'
+      - close:
+          day: 3
+          time: '2030'
+        open:
+          day: 3
+          time: '0700'
+      - close:
+          day: 4
+          time: '2030'
+        open:
+          day: 4
+          time: '0700'
+      - close:
+          day: 5
+          time: '2030'
+        open:
+          day: 5
+          time: '0700'
+      - close:
+          day: 6
+          time: '2030'
+        open:
+          day: 6
+          time: '0700'
+      weekday_text:
+      - 'Monday: 7:00 AM – 8:30 PM'
+      - 'Tuesday: 7:00 AM – 8:30 PM'
+      - 'Wednesday: 7:00 AM – 8:30 PM'
+      - 'Thursday: 7:00 AM – 8:30 PM'
+      - 'Friday: 7:00 AM – 8:30 PM'
+      - 'Saturday: 7:00 AM – 8:30 PM'
+      - 'Sunday: 7:00 AM – 8:30 PM'
+    website: https://www.saintpatrickscathedral.org/
+  - formatted_address: Battery Park City, New York, NY 10004, USA
+    formatted_phone_number: (212) 344-3491
+    geometry:
+      location:
+        lat: 40.703141
+        lng: -74.0159996
+    name: The Battery
+    opening_hours:
+      open_now: true
+      periods:
+      - close:
+          day: 1
+          time: '0000'
+        open:
+          day: 0
+          time: '0600'
+      - close:
+          day: 2
+          time: '0000'
+        open:
+          day: 1
+          time: '0600'
+      - close:
+          day: 3
+          time: '0000'
+        open:
+          day: 2
+          time: '0600'
+      - close:
+          day: 4
+          time: '0000'
+        open:
+          day: 3
+          time: '0600'
+      - close:
+          day: 5
+          time: '0000'
+        open:
+          day: 4
+          time: '0600'
+      - close:
+          day: 6
+          time: '0000'
+        open:
+          day: 5
+          time: '0600'
+      - close:
+          day: 0
+          time: '0000'
+        open:
+          day: 6
+          time: '0600'
+      weekday_text:
+      - 'Monday: 6:00 AM – 12:00 AM'
+      - 'Tuesday: 6:00 AM – 12:00 AM'
+      - 'Wednesday: 6:00 AM – 12:00 AM'
+      - 'Thursday: 6:00 AM – 12:00 AM'
+      - 'Friday: 6:00 AM – 12:00 AM'
+      - 'Saturday: 6:00 AM – 12:00 AM'
+      - 'Sunday: 6:00 AM – 12:00 AM'
+    website: http://www.thebattery.org/
+  - formatted_address: Brooklyn, NY, USA
+    formatted_phone_number: (718) 965-8951
+    geometry:
+      location:
+        lat: 40.6602037
+        lng: -73.9689558
+    name: Prospect Park
+    opening_hours:
+      open_now: true
+      periods:
+      - close:
+          day: 1
+          time: '0100'
+        open:
+          day: 0
+          time: '0500'
+      - close:
+          day: 2
+          time: '0100'
+        open:
+          day: 1
+          time: '0500'
+      - close:
+          day: 3
+          time: '0100'
+        open:
+          day: 2
+          time: '0500'
+      - close:
+          day: 4
+          time: '0100'
+        open:
+          day: 3
+          time: '0500'
+      - close:
+          day: 5
+          time: '0100'
+        open:
+          day: 4
+          time: '0500'
+      - close:
+          day: 6
+          time: '0100'
+        open:
+          day: 5
+          time: '0500'
+      - close:
+          day: 0
+          time: '0100'
+        open:
+          day: 6
+          time: '0500'
+      weekday_text:
+      - 'Monday: 5:00 AM – 1:00 AM'
+      - 'Tuesday: 5:00 AM – 1:00 AM'
+      - 'Wednesday: 5:00 AM – 1:00 AM'
+      - 'Thursday: 5:00 AM – 1:00 AM'
+      - 'Friday: 5:00 AM – 1:00 AM'
+      - 'Saturday: 5:00 AM – 1:00 AM'
+      - 'Sunday: 5:00 AM – 1:00 AM'
+    website: https://www.prospectpark.org/
+  - formatted_address: 881 7th Ave, New York, NY 10019, USA
+    formatted_phone_number: (212) 247-7800
+    geometry:
+      location:
+        lat: 40.7651258
+        lng: -73.97992359999999
+    name: Carnegie Hall
+    website: http://www.carnegiehall.org/
+  - formatted_address: East 64th Street, New York, NY 10021, USA
+    formatted_phone_number: (212) 439-6500
+    geometry:
+      location:
+        lat: 40.767778
+        lng: -73.9718335
+    name: Central Park Zoo
+    opening_hours:
+      open_now: false
+      periods:
+      - close:
+          day: 0
+          time: '1730'
+        open:
+          day: 0
+          time: '1000'
+      - close:
+          day: 1
+          time: '1700'
+        open:
+          day: 1
+          time: '1000'
+      - close:
+          day: 2
+          time: '1700'
+        open:
+          day: 2
+          time: '1000'
+      - close:
+          day: 3
+          time: '1700'
+        open:
+          day: 3
+          time: '1000'
+      - close:
+          day: 4
+          time: '1700'
+        open:
+          day: 4
+          time: '1000'
+      - close:
+          day: 5
+          time: '1700'
+        open:
+          day: 5
+          time: '1000'
+      - close:
+          day: 6
+          time: '1730'
+        open:
+          day: 6
+          time: '1000'
+      weekday_text:
+      - 'Monday: 10:00 AM – 5:00 PM'
+      - 'Tuesday: 10:00 AM – 5:00 PM'
+      - 'Wednesday: 10:00 AM – 5:00 PM'
+      - 'Thursday: 10:00 AM – 5:00 PM'
+      - 'Friday: 10:00 AM – 5:00 PM'
+      - 'Saturday: 10:00 AM – 5:30 PM'
+      - 'Sunday: 10:00 AM – 5:30 PM'
+    website: http://www.centralparkzoo.com/
