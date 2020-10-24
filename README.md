@@ -1,3 +1,5 @@
+![GitHub contributors](https://img.shields.io/github/contributors/NischalKash/TripSage_SENG2020_Phase2)
+![GitHub language count](https://img.shields.io/github/languages/count/NischalKash/TripSage_SENG2020_Phase2)
 # TripSage
 The only Itinerary planner, you will ever need 
 
