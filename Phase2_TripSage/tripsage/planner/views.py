@@ -1,11 +1,8 @@
 from __future__ import absolute_import
 import json
 from django.shortcuts import render
-from django.http import HttpResponse
 import requests
 import xmltodict
-from geopy.geocoders import Nominatim
-from geopy.distance import geodesic
 import yaml
 
 TYPES_PLACE_MAP = {
@@ -15,6 +12,16 @@ TYPES_PLACE_MAP = {
 }
 def home(request):
     return render(request,'planner/home.html')
+
+def getalltouristspots(city):
+    print("Entering")
+
+def find_spots(request):
+    if request.method == 'POST':
+        city = request.POST.get("city", "")
+        tourist_spots = getalltouristspots(city)
+        print(tourist_spots)
+        return
 
 def myfunction(origin,destination):
     api = (
@@ -70,6 +77,6 @@ def directions(request):
         origin = request.POST.get("origin", "")
         destination = request.POST.get("dest", "")
         direct = myfunction(origin,destination)
-        print(direct)
+        return render(request, 'planner/directions.html')
 
 

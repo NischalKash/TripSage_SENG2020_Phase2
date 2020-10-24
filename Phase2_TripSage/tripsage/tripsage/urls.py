@@ -23,4 +23,5 @@ urlpatterns = [
     url('admin/', admin.site.urls),
     url(r'^$',planner.views.home,name='home'),
     url(r'^directions',planner.views.directions,name = 'directions'),
+    url(r'^find_spots', planner.views.find_spots, name='find_spots'),
 ]
