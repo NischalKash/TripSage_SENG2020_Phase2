@@ -5,8 +5,10 @@ import time
 from datetime import datetime
 #from geopy.geocoders import Nominatim
 #import pandas as pd
+from geotext import GeoText
+import os
 
-def Places_Recommendation(Gobj, Place, PlaceType):
+def Places_Recommendation(gmaps, Place, PlaceType):
     Address = Place
     geocode_result = gmaps.geocode(Address)
     x = geocode_result[0]['geometry']['location']['lat']
@@ -41,12 +43,22 @@ API_KEY = 'AIzaSyCOUCDt77J8v4d2BnWcarXbHzsJpIAhNVQ'
 gmaps = googlemaps.Client(key = API_KEY)
 
 # Main Dictionary
-places_recommendation = {}
+fileDir = os.path.dirname(os.path.realpath('__file__'))
+filename = os.path.join(fileDir, '../tripsage/sentences.txt')
+with open(filename, 'r') as reader:
+    lines = reader.read()
+
+cities_list = GeoText(lines).cities
+dictionary = {}
 
 # Fetching the tourist attraction near source and destination. 
-stored_results = Places_Recommendation(gmaps, 'Chicago', 'tourist_attraction')
-pprint.pprint(stored_results)
+for city in set(cities_list):
+    # Grepping all the tourist attraction.
+    if city not in dictionary:
+        dictionary[city] = {}
+    dictionary[city]['tourist_attraction'] = Places_Recommendation(gmaps, city, 'tourist_attraction')
 
+print(dictionary)
 
 
 
