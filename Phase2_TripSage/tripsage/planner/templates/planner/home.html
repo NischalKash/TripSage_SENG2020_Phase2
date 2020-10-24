@@ -1,0 +1,27 @@
+<form action='data' method="post">
+    {% csrf_token %}
+  <li>
+    <label for="origin">Origin:</label>
+    <input type="text" id="origin" name="origin" />
+  </li>
+  <li>
+    <label for="dest">Destination:</label>
+    <input type="text" id="dest" name="dest" />
+  </li>
+     <li>
+     <label for="type">Choose a Trip Type:</label>
+
+    <select name="type" id="type">
+  <option value="adventures">Adventure</option>
+  <option value="kids">Kids</option>
+  <option value="romantic">Romantic</option>
+  <option value="relaxing">Relaxing</option>
+</select>
+ </li>
+
+    <li class="button">
+         <button type="submit">Send your message</button>
+    </li>
+
+ </ul>
+</form>
