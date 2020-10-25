@@ -1,0 +1,154 @@
+Boston:
+  hospital:
+  - formatted_address: 330 Brookline Ave, Boston, MA 02215, USA
+    formatted_phone_number: (617) 667-7000
+    geometry:
+      location:
+        lat: 42.33960629999999
+        lng: -71.10498199999999
+    name: Beth Israel Deaconess Medical Center (BIDMC)
+    opening_hours:
+      open_now: true
+      periods:
+      - open:
+          day: 0
+          time: '0000'
+      weekday_text:
+      - 'Monday: Open 24 hours'
+      - 'Tuesday: Open 24 hours'
+      - 'Wednesday: Open 24 hours'
+      - 'Thursday: Open 24 hours'
+      - 'Friday: Open 24 hours'
+      - 'Saturday: Open 24 hours'
+      - 'Sunday: Open 24 hours'
+    website: https://www.bidmc.org/
+  - formatted_address: 115 Mill St, Belmont, MA 02478, USA
+    formatted_phone_number: (800) 333-0338
+    geometry:
+      location:
+        lat: 42.39320290000001
+        lng: -71.1909083
+    name: McLean Hospital
+    opening_hours:
+      open_now: true
+      periods:
+      - open:
+          day: 0
+          time: '0000'
+      weekday_text:
+      - 'Monday: Open 24 hours'
+      - 'Tuesday: Open 24 hours'
+      - 'Wednesday: Open 24 hours'
+      - 'Thursday: Open 24 hours'
+      - 'Friday: Open 24 hours'
+      - 'Saturday: Open 24 hours'
+      - 'Sunday: Open 24 hours'
+    website: http://www.mcleanhospital.org/
+  - formatted_address: 2100 Dorchester Ave, Dorchester, MA 02124, USA
+    formatted_phone_number: (617) 296-4000
+    geometry:
+      location:
+        lat: 42.2780642
+        lng: -71.065935
+    name: Carney Hospital
+    opening_hours:
+      open_now: true
+      periods:
+      - open:
+          day: 0
+          time: '0000'
+      weekday_text:
+      - 'Monday: Open 24 hours'
+      - 'Tuesday: Open 24 hours'
+      - 'Wednesday: Open 24 hours'
+      - 'Thursday: Open 24 hours'
+      - 'Friday: Open 24 hours'
+      - 'Saturday: Open 24 hours'
+      - 'Sunday: Open 24 hours'
+    website: https://carneyhospital.org/
+  police:
+  - formatted_address: 40 Sudbury St, Boston, MA 02114, USA
+    formatted_phone_number: (617) 343-4240
+    geometry:
+      location:
+        lat: 42.3618
+        lng: -71.0603
+    name: Boston Police District A-1
+    opening_hours:
+      open_now: true
+      periods:
+      - open:
+          day: 0
+          time: '0000'
+      weekday_text:
+      - 'Monday: Open 24 hours'
+      - 'Tuesday: Open 24 hours'
+      - 'Wednesday: Open 24 hours'
+      - 'Thursday: Open 24 hours'
+      - 'Friday: Open 24 hours'
+      - 'Saturday: Open 24 hours'
+      - 'Sunday: Open 24 hours'
+    website: http://www.cityofboston.gov/police/districts/a1.asp
+  - formatted_address: 1 Schroeder Plaza, Boston, MA 02120, USA
+    formatted_phone_number: (617) 343-4633
+    geometry:
+      location:
+        lat: 42.334143
+        lng: -71.09075299999999
+    name: Boston Police Headquarters
+    website: http://www.cityofboston.gov/police/hq.asp
+  - formatted_address: 20 Manning Ave, Middleton, MA 01949, USA
+    formatted_phone_number: (978) 750-1900
+    geometry:
+      location:
+        lat: 42.59751
+        lng: -70.98595
+    name: Essex County Sheriff's Department
+    opening_hours:
+      open_now: false
+      periods:
+      - close:
+          day: 1
+          time: '1800'
+        open:
+          day: 1
+          time: 0900
+      - close:
+          day: 2
+          time: '1800'
+        open:
+          day: 2
+          time: 0900
+      - close:
+          day: 3
+          time: '1800'
+        open:
+          day: 3
+          time: 0900
+      - close:
+          day: 4
+          time: '1800'
+        open:
+          day: 4
+          time: 0900
+      - close:
+          day: 5
+          time: '1800'
+        open:
+          day: 5
+          time: 0900
+      - close:
+          day: 6
+          time: '1800'
+        open:
+          day: 6
+          time: '1245'
+      weekday_text:
+      - 'Monday: 9:00 AM – 6:00 PM'
+      - 'Tuesday: 9:00 AM – 6:00 PM'
+      - 'Wednesday: 9:00 AM – 6:00 PM'
+      - 'Thursday: 9:00 AM – 6:00 PM'
+      - 'Friday: 9:00 AM – 6:00 PM'
+      - 'Saturday: 12:45 – 6:00 PM'
+      - 'Sunday: Closed'
+    website: https://www.essexsheriffma.org/

@@ -20,10 +20,13 @@ def home(request):
 def find_spots(request):
     if request.method == "POST":
         city = request.POST.get("city", "")
-        tourist_spots = getRecommendation(city)
-        print(type1,type2)
-        f = open('user_recommended.yaml', 'w+')
-        yaml.dump(tourist_spots, f, allow_unicode=True)
+        tourist_spots1 = getRecommendation(city,type1)
+        tourist_spots2 = getRecommendation(city,type2)
+        f = open('user_recommended1.yaml', 'w+')
+        yaml.dump(tourist_spots1, f, allow_unicode=True)
+        f = open('user_recommended2.yaml', 'w+')
+        yaml.dump(tourist_spots2, f, allow_unicode=True)
+
         # tourist_spots contains all the recommended places a user can visit when he traverses through his trip!
         # render a html template here but make sure that he can enter a city again if he wants in the following template
 

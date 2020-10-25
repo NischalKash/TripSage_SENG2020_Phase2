@@ -1,0 +1,351 @@
+Boston:
+  amusement_park:
+  - formatted_address: 38 Beacon St, Boston, MA 02108, USA
+    formatted_phone_number: (617) 635-2120
+    geometry:
+      location:
+        lat: 42.35589580000001
+        lng: -71.0656838
+    name: Boston Common Frog Pond
+    opening_hours:
+      open_now: false
+      periods:
+      - close:
+          day: 0
+          time: '2100'
+        open:
+          day: 0
+          time: '1000'
+      - close:
+          day: 1
+          time: '1545'
+        open:
+          day: 1
+          time: '1000'
+      - close:
+          day: 2
+          time: '2100'
+        open:
+          day: 2
+          time: '1000'
+      - close:
+          day: 3
+          time: '2100'
+        open:
+          day: 3
+          time: '1000'
+      - close:
+          day: 4
+          time: '2100'
+        open:
+          day: 4
+          time: '1000'
+      - close:
+          day: 5
+          time: '2200'
+        open:
+          day: 5
+          time: '1000'
+      - close:
+          day: 6
+          time: '2200'
+        open:
+          day: 6
+          time: '1000'
+      weekday_text:
+      - 'Monday: 10:00 AM – 3:45 PM'
+      - 'Tuesday: 10:00 AM – 9:00 PM'
+      - 'Wednesday: 10:00 AM – 9:00 PM'
+      - 'Thursday: 10:00 AM – 9:00 PM'
+      - 'Friday: 10:00 AM – 10:00 PM'
+      - 'Saturday: 10:00 AM – 10:00 PM'
+      - 'Sunday: 10:00 AM – 9:00 PM'
+    website: http://www.bostonfrogpond.com/
+  - formatted_address: 69 Norman St, Everett, MA 02149, USA
+    formatted_phone_number: (617) 387-1000
+    geometry:
+      location:
+        lat: 42.4071732
+        lng: -71.0690805
+    name: Sky Zone Trampoline Park
+    website: https://www.skyzone.com/everett?y_source=1_MTUwOTE2NzgtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D
+  - formatted_address: 202 Patriot Pl, Foxborough, MA 02035, USA
+    formatted_phone_number: (508) 698-1600
+    geometry:
+      location:
+        lat: 42.093285
+        lng: -71.2653531
+    name: 5 Wits Patriot Place
+    opening_hours:
+      open_now: false
+      periods:
+      - close:
+          day: 0
+          time: '1800'
+        open:
+          day: 0
+          time: '1200'
+      - close:
+          day: 4
+          time: '2000'
+        open:
+          day: 4
+          time: '1400'
+      - close:
+          day: 5
+          time: '2000'
+        open:
+          day: 5
+          time: '1400'
+      - close:
+          day: 6
+          time: '2000'
+        open:
+          day: 6
+          time: '1400'
+      weekday_text:
+      - 'Monday: Closed'
+      - 'Tuesday: Closed'
+      - 'Wednesday: Closed'
+      - 'Thursday: 2:00 – 8:00 PM'
+      - 'Friday: 2:00 – 8:00 PM'
+      - 'Saturday: 2:00 – 8:00 PM'
+      - 'Sunday: 12:00 – 6:00 PM'
+    website: https://5-wits.com/foxboro/
+  museum:
+  - formatted_address: 25 Evans Way, Boston, MA 02115, USA
+    formatted_phone_number: (617) 566-1401
+    geometry:
+      location:
+        lat: 42.33865580000001
+        lng: -71.0989386
+    name: Isabella Stewart Gardner Museum
+    opening_hours:
+      open_now: false
+      periods:
+      - close:
+          day: 0
+          time: '1700'
+        open:
+          day: 0
+          time: '1100'
+      - close:
+          day: 1
+          time: '1700'
+        open:
+          day: 1
+          time: '1100'
+      - close:
+          day: 3
+          time: '1700'
+        open:
+          day: 3
+          time: '1100'
+      - close:
+          day: 4
+          time: '2100'
+        open:
+          day: 4
+          time: '1100'
+      - close:
+          day: 5
+          time: '1700'
+        open:
+          day: 5
+          time: '1100'
+      - close:
+          day: 6
+          time: '1700'
+        open:
+          day: 6
+          time: '1100'
+      weekday_text:
+      - 'Monday: 11:00 AM – 5:00 PM'
+      - 'Tuesday: Closed'
+      - 'Wednesday: 11:00 AM – 5:00 PM'
+      - 'Thursday: 11:00 AM – 9:00 PM'
+      - 'Friday: 11:00 AM – 5:00 PM'
+      - 'Saturday: 11:00 AM – 5:00 PM'
+      - 'Sunday: 11:00 AM – 5:00 PM'
+    website: https://www.gardnermuseum.org/
+  - formatted_address: 308 Congress St, Boston, MA 02210, USA
+    formatted_phone_number: (617) 426-6500
+    geometry:
+      location:
+        lat: 42.3519736
+        lng: -71.04968389999999
+    name: Boston Children's Museum
+    opening_hours:
+      open_now: false
+      periods:
+      - close:
+          day: 0
+          time: '1230'
+        open:
+          day: 0
+          time: '1000'
+      - close:
+          day: 0
+          time: '1630'
+        open:
+          day: 0
+          time: '1400'
+      - close:
+          day: 3
+          time: '1230'
+        open:
+          day: 3
+          time: '1000'
+      - close:
+          day: 3
+          time: '1630'
+        open:
+          day: 3
+          time: '1400'
+      - close:
+          day: 4
+          time: '1230'
+        open:
+          day: 4
+          time: '1000'
+      - close:
+          day: 4
+          time: '1630'
+        open:
+          day: 4
+          time: '1400'
+      - close:
+          day: 5
+          time: '1230'
+        open:
+          day: 5
+          time: '1000'
+      - close:
+          day: 5
+          time: '1630'
+        open:
+          day: 5
+          time: '1400'
+      - close:
+          day: 6
+          time: '1230'
+        open:
+          day: 6
+          time: '1000'
+      - close:
+          day: 6
+          time: '1630'
+        open:
+          day: 6
+          time: '1400'
+      weekday_text:
+      - 'Monday: Closed'
+      - 'Tuesday: Closed'
+      - 'Wednesday: 10:00 AM – 12:30 PM, 2:00 – 4:30 PM'
+      - 'Thursday: 10:00 AM – 12:30 PM, 2:00 – 4:30 PM'
+      - 'Friday: 10:00 AM – 12:30 PM, 2:00 – 4:30 PM'
+      - 'Saturday: 10:00 AM – 12:30 PM, 2:00 – 4:30 PM'
+      - 'Sunday: 10:00 AM – 12:30 PM, 2:00 – 4:30 PM'
+    website: http://www.bostonchildrensmuseum.org/
+  - formatted_address: 465 Huntington Ave, Boston, MA 02115, USA
+    formatted_phone_number: (617) 267-9300
+    geometry:
+      location:
+        lat: 42.339381
+        lng: -71.094048
+    name: Museum of Fine Arts, Boston
+    opening_hours:
+      open_now: false
+      periods:
+      - close:
+          day: 0
+          time: '1700'
+        open:
+          day: 0
+          time: '1000'
+      - close:
+          day: 3
+          time: '1700'
+        open:
+          day: 3
+          time: '1000'
+      - close:
+          day: 4
+          time: '1700'
+        open:
+          day: 4
+          time: '1000'
+      - close:
+          day: 5
+          time: '1700'
+        open:
+          day: 5
+          time: '1000'
+      - close:
+          day: 6
+          time: '1700'
+        open:
+          day: 6
+          time: '1000'
+      weekday_text:
+      - 'Monday: Closed'
+      - 'Tuesday: Closed'
+      - 'Wednesday: 10:00 AM – 5:00 PM'
+      - 'Thursday: 10:00 AM – 5:00 PM'
+      - 'Friday: 10:00 AM – 5:00 PM'
+      - 'Saturday: 10:00 AM – 5:00 PM'
+      - 'Sunday: 10:00 AM – 5:00 PM'
+    website: https://www.mfa.org/
+  restaurant:
+  - formatted_address: 25 Charles St, Boston, MA 02114, USA
+    formatted_phone_number: (617) 723-7575
+    geometry:
+      location:
+        lat: 42.356807
+        lng: -71.06962299999999
+    name: Beacon Hill Hotel & Bistro
+    website: http://beaconhillhotel.com/
+  - formatted_address: 138 St James Ave, Boston, MA 02116, USA
+    formatted_phone_number: (617) 267-5300
+    geometry:
+      location:
+        lat: 42.3490335
+        lng: -71.076239
+    name: Fairmont Copley Plaza
+    opening_hours:
+      open_now: true
+      periods:
+      - open:
+          day: 0
+          time: '0000'
+      weekday_text:
+      - 'Monday: Open 24 hours'
+      - 'Tuesday: Open 24 hours'
+      - 'Wednesday: Open 24 hours'
+      - 'Thursday: Open 24 hours'
+      - 'Friday: Open 24 hours'
+      - 'Saturday: Open 24 hours'
+      - 'Sunday: Open 24 hours'
+    website: https://www.fairmont.com/copley-plaza-boston/?y_source=1_MTIzNjE0MTUtNzE1LWxvY2F0aW9uLmdvb2dsZV93ZWJzaXRlX292ZXJyaWRl
+  - formatted_address: 342 Longwood Ave, Boston, MA 02115, USA
+    formatted_phone_number: (617) 731-4700
+    geometry:
+      location:
+        lat: 42.3383333
+        lng: -71.10666669999999
+    name: The Inn At Longwood Medical
+    opening_hours:
+      open_now: true
+      periods:
+      - open:
+          day: 0
+          time: '0000'
+      weekday_text:
+      - 'Monday: Open 24 hours'
+      - 'Tuesday: Open 24 hours'
+      - 'Wednesday: Open 24 hours'
+      - 'Thursday: Open 24 hours'
+      - 'Friday: Open 24 hours'
+      - 'Saturday: Open 24 hours'
+      - 'Sunday: Open 24 hours'
+    website: https://www.innatlongwood.com/
