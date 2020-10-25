@@ -94,11 +94,15 @@ def directions(request):
         type2 = request.POST.get("type2", "")
         direct = myfunction(origin,destination)
         cities = []
+        actual_directions = []
         for i in direct:
+            actual_directions.append(i[2])
             places = GeoText(i[2])
             for j in places.cities:
                 if j not in cities:
                     cities.append(j)
+        
+        final_dictionary = {'directions' : actual_directions, 'cities':cities}
         #Here in the directions.html, you have to display the routes and the cities users can enter!
         #Also display the total_distance and total_duration taken to travel
         return render(request, 'planner/directions.html')
