@@ -40,18 +40,58 @@ def Places_Recommendation(gmaps, Place, PlaceType):
     
     return stored_results
 
-def getRecommendation(placename):
+
+def getRecommendation(city, type1):
     # Define the Client
     API_KEY = 'AIzaSyCOUCDt77J8v4d2BnWcarXbHzsJpIAhNVQ'
     gmaps = googlemaps.Client(key = API_KEY)
-    dictionary = {}
-    if city not in dictionary:
-        dictionary[city] = {}
-    dictionary[city]['tourist_attraction'] = Places_Recommendation(gmaps, placename, 'tourist_attraction')
-    dictionary[city]['food'] = Places_Recommendation(gmaps, placename, 'food')
-    dictionary[city]['amusement_park'] = Places_Recommendation(gmaps, placename, 'amusement_park')
-    return dictionary
+    TYPES_PLACE_MAP = {
+        "adventures": ["tourist_attraction", "stadium", "zoo"],
+        "kids": ["amusement_park", "museum", "food"],
+        "relaxing": ["art_gallery", "church", "spa"],
+        "other":["hospital"],
+    }
 
+    if type1 == "adventures":
+        dictionary = {}
+        if city not in dictionary:
+            dictionary[city] = {}
+        dictionary[city]['tourist_attraction'] = Places_Recommendation(gmaps, city, 'tourist_attraction')
+        dictionary[city]['stadium'] = Places_Recommendation(gmaps, city, 'stadium')
+        dictionary[city]['zoo'] = Places_Recommendation(gmaps, city, 'zoo')
+        dictionary = take(3, dictionary.iteritems())
+        return dictionary
+
+    elif type1 == "kids":
+        dictionary = {}
+        if city not in dictionary:
+            dictionary[city] =  {}
+        dictionary[city]['amusement_park'] = Places_Recommendation(gmaps, city, 'amusement_park')
+        dictionary[city]['museum'] = Places_Recommendation(gmaps, city, 'museum')
+        dictionary[city]['food'] = Places_Recommendation(gmaps, city, 'food')
+        dictionary = take(3, dictionary.iteritems())
+        return dictionary
+
+    elif type1 == "relaxing":
+        dictionary = {}
+        if city not in dictionary:
+            dictionary[city] =  {}
+        dictionary[city]['art_gallery'] = Places_Recommendation(gmaps, city, 'art_gallery')
+        dictionary[city]['church'] = Places_Recommendation(gmaps, city, 'church')
+        dictionary[city]['spa'] = Places_Recommendation(gmaps, city, 'spa')
+        dictionary = take(3, dictionary.iteritems())
+        return dictionary
+
+    elif type1 == "other":
+        dictionary = {}
+        if city not in dictionary:
+            dictionary[city] =  {}
+        dictionary[city]['hospital'] = Places_Recommendation(gmaps, city,'hospital')
+        dictionary = take(3, dictionary.iteritems())
+        return dictionary
+
+    else:
+        return "Please Enter the correct options"
 
 
 
