@@ -1,212 +1,370 @@
-Bangalore:
-  stadium:
-  - formatted_address: Cubbon Rd, Shivaji Nagar, Bengaluru, Karnataka 560001, India
-    formatted_phone_number: 080 4015 4015
+New Bern:
+  stadium: []
+  tourist_attraction:
+  - formatted_address: Havelock, NC 28532, USA
+    formatted_phone_number: (252) 638-5628
     geometry:
       location:
-        lat: 12.9788375
-        lng: 77.59964980000001
-    name: M Chinnaswamy Stadium
-    website: http://www.ksca.cricket/
-  - formatted_address: Rhenius Street, Langford Town, Kalhalli, Halasuru, Karnataka
-      560025, India
-    geometry:
-      location:
-        lat: 12.9880788
-        lng: 77.63034470000001
-    name: Hockey Stadium
-  - formatted_address: 15b, 10th Main Rd, Jayanagar East, Jaya Nagar 1st Block, Byrasandra,
-      Jayanagar, Bengaluru, Karnataka 560011, India
-    formatted_phone_number: 070226 84543
-    geometry:
-      location:
-        lat: 12.9340367
-        lng: 77.5850686
-    name: Jayanagar Volleyball Stadium
+        lat: 34.91444140000001
+        lng: -77.0564464
+    name: Croatan National Forest
     opening_hours:
-      open_now: true
+      open_now: false
+      periods:
+      - close:
+          day: 1
+          time: '1630'
+        open:
+          day: 1
+          time: 0800
+      - close:
+          day: 2
+          time: '1630'
+        open:
+          day: 2
+          time: 0800
+      - close:
+          day: 3
+          time: '1630'
+        open:
+          day: 3
+          time: 0800
+      - close:
+          day: 4
+          time: '1630'
+        open:
+          day: 4
+          time: 0800
+      - close:
+          day: 5
+          time: '1630'
+        open:
+          day: 5
+          time: 0800
+      weekday_text:
+      - 'Monday: 8:00 AM â€“ 4:30 PM'
+      - 'Tuesday: 8:00 AM â€“ 4:30 PM'
+      - 'Wednesday: 8:00 AM â€“ 4:30 PM'
+      - 'Thursday: 8:00 AM â€“ 4:30 PM'
+      - 'Friday: 8:00 AM â€“ 4:30 PM'
+      - 'Saturday: Closed'
+      - 'Sunday: Closed'
+    website: http://www.fs.usda.gov/recarea/nfsnc/recreation/natureviewing/recarea/?recid=48466&actid=63
+  - formatted_address: 529 S Front St, New Bern, NC 28562, USA
+    formatted_phone_number: (800) 767-1560
+    geometry:
+      location:
+        lat: 35.1058084
+        lng: -77.0443477
+    name: Governorâ€™s Palace | Tryon Palace
+    opening_hours:
+      open_now: false
       periods:
       - close:
           day: 0
-          time: '2200'
+          time: '1700'
         open:
           day: 0
-          time: '1000'
+          time: '1200'
       - close:
           day: 1
-          time: '2200'
+          time: '1700'
         open:
           day: 1
           time: '1000'
       - close:
           day: 2
-          time: '2200'
+          time: '1700'
         open:
           day: 2
           time: '1000'
       - close:
           day: 3
-          time: '2200'
+          time: '1700'
         open:
           day: 3
           time: '1000'
       - close:
           day: 4
-          time: '2200'
+          time: '1700'
         open:
           day: 4
           time: '1000'
       - close:
           day: 5
-          time: '2200'
+          time: '1700'
         open:
           day: 5
           time: '1000'
       - close:
           day: 6
-          time: '2200'
+          time: '1700'
         open:
           day: 6
           time: '1000'
       weekday_text:
-      - 'Monday: 10:00 AM – 10:00 PM'
-      - 'Tuesday: 10:00 AM – 10:00 PM'
-      - 'Wednesday: 10:00 AM – 10:00 PM'
-      - 'Thursday: 10:00 AM – 10:00 PM'
-      - 'Friday: 10:00 AM – 10:00 PM'
-      - 'Saturday: 10:00 AM – 10:00 PM'
-      - 'Sunday: 10:00 AM – 10:00 PM'
-  tourist_attraction:
-  - formatted_address: Kanakapura Rd, Bengaluru, Karnataka 560083, India
+      - 'Monday: 10:00 AM â€“ 5:00 PM'
+      - 'Tuesday: 10:00 AM â€“ 5:00 PM'
+      - 'Wednesday: 10:00 AM â€“ 5:00 PM'
+      - 'Thursday: 10:00 AM â€“ 5:00 PM'
+      - 'Friday: 10:00 AM â€“ 5:00 PM'
+      - 'Saturday: 10:00 AM â€“ 5:00 PM'
+      - 'Sunday: 12:00 â€“ 5:00 PM'
+    website: http://www.tryonpalace.org/
+  - formatted_address: 256 Middle St, New Bern, NC 28560, USA
+    formatted_phone_number: (252) 636-5898
     geometry:
       location:
-        lat: 12.8067751
-        lng: 77.5342727
-    name: Thottikallu Falls
-  - formatted_address: Vasanth Nagar, Bengaluru, Karnataka 560052, India
-    formatted_phone_number: 063607 57500
+        lat: 35.10675
+        lng: -77.039825
+    name: Birthplace of Pepsi Cola
+    opening_hours:
+      open_now: false
+      periods:
+      - close:
+          day: 0
+          time: '1600'
+        open:
+          day: 0
+          time: '1200'
+      - close:
+          day: 1
+          time: '1800'
+        open:
+          day: 1
+          time: '1000'
+      - close:
+          day: 2
+          time: '1800'
+        open:
+          day: 2
+          time: '1000'
+      - close:
+          day: 3
+          time: '1800'
+        open:
+          day: 3
+          time: '1000'
+      - close:
+          day: 4
+          time: '1800'
+        open:
+          day: 4
+          time: '1000'
+      - close:
+          day: 5
+          time: '1800'
+        open:
+          day: 5
+          time: '1000'
+      - close:
+          day: 6
+          time: '1800'
+        open:
+          day: 6
+          time: '1000'
+      weekday_text:
+      - 'Monday: 10:00 AM â€“ 6:00 PM'
+      - 'Tuesday: 10:00 AM â€“ 6:00 PM'
+      - 'Wednesday: 10:00 AM â€“ 6:00 PM'
+      - 'Thursday: 10:00 AM â€“ 6:00 PM'
+      - 'Friday: 10:00 AM â€“ 6:00 PM'
+      - 'Saturday: 10:00 AM â€“ 6:00 PM'
+      - 'Sunday: 12:00 â€“ 4:00 PM'
+    website: http://www.pepsistore.com/
+  - formatted_address: 1402 Trent Blvd, New Bern, NC 28560, USA
     geometry:
       location:
-        lat: 12.998766
-        lng: 77.59210709999999
-    name: Bangalore Palace
+        lat: 35.10802279999999
+        lng: -77.05770559999999
+    name: Fort Totten Park
     opening_hours:
       open_now: true
       periods:
       - close:
           day: 0
-          time: '1730'
+          time: '1800'
         open:
           day: 0
-          time: '1000'
+          time: '0700'
+      - close:
+          day: 1
+          time: '1800'
+        open:
+          day: 1
+          time: '0700'
       - close:
           day: 2
-          time: '1730'
+          time: '1800'
         open:
           day: 2
-          time: '1000'
+          time: '0700'
       - close:
           day: 3
-          time: '1730'
+          time: '1800'
         open:
           day: 3
-          time: '1000'
+          time: '0700'
       - close:
           day: 4
-          time: '1730'
+          time: '1800'
         open:
           day: 4
-          time: '1000'
+          time: '0700'
       - close:
           day: 5
-          time: '1730'
+          time: '1800'
         open:
           day: 5
-          time: '1000'
+          time: '0700'
       - close:
           day: 6
-          time: '1730'
+          time: '1800'
         open:
           day: 6
-          time: '1000'
+          time: '0700'
+      weekday_text:
+      - 'Monday: 7:00 AM â€“ 6:00 PM'
+      - 'Tuesday: 7:00 AM â€“ 6:00 PM'
+      - 'Wednesday: 7:00 AM â€“ 6:00 PM'
+      - 'Thursday: 7:00 AM â€“ 6:00 PM'
+      - 'Friday: 7:00 AM â€“ 6:00 PM'
+      - 'Saturday: 7:00 AM â€“ 6:00 PM'
+      - 'Sunday: 7:00 AM â€“ 6:00 PM'
+  - formatted_address: 1307 Country Club Rd, New Bern, NC 28562, USA
+    formatted_phone_number: (252) 639-2901
+    geometry:
+      location:
+        lat: 35.103221
+        lng: -77.055786
+    name: New Bern Parks & Recreation
+    opening_hours:
+      open_now: false
+      periods:
+      - close:
+          day: 1
+          time: '1700'
+        open:
+          day: 1
+          time: 0800
+      - close:
+          day: 2
+          time: '1700'
+        open:
+          day: 2
+          time: 0800
+      - close:
+          day: 3
+          time: '1700'
+        open:
+          day: 3
+          time: 0800
+      - close:
+          day: 4
+          time: '1700'
+        open:
+          day: 4
+          time: 0800
+      - close:
+          day: 5
+          time: '1700'
+        open:
+          day: 5
+          time: 0800
+      weekday_text:
+      - 'Monday: 8:00 AM â€“ 5:00 PM'
+      - 'Tuesday: 8:00 AM â€“ 5:00 PM'
+      - 'Wednesday: 8:00 AM â€“ 5:00 PM'
+      - 'Thursday: 8:00 AM â€“ 5:00 PM'
+      - 'Friday: 8:00 AM â€“ 5:00 PM'
+      - 'Saturday: Closed'
+      - 'Sunday: Closed'
+    website: http://www.newbernnc.gov/
+  - formatted_address: 10642 NC-55, Grantsboro, NC 28529, USA
+    formatted_phone_number: (252) 745-2239
+    geometry:
+      location:
+        lat: 35.1396
+        lng: -76.84564999999999
+    name: Pamlico Co Heritage Center
+    website: http://pamlicocountyhistorymuseum.com/
+  - formatted_address: 2791 State Rd 1440, Vanceboro, NC 28586, USA
+    formatted_phone_number: (252) 745-9073
+    geometry:
+      location:
+        lat: 35.2314441
+        lng: -77.131754
+    name: West Craven Park
+    website: http://www.cravencounty.com/
+  - formatted_address: 307 George St, New Bern, NC 28562, USA
+    formatted_phone_number: (800) 767-1560
+    geometry:
+      location:
+        lat: 35.1074132
+        lng: -77.04462869999999
+    name: John Wright Stanly House
+    opening_hours:
+      open_now: false
+      periods:
+      - close:
+          day: 0
+          time: '1500'
+        open:
+          day: 0
+          time: '1230'
+      - close:
+          day: 2
+          time: '1500'
+        open:
+          day: 2
+          time: '1230'
+      - close:
+          day: 3
+          time: '1500'
+        open:
+          day: 3
+          time: '1230'
+      - close:
+          day: 4
+          time: '1500'
+        open:
+          day: 4
+          time: '1230'
+      - close:
+          day: 5
+          time: '1500'
+        open:
+          day: 5
+          time: '1230'
+      - close:
+          day: 6
+          time: '1500'
+        open:
+          day: 6
+          time: '1230'
       weekday_text:
       - 'Monday: Closed'
-      - 'Tuesday: 10:00 AM – 5:30 PM'
-      - 'Wednesday: 10:00 AM – 5:30 PM'
-      - 'Thursday: 10:00 AM – 5:30 PM'
-      - 'Friday: 10:00 AM – 5:30 PM'
-      - 'Saturday: 10:00 AM – 5:30 PM'
-      - 'Sunday: 10:00 AM – 5:30 PM'
-    website: http://www.bangalorepalace.net/
-  - formatted_address: 28th Km, Mysore Rd, Bengaluru, Karnataka 562109, India
-    formatted_phone_number: 099455 57777
+      - 'Tuesday: 12:30 â€“ 3:00 PM'
+      - 'Wednesday: 12:30 â€“ 3:00 PM'
+      - 'Thursday: 12:30 â€“ 3:00 PM'
+      - 'Friday: 12:30 â€“ 3:00 PM'
+      - 'Saturday: 12:30 â€“ 3:00 PM'
+      - 'Sunday: 12:30 â€“ 3:00 PM'
+    website: https://en.m.wikipedia.org/wiki/John_Wright_Stanly_House
+  - formatted_address: 602 Middle St, New Bern, NC 28560, USA
     geometry:
       location:
-        lat: 12.8345559
-        lng: 77.4009719
-    name: Wonderla Amusement Park, Bangalore
-    opening_hours:
-      open_now: true
-      periods:
-      - close:
-          day: 0
-          time: '1900'
-        open:
-          day: 0
-          time: '1100'
-      - close:
-          day: 1
-          time: '1800'
-        open:
-          day: 1
-          time: '1100'
-      - close:
-          day: 2
-          time: '1800'
-        open:
-          day: 2
-          time: '1100'
-      - close:
-          day: 3
-          time: '1800'
-        open:
-          day: 3
-          time: '1100'
-      - close:
-          day: 4
-          time: '1800'
-        open:
-          day: 4
-          time: '1100'
-      - close:
-          day: 5
-          time: '1800'
-        open:
-          day: 5
-          time: '1100'
-      - close:
-          day: 6
-          time: '1900'
-        open:
-          day: 6
-          time: '1100'
-      weekday_text:
-      - 'Monday: 11:00 AM – 6:00 PM'
-      - 'Tuesday: 11:00 AM – 6:00 PM'
-      - 'Wednesday: 11:00 AM – 6:00 PM'
-      - 'Thursday: 11:00 AM – 6:00 PM'
-      - 'Friday: 11:00 AM – 6:00 PM'
-      - 'Saturday: 11:00 AM – 7:00 PM'
-      - 'Sunday: 11:00 AM – 7:00 PM'
-    website: http://www.wonderla.com/bangalore-amusement-park/
-  - formatted_address: Hare Krishna Hill, Chord Rd, 1st R Block, Rajajinagar, Bengaluru,
-      Karnataka 560010, India
-    formatted_phone_number: 080 2347 1956
+        lat: 35.11109979999999
+        lng: -77.0388004
+    name: Blades House
+    website: http://www.nationalregisterofhistoricplaces.com/NC/Craven/state.html
+  - formatted_address: 1821 Old Airport Rd, New Bern, NC 28560, USA
+    formatted_phone_number: (252) 636-6606
     geometry:
       location:
-        lat: 13.0098328
-        lng: 77.55109639999999
-    name: ISKCON Temple Bangalore
+        lat: 35.0616966
+        lng: -77.0401309
+    name: Creekside Park
     opening_hours:
       open_now: true
       periods:
@@ -215,776 +373,387 @@ Bangalore:
           time: '2000'
         open:
           day: 0
-          time: 0930
-      - close:
-          day: 1
-          time: '1230'
-        open:
-          day: 1
-          time: 0930
+          time: 0800
       - close:
           day: 1
           time: '2000'
         open:
           day: 1
-          time: '1630'
-      - close:
-          day: 2
-          time: '1230'
-        open:
-          day: 2
-          time: 0930
+          time: 0800
       - close:
           day: 2
           time: '2000'
         open:
           day: 2
-          time: '1630'
-      - close:
-          day: 3
-          time: '1230'
-        open:
-          day: 3
-          time: 0930
+          time: 0800
       - close:
           day: 3
           time: '2000'
         open:
           day: 3
-          time: '1630'
-      - close:
-          day: 4
-          time: '1230'
-        open:
-          day: 4
-          time: 0930
+          time: 0800
       - close:
           day: 4
           time: '2000'
         open:
           day: 4
-          time: '1630'
-      - close:
-          day: 5
-          time: '1230'
-        open:
-          day: 5
-          time: 0930
+          time: 0800
       - close:
           day: 5
           time: '2000'
         open:
           day: 5
-          time: '1630'
+          time: 0800
       - close:
           day: 6
           time: '2000'
         open:
           day: 6
-          time: 0930
+          time: 0800
       weekday_text:
-      - 'Monday: 9:30 AM – 12:30 PM, 4:30 – 8:00 PM'
-      - 'Tuesday: 9:30 AM – 12:30 PM, 4:30 – 8:00 PM'
-      - 'Wednesday: 9:30 AM – 12:30 PM, 4:30 – 8:00 PM'
-      - 'Thursday: 9:30 AM – 12:30 PM, 4:30 – 8:00 PM'
-      - 'Friday: 9:30 AM – 12:30 PM, 4:30 – 8:00 PM'
-      - 'Saturday: 9:30 AM – 8:00 PM'
-      - 'Sunday: 9:30 AM – 8:00 PM'
-    website: https://www.iskconbangalore.org/
-  - formatted_address: Kanakapura Rd, Udayapura, Bengaluru, Karnataka 560082, India
-    formatted_phone_number: 080672 62626
+      - 'Monday: 8:00 AM â€“ 8:00 PM'
+      - 'Tuesday: 8:00 AM â€“ 8:00 PM'
+      - 'Wednesday: 8:00 AM â€“ 8:00 PM'
+      - 'Thursday: 8:00 AM â€“ 8:00 PM'
+      - 'Friday: 8:00 AM â€“ 8:00 PM'
+      - 'Saturday: 8:00 AM â€“ 8:00 PM'
+      - 'Sunday: 8:00 AM â€“ 8:00 PM'
+    website: http://cravencounty.recdesk.com/recdeskportal/PublicParksFacilities/CreeksidePark/tabid/2167/Default.aspx
+  - formatted_address: 300 Battlefield Trail, New Bern, NC 28560, USA
+    formatted_phone_number: (252) 638-8558
     geometry:
       location:
-        lat: 12.8255839
-        lng: 77.5088674
-    name: The Art of Living
-    website: https://www.artofliving.org/in-en
-  - formatted_address: Mavalli, Bengaluru, Karnataka 560004, India
-    formatted_phone_number: 080 2657 0181
-    geometry:
-      location:
-        lat: 12.9507432
-        lng: 77.5847773
-    name: Lalbagh Botanical Garden
-    website: http://www.horticulture.kar.nic.in/lalbagh.htm
-  - formatted_address: 1, Mahatma Gandhi Rd, Shanthala Nagar, Shivaji Nagar, Bengaluru,
-      Karnataka 560001, India
-    formatted_phone_number: 080 2221 3633
-    geometry:
-      location:
-        lat: 12.9759108
-        lng: 77.6004585
-    name: St. Mark's Cathedral
+        lat: 35.0479747
+        lng: -77.0157621
+    name: New Bern Civil War Battlefield Park
     opening_hours:
       open_now: true
       periods:
       - close:
           day: 0
-          time: '1300'
+          time: '2000'
         open:
           day: 0
-          time: 0800
-      - close:
-          day: 0
-          time: '2100'
-        open:
-          day: 0
-          time: '1600'
+          time: '0600'
       - close:
           day: 1
-          time: '1300'
+          time: '2000'
         open:
           day: 1
-          time: 0800
-      - close:
-          day: 1
-          time: '2100'
-        open:
-          day: 1
-          time: '1600'
+          time: '0600'
       - close:
           day: 2
-          time: '1300'
+          time: '2000'
         open:
           day: 2
-          time: 0800
-      - close:
-          day: 2
-          time: '2100'
-        open:
-          day: 2
-          time: '1600'
+          time: '0600'
       - close:
           day: 3
-          time: '1300'
+          time: '2000'
         open:
           day: 3
-          time: 0800
-      - close:
-          day: 3
-          time: '2100'
-        open:
-          day: 3
-          time: '1600'
+          time: '0600'
       - close:
           day: 4
-          time: '1300'
+          time: '2000'
         open:
           day: 4
-          time: 0800
-      - close:
-          day: 4
-          time: '2100'
-        open:
-          day: 4
-          time: '1600'
+          time: '0600'
       - close:
           day: 5
-          time: '1300'
+          time: '2000'
         open:
           day: 5
-          time: 0800
-      - close:
-          day: 5
-          time: '2100'
-        open:
-          day: 5
-          time: '1600'
+          time: '0600'
       - close:
           day: 6
-          time: '1300'
+          time: '2000'
         open:
           day: 6
-          time: 0800
-      - close:
-          day: 6
-          time: '2100'
-        open:
-          day: 6
-          time: '1600'
+          time: '0600'
       weekday_text:
-      - 'Monday: 8:00 AM – 1:00 PM, 4:00 – 9:00 PM'
-      - 'Tuesday: 8:00 AM – 1:00 PM, 4:00 – 9:00 PM'
-      - 'Wednesday: 8:00 AM – 1:00 PM, 4:00 – 9:00 PM'
-      - 'Thursday: 8:00 AM – 1:00 PM, 4:00 – 9:00 PM'
-      - 'Friday: 8:00 AM – 1:00 PM, 4:00 – 9:00 PM'
-      - 'Saturday: 8:00 AM – 1:00 PM, 4:00 – 9:00 PM'
-      - 'Sunday: 8:00 AM – 1:00 PM, 4:00 – 9:00 PM'
-    website: http://saintmarks.in/
-  - formatted_address: 19/20, Mysore Rd, Kengeri Satellite Town, Bengaluru, Karnataka
-      560060, India
+      - 'Monday: 6:00 AM â€“ 8:00 PM'
+      - 'Tuesday: 6:00 AM â€“ 8:00 PM'
+      - 'Wednesday: 6:00 AM â€“ 8:00 PM'
+      - 'Thursday: 6:00 AM â€“ 8:00 PM'
+      - 'Friday: 6:00 AM â€“ 8:00 PM'
+      - 'Saturday: 6:00 AM â€“ 8:00 PM'
+      - 'Sunday: 6:00 AM â€“ 8:00 PM'
+    website: http://www.newbernhistorical.org/
+  - formatted_address: 1095 Broad Creek Rd, New Bern, NC 28560, USA
+    formatted_phone_number: (252) 636-6606
     geometry:
       location:
-        lat: 12.900317
-        lng: 77.4671221
-    name: Sri Panchamukhi Ganesha Temple
-  - formatted_address: Near Chinna Swamy Stadium, Kasturba Rd, Ambedkar Veedhi, Bengaluru,
-      Karnataka 560001, India
-    formatted_phone_number: 080 2286 6200
-    geometry:
-      location:
-        lat: 12.9752264
-        lng: 77.59634489999999
-    name: Visvesvaraya Industrial & Technological Museum
-    website: https://www.vismuseum.gov.in/
-  - formatted_address: 654, Near Mahal, Bannerghatta Main Rd, Classic Orchards Layout,
-      Kalena Agrahara, Bengaluru, Karnataka 560076, India
-    geometry:
-      location:
-        lat: 12.8748172
-        lng: 77.5942845
-    name: Shree Meenakshi Sundareshwara Temple
-  - formatted_address: Palace Grounds, Jayamahal Main Rd, Opposite TV Tower, J.C.Nagar,
-      Bengaluru, Karnataka 560006, India
-    formatted_phone_number: 084311 10000
-    geometry:
-      location:
-        lat: 13.007631
-        lng: 77.591922
-    name: Fun World Amusement Park
+        lat: 35.1130404
+        lng: -76.9603092
+    name: Latham-Whitehurst Nature Park
     opening_hours:
       open_now: true
       periods:
       - close:
           day: 0
-          time: '1900'
+          time: '1700'
         open:
           day: 0
-          time: '1100'
+          time: 0800
       - close:
           day: 1
-          time: '1900'
+          time: '1700'
         open:
           day: 1
-          time: '1100'
+          time: 0800
       - close:
           day: 2
-          time: '1900'
+          time: '1700'
         open:
           day: 2
-          time: '1100'
+          time: 0800
       - close:
           day: 3
-          time: '1900'
+          time: '1700'
         open:
           day: 3
-          time: '1100'
+          time: 0800
       - close:
           day: 4
-          time: '1900'
+          time: '1700'
         open:
           day: 4
-          time: '1100'
+          time: 0800
       - close:
           day: 5
-          time: '1900'
+          time: '1700'
         open:
           day: 5
-          time: '1100'
+          time: 0800
       - close:
           day: 6
-          time: '1900'
+          time: '1700'
         open:
           day: 6
-          time: '1100'
+          time: 0800
       weekday_text:
-      - 'Monday: 11:00 AM – 7:00 PM'
-      - 'Tuesday: 11:00 AM – 7:00 PM'
-      - 'Wednesday: 11:00 AM – 7:00 PM'
-      - 'Thursday: 11:00 AM – 7:00 PM'
-      - 'Friday: 11:00 AM – 7:00 PM'
-      - 'Saturday: 11:00 AM – 7:00 PM'
-      - 'Sunday: 11:00 AM – 7:00 PM'
-    website: http://www.funworldblr.com/
-  - formatted_address: Jayamahal, Fun World Complex, opposite TV Tower, J.C.Nagar,
-      Bengaluru, Karnataka 560006, India
-    formatted_phone_number: 078295 50000
+      - 'Monday: 8:00 AM â€“ 5:00 PM'
+      - 'Tuesday: 8:00 AM â€“ 5:00 PM'
+      - 'Wednesday: 8:00 AM â€“ 5:00 PM'
+      - 'Thursday: 8:00 AM â€“ 5:00 PM'
+      - 'Friday: 8:00 AM â€“ 5:00 PM'
+      - 'Saturday: 8:00 AM â€“ 5:00 PM'
+      - 'Sunday: 8:00 AM â€“ 5:00 PM'
+    website: https://cravencounty.recdesk.com/recdeskportal/PublicParksFacilities/LathamWhitehurstNaturePark/tabid/2169/Default.aspx
+  - formatted_address: Island Creek Rd, Pollocksville, NC 28573, USA
     geometry:
       location:
-        lat: 13.0057596
-        lng: 77.59206089999999
-    name: Snow City
-    website: http://www.snowcityblr.com/
-  - formatted_address: Msgr. F. Noronha Road, Shivaji Nagar, Bengaluru, Karnataka
-      560051, India
-    formatted_phone_number: 080 2286 5434
+        lat: 35.02704550000001
+        lng: -77.1362597
+    name: Island Creek Walk - Croatan National Forest Hiking Trail
+  - formatted_address: Fishers Landing Road, New Bern, NC 28560, USA
+    formatted_phone_number: (252) 638-5628
     geometry:
       location:
-        lat: 12.9844238
-        lng: 77.60428000000002
-    name: St. Mary's Basilica, Bengaluru
-    website: http://www.stmarysbangalore.com/
-  - formatted_address: Opp. to Vidhana Soudha, Ambedkar Veedhi, Bengaluru, Karnataka
-      560001, India
-    formatted_phone_number: 080 2295 4864
+        lat: 34.9988227
+        lng: -76.9807612
+    name: Fishers Landing
+    website: https://www.fs.usda.gov/recarea/nfsnc/recarea/?recid=49348
+  - formatted_address: 198 Cunningham Blvd, Havelock, NC 28532, USA
     geometry:
       location:
-        lat: 12.9778739
-        lng: 77.592635
-    name: High Court of Karnataka
+        lat: 34.87709399999999
+        lng: -76.90272999999999
+    name: City Park
+    opening_hours:
+      open_now: true
+      periods:
+      - close:
+          day: 0
+          time: '1800'
+        open:
+          day: 0
+          time: '0700'
+      - close:
+          day: 1
+          time: '1800'
+        open:
+          day: 1
+          time: '0700'
+      - close:
+          day: 2
+          time: '1800'
+        open:
+          day: 2
+          time: '0700'
+      - close:
+          day: 3
+          time: '1800'
+        open:
+          day: 3
+          time: '0700'
+      - close:
+          day: 4
+          time: '1800'
+        open:
+          day: 4
+          time: '0700'
+      - close:
+          day: 5
+          time: '1800'
+        open:
+          day: 5
+          time: '0700'
+      - close:
+          day: 6
+          time: '1800'
+        open:
+          day: 6
+          time: '0700'
+      weekday_text:
+      - 'Monday: 7:00 AM â€“ 6:00 PM'
+      - 'Tuesday: 7:00 AM â€“ 6:00 PM'
+      - 'Wednesday: 7:00 AM â€“ 6:00 PM'
+      - 'Thursday: 7:00 AM â€“ 6:00 PM'
+      - 'Friday: 7:00 AM â€“ 6:00 PM'
+      - 'Saturday: 7:00 AM â€“ 6:00 PM'
+      - 'Sunday: 7:00 AM â€“ 6:00 PM'
+    website: http://www.havelocknc.us/
+  - formatted_address: 2 Governmental Ave, Havelock, NC 28532, USA
+    formatted_phone_number: (252) 444-6429
+    geometry:
+      location:
+        lat: 34.8755462
+        lng: -76.9014566
+    name: Walter B Jones Park
     opening_hours:
       open_now: false
       periods:
       - close:
+          day: 0
+          time: '2100'
+        open:
+          day: 0
+          time: '1300'
+      - close:
           day: 1
-          time: '1700'
+          time: '2200'
         open:
           day: 1
-          time: '1000'
+          time: '0600'
       - close:
           day: 2
-          time: '1700'
+          time: '2200'
         open:
           day: 2
-          time: '1000'
+          time: '0600'
       - close:
           day: 3
-          time: '1700'
+          time: '2200'
         open:
           day: 3
-          time: '1000'
+          time: '0600'
       - close:
           day: 4
-          time: '1700'
+          time: '2200'
         open:
           day: 4
-          time: '1000'
+          time: '0600'
       - close:
           day: 5
-          time: '1700'
+          time: '2200'
         open:
           day: 5
-          time: '1000'
+          time: '0600'
       - close:
           day: 6
-          time: '1400'
+          time: '2200'
         open:
           day: 6
-          time: '1000'
+          time: '0600'
       weekday_text:
-      - 'Monday: 10:00 AM – 5:00 PM'
-      - 'Tuesday: 10:00 AM – 5:00 PM'
-      - 'Wednesday: 10:00 AM – 5:00 PM'
-      - 'Thursday: 10:00 AM – 5:00 PM'
-      - 'Friday: 10:00 AM – 5:00 PM'
-      - 'Saturday: 10:00 AM – 2:00 PM'
-      - 'Sunday: Closed'
-    website: http://www.karnatakajudiciary.kar.nic.in/
-  - formatted_address: No.1, Art Complex, Kumarakrupa Rd, near The Lalit Hotel, Kumara
-      Park East, Seshadripuram, Bengaluru, Karnataka 560001, India
-    formatted_phone_number: 080 2226 1816
+      - 'Monday: 6:00 AM â€“ 10:00 PM'
+      - 'Tuesday: 6:00 AM â€“ 10:00 PM'
+      - 'Wednesday: 6:00 AM â€“ 10:00 PM'
+      - 'Thursday: 6:00 AM â€“ 10:00 PM'
+      - 'Friday: 6:00 AM â€“ 10:00 PM'
+      - 'Saturday: 6:00 AM â€“ 10:00 PM'
+      - 'Sunday: 1:00 â€“ 9:00 PM'
+    website: http://www.havelocknc.us/departments/parks-recreation/
+  - formatted_address: harbor, Oriental, NC 28571, USA
+    formatted_phone_number: (252) 249-2040
     geometry:
       location:
-        lat: 12.9891667
-        lng: 77.5805556
-    name: Karnataka Chitrakala Parishath
-    opening_hours:
-      open_now: false
-      periods:
-      - close:
-          day: 1
-          time: '1730'
-        open:
-          day: 1
-          time: '1000'
-      - close:
-          day: 2
-          time: '1730'
-        open:
-          day: 2
-          time: '1000'
-      - close:
-          day: 3
-          time: '1730'
-        open:
-          day: 3
-          time: '1000'
-      - close:
-          day: 4
-          time: '1730'
-        open:
-          day: 4
-          time: '1000'
-      - close:
-          day: 5
-          time: '1730'
-        open:
-          day: 5
-          time: '1000'
-      - close:
-          day: 6
-          time: '1730'
-        open:
-          day: 6
-          time: '1000'
-      weekday_text:
-      - 'Monday: 10:00 AM – 5:30 PM'
-      - 'Tuesday: 10:00 AM – 5:30 PM'
-      - 'Wednesday: 10:00 AM – 5:30 PM'
-      - 'Thursday: 10:00 AM – 5:30 PM'
-      - 'Friday: 10:00 AM – 5:30 PM'
-      - 'Saturday: 10:00 AM – 5:30 PM'
-      - 'Sunday: Closed'
-    website: http://www.karnatakachitrakalaparishath.com/
-  - formatted_address: Near HAL Police Station, HAL Old Airport Rd, HAL GB Quaters,
-      Marathahalli, Bengaluru, Karnataka 560037, India
-    formatted_phone_number: 080 2231 8341
-    geometry:
-      location:
-        lat: 12.954655
-        lng: 77.68090579999999
-    name: HAL Heritage Centre and Aerospace Museum
+        lat: 35.024841
+        lng: -76.6955679
+    name: Oriental town dock
     opening_hours:
       open_now: true
       periods:
-      - close:
+      - open:
           day: 0
-          time: '1630'
-        open:
-          day: 0
-          time: 0900
-      - close:
-          day: 1
-          time: '1630'
-        open:
-          day: 1
-          time: 0900
-      - close:
-          day: 2
-          time: '1630'
-        open:
-          day: 2
-          time: 0900
-      - close:
-          day: 3
-          time: '1630'
-        open:
-          day: 3
-          time: 0900
-      - close:
-          day: 4
-          time: '1630'
-        open:
-          day: 4
-          time: 0900
-      - close:
-          day: 5
-          time: '1630'
-        open:
-          day: 5
-          time: 0900
-      - close:
-          day: 6
-          time: '1630'
-        open:
-          day: 6
-          time: 0900
+          time: '0000'
       weekday_text:
-      - 'Monday: 9:00 AM – 4:30 PM'
-      - 'Tuesday: 9:00 AM – 4:30 PM'
-      - 'Wednesday: 9:00 AM – 4:30 PM'
-      - 'Thursday: 9:00 AM – 4:30 PM'
-      - 'Friday: 9:00 AM – 4:30 PM'
-      - 'Saturday: 9:00 AM – 4:30 PM'
-      - 'Sunday: 9:00 AM – 4:30 PM'
-  - formatted_address: 49, GF, Manikyavelu Mansion, Palace Rd, Vasanth Nagar, Bengaluru,
-      Karnataka 560052, India
-    formatted_phone_number: 080 2234 2338
+      - 'Monday: Open 24 hours'
+      - 'Tuesday: Open 24 hours'
+      - 'Wednesday: Open 24 hours'
+      - 'Thursday: Open 24 hours'
+      - 'Friday: Open 24 hours'
+      - 'Saturday: Open 24 hours'
+      - 'Sunday: Open 24 hours'
+    website: http://towndock.net/
+  - formatted_address: 802 Broad St, Oriental, NC 28571, USA
+    formatted_phone_number: (252) 249-3340
     geometry:
       location:
-        lat: 12.9894116
-        lng: 77.5880553
-    name: National Gallery of Modern Art, Bangalore
-    website: http://ngmaindia.gov.in/
-  - formatted_address: 30/A, Nrupathunga Rd, Ambedkar Veedhi, Sampangi Rama Nagar,
-      Bengaluru, Karnataka 560001, India
+        lat: 35.030517
+        lng: -76.692802
+    name: Oriental's History Museum
+    website: http://www.townoforiental.com/index.asp?SEC=C6020608-E234-4D1B-BA80-AFB207B5C256&Type=B_BASIC
+  - formatted_address: 504 South Ave, Oriental, NC 28571, USA
     geometry:
       location:
-        lat: 12.9768354
-        lng: 77.5988017
-    name: Queen Victoria Statue
-  - formatted_address: Krishna Rajendra Rd, New Tharagupet, Bengaluru, Karnataka 560002,
-      India
+        lat: 35.0245412
+        lng: -76.6921275
+    name: Lou Mac Park
+    website: http://www.pamlico.com/lou-mac-park.html
+  - formatted_address: 102 New Bern Hwy, Maysville, NC 28555, USA
     geometry:
       location:
-        lat: 12.9629009
-        lng: 77.57604649999999
-    name: Bangalore Fort
-    opening_hours:
-      open_now: true
-      periods:
-      - close:
-          day: 0
-          time: '1700'
-        open:
-          day: 0
-          time: 0830
-      - close:
-          day: 1
-          time: '1700'
-        open:
-          day: 1
-          time: 0830
-      - close:
-          day: 2
-          time: '1700'
-        open:
-          day: 2
-          time: 0830
-      - close:
-          day: 3
-          time: '1700'
-        open:
-          day: 3
-          time: 0830
-      - close:
-          day: 4
-          time: '1700'
-        open:
-          day: 4
-          time: 0830
-      - close:
-          day: 5
-          time: '1700'
-        open:
-          day: 5
-          time: 0830
-      - close:
-          day: 6
-          time: '1700'
-        open:
-          day: 6
-          time: 0830
-      weekday_text:
-      - 'Monday: 8:30 AM – 5:00 PM'
-      - 'Tuesday: 8:30 AM – 5:00 PM'
-      - 'Wednesday: 8:30 AM – 5:00 PM'
-      - 'Thursday: 8:30 AM – 5:00 PM'
-      - 'Friday: 8:30 AM – 5:00 PM'
-      - 'Saturday: 8:30 AM – 5:00 PM'
-      - 'Sunday: 8:30 AM – 5:00 PM'
-  - formatted_address: 344, 4th Main Rd, Sadashiva Nagar, Armane Nagar, Bengaluru,
-      Karnataka 560080, India
-    formatted_phone_number: 080 2361 6971
-    geometry:
-      location:
-        lat: 13.005591
-        lng: 77.5816385
-    name: Mahua- The Art Gallery
-    opening_hours:
-      open_now: false
-      periods:
-      - close:
-          day: 1
-          time: '1900'
-        open:
-          day: 1
-          time: '1000'
-      - close:
-          day: 2
-          time: '1900'
-        open:
-          day: 2
-          time: '1000'
-      - close:
-          day: 3
-          time: '1900'
-        open:
-          day: 3
-          time: '1000'
-      - close:
-          day: 4
-          time: '1900'
-        open:
-          day: 4
-          time: '1000'
-      - close:
-          day: 5
-          time: '1900'
-        open:
-          day: 5
-          time: '1000'
-      - close:
-          day: 6
-          time: '1900'
-        open:
-          day: 6
-          time: '1000'
-      weekday_text:
-      - 'Monday: 10:00 AM – 7:00 PM'
-      - 'Tuesday: 10:00 AM – 7:00 PM'
-      - 'Wednesday: 10:00 AM – 7:00 PM'
-      - 'Thursday: 10:00 AM – 7:00 PM'
-      - 'Friday: 10:00 AM – 7:00 PM'
-      - 'Saturday: 10:00 AM – 7:00 PM'
-      - 'Sunday: Closed'
-    website: http://www.mahuagallery.com/
+        lat: 34.8383978
+        lng: -77.2942456
+    name: Deppe Park
+    website: http://onslowcountync.gov/Parks/
   zoo:
-  - formatted_address: 1st Block, Kacharakanahalli, Thanisandra Main Rd, Venkateshpura,
-      1st Stage, HBR Layout, Bengaluru, Karnataka 560043, India
-    formatted_phone_number: 096631 00144
+  - formatted_address: Maysville, NC 28555, USA
     geometry:
       location:
-        lat: 13.0186372
-        lng: 77.6273956
-    name: ISKCON Temple Bengaluru
+        lat: 34.8212555
+        lng: -77.1923296
+    name: White Oak River Impoundment Game Land
     opening_hours:
-      open_now: true
+      open_now: false
       periods:
       - close:
-          day: 0
-          time: '1300'
-        open:
-          day: 0
-          time: '0730'
-      - close:
-          day: 0
-          time: '2030'
-        open:
-          day: 0
-          time: '1630'
-      - close:
           day: 1
-          time: '1300'
+          time: '1915'
         open:
           day: 1
-          time: '0730'
-      - close:
-          day: 1
-          time: '2030'
-        open:
-          day: 1
-          time: '1630'
-      - close:
-          day: 2
-          time: '1300'
-        open:
-          day: 2
-          time: '0730'
-      - close:
-          day: 2
-          time: '2030'
-        open:
-          day: 2
-          time: '1630'
+          time: '0400'
       - close:
           day: 3
-          time: '1300'
+          time: '1915'
         open:
           day: 3
-          time: '0730'
-      - close:
-          day: 3
-          time: '2030'
-        open:
-          day: 3
-          time: '1630'
-      - close:
-          day: 4
-          time: '1300'
-        open:
-          day: 4
-          time: '0730'
-      - close:
-          day: 4
-          time: '2030'
-        open:
-          day: 4
-          time: '1630'
-      - close:
-          day: 5
-          time: '1300'
-        open:
-          day: 5
-          time: '0730'
-      - close:
-          day: 5
-          time: '2030'
-        open:
-          day: 5
-          time: '1630'
+          time: '0400'
       - close:
           day: 6
-          time: '1300'
+          time: '1915'
         open:
           day: 6
-          time: '0730'
-      - close:
-          day: 6
-          time: '2030'
-        open:
-          day: 6
-          time: '1630'
+          time: '0400'
       weekday_text:
-      - 'Monday: 7:30 AM – 1:00 PM, 4:30 – 8:30 PM'
-      - 'Tuesday: 7:30 AM – 1:00 PM, 4:30 – 8:30 PM'
-      - 'Wednesday: 7:30 AM – 1:00 PM, 4:30 – 8:30 PM'
-      - 'Thursday: 7:30 AM – 1:00 PM, 4:30 – 8:30 PM'
-      - 'Friday: 7:30 AM – 1:00 PM, 4:30 – 8:30 PM'
-      - 'Saturday: 7:30 AM – 1:00 PM, 4:30 – 8:30 PM'
-      - 'Sunday: 7:30 AM – 1:00 PM, 4:30 – 8:30 PM'
-    website: https://iskcontemple.org/
-  - formatted_address: Bannerghatta Main Rd, Bannerughatta, Bengaluru, Karnataka 560083,
-      India
-    formatted_phone_number: 080 2977 6466
-    geometry:
-      location:
-        lat: 12.800285
-        lng: 77.5770474
-    name: Bannerghatta Biological Park
-    opening_hours:
-      open_now: true
-      periods:
-      - close:
-          day: 0
-          time: '1700'
-        open:
-          day: 0
-          time: 0930
-      - close:
-          day: 1
-          time: '1700'
-        open:
-          day: 1
-          time: 0930
-      - close:
-          day: 3
-          time: '1700'
-        open:
-          day: 3
-          time: 0930
-      - close:
-          day: 4
-          time: '1700'
-        open:
-          day: 4
-          time: 0930
-      - close:
-          day: 5
-          time: '1700'
-        open:
-          day: 5
-          time: 0930
-      - close:
-          day: 6
-          time: '1700'
-        open:
-          day: 6
-          time: 0930
-      weekday_text:
-      - 'Monday: 9:30 AM – 5:00 PM'
+      - 'Monday: 4:00 AM â€“ 7:15 PM'
       - 'Tuesday: Closed'
-      - 'Wednesday: 9:30 AM – 5:00 PM'
-      - 'Thursday: 9:30 AM – 5:00 PM'
-      - 'Friday: 9:30 AM – 5:00 PM'
-      - 'Saturday: 9:30 AM – 5:00 PM'
-      - 'Sunday: 9:30 AM – 5:00 PM'
-    website: http://bannerghattabiologicalpark.org/
-  - formatted_address: 1st Stage, Domlur, Domlur I Stage, 1st Stage, Domlur, Bengaluru,
-      Karnataka 560071, India
-    geometry:
-      location:
-        lat: 12.961036
-        lng: 77.6366479
-    name: Domlur Dog Park
-    website: http://www.facebook.com/DomlurDogPark
+      - 'Wednesday: 4:00 AM â€“ 7:15 PM'
+      - 'Thursday: Closed'
+      - 'Friday: Closed'
+      - 'Saturday: 4:00 AM â€“ 7:15 PM'
+      - 'Sunday: Closed'
+    website: http://ncwildlife.org/
