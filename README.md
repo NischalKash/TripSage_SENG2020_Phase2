@@ -3,7 +3,7 @@
 ![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/NischalKash/TripSage_SENG2020_Phase2)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 # TripSage
-The only Itinerary planner, you will ever need 
+The only Itinerary planner, you will ever need
 
 See UI Mockups at : [TRIPSAGE](http://xd.adobe.com/view/4b11902d-7907-4938-846e-cf4fd00181af-1e42/)
 
