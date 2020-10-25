@@ -102,7 +102,11 @@ def directions(request):
                 if j not in cities:
                     cities.append(j)
         
+        for i in range(0, len(actual_directions)):
+            actual_directions[i] = actual_directions[i].replace("<div style=\"font-size:0.9em\">", "")
+            actual_directions[i] = actual_directions[i].replace("</div>", "")
+
         final_dictionary = {'directions' : actual_directions, 'cities':cities}
         #Here in the directions.html, you have to display the routes and the cities users can enter!
         #Also display the total_distance and total_duration taken to travel
-        return render(request, 'planner/directions.html')
+        return render(request, 'planner/directions.html', final_dictionary)
