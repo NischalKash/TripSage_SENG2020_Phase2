@@ -57,15 +57,17 @@ def getRecommendation(city, type1):
     TYPES_PLACE_MAP = {
         "adventures": ["tourist_attraction", "stadium", "zoo"],
         "kids": ["amusement_park", "museum", "restaurant"],
-        "relaxing": ["art_gallery", "church", "spa","park"],
-        "other": ["hospital","police"],
+        "relaxing": ["art_gallery", "church", "spa", "park"],
+        "other": ["hospital", "police"],
     }
 
     if type1 == "adventures":
         dictionary = {}
         if city not in dictionary:
             dictionary[city] = {}
-        dictionary[city]["tourist_attraction"] = Places_Recommendation(gmaps, city, "tourist_attraction")
+        dictionary[city]["tourist_attraction"] = Places_Recommendation(
+            gmaps, city, "tourist_attraction"
+        )
         dictionary[city]["stadium"] = Places_Recommendation(gmaps, city, "stadium")[:3]
         dictionary[city]["zoo"] = Places_Recommendation(gmaps, city, "zoo")[:3]
         return dictionary
@@ -74,16 +76,22 @@ def getRecommendation(city, type1):
         dictionary = {}
         if city not in dictionary:
             dictionary[city] = {}
-        dictionary[city]["amusement_park"] = Places_Recommendation(gmaps, city, "amusement_park")[:3]
+        dictionary[city]["amusement_park"] = Places_Recommendation(
+            gmaps, city, "amusement_park"
+        )[:3]
         dictionary[city]["museum"] = Places_Recommendation(gmaps, city, "museum")[:3]
-        dictionary[city]["restaurant"] = Places_Recommendation(gmaps, city, "restaurant")[:3]
+        dictionary[city]["restaurant"] = Places_Recommendation(
+            gmaps, city, "restaurant"
+        )[:3]
         return dictionary
 
     elif type1 == "relaxing":
         dictionary = {}
         if city not in dictionary:
             dictionary[city] = {}
-        dictionary[city]["art_gallery"] = Places_Recommendation(gmaps, city, "art_gallery")[:3]
+        dictionary[city]["art_gallery"] = Places_Recommendation(
+            gmaps, city, "art_gallery"
+        )[:3]
         dictionary[city]["church"] = Places_Recommendation(gmaps, city, "church")[:3]
         dictionary[city]["spa"] = Places_Recommendation(gmaps, city, "spa")[:3]
         dictionary[city]["park"] = Places_Recommendation(gmaps, city, "park")[:3]
@@ -93,7 +101,9 @@ def getRecommendation(city, type1):
         dictionary = {}
         if city not in dictionary:
             dictionary[city] = {}
-        dictionary[city]["hospital"] = Places_Recommendation(gmaps, city, "hospital")[:3]
+        dictionary[city]["hospital"] = Places_Recommendation(gmaps, city, "hospital")[
+            :3
+        ]
         dictionary[city]["police"] = Places_Recommendation(gmaps, city, "police")[:3]
         return dictionary
     else:
