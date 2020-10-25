@@ -14,3 +14,4 @@ urllib3==1.25.11
 virtualenv==20.0.35
 xmltodict==0.12.0
 pycodestyle==2.6.0
+pre-commit=2.7.1
