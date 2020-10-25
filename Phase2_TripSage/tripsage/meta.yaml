@@ -265,7 +265,7 @@ DirectionsResponse:
           value: '56'
         duration:
           text: 1 min
-          value: '7'
+          value: '38'
         end_location:
           lat: '35.9901981'
           lng: '-78.9008780'
