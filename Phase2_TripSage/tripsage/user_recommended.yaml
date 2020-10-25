@@ -1,42 +1,12 @@
-Atlanta:
+Seattle:
   amusement_park:
-  - formatted_address: 1000 Robert E Lee Blvd, Stone Mountain, GA 30083, USA
-    formatted_phone_number: (770) 498-5690
+  - formatted_address: 7300 Fun Center Way, Tukwila, WA 98188, USA
+    formatted_phone_number: (425) 228-7300
     geometry:
       location:
-        lat: 33.8053189
-        lng: -84.1455315
-    name: Stone Mountain Park
-    website: https://www.stonemountainpark.com/
-  - formatted_address: 275 Riverside Pkwy, Austell, GA 30168, USA
-    formatted_phone_number: (770) 739-3400
-    geometry:
-      location:
-        lat: 33.7706534
-        lng: -84.55117919999999
-    name: Six Flags Over Georgia
-    opening_hours:
-      open_now: true
-      periods:
-      - open:
-          day: 0
-          time: '0000'
-      weekday_text:
-      - 'Monday: Open 24 hours'
-      - 'Tuesday: Open 24 hours'
-      - 'Wednesday: Open 24 hours'
-      - 'Thursday: Open 24 hours'
-      - 'Friday: Open 24 hours'
-      - 'Saturday: Open 24 hours'
-      - 'Sunday: Open 24 hours'
-    website: https://www.sixflags.com/overgeorgia
-  - formatted_address: 1425 Market Blvd Ste 100-A, Roswell, GA 30076, USA
-    formatted_phone_number: (678) 745-9900
-    geometry:
-      location:
-        lat: 34.0177434
-        lng: -84.3216276
-    name: Sky Zone Trampoline Park
+        lat: 47.46561699999999
+        lng: -122.242975
+    name: Tukwila Family Fun Center & Bullwinkle's Restaurant
     opening_hours:
       open_now: true
       periods:
@@ -53,6 +23,24 @@ Atlanta:
           day: 3
           time: '1600'
       - close:
+          day: 1
+          time: '2000'
+        open:
+          day: 1
+          time: '1200'
+      - close:
+          day: 2
+          time: '2000'
+        open:
+          day: 2
+          time: '1200'
+      - close:
+          day: 3
+          time: '2000'
+        open:
+          day: 3
+          time: '1200'
+      - close:
           day: 4
           time: '2000'
         open:
@@ -66,26 +54,679 @@ Atlanta:
           time: '1600'
       - close:
           day: 6
+          time: '2100'
+        open:
+          day: 6
+          time: '1100'
+      weekday_text:
+      - 'Monday: 12:00 â€“ 8:00 PM'
+      - 'Tuesday: 12:00 â€“ 8:00 PM'
+      - 'Wednesday: 12:00 â€“ 8:00 PM'
+      - 'Thursday: 12:00 â€“ 8:00 PM'
+      - 'Friday: 12:00 â€“ 9:00 PM'
+      - 'Saturday: 11:00 AM â€“ 9:00 PM'
+      - 'Sunday: 11:00 AM â€“ 8:00 PM'
+    website: http://www.fun-center.com/
+  - formatted_address: 1719 Maple Valley Hwy, Renton, WA 98057, USA
+    formatted_phone_number: (425) 430-6780
+    geometry:
+      location:
+        lat: 47.4817697
+        lng: -122.1949815
+    name: Henry Moses Aquatic Center
+    opening_hours:
+      open_now: false
+      periods:
+      - close:
+          day: 0
+          time: '1400'
+        open:
+          day: 0
+          time: '1100'
+      - close:
+          day: 0
+          time: '1800'
+        open:
+          day: 0
+          time: '1500'
+      - close:
+          day: 1
+          time: '1400'
+        open:
+          day: 1
+          time: '1100'
+      - close:
+          day: 1
+          time: '1800'
+        open:
+          day: 1
+          time: '1500'
+      - close:
+          day: 1
+          time: '2030'
+        open:
+          day: 1
+          time: '1830'
+      - close:
+          day: 2
+          time: '1400'
+        open:
+          day: 2
+          time: '1100'
+      - close:
+          day: 2
+          time: '1800'
+        open:
+          day: 2
+          time: '1500'
+      - close:
+          day: 2
+          time: '2030'
+        open:
+          day: 2
+          time: '1930'
+      - close:
+          day: 3
+          time: '1400'
+        open:
+          day: 3
+          time: '1100'
+      - close:
+          day: 3
+          time: '1800'
+        open:
+          day: 3
+          time: '1500'
+      - close:
+          day: 3
+          time: '2030'
+        open:
+          day: 3
+          time: '1830'
+      - close:
+          day: 4
+          time: '1400'
+        open:
+          day: 4
+          time: '1100'
+      - close:
+          day: 4
+          time: '1800'
+        open:
+          day: 4
+          time: '1500'
+      - close:
+          day: 4
+          time: '2030'
+        open:
+          day: 4
+          time: '1930'
+      - close:
+          day: 5
+          time: '1400'
+        open:
+          day: 5
+          time: '1100'
+      - close:
+          day: 5
+          time: '1800'
+        open:
+          day: 5
+          time: '1500'
+      - close:
+          day: 5
+          time: '2030'
+        open:
+          day: 5
+          time: '1830'
+      - close:
+          day: 6
+          time: '1400'
+        open:
+          day: 6
+          time: '1100'
+      - close:
+          day: 6
+          time: '1800'
+        open:
+          day: 6
+          time: '1500'
+      weekday_text:
+      - 'Monday: 11:00 AM â€“ 2:00 PM, 3:00 â€“ 6:00 PM, 6:30 â€“ 8:30 PM'
+      - 'Tuesday: 11:00 AM â€“ 2:00 PM, 3:00 â€“ 6:00 PM, 7:30 â€“ 8:30 PM'
+      - 'Wednesday: 11:00 AM â€“ 2:00 PM, 3:00 â€“ 6:00 PM, 6:30 â€“ 8:30 PM'
+      - 'Thursday: 11:00 AM â€“ 2:00 PM, 3:00 â€“ 6:00 PM, 7:30 â€“ 8:30 PM'
+      - 'Friday: 11:00 AM â€“ 2:00 PM, 3:00 â€“ 6:00 PM, 6:30 â€“ 8:30 PM'
+      - 'Saturday: 11:00 AM â€“ 2:00 PM, 3:00 â€“ 6:00 PM'
+      - 'Sunday: 11:00 AM â€“ 2:00 PM, 3:00 â€“ 6:00 PM'
+    website: https://rentonwa.gov/city_hall/community_services/facilities/henry_moses_aquatic_center
+  - formatted_address: 36201 Enchanted Pkwy S, Federal Way, WA 98003, USA
+    formatted_phone_number: (253) 661-8000
+    geometry:
+      location:
+        lat: 47.2731529
+        lng: -122.3126059
+    name: Wild Waves Theme and Water Park
+    website: http://www.wildwaves.com/
+  - formatted_address: 32610 NE 32nd St, Carnation, WA 98014, USA
+    formatted_phone_number: (425) 333-4135
+    geometry:
+      location:
+        lat: 47.6390278
+        lng: -121.9022194
+    name: Remlinger Farms
+    opening_hours:
+      open_now: false
+      periods:
+      - close:
+          day: 0
+          time: '1800'
+        open:
+          day: 0
+          time: 0930
+      - close:
+          day: 1
+          time: '1800'
+        open:
+          day: 1
+          time: 0930
+      - close:
+          day: 2
+          time: '1800'
+        open:
+          day: 2
+          time: 0930
+      - close:
+          day: 3
+          time: '1800'
+        open:
+          day: 3
+          time: 0930
+      - close:
+          day: 4
+          time: '1800'
+        open:
+          day: 4
+          time: 0930
+      - close:
+          day: 5
+          time: '1800'
+        open:
+          day: 5
+          time: 0930
+      - close:
+          day: 6
+          time: '1800'
+        open:
+          day: 6
+          time: 0930
+      weekday_text:
+      - 'Monday: 9:30 AM â€“ 6:00 PM'
+      - 'Tuesday: 9:30 AM â€“ 6:00 PM'
+      - 'Wednesday: 9:30 AM â€“ 6:00 PM'
+      - 'Thursday: 9:30 AM â€“ 6:00 PM'
+      - 'Friday: 9:30 AM â€“ 6:00 PM'
+      - 'Saturday: 9:30 AM â€“ 6:00 PM'
+      - 'Sunday: 9:30 AM â€“ 6:00 PM'
+    website: https://remlingerfarms.com/
+  - formatted_address: 9906 Airport Way, Snohomish, WA 98296, USA
+    formatted_phone_number: (360) 568-7703
+    geometry:
+      location:
+        lat: 47.90718699999999
+        lng: -122.101278
+    name: Skydive Snohomish
+    opening_hours:
+      open_now: true
+      periods:
+      - close:
+          day: 0
+          time: '1800'
+        open:
+          day: 0
+          time: 0900
+      - close:
+          day: 1
+          time: '1800'
+        open:
+          day: 1
+          time: 0900
+      - close:
+          day: 2
+          time: '1800'
+        open:
+          day: 2
+          time: 0900
+      - close:
+          day: 3
+          time: '1800'
+        open:
+          day: 3
+          time: 0900
+      - close:
+          day: 4
+          time: '1800'
+        open:
+          day: 4
+          time: 0900
+      - close:
+          day: 5
+          time: '1800'
+        open:
+          day: 5
+          time: 0900
+      - close:
+          day: 6
+          time: '1800'
+        open:
+          day: 6
+          time: '1000'
+      weekday_text:
+      - 'Monday: 9:00 AM â€“ 6:00 PM'
+      - 'Tuesday: 9:00 AM â€“ 6:00 PM'
+      - 'Wednesday: 9:00 AM â€“ 6:00 PM'
+      - 'Thursday: 9:00 AM â€“ 6:00 PM'
+      - 'Friday: 9:00 AM â€“ 6:00 PM'
+      - 'Saturday: 9:00 AM â€“ 6:00 PM'
+      - 'Sunday: 9:00 AM â€“ 6:00 PM'
+    website: http://skydivesnohomish.com/
+  - formatted_address: '5317 Village Park Dr SE # 1932, Bellevue, WA 98006, USA'
+    formatted_phone_number: (206) 972-3035
+    geometry:
+      location:
+        lat: 47.5563047
+        lng: -122.1161847
+    name: Whale Bay Marine Services
+  - formatted_address: 300 19th Ave E, Seattle, WA 98112, USA
+    geometry:
+      location:
+        lat: 47.62154169999999
+        lng: -122.3066071
+    name: Ron K. Bills Fountain Spray Feature
+    website: http://www.seattle.gov/parks/wadingpools_detail.asp?id=373
+  - formatted_address: 12718 1st Ave NE, Seattle, WA 98125, USA
+    formatted_phone_number: (206) 684-7796
+    geometry:
+      location:
+        lat: 47.7220902
+        lng: -122.3285013
+    name: Northacres Spray Park
+    opening_hours:
+      open_now: false
+      periods:
+      - close:
+          day: 0
+          time: '2000'
+        open:
+          day: 0
+          time: '1000'
+      - close:
+          day: 1
+          time: '2000'
+        open:
+          day: 1
+          time: '1000'
+      - close:
+          day: 2
+          time: '2000'
+        open:
+          day: 2
+          time: '1000'
+      - close:
+          day: 3
+          time: '2000'
+        open:
+          day: 3
+          time: '1000'
+      - close:
+          day: 4
+          time: '2000'
+        open:
+          day: 4
+          time: '1000'
+      - close:
+          day: 5
+          time: '2000'
+        open:
+          day: 5
+          time: '1000'
+      - close:
+          day: 6
+          time: '2000'
+        open:
+          day: 6
+          time: '1000'
+      weekday_text:
+      - 'Monday: 11:00 AM â€“ 8:00 PM'
+      - 'Tuesday: 11:00 AM â€“ 8:00 PM'
+      - 'Wednesday: 11:00 AM â€“ 8:00 PM'
+      - 'Thursday: 11:00 AM â€“ 8:00 PM'
+      - 'Friday: 11:00 AM â€“ 8:00 PM'
+      - 'Saturday: 11:00 AM â€“ 8:00 PM'
+      - 'Sunday: 11:00 AM â€“ 8:00 PM'
+    website: http://www.seattle.gov/parks/wadingpools_detail.asp?id=361
+  - formatted_address: 1688 S 348th St, Federal Way, WA 98003, USA
+    formatted_phone_number: (253) 838-8808
+    geometry:
+      location:
+        lat: 47.2899888
+        lng: -122.3107957
+    name: Slide 'N Splash Indoor Mini Water Park Seattle South
+    opening_hours:
+      open_now: false
+      periods:
+      - close:
+          day: 0
+          time: '2100'
+        open:
+          day: 0
+          time: 0900
+      - close:
+          day: 1
+          time: '2100'
+        open:
+          day: 1
+          time: '1600'
+      - close:
+          day: 2
+          time: '2100'
+        open:
+          day: 2
+          time: '1600'
+      - close:
+          day: 3
+          time: '2100'
+        open:
+          day: 3
+          time: '1600'
+      - close:
+          day: 4
+          time: '2100'
+        open:
+          day: 4
+          time: '1600'
+      - close:
+          day: 5
           time: '2200'
+        open:
+          day: 5
+          time: '1600'
+      - close:
+          day: 6
+          time: '2200'
+        open:
+          day: 6
+          time: 0900
+      weekday_text:
+      - 'Monday: 4:00 â€“ 9:00 PM'
+      - 'Tuesday: 4:00 â€“ 9:00 PM'
+      - 'Wednesday: 4:00 â€“ 9:00 PM'
+      - 'Thursday: 4:00 â€“ 9:00 PM'
+      - 'Friday: 4:00 â€“ 10:00 PM'
+      - 'Saturday: 9:00 AM â€“ 10:00 PM'
+      - 'Sunday: 9:00 AM â€“ 9:00 PM'
+    website: https://www.redlion.com/federal-way/features/federal-way-water-park
+  - formatted_address: Tacoma, WA 98407, USA
+    formatted_phone_number: (253) 752-2185
+    geometry:
+      location:
+        lat: 47.2997993
+        lng: -122.5056361
+    name: Ruston Spraypark
+    opening_hours:
+      open_now: true
+      periods:
+      - open:
+          day: 0
+          time: '0000'
+      weekday_text:
+      - 'Monday: Open 24 hours'
+      - 'Tuesday: Open 24 hours'
+      - 'Wednesday: Open 24 hours'
+      - 'Thursday: Open 24 hours'
+      - 'Friday: Open 24 hours'
+      - 'Saturday: Open 24 hours'
+      - 'Sunday: Open 24 hours'
+    website: http://www.pointruston.com/
+  - formatted_address: 9600 115th Ave SE, Snohomish, WA 98290, USA
+    formatted_phone_number: (425) 257-9771
+    geometry:
+      location:
+        lat: 47.90954180000001
+        lng: -122.0809719
+    name: DoodleBug Sportz Outdoor Paintball Park
+    opening_hours:
+      open_now: false
+      periods:
+      - close:
+          day: 0
+          time: '1500'
+        open:
+          day: 0
+          time: '1100'
+      - close:
+          day: 5
+          time: '1900'
+        open:
+          day: 5
+          time: '1600'
+      - close:
+          day: 6
+          time: '1500'
         open:
           day: 6
           time: '1100'
       weekday_text:
       - 'Monday: Closed'
       - 'Tuesday: Closed'
-      - 'Wednesday: 4:00 – 8:00 PM'
-      - 'Thursday: 4:00 – 8:00 PM'
-      - 'Friday: 4:00 – 9:00 PM'
-      - 'Saturday: 11:00 AM – 10:00 PM'
-      - 'Sunday: 1:00 – 6:00 PM'
-    website: https://www.skyzone.com/roswell?y_source=1_MTUwOTE3MDgtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D
-  - formatted_address: '250 Cobb Pkwy N #100, Marietta, GA 30062, USA'
-    formatted_phone_number: (770) 590-4067
+      - 'Wednesday: Closed'
+      - 'Thursday: Closed'
+      - 'Friday: 4:00 â€“ 7:00 PM'
+      - 'Saturday: 11:00 AM â€“ 3:00 PM'
+      - 'Sunday: 11:00 AM â€“ 3:00 PM'
+    website: https://www.doodlebugsportz.com/
+  - formatted_address: 501 S I St, Tacoma, WA 98405, USA
+    formatted_phone_number: (253) 305-1030
     geometry:
       location:
-        lat: 33.9576352
-        lng: -84.5207461
-    name: Six Flags White Water
+        lat: 47.2593717
+        lng: -122.4495403
+    name: Wright Sprayground
+    website: https://www.metroparkstacoma.org/place/wright-sprayground/
+  food:
+  - formatted_address: Seattle, WA, USA
+    geometry:
+      location:
+        lat: 47.6062095
+        lng: -122.3320708
+    name: Seattle
+    website: http://www.seattle.gov/
+  - formatted_address: Tacoma, WA, USA
+    geometry:
+      location:
+        lat: 47.2528768
+        lng: -122.4442906
+    name: Tacoma
+    website: http://www.cityoftacoma.org/
+  tourist_attraction:
+  - formatted_address: 9404 E Marginal Way S, Seattle, WA 98108, USA
+    formatted_phone_number: (206) 764-5700
+    geometry:
+      location:
+        lat: 47.5185379
+        lng: -122.2968545
+    name: The Museum of Flight
+    opening_hours:
+      open_now: false
+      periods:
+      - close:
+          day: 0
+          time: '1700'
+        open:
+          day: 0
+          time: '1000'
+      - close:
+          day: 1
+          time: '1700'
+        open:
+          day: 1
+          time: '1000'
+      - close:
+          day: 4
+          time: '1700'
+        open:
+          day: 4
+          time: '1000'
+      - close:
+          day: 5
+          time: '1700'
+        open:
+          day: 5
+          time: '1000'
+      - close:
+          day: 6
+          time: '1700'
+        open:
+          day: 6
+          time: '1000'
+      weekday_text:
+      - 'Monday: 10:00 AM â€“ 5:00 PM'
+      - 'Tuesday: Closed'
+      - 'Wednesday: Closed'
+      - 'Thursday: 10:00 AM â€“ 5:00 PM'
+      - 'Friday: 10:00 AM â€“ 5:00 PM'
+      - 'Saturday: 10:00 AM â€“ 5:00 PM'
+      - 'Sunday: 10:00 AM â€“ 5:00 PM'
+    website: http://www.museumofflight.org/
+  - formatted_address: 400 Broad St, Seattle, WA 98109, USA
+    formatted_phone_number: (206) 905-2100
+    geometry:
+      location:
+        lat: 47.6205063
+        lng: -122.3492774
+    name: Space Needle
+    opening_hours:
+      open_now: false
+      periods:
+      - close:
+          day: 0
+          time: '2100'
+        open:
+          day: 0
+          time: '1100'
+      - close:
+          day: 1
+          time: '1800'
+        open:
+          day: 1
+          time: '1100'
+      - close:
+          day: 2
+          time: '1800'
+        open:
+          day: 2
+          time: '1100'
+      - close:
+          day: 3
+          time: '1800'
+        open:
+          day: 3
+          time: '1100'
+      - close:
+          day: 4
+          time: '2100'
+        open:
+          day: 4
+          time: '1100'
+      - close:
+          day: 5
+          time: '2100'
+        open:
+          day: 5
+          time: '1100'
+      - close:
+          day: 6
+          time: '2100'
+        open:
+          day: 6
+          time: '1100'
+      weekday_text:
+      - 'Monday: 11:00 AM â€“ 6:00 PM'
+      - 'Tuesday: 11:00 AM â€“ 6:00 PM'
+      - 'Wednesday: 11:00 AM â€“ 6:00 PM'
+      - 'Thursday: 11:00 AM â€“ 9:00 PM'
+      - 'Friday: 11:00 AM â€“ 9:00 PM'
+      - 'Saturday: 11:00 AM â€“ 9:00 PM'
+      - 'Sunday: 11:00 AM â€“ 9:00 PM'
+    website: https://www.spaceneedle.com/
+  - formatted_address: 305 Harrison St, Seattle, WA 98109, USA
+    formatted_phone_number: (206) 753-4940
+    geometry:
+      location:
+        lat: 47.620563
+        lng: -122.350466
+    name: Chihuly Garden and Glass
+    opening_hours:
+      open_now: false
+      periods:
+      - close:
+          day: 0
+          time: '1700'
+        open:
+          day: 0
+          time: '1100'
+      - close:
+          day: 1
+          time: '1700'
+        open:
+          day: 1
+          time: '1100'
+      - close:
+          day: 2
+          time: '1700'
+        open:
+          day: 2
+          time: '1100'
+      - close:
+          day: 3
+          time: '1700'
+        open:
+          day: 3
+          time: '1100'
+      - close:
+          day: 4
+          time: '1700'
+        open:
+          day: 4
+          time: '1100'
+      - close:
+          day: 5
+          time: '1700'
+        open:
+          day: 5
+          time: '1100'
+      - close:
+          day: 6
+          time: '1700'
+        open:
+          day: 6
+          time: '1100'
+      weekday_text:
+      - 'Monday: 11:00 AM â€“ 5:00 PM'
+      - 'Tuesday: 11:00 AM â€“ 5:00 PM'
+      - 'Wednesday: 11:00 AM â€“ 5:00 PM'
+      - 'Thursday: 11:00 AM â€“ 5:00 PM'
+      - 'Friday: 11:00 AM â€“ 5:00 PM'
+      - 'Saturday: 11:00 AM â€“ 5:00 PM'
+      - 'Sunday: 11:00 AM â€“ 5:00 PM'
+    website: http://chihulygardenandglass.com/
+  - formatted_address: 325 5th Ave N, Seattle, WA 98109, USA
+    formatted_phone_number: (206) 770-2700
+    geometry:
+      location:
+        lat: 47.6214824
+        lng: -122.3481245
+    name: Museum of Pop Culture
     opening_hours:
       open_now: false
       periods:
@@ -94,368 +735,57 @@ Atlanta:
           time: '1800'
         open:
           day: 0
-          time: '1200'
-      - close:
-          day: 1
-          time: '1800'
-        open:
-          day: 1
-          time: '1200'
+          time: 0900
       - close:
           day: 2
-          time: '1800'
+          time: '1600'
         open:
           day: 2
-          time: '1200'
-      - close:
-          day: 3
-          time: '1800'
-        open:
-          day: 3
-          time: '1200'
-      - close:
-          day: 4
-          time: '1800'
-        open:
-          day: 4
-          time: '1200'
-      - close:
-          day: 5
-          time: '1800'
-        open:
-          day: 5
-          time: '1200'
+          time: 0900
       - close:
           day: 6
           time: '1800'
         open:
           day: 6
-          time: '1200'
+          time: 0900
       weekday_text:
-      - 'Monday: 12:00 – 6:00 PM'
-      - 'Tuesday: 12:00 – 6:00 PM'
-      - 'Wednesday: 12:00 – 6:00 PM'
-      - 'Thursday: 12:00 – 6:00 PM'
-      - 'Friday: 12:00 – 6:00 PM'
-      - 'Saturday: 12:00 – 6:00 PM'
-      - 'Sunday: 12:00 – 6:00 PM'
-    website: http://www.sixflags.com/whitewater/
-  - formatted_address: 5400 Brook Hollow Pkwy, Norcross, GA 30071, USA
-    formatted_phone_number: (770) 416-7630
-    geometry:
-      location:
-        lat: 33.925233
-        lng: -84.18507699999999
-    name: Malibu Norcross
-    opening_hours:
-      open_now: true
-      periods:
-      - close:
-          day: 0
-          time: '2100'
-        open:
-          day: 0
-          time: '1200'
-      - close:
-          day: 1
-          time: '2100'
-        open:
-          day: 1
-          time: '1200'
-      - close:
-          day: 2
-          time: '2100'
-        open:
-          day: 2
-          time: '1200'
-      - close:
-          day: 3
-          time: '2100'
-        open:
-          day: 3
-          time: '1200'
-      - close:
-          day: 4
-          time: '2100'
-        open:
-          day: 4
-          time: '1200'
-      - close:
-          day: 5
-          time: '2100'
-        open:
-          day: 5
-          time: '1200'
-      - close:
-          day: 6
-          time: '2200'
-        open:
-          day: 6
-          time: '1200'
-      weekday_text:
-      - 'Monday: 12:00 – 9:00 PM'
-      - 'Tuesday: 12:00 – 9:00 PM'
-      - 'Wednesday: 12:00 – 9:00 PM'
-      - 'Thursday: 12:00 – 9:00 PM'
-      - 'Friday: 12:00 – 9:00 PM'
-      - 'Saturday: 12:00 – 10:00 PM'
-      - 'Sunday: 12:00 – 9:00 PM'
-    website: http://www.malibunorcross.com/
-  - formatted_address: 575 Riverside Rd, Roswell, GA 30075, USA
-    formatted_phone_number: (770) 594-6158
-    geometry:
-      location:
-        lat: 34.0063491
-        lng: -84.3462583
-    name: Riverside Sprayground
-    website: https://www.roswellgov.com/sprayground
-  - formatted_address: 213 Haygood Ave, Atlanta, GA 30315, USA
-    formatted_phone_number: (404) 546-6788
-    geometry:
-      location:
-        lat: 33.7253417
-        lng: -84.3822749
-    name: D.H. Stanton Sprayground
-    opening_hours:
-      open_now: true
-      periods:
-      - close:
-          day: 0
-          time: '2000'
-        open:
-          day: 0
-          time: '1000'
-      - close:
-          day: 1
-          time: '2000'
-        open:
-          day: 1
-          time: '1000'
-      - close:
-          day: 2
-          time: '2000'
-        open:
-          day: 2
-          time: '1000'
-      - close:
-          day: 3
-          time: '2000'
-        open:
-          day: 3
-          time: '1000'
-      - close:
-          day: 4
-          time: '2000'
-        open:
-          day: 4
-          time: '1000'
-      - close:
-          day: 5
-          time: '2000'
-        open:
-          day: 5
-          time: '1000'
-      - close:
-          day: 6
-          time: '2000'
-        open:
-          day: 6
-          time: '1000'
-      weekday_text:
-      - 'Monday: 10:00 AM – 8:00 PM'
-      - 'Tuesday: 10:00 AM – 8:00 PM'
-      - 'Wednesday: 10:00 AM – 8:00 PM'
-      - 'Thursday: 10:00 AM – 8:00 PM'
-      - 'Friday: 10:00 AM – 8:00 PM'
-      - 'Saturday: 10:00 AM – 8:00 PM'
-      - 'Sunday: 10:00 AM – 8:00 PM'
-    website: http://www.atlantaga.gov/index.aspx?page=971
-  - formatted_address: 1052 Martin St SE, Atlanta, GA 30315, USA
-    formatted_phone_number: (404) 546-6788
-    geometry:
-      location:
-        lat: 33.725316
-        lng: -84.3822935
-    name: D.H. Stanton Sprayground
-    website: http://beltline.org/parks/d-h-stanton/
-  - formatted_address: 800 Dallas St NE, Atlanta, GA 30308, USA
-    formatted_phone_number: (404) 546-6757
-    geometry:
-      location:
-        lat: 33.7662759
-        lng: -84.3651241
-    name: Historic Fourth Ward Park Splash Pad
-    opening_hours:
-      open_now: true
-      periods:
-      - close:
-          day: 0
-          time: '2000'
-        open:
-          day: 0
-          time: '1000'
-      - close:
-          day: 1
-          time: '2000'
-        open:
-          day: 1
-          time: '1000'
-      - close:
-          day: 2
-          time: '2000'
-        open:
-          day: 2
-          time: '1000'
-      - close:
-          day: 3
-          time: '2000'
-        open:
-          day: 3
-          time: '1000'
-      - close:
-          day: 4
-          time: '2000'
-        open:
-          day: 4
-          time: '1000'
-      - close:
-          day: 5
-          time: '2000'
-        open:
-          day: 5
-          time: '1000'
-      - close:
-          day: 6
-          time: '2000'
-        open:
-          day: 6
-          time: '1000'
-      weekday_text:
-      - 'Monday: 10:00 AM – 8:00 PM'
-      - 'Tuesday: 10:00 AM – 8:00 PM'
-      - 'Wednesday: 10:00 AM – 8:00 PM'
-      - 'Thursday: 10:00 AM – 8:00 PM'
-      - 'Friday: 10:00 AM – 8:00 PM'
-      - 'Saturday: 10:00 AM – 8:00 PM'
-      - 'Sunday: 10:00 AM – 8:00 PM'
-    website: http://www.h4wpc.org/
-  - formatted_address: 275 Riverside Pkwy, Austell, GA 30168, USA
-    formatted_phone_number: (770) 739-3400
-    geometry:
-      location:
-        lat: 33.7701192
-        lng: -84.54828169999999
-    name: Dare Devil Dive
-    website: https://www.sixflags.com/overgeorgia/attractions/dare-devil-dive
-  - formatted_address: Austell, GA 30168, USA
-    geometry:
-      location:
-        lat: 33.7690507
-        lng: -84.5496455
-    name: Lost and Found
-    website: http://sixflags.com/
-  - formatted_address: Austell, GA 30168, USA
-    formatted_phone_number: (770) 739-3400
-    geometry:
-      location:
-        lat: 33.7652294
-        lng: -84.5522854
-    name: Paradise Island
-    website: http://sixflags.com/
-  - formatted_address: 275 Riverside Pkwy, Austell, GA 30168, USA
-    formatted_phone_number: (770) 739-3400
-    geometry:
-      location:
-        lat: 33.7684378
-        lng: -84.5521522
-    name: Dahlonega Mine Train
-    opening_hours:
-      open_now: false
-      periods:
-      - close:
-          day: 1
-          time: '1500'
-        open:
-          day: 1
-          time: '1100'
-      - close:
-          day: 2
-          time: '1500'
-        open:
-          day: 2
-          time: '1100'
-      - close:
-          day: 3
-          time: '1500'
-        open:
-          day: 3
-          time: '1100'
-      - close:
-          day: 4
-          time: '1500'
-        open:
-          day: 4
-          time: '1100'
-      - close:
-          day: 6
-          time: '1500'
-        open:
-          day: 6
-          time: '1100'
-      weekday_text:
-      - 'Monday: 11:00 AM – 3:00 PM'
-      - 'Tuesday: 11:00 AM – 3:00 PM'
-      - 'Wednesday: 11:00 AM – 3:00 PM'
-      - 'Thursday: 11:00 AM – 3:00 PM'
+      - 'Monday: Closed'
+      - 'Tuesday: Closed'
+      - 'Wednesday: Closed'
+      - 'Thursday: Closed'
       - 'Friday: Closed'
-      - 'Saturday: 11:00 AM – 3:00 PM'
-      - 'Sunday: Closed'
-    website: https://www.sixflags.com/overgeorgia/attractions/dahlonega-mine-train
-  - formatted_address: 6 Flags Wy SW, Austell, GA 30168, USA
-    formatted_phone_number: (770) 739-3400
+      - 'Saturday: 10:00 AM â€“ 6:00 PM'
+      - 'Sunday: 10:00 AM â€“ 6:00 PM'
+    website: http://www.mopop.org/
+  - formatted_address: 305 Harrison St, Seattle, WA 98109, USA
+    formatted_phone_number: (206) 684-7200
     geometry:
       location:
-        lat: 33.7643203
-        lng: -84.5529785
-    name: Hurricane Harbor
+        lat: 47.62191259999999
+        lng: -122.3516787
+    name: Seattle Center
+    website: http://www.seattlecenter.com/
+  - formatted_address: 1000 4th Ave, Seattle, WA 98104, USA
+    formatted_phone_number: (206) 386-4636
+    geometry:
+      location:
+        lat: 47.6067006
+        lng: -122.3325009
+    name: Seattle Public Library-Central Library
     opening_hours:
       open_now: false
       periods:
       - close:
-          day: 0
-          time: '1800'
-        open:
-          day: 0
-          time: '1200'
-      - close:
-          day: 1
-          time: '1800'
-        open:
-          day: 1
-          time: '1200'
-      - close:
           day: 2
           time: '1800'
         open:
           day: 2
           time: '1200'
       - close:
-          day: 3
-          time: '1800'
-        open:
-          day: 3
-          time: '1200'
-      - close:
           day: 4
           time: '1800'
         open:
           day: 4
-          time: '1200'
-      - close:
-          day: 5
-          time: '1800'
-        open:
-          day: 5
           time: '1200'
       - close:
           day: 6
@@ -464,36 +794,29 @@ Atlanta:
           day: 6
           time: '1200'
       weekday_text:
-      - 'Monday: 12:00 – 6:00 PM'
-      - 'Tuesday: 12:00 – 6:00 PM'
-      - 'Wednesday: 12:00 – 6:00 PM'
-      - 'Thursday: 12:00 – 6:00 PM'
-      - 'Friday: 12:00 – 6:00 PM'
-      - 'Saturday: 12:00 – 6:00 PM'
-      - 'Sunday: 12:00 – 6:00 PM'
-    website: https://www.sixflags.com/overgeorgia/hurricane-harbor/overview
-  - formatted_address: Austell, GA 30168, USA
-    formatted_phone_number: (770) 739-3400
+      - 'Monday: Closed'
+      - 'Tuesday: 12:00 â€“ 6:00 PM'
+      - 'Wednesday: Closed'
+      - 'Thursday: 12:00 â€“ 6:00 PM'
+      - 'Friday: Closed'
+      - 'Saturday: 12:00 â€“ 6:00 PM'
+      - 'Sunday: Closed'
+    website: https://www.spl.org/hours-and-locations/central-library
+  - formatted_address: 6046 West Lake Sammamish Pkwy NE, Redmond, WA 98052, USA
+    formatted_phone_number: (206) 477-7275
     geometry:
       location:
-        lat: 33.76434269999999
-        lng: -84.5533884
-    name: Calypso Bay Wave Pool
-    website: http://sixflags.com/
-  - formatted_address: 2696 Peachtree Square, Atlanta, GA 30360, USA
-    formatted_phone_number: (770) 457-3000
+        lat: 47.6594346
+        lng: -122.1087919
+    name: Marymoor Park
+    website: https://www.kingcounty.gov/services/parks-recreation/parks/parks-and-natural-lands/popular-parks/marymoor.aspx
+  - formatted_address: 5500 Phinney Ave N, Seattle, WA 98103, USA
+    formatted_phone_number: (206) 548-2500
     geometry:
       location:
-        lat: 33.9244011
-        lng: -84.2758059
-    name: H2Ofun a Wm. Hobbs Ltd, company
-  - formatted_address: 2341 Peeler Rd, Dunwoody, GA 30338, USA
-    formatted_phone_number: (770) 365-0356
-    geometry:
-      location:
-        lat: 33.9355022
-        lng: -84.3010942
-    name: Treetop Quest Dunwoody
+        lat: 47.6685161
+        lng: -122.3543444
+    name: Woodland Park Zoo
     opening_hours:
       open_now: false
       periods:
@@ -502,10 +825,34 @@ Atlanta:
           time: '1600'
         open:
           day: 0
-          time: '1000'
+          time: 0930
+      - close:
+          day: 1
+          time: '1600'
+        open:
+          day: 1
+          time: 0930
+      - close:
+          day: 2
+          time: '1600'
+        open:
+          day: 2
+          time: 0930
+      - close:
+          day: 3
+          time: '1300'
+        open:
+          day: 3
+          time: 0930
+      - close:
+          day: 4
+          time: '1600'
+        open:
+          day: 4
+          time: 0930
       - close:
           day: 5
-          time: '1400'
+          time: '1600'
         open:
           day: 5
           time: 0930
@@ -514,23 +861,88 @@ Atlanta:
           time: '1600'
         open:
           day: 6
-          time: '1000'
+          time: 0930
+      weekday_text:
+      - 'Monday: 9:30 AM â€“ 4:00 PM'
+      - 'Tuesday: 9:30 AM â€“ 4:00 PM'
+      - 'Wednesday: 9:30 AM â€“ 1:00 PM'
+      - 'Thursday: 9:30 AM â€“ 4:00 PM'
+      - 'Friday: 9:30 AM â€“ 4:00 PM'
+      - 'Saturday: 9:30 AM â€“ 4:00 PM'
+      - 'Sunday: 9:30 AM â€“ 4:00 PM'
+    website: http://www.zoo.org/
+  - formatted_address: Aurora Ave N, Seattle, WA 98103, USA
+    formatted_phone_number: (360) 705-7000
+    geometry:
+      location:
+        lat: 47.6467948
+        lng: -122.3473586
+    name: Aurora Bridge
+    opening_hours:
+      open_now: true
+      periods:
+      - open:
+          day: 0
+          time: '0000'
+      weekday_text:
+      - 'Monday: Open 24 hours'
+      - 'Tuesday: Open 24 hours'
+      - 'Wednesday: Open 24 hours'
+      - 'Thursday: Open 24 hours'
+      - 'Friday: Open 24 hours'
+      - 'Saturday: Open 24 hours'
+      - 'Sunday: Open 24 hours'
+    website: http://www.wsdot.wa.gov/
+  - formatted_address: 704 Terry Ave, Seattle, WA 98104, USA
+    formatted_phone_number: (206) 622-9250
+    geometry:
+      location:
+        lat: 47.6074789
+        lng: -122.324545
+    name: Frye Art Museum
+    opening_hours:
+      open_now: false
+      periods:
+      - close:
+          day: 0
+          time: '1700'
+        open:
+          day: 0
+          time: '1100'
+      - close:
+          day: 4
+          time: '1700'
+        open:
+          day: 4
+          time: '1100'
+      - close:
+          day: 5
+          time: '1700'
+        open:
+          day: 5
+          time: '1100'
+      - close:
+          day: 6
+          time: '1700'
+        open:
+          day: 6
+          time: '1100'
       weekday_text:
       - 'Monday: Closed'
       - 'Tuesday: Closed'
       - 'Wednesday: Closed'
-      - 'Thursday: Closed'
-      - 'Friday: 9:30 AM – 2:00 PM'
-      - 'Saturday: 10:00 AM – 4:00 PM'
-      - 'Sunday: 10:00 AM – 4:00 PM'
-    website: http://www.treetopquest.com/
-  - formatted_address: 6040 Unity Dr ste c, Norcross, GA 30071, USA
-    formatted_phone_number: (470) 294-0480
+      - 'Thursday: 11:00 AM â€“ 5:00 PM'
+      - 'Friday: 11:00 AM â€“ 5:00 PM'
+      - 'Saturday: 11:00 AM â€“ 5:00 PM'
+      - 'Sunday: 11:00 AM â€“ 5:00 PM'
+    website: https://fryemuseum.org/
+  - formatted_address: 3801 Discovery Park Blvd, Seattle, WA 98199, USA
+    formatted_phone_number: (206) 386-4236
     geometry:
       location:
-        lat: 33.91408620000001
-        lng: -84.2052344
-    name: Amazing Escape
+        lat: 47.65730199999999
+        lng: -122.405496
+    name: Discovery Park
     opening_hours:
       open_now: true
       periods:
@@ -539,1450 +951,368 @@ Atlanta:
           time: '2000'
         open:
           day: 0
-          time: '1200'
+          time: '0400'
       - close:
           day: 1
           time: '2000'
         open:
           day: 1
-          time: '1200'
+          time: '0400'
       - close:
           day: 2
           time: '2000'
         open:
           day: 2
-          time: '1200'
+          time: '0400'
       - close:
           day: 3
           time: '2000'
         open:
           day: 3
-          time: '1200'
+          time: '0400'
       - close:
           day: 4
           time: '2000'
         open:
           day: 4
-          time: '1200'
+          time: '0400'
       - close:
           day: 5
-          time: '2300'
+          time: '2000'
         open:
           day: 5
-          time: '1200'
+          time: '0400'
       - close:
           day: 6
-          time: '2300'
+          time: '2000'
         open:
           day: 6
-          time: '1200'
+          time: '0400'
       weekday_text:
-      - 'Monday: 12:00 – 8:00 PM'
-      - 'Tuesday: 12:00 – 8:00 PM'
-      - 'Wednesday: 12:00 – 8:00 PM'
-      - 'Thursday: 12:00 – 8:00 PM'
-      - 'Friday: 12:00 – 11:00 PM'
-      - 'Saturday: 12:00 – 11:00 PM'
-      - 'Sunday: 12:00 – 8:00 PM'
-    website: https://www.amazingescape.com/
-  - formatted_address: 1063 Rockbridge Rd SW, Stone Mountain, GA 30087, USA
-    formatted_phone_number: (678) 277-0870
+      - 'Monday: 4:00 AM â€“ 8:00 PM'
+      - 'Tuesday: 4:00 AM â€“ 8:00 PM'
+      - 'Wednesday: 4:00 AM â€“ 8:00 PM'
+      - 'Thursday: 4:00 AM â€“ 8:00 PM'
+      - 'Friday: 4:00 AM â€“ 8:00 PM'
+      - 'Saturday: 4:00 AM â€“ 8:00 PM'
+      - 'Sunday: 4:00 AM â€“ 8:00 PM'
+    website: http://www.seattle.gov/parks/find/parks/discovery-park
+  - formatted_address: 2101 N Northlake Way, Seattle, WA 98103, USA
+    formatted_phone_number: (206) 684-4075
     geometry:
       location:
-        lat: 33.84451649999999
-        lng: -84.1334524
-    name: Mountain Park Aquatic Center & Activity Building
+        lat: 47.6456308
+        lng: -122.3343532
+    name: Gas Works Park
     opening_hours:
-      open_now: false
+      open_now: true
       periods:
       - close:
           day: 0
-          time: '1800'
+          time: '2200'
         open:
           day: 0
-          time: '1300'
+          time: '0600'
       - close:
           day: 1
-          time: '2100'
+          time: '2200'
         open:
           day: 1
           time: '0600'
       - close:
           day: 2
-          time: '2100'
+          time: '2200'
         open:
           day: 2
-          time: 0900
+          time: '0600'
       - close:
           day: 3
-          time: '2100'
+          time: '2200'
         open:
           day: 3
           time: '0600'
       - close:
           day: 4
-          time: '2100'
+          time: '2200'
         open:
           day: 4
-          time: 0900
+          time: '0600'
       - close:
           day: 5
-          time: '1800'
+          time: '2200'
         open:
           day: 5
-          time: 0800
+          time: '0600'
       - close:
           day: 6
-          time: '1800'
+          time: '2200'
         open:
           day: 6
-          time: '1200'
+          time: '0600'
       weekday_text:
-      - 'Monday: 6:00 AM – 9:00 PM'
-      - 'Tuesday: 9:00 AM – 9:00 PM'
-      - 'Wednesday: 6:00 AM – 9:00 PM'
-      - 'Thursday: 9:00 AM – 9:00 PM'
-      - 'Friday: 8:00 AM – 6:00 PM'
-      - 'Saturday: 12:00 – 6:00 PM'
-      - 'Sunday: 1:00 – 6:00 PM'
-    website: https://www.gwinnettcounty.com/portal/gwinnett/Departments/CommunityServices/ParksandRecreation/OurParksandFacilities/GuidetoYourParks/MountainParkAquaticCenter
-  - formatted_address: 1675 Hwy 85 North, Fayetteville, GA 30214, USA
-    formatted_phone_number: (407) 363-3867
+      - 'Monday: 6:00 AM â€“ 10:00 PM'
+      - 'Tuesday: 6:00 AM â€“ 10:00 PM'
+      - 'Wednesday: 6:00 AM â€“ 10:00 PM'
+      - 'Thursday: 6:00 AM â€“ 10:00 PM'
+      - 'Friday: 6:00 AM â€“ 10:00 PM'
+      - 'Saturday: 6:00 AM â€“ 10:00 PM'
+      - 'Sunday: 6:00 AM â€“ 10:00 PM'
+    website: http://www.seattle.gov/parks/find/parks/gas-works-park
+  - formatted_address: 2901 Western Ave, Seattle, WA 98121, USA
+    formatted_phone_number: (206) 654-3100
     geometry:
       location:
-        lat: 33.4963312
-        lng: -84.42797259999999
-    name: Fun Spot America Theme Parks - Atlanta
+        lat: 47.6166028
+        lng: -122.3553167
+    name: Olympic Sculpture Park
+    website: http://www.seattleartmuseum.org/visit/olympic-sculpture-park
+  - formatted_address: 8011 Fauntleroy Way SW, Seattle, WA 98136, USA
+    formatted_phone_number: (206) 684-4075
+    geometry:
+      location:
+        lat: 47.53057099999999
+        lng: -122.395992
+    name: Lincoln Park
+    opening_hours:
+      open_now: false
+      periods:
+      - close:
+          day: 0
+          time: '2000'
+        open:
+          day: 0
+          time: '0400'
+      - close:
+          day: 1
+          time: '2000'
+        open:
+          day: 1
+          time: '0400'
+      - close:
+          day: 2
+          time: '2000'
+        open:
+          day: 2
+          time: '0400'
+      - close:
+          day: 3
+          time: '2000'
+        open:
+          day: 3
+          time: '0400'
+      - close:
+          day: 4
+          time: '2000'
+        open:
+          day: 4
+          time: '0400'
+      - close:
+          day: 5
+          time: '2000'
+        open:
+          day: 5
+          time: '0400'
+      - close:
+          day: 6
+          time: '2000'
+        open:
+          day: 6
+          time: '0400'
+      weekday_text:
+      - 'Monday: 4:00 AM â€“ 8:00 PM'
+      - 'Tuesday: 4:00 AM â€“ 8:00 PM'
+      - 'Wednesday: 4:00 AM â€“ 8:00 PM'
+      - 'Thursday: 4:00 AM â€“ 8:00 PM'
+      - 'Friday: 4:00 AM â€“ 8:00 PM'
+      - 'Saturday: 4:00 AM â€“ 8:00 PM'
+      - 'Sunday: 4:00 AM â€“ 8:00 PM'
+    website: http://www.seattle.gov/parks/find/parks/lincoln-park
+  - formatted_address: 8498 Seaview Pl NW, Seattle, WA 98117, USA
+    formatted_phone_number: (206) 684-4075
+    geometry:
+      location:
+        lat: 47.6917517
+        lng: -122.4030912
+    name: Golden Gardens Park
+    website: http://www.seattle.gov/parks/find/parks/golden-gardens-park
+  - formatted_address: 1400 E Prospect St, Seattle, WA 98112, USA
+    formatted_phone_number: (206) 654-3100
+    geometry:
+      location:
+        lat: 47.6302814
+        lng: -122.3142336
+    name: Asian Art Museum
+    website: http://www.seattleartmuseum.org/
+  - formatted_address: 1101 Alaskan Way Pier 55, Suite 201, Seattle, WA 98101, USA
+    formatted_phone_number: (206) 623-1445
+    geometry:
+      location:
+        lat: 47.60505999999999
+        lng: -122.340267
+    name: Argosy Cruises - Seattle Waterfront
+    website: https://www.argosycruises.com/?utm_source=local&utm_medium=organic&utm_campaign=gmb
+  - formatted_address: 4300 15th Ave NE, Seattle, WA 98105, USA
+    formatted_phone_number: (206) 543-7907
+    geometry:
+      location:
+        lat: 47.660332
+        lng: -122.3115487
+    name: Burke Museum of Natural History and Culture
+    opening_hours:
+      open_now: false
+      periods:
+      - close:
+          day: 0
+          time: '1700'
+        open:
+          day: 0
+          time: '1000'
+      - close:
+          day: 2
+          time: '1700'
+        open:
+          day: 2
+          time: '1000'
+      - close:
+          day: 3
+          time: '1700'
+        open:
+          day: 3
+          time: '1000'
+      - close:
+          day: 4
+          time: '1700'
+        open:
+          day: 4
+          time: '1000'
+      - close:
+          day: 5
+          time: '1700'
+        open:
+          day: 5
+          time: '1000'
+      - close:
+          day: 6
+          time: '1700'
+        open:
+          day: 6
+          time: '1000'
+      weekday_text:
+      - 'Monday: Closed'
+      - 'Tuesday: 10:00 AM â€“ 5:00 PM'
+      - 'Wednesday: 10:00 AM â€“ 5:00 PM'
+      - 'Thursday: 10:00 AM â€“ 5:00 PM'
+      - 'Friday: 10:00 AM â€“ 5:00 PM'
+      - 'Saturday: 10:00 AM â€“ 5:00 PM'
+      - 'Sunday: 10:00 AM â€“ 5:00 PM'
+    website: http://www.burkemuseum.org/
+  - formatted_address: 5900 Lake Washington Blvd S, Seattle, WA 98118, USA
+    formatted_phone_number: (206) 684-4396
+    geometry:
+      location:
+        lat: 47.5496046
+        lng: -122.2573574
+    name: Seward Park
+    opening_hours:
+      open_now: false
+      periods:
+      - close:
+          day: 0
+          time: '2000'
+        open:
+          day: 0
+          time: '0600'
+      - close:
+          day: 1
+          time: '2000'
+        open:
+          day: 1
+          time: '0600'
+      - close:
+          day: 2
+          time: '2000'
+        open:
+          day: 2
+          time: '0600'
+      - close:
+          day: 3
+          time: '2000'
+        open:
+          day: 3
+          time: '0600'
+      - close:
+          day: 4
+          time: '2000'
+        open:
+          day: 4
+          time: '0600'
+      - close:
+          day: 5
+          time: '2000'
+        open:
+          day: 5
+          time: '0600'
+      - close:
+          day: 6
+          time: '2000'
+        open:
+          day: 6
+          time: '0600'
+      weekday_text:
+      - 'Monday: 6:00 AM â€“ 8:00 PM'
+      - 'Tuesday: 6:00 AM â€“ 8:00 PM'
+      - 'Wednesday: 6:00 AM â€“ 8:00 PM'
+      - 'Thursday: 6:00 AM â€“ 8:00 PM'
+      - 'Friday: 6:00 AM â€“ 8:00 PM'
+      - 'Saturday: 6:00 AM â€“ 8:00 PM'
+      - 'Sunday: 6:00 AM â€“ 8:00 PM'
+    website: http://www.seattle.gov/parks/find/parks/seward-park
+  - formatted_address: 8415 Paine Field Blvd, Mukilteo, WA 98275, USA
+    formatted_phone_number: (800) 464-1476
+    geometry:
+      location:
+        lat: 47.9212293
+        lng: -122.2901598
+    name: Boeing Future of Flightâ€‹
     opening_hours:
       open_now: true
       periods:
       - close:
           day: 0
-          time: '2200'
+          time: '1700'
         open:
           day: 0
-          time: '1200'
+          time: 0900
       - close:
-          day: 5
+          day: 1
           time: '2200'
         open:
-          day: 5
-          time: '1600'
+          day: 1
+          time: 0900
       - close:
-          day: 6
+          day: 4
           time: '2200'
         open:
+          day: 4
+          time: 0900
+      - close:
           day: 6
-          time: '1200'
+          time: '0000'
+        open:
+          day: 5
+          time: 0900
+      - close:
+          day: 6
+          time: '1700'
+        open:
+          day: 6
+          time: 0900
       weekday_text:
-      - 'Monday: Closed'
+      - 'Monday: 9:00 AM â€“ 5:00 PM'
       - 'Tuesday: Closed'
       - 'Wednesday: Closed'
-      - 'Thursday: Closed'
-      - 'Friday: 4:00 – 10:00 PM'
-      - 'Saturday: 12:00 – 10:00 PM'
-      - 'Sunday: 12:00 – 10:00 PM'
-    website: http://funspotamericaatlanta.com/
-  food:
-  - formatted_address: Atlanta, GA, USA
-    geometry:
-      location:
-        lat: 33.7489954
-        lng: -84.3879824
-    name: Atlanta
-    website: http://www.atlantaga.gov/
-  - formatted_address: 134 Peachtree St NE, Atlanta, GA 30303, USA
-    formatted_phone_number: (404) 522-0950
-    geometry:
-      location:
-        lat: 33.75726940000001
-        lng: -84.3882035
-    name: Residence Inn by Marriott Atlanta Downtown
-    opening_hours:
-      open_now: true
-      periods:
-      - open:
-          day: 0
-          time: '0000'
-      weekday_text:
-      - 'Monday: Open 24 hours'
-      - 'Tuesday: Open 24 hours'
-      - 'Wednesday: Open 24 hours'
-      - 'Thursday: Open 24 hours'
-      - 'Friday: Open 24 hours'
-      - 'Saturday: Open 24 hours'
-      - 'Sunday: Open 24 hours'
-    website: https://www.marriott.com/hotels/travel/atldt-residence-inn-atlanta-downtown/?scid=bb1a189a-fec3-4d19-a255-54ba596febe2&y_source=1_Mzg4OTg3Mi03MTUtbG9jYXRpb24uZ29vZ2xlX3dlYnNpdGVfb3ZlcnJpZGU%3D
-  - formatted_address: 110 Marietta St NW, Atlanta, GA 30303, USA
-    formatted_phone_number: (404) 521-2250
-    geometry:
-      location:
-        lat: 33.7569647
-        lng: -84.3929763
-    name: Glenn Hotel, Autograph Collection
-    website: https://www.marriott.com/hotels/travel/atlak-glenn-hotel-autograph-collection/?scid=bb1a189a-fec3-4d19-a255-54ba596febe2&y_source=1_Mzg4OTc5Mi03MTUtbG9jYXRpb24uZ29vZ2xlX3dlYnNpdGVfb3ZlcnJpZGU%3D
-  - formatted_address: 111 Cone St NW, Atlanta, GA 30303, USA
-    formatted_phone_number: (404) 524-7000
-    geometry:
-      location:
-        lat: 33.7578899
-        lng: -84.3898918
-    name: Holiday Inn Express & Suites Atlanta Downtown
-    opening_hours:
-      open_now: true
-      periods:
-      - open:
-          day: 0
-          time: '0000'
-      weekday_text:
-      - 'Monday: Open 24 hours'
-      - 'Tuesday: Open 24 hours'
-      - 'Wednesday: Open 24 hours'
-      - 'Thursday: Open 24 hours'
-      - 'Friday: Open 24 hours'
-      - 'Saturday: Open 24 hours'
-      - 'Sunday: Open 24 hours'
-    website: https://www.ihg.com/holidayinnexpress/hotels/us/en/atlanta/atlws/hoteldetail?cm_mmc=GoogleMaps-_-EX-_-US-_-ATLWS
-  - formatted_address: 133 Carnegie Way NW, Atlanta, GA 30303, USA
-    formatted_phone_number: (404) 222-2416
-    geometry:
-      location:
-        lat: 33.7582034
-        lng: -84.3880886
-    name: Courtyard by Marriott Atlanta Downtown
-    opening_hours:
-      open_now: true
-      periods:
-      - open:
-          day: 0
-          time: '0000'
-      weekday_text:
-      - 'Monday: Open 24 hours'
-      - 'Tuesday: Open 24 hours'
-      - 'Wednesday: Open 24 hours'
-      - 'Thursday: Open 24 hours'
-      - 'Friday: Open 24 hours'
-      - 'Saturday: Open 24 hours'
-      - 'Sunday: Open 24 hours'
-    website: https://www.marriott.com/hotels/travel/atldo-courtyard-atlanta-downtown/?scid=bb1a189a-fec3-4d19-a255-54ba596febe2&y_source=1_NjUwMTA3LTcxNS1sb2NhdGlvbi5nb29nbGVfd2Vic2l0ZV9vdmVycmlkZQ%3D%3D
-  - formatted_address: 176 Peachtree St NW, Atlanta, GA 30303, USA
-    formatted_phone_number: (404) 523-5155
-    geometry:
-      location:
-        lat: 33.7583217
-        lng: -84.38785700000001
-    name: Ellis Hotel, Atlanta, a Tribute Portfolio Hotel
-    opening_hours:
-      open_now: true
-      periods:
-      - open:
-          day: 0
-          time: '0000'
-      weekday_text:
-      - 'Monday: Open 24 hours'
-      - 'Tuesday: Open 24 hours'
-      - 'Wednesday: Open 24 hours'
-      - 'Thursday: Open 24 hours'
-      - 'Friday: Open 24 hours'
-      - 'Saturday: Open 24 hours'
-      - 'Sunday: Open 24 hours'
-    website: https://www.marriott.com/hotels/travel/atlte-ellis-hotel-atlanta-a-tribute-portfolio-hotel/?scid=bb1a189a-fec3-4d19-a255-54ba596febe2&y_source=1_MTA4MTA3NjktNzE1LWxvY2F0aW9uLmdvb2dsZV93ZWJzaXRlX292ZXJyaWRl
-  - formatted_address: 181 Peachtree St NE, Atlanta, GA 30303, USA
-    formatted_phone_number: (404) 659-0400
-    geometry:
-      location:
-        lat: 33.7585793
-        lng: -84.3870657
-    name: The Ritz-Carlton, Atlanta
-    opening_hours:
-      open_now: true
-      periods:
-      - open:
-          day: 0
-          time: '0000'
-      weekday_text:
-      - 'Monday: Open 24 hours'
-      - 'Tuesday: Open 24 hours'
-      - 'Wednesday: Open 24 hours'
-      - 'Thursday: Open 24 hours'
-      - 'Friday: Open 24 hours'
-      - 'Saturday: Open 24 hours'
-      - 'Sunday: Open 24 hours'
-    website: https://www.ritzcarlton.com/en/hotels/georgia/atlanta?scid=bb1a189a-fec3-4d19-a255-54ba596febe2&y_source=1_NTc3MjUzLTcxNS1sb2NhdGlvbi5nb29nbGVfd2Vic2l0ZV9vdmVycmlkZQ==
-  - formatted_address: 161 Ted Turner Dr NW, Atlanta, GA 30303, USA
-    formatted_phone_number: (404) 589-1111
-    geometry:
-      location:
-        lat: 33.7588527
-        lng: -84.3898268
-    name: Hampton Inn & Suites Atlanta-Downtown
-    opening_hours:
-      open_now: true
-      periods:
-      - open:
-          day: 0
-          time: '0000'
-      weekday_text:
-      - 'Monday: Open 24 hours'
-      - 'Tuesday: Open 24 hours'
-      - 'Wednesday: Open 24 hours'
-      - 'Thursday: Open 24 hours'
-      - 'Friday: Open 24 hours'
-      - 'Saturday: Open 24 hours'
-      - 'Sunday: Open 24 hours'
-    website: https://www.hilton.com/en/hotels/atlhshx-hampton-suites-atlanta-downtown/?SEO_id=GMB-HX-ATLHSHX&y_source=1_MjA4MjU2My03MTUtbG9jYXRpb24uZ29vZ2xlX3dlYnNpdGVfb3ZlcnJpZGU%3D
-  - formatted_address: 160 Ted Turner Dr NW, Atlanta, GA 30303, USA
-    formatted_phone_number: (404) 688-8600
-    geometry:
-      location:
-        lat: 33.7593077
-        lng: -84.3899184
-    name: The American Hotel Atlanta Downtown - a DoubleTree by Hilton
-    opening_hours:
-      open_now: true
-      periods:
-      - open:
-          day: 0
-          time: '0000'
-      weekday_text:
-      - 'Monday: Open 24 hours'
-      - 'Tuesday: Open 24 hours'
-      - 'Wednesday: Open 24 hours'
-      - 'Thursday: Open 24 hours'
-      - 'Friday: Open 24 hours'
-      - 'Saturday: Open 24 hours'
-      - 'Sunday: Open 24 hours'
-    website: https://www.hilton.com/en/hotels/atlssdt-the-american-hotel-atlanta-downtown/?SEO_id=GMB-DT-ATLSSDT&y_source=1_MTM3MjUzMS03MTUtbG9jYXRpb24uZ29vZ2xlX3dlYnNpdGVfb3ZlcnJpZGU%3D
-  - formatted_address: 165 Courtland St NE, Atlanta, GA 30303, USA
-    formatted_phone_number: (404) 659-6500
-    geometry:
-      location:
-        lat: 33.75899399999999
-        lng: -84.383111
-    name: Sheraton Atlanta Hotel
-    website: https://www.marriott.com/hotels/travel/atlxs-sheraton-atlanta-hotel/?scid=bb1a189a-fec3-4d19-a255-54ba596febe2
-  - formatted_address: 265 Peachtree St NE, Atlanta, GA 30303, USA
-    formatted_phone_number: (404) 577-1234
-    geometry:
-      location:
-        lat: 33.7613755
-        lng: -84.38735559999999
-    name: Hyatt Regency Atlanta
-    opening_hours:
-      open_now: true
-      periods:
-      - open:
-          day: 0
-          time: '0000'
-      weekday_text:
-      - 'Monday: Open 24 hours'
-      - 'Tuesday: Open 24 hours'
-      - 'Wednesday: Open 24 hours'
-      - 'Thursday: Open 24 hours'
-      - 'Friday: Open 24 hours'
-      - 'Saturday: Open 24 hours'
-      - 'Sunday: Open 24 hours'
-    website: https://www.hyatt.com/en-US/hotel/georgia/hyatt-regency-atlanta/atlra?src=corp_lclb_gmb_seo_nam_atlra
-  - formatted_address: 267 Marietta St NW, Atlanta, GA 30313, USA
-    formatted_phone_number: (404) 223-2300
-    geometry:
-      location:
-        lat: 33.76054309999999
-        lng: -84.3950598
-    name: Embassy Suites by Hilton Atlanta at Centennial Olympic Park
-    opening_hours:
-      open_now: true
-      periods:
-      - open:
-          day: 0
-          time: '0000'
-      weekday_text:
-      - 'Monday: Open 24 hours'
-      - 'Tuesday: Open 24 hours'
-      - 'Wednesday: Open 24 hours'
-      - 'Thursday: Open 24 hours'
-      - 'Friday: Open 24 hours'
-      - 'Saturday: Open 24 hours'
-      - 'Sunday: Open 24 hours'
-    website: https://www.esatl.com/
-  - formatted_address: 255 Courtland St NE, Atlanta, GA 30303, USA
-    formatted_phone_number: (404) 659-2000
-    geometry:
-      location:
-        lat: 33.7615008
-        lng: -84.3836006
-    name: Hilton Atlanta
-    opening_hours:
-      open_now: true
-      periods:
-      - open:
-          day: 0
-          time: '0000'
-      weekday_text:
-      - 'Monday: Open 24 hours'
-      - 'Tuesday: Open 24 hours'
-      - 'Wednesday: Open 24 hours'
-      - 'Thursday: Open 24 hours'
-      - 'Friday: Open 24 hours'
-      - 'Saturday: Open 24 hours'
-      - 'Sunday: Open 24 hours'
-    website: https://www3.hilton.com/en/hotels/georgia/hilton-atlanta-ATLAHHH/index.html?SEO_id=GMB-HH-ATLAHHH&y_source=1_MTIyMDg1MS03MTUtbG9jYXRpb24uZ29vZ2xlX3dlYnNpdGVfb3ZlcnJpZGU%3D
-  - formatted_address: 275 Baker St NW, Atlanta, GA 30313, USA
-    formatted_phone_number: (404) 577-2001
-    geometry:
-      location:
-        lat: 33.7618814
-        lng: -84.3956335
-    name: Hilton Garden Inn Atlanta Downtown
-    opening_hours:
-      open_now: true
-      periods:
-      - open:
-          day: 0
-          time: '0000'
-      weekday_text:
-      - 'Monday: Open 24 hours'
-      - 'Tuesday: Open 24 hours'
-      - 'Wednesday: Open 24 hours'
-      - 'Thursday: Open 24 hours'
-      - 'Friday: Open 24 hours'
-      - 'Saturday: Open 24 hours'
-      - 'Sunday: Open 24 hours'
-    website: https://www.hilton.com/en/hotels/atldogi-hilton-garden-inn-atlanta-downtown/?SEO_id=GMB-GI-ATLDOGI&y_source=1_MjA4MzQyMy03MTUtbG9jYXRpb24uZ29vZ2xlX3dlYnNpdGVfb3ZlcnJpZGU%3D
-  - formatted_address: 311 Courtland St NE, Atlanta, GA 30303, USA
-    formatted_phone_number: (404) 659-4545
-    geometry:
-      location:
-        lat: 33.76302359999999
-        lng: -84.3836503
-    name: Motel 6 Atlanta, GA - Downtown
-    opening_hours:
-      open_now: true
-      periods:
-      - open:
-          day: 0
-          time: '0000'
-      weekday_text:
-      - 'Monday: Open 24 hours'
-      - 'Tuesday: Open 24 hours'
-      - 'Wednesday: Open 24 hours'
-      - 'Thursday: Open 24 hours'
-      - 'Friday: Open 24 hours'
-      - 'Saturday: Open 24 hours'
-      - 'Sunday: Open 24 hours'
-    website: https://www.motel6.com/en/motels.ga.atlanta.4496.html?lid=Local_Milestone_4496&travelAgentNumber=TA001305&corporatePlusNumber=CP792N5W&utm_source=google%20my%20business&utm_medium=listing&utm_campaign=visit%20website
-  - formatted_address: 330 Peachtree St NE, Atlanta, GA 30308, USA
-    formatted_phone_number: (404) 577-1980
-    geometry:
-      location:
-        lat: 33.76350299999999
-        lng: -84.386949
-    name: Hyatt Place Atlanta/Downtown
-    opening_hours:
-      open_now: true
-      periods:
-      - open:
-          day: 0
-          time: '0000'
-      weekday_text:
-      - 'Monday: Open 24 hours'
-      - 'Tuesday: Open 24 hours'
-      - 'Wednesday: Open 24 hours'
-      - 'Thursday: Open 24 hours'
-      - 'Friday: Open 24 hours'
-      - 'Saturday: Open 24 hours'
-      - 'Sunday: Open 24 hours'
-    website: https://www.hyatt.com/en-US/hotel/georgia/hyatt-place-atlanta-downtown/atlzd?src=corp_lclb_gmb_seo_nam_atlzd
-  - formatted_address: 330 W Peachtree St NW, Atlanta, GA 30308, USA
-    formatted_phone_number: (404) 577-6970
-    geometry:
-      location:
-        lat: 33.76355999999999
-        lng: -84.3878187
-    name: Inn At The Peachtrees, Ascend Hotel Collection
-    opening_hours:
-      open_now: true
-      periods:
-      - open:
-          day: 0
-          time: '0000'
-      weekday_text:
-      - 'Monday: Open 24 hours'
-      - 'Tuesday: Open 24 hours'
-      - 'Wednesday: Open 24 hours'
-      - 'Thursday: Open 24 hours'
-      - 'Friday: Open 24 hours'
-      - 'Saturday: Open 24 hours'
-      - 'Sunday: Open 24 hours'
-    website: https://www.choicehotels.com/georgia/atlanta/ascend-hotels/ga045?source=gyxt
-  - formatted_address: 45 Ivan Allen Jr Blvd NW, Atlanta, GA 30308, USA
-    formatted_phone_number: (404) 582-5800
-    geometry:
-      location:
-        lat: 33.765133
-        lng: -84.3892103
-    name: W Atlanta – Downtown
-    opening_hours:
-      open_now: true
-      periods:
-      - open:
-          day: 0
-          time: '0000'
-      weekday_text:
-      - 'Monday: Open 24 hours'
-      - 'Tuesday: Open 24 hours'
-      - 'Wednesday: Open 24 hours'
-      - 'Thursday: Open 24 hours'
-      - 'Friday: Open 24 hours'
-      - 'Saturday: Open 24 hours'
-      - 'Sunday: Open 24 hours'
-    website: https://www.marriott.com/hotels/travel/atlhw-w-atlanta-downtown/?scid=bb1a189a-fec3-4d19-a255-54ba596febe2&y_source=1_MTUwMjc2MS03MTUtbG9jYXRpb24uZ29vZ2xlX3dlYnNpdGVfb3ZlcnJpZGU%3D
-  - formatted_address: 400 W Peachtree St NW, Atlanta, GA 30308, USA
-    formatted_phone_number: (404) 418-1212
-    geometry:
-      location:
-        lat: 33.7654986
-        lng: -84.387985
-    name: Twelve Downtown, Autograph Collection
-    opening_hours:
-      open_now: true
-      periods:
-      - open:
-          day: 0
-          time: '0000'
-      weekday_text:
-      - 'Monday: Open 24 hours'
-      - 'Tuesday: Open 24 hours'
-      - 'Wednesday: Open 24 hours'
-      - 'Thursday: Open 24 hours'
-      - 'Friday: Open 24 hours'
-      - 'Saturday: Open 24 hours'
-      - 'Sunday: Open 24 hours'
-    website: https://www.marriott.com/hotels/travel/atlpk-twelve-downtown-autograph-collection/?scid=bb1a189a-fec3-4d19-a255-54ba596febe2&y_source=1_Mzg5MDIzMi03MTUtbG9jYXRpb24uZ29vZ2xlX3dlYnNpdGVfb3ZlcnJpZGU=
-  - formatted_address: Marietta, GA, USA
-    geometry:
-      location:
-        lat: 33.95260200000001
-        lng: -84.5499327
-    name: Marietta
-    website: http://marietta.georgia.gov/
-  tourist_attraction:
-  - formatted_address: 121 Baker St NW, Atlanta, GA 30313, USA
-    formatted_phone_number: (404) 676-5151
-    geometry:
-      location:
-        lat: 33.7625488
-        lng: -84.3925876
-    name: World of Coca-Cola
-    opening_hours:
-      open_now: false
-      periods:
-      - close:
-          day: 0
-          time: '1700'
-        open:
-          day: 0
-          time: 0900
-      - close:
-          day: 1
-          time: '1700'
-        open:
-          day: 1
-          time: '1000'
-      - close:
-          day: 2
-          time: '1700'
-        open:
-          day: 2
-          time: '1000'
-      - close:
-          day: 3
-          time: '1700'
-        open:
-          day: 3
-          time: '1000'
-      - close:
-          day: 4
-          time: '1700'
-        open:
-          day: 4
-          time: '1000'
-      - close:
-          day: 5
-          time: '1700'
-        open:
-          day: 5
-          time: '1000'
-      - close:
-          day: 6
-          time: '1700'
-        open:
-          day: 6
-          time: 0900
-      weekday_text:
-      - 'Monday: 10:00 AM – 5:00 PM'
-      - 'Tuesday: 10:00 AM – 5:00 PM'
-      - 'Wednesday: 10:00 AM – 5:00 PM'
-      - 'Thursday: 10:00 AM – 5:00 PM'
-      - 'Friday: 10:00 AM – 5:00 PM'
-      - 'Saturday: 9:00 AM – 5:00 PM'
-      - 'Sunday: 9:00 AM – 5:00 PM'
-    website: http://www.worldofcoca-cola.com/
-  - formatted_address: 225 Baker St NW, Atlanta, GA 30313, USA
-    formatted_phone_number: (404) 581-4000
-    geometry:
-      location:
-        lat: 33.76338199999999
-        lng: -84.3951098
-    name: Georgia Aquarium
-    opening_hours:
-      open_now: false
-      periods:
-      - close:
-          day: 0
-          time: '1900'
-        open:
-          day: 0
-          time: 0800
-      - close:
-          day: 1
-          time: '1800'
-        open:
-          day: 1
-          time: 0900
-      - close:
-          day: 2
-          time: '1800'
-        open:
-          day: 2
-          time: 0900
-      - close:
-          day: 3
-          time: '1800'
-        open:
-          day: 3
-          time: 0900
-      - close:
-          day: 4
-          time: '1800'
-        open:
-          day: 4
-          time: 0900
-      - close:
-          day: 5
-          time: '1900'
-        open:
-          day: 5
-          time: 0800
-      - close:
-          day: 6
-          time: '1900'
-        open:
-          day: 6
-          time: 0800
-      weekday_text:
-      - 'Monday: 9:00 AM – 6:00 PM'
-      - 'Tuesday: 9:00 AM – 6:00 PM'
-      - 'Wednesday: 9:00 AM – 6:00 PM'
-      - 'Thursday: 9:00 AM – 6:00 PM'
-      - 'Friday: 8:00 AM – 7:00 PM'
-      - 'Saturday: 8:00 AM – 7:00 PM'
-      - 'Sunday: 8:00 AM – 7:00 PM'
-    website: https://www.georgiaaquarium.org/
-  - formatted_address: 660 Peachtree St NE, Atlanta, GA 30308, USA
-    formatted_phone_number: (404) 881-2100
-    geometry:
-      location:
-        lat: 33.7726272
-        lng: -84.38564939999999
-    name: Fox Theatre
-    website: http://www.foxtheatre.org/
-  - formatted_address: 1000 Robert E Lee Blvd, Stone Mountain, GA 30083, USA
-    formatted_phone_number: (770) 498-5690
-    geometry:
-      location:
-        lat: 33.8053189
-        lng: -84.1455315
-    name: Stone Mountain Park
-    website: https://www.stonemountainpark.com/
-  - formatted_address: 275 Riverside Pkwy, Austell, GA 30168, USA
-    formatted_phone_number: (770) 739-3400
-    geometry:
-      location:
-        lat: 33.7706534
-        lng: -84.55117919999999
-    name: Six Flags Over Georgia
-    opening_hours:
-      open_now: true
-      periods:
-      - open:
-          day: 0
-          time: '0000'
-      weekday_text:
-      - 'Monday: Open 24 hours'
-      - 'Tuesday: Open 24 hours'
-      - 'Wednesday: Open 24 hours'
-      - 'Thursday: Open 24 hours'
-      - 'Friday: Open 24 hours'
-      - 'Saturday: Open 24 hours'
-      - 'Sunday: Open 24 hours'
-    website: https://www.sixflags.com/overgeorgia
-  - formatted_address: 1345 Piedmont Ave NE, Atlanta, GA 30309, USA
-    formatted_phone_number: (404) 876-5859
-    geometry:
-      location:
-        lat: 33.790468
-        lng: -84.3736193
-    name: Atlanta Botanical Garden
-    opening_hours:
-      open_now: false
-      periods:
-      - close:
-          day: 0
-          time: '1900'
-        open:
-          day: 0
-          time: 0900
-      - close:
-          day: 2
-          time: '1900'
-        open:
-          day: 2
-          time: 0900
-      - close:
-          day: 3
-          time: '1900'
-        open:
-          day: 3
-          time: 0900
-      - close:
-          day: 4
-          time: '1900'
-        open:
-          day: 4
-          time: 0900
-      - close:
-          day: 5
-          time: '1900'
-        open:
-          day: 5
-          time: 0900
-      - close:
-          day: 6
-          time: '1900'
-        open:
-          day: 6
-          time: 0900
-      weekday_text:
-      - 'Monday: Closed'
-      - 'Tuesday: 9:00 AM – 7:00 PM'
-      - 'Wednesday: 9:00 AM – 7:00 PM'
-      - 'Thursday: 9:00 AM – 7:00 PM'
-      - 'Friday: 9:00 AM – 7:00 PM'
-      - 'Saturday: 9:00 AM – 7:00 PM'
-      - 'Sunday: 9:00 AM – 7:00 PM'
-    website: http://www.atlantabg.org/
-  - formatted_address: 1313 Netherworld Way, Stone Mountain, GA 30087, USA
-    formatted_phone_number: (404) 608-2484
-    geometry:
-      location:
-        lat: 33.81858609999999
-        lng: -84.11885699999999
-    name: Netherworld Haunted House
-    opening_hours:
-      open_now: true
-      periods:
-      - close:
-          day: 0
-          time: '2300'
-        open:
-          day: 0
-          time: '1900'
-      - close:
-          day: 2
-          time: '2230'
-        open:
-          day: 2
-          time: '1900'
-      - close:
-          day: 3
-          time: '2230'
-        open:
-          day: 3
-          time: '1900'
-      - close:
-          day: 4
-          time: '2230'
-        open:
-          day: 4
-          time: '1900'
-      - close:
-          day: 6
-          time: '0000'
-        open:
-          day: 5
-          time: '1900'
-      - close:
-          day: 0
-          time: '0000'
-        open:
-          day: 6
-          time: '1900'
-      weekday_text:
-      - 'Monday: Closed'
-      - 'Tuesday: 7:00 – 10:30 PM'
-      - 'Wednesday: 7:00 – 10:30 PM'
-      - 'Thursday: 7:00 – 10:30 PM'
-      - 'Friday: 7:00 PM – 12:00 AM'
-      - 'Saturday: 7:00 PM – 12:00 AM'
-      - 'Sunday: 7:00 – 11:00 PM'
-    website: http://www.fearworld.com/
-  - formatted_address: 1280 Peachtree St NE, Atlanta, GA 30309, USA
-    formatted_phone_number: (404) 733-4400
-    geometry:
-      location:
-        lat: 33.7900632
-        lng: -84.38555199999999
-    name: High Museum of Art
-    opening_hours:
-      open_now: false
-      periods:
-      - close:
-          day: 0
-          time: '1700'
-        open:
-          day: 0
-          time: '1200'
-      - close:
-          day: 2
-          time: '1700'
-        open:
-          day: 2
-          time: '1000'
-      - close:
-          day: 3
-          time: '1700'
-        open:
-          day: 3
-          time: '1000'
-      - close:
-          day: 4
-          time: '1700'
-        open:
-          day: 4
-          time: '1000'
-      - close:
-          day: 5
-          time: '1700'
-        open:
-          day: 5
-          time: '1000'
-      - close:
-          day: 6
-          time: '1700'
-        open:
-          day: 6
-          time: '1000'
-      weekday_text:
-      - 'Monday: Closed'
-      - 'Tuesday: 10:00 AM – 5:00 PM'
-      - 'Wednesday: 10:00 AM – 5:00 PM'
-      - 'Thursday: 10:00 AM – 5:00 PM'
-      - 'Friday: 10:00 AM – 5:00 PM'
-      - 'Saturday: 10:00 AM – 5:00 PM'
-      - 'Sunday: 12:00 – 5:00 PM'
-    website: http://www.high.org/
-  - formatted_address: 130 West Paces Ferry Rd NW, Atlanta, GA 30305, USA
-    formatted_phone_number: (404) 814-4000
-    geometry:
-      location:
-        lat: 33.84211209999999
-        lng: -84.3860302
-    name: Atlanta History Center
-    opening_hours:
-      open_now: false
-      periods:
-      - close:
-          day: 0
-          time: '1600'
-        open:
-          day: 0
-          time: 0900
-      - close:
-          day: 2
-          time: '1600'
-        open:
-          day: 2
-          time: 0900
-      - close:
-          day: 3
-          time: '1600'
-        open:
-          day: 3
-          time: 0900
-      - close:
-          day: 4
-          time: '1600'
-        open:
-          day: 4
-          time: 0900
-      - close:
-          day: 5
-          time: '1600'
-        open:
-          day: 5
-          time: 0900
-      - close:
-          day: 6
-          time: '1600'
-        open:
-          day: 6
-          time: 0900
-      weekday_text:
-      - 'Monday: Closed'
-      - 'Tuesday: 9:00 AM – 4:00 PM'
-      - 'Wednesday: 9:00 AM – 4:00 PM'
-      - 'Thursday: 9:00 AM – 4:00 PM'
-      - 'Friday: 9:00 AM – 4:00 PM'
-      - 'Saturday: 9:00 AM – 4:00 PM'
-      - 'Sunday: 9:00 AM – 4:00 PM'
-    website: http://www.atlantahistorycenter.com/
-  - formatted_address: 190 Marietta St NW, Atlanta, GA 30303, USA
-    formatted_phone_number: (404) 827-2300
-    geometry:
-      location:
-        lat: 33.7577472
-        lng: -84.39486939999999
-    name: CNN Studio Tours
-    website: http://tours.cnn.com/#
-  - formatted_address: 450 Auburn Ave NE, Atlanta, GA 30312, USA
-    formatted_phone_number: (404) 331-5190
-    geometry:
-      location:
-        lat: 33.756175
-        lng: -84.3734444
-    name: Martin Luther King, Jr. National Historical Park
-    opening_hours:
-      open_now: false
-      periods:
-      - close:
-          day: 0
-          time: '1700'
-        open:
-          day: 0
-          time: 0900
-      - close:
-          day: 1
-          time: '1700'
-        open:
-          day: 1
-          time: 0900
-      - close:
-          day: 2
-          time: '1700'
-        open:
-          day: 2
-          time: 0900
-      - close:
-          day: 3
-          time: '1700'
-        open:
-          day: 3
-          time: 0900
-      - close:
-          day: 4
-          time: '1700'
-        open:
-          day: 4
-          time: 0900
-      - close:
-          day: 5
-          time: '1700'
-        open:
-          day: 5
-          time: 0900
-      - close:
-          day: 6
-          time: '1700'
-        open:
-          day: 6
-          time: 0900
-      weekday_text:
-      - 'Monday: 9:00 AM – 5:00 PM'
-      - 'Tuesday: 9:00 AM – 5:00 PM'
-      - 'Wednesday: 9:00 AM – 5:00 PM'
-      - 'Thursday: 9:00 AM – 5:00 PM'
-      - 'Friday: 9:00 AM – 5:00 PM'
-      - 'Saturday: 9:00 AM – 5:00 PM'
-      - 'Sunday: 9:00 AM – 5:00 PM'
-    website: http://www.nps.gov/malu/index.htm
-  - formatted_address: 3500 Peachtree Rd NE, Atlanta, GA 30326, USA
-    formatted_phone_number: (404) 848-9252
-    geometry:
-      location:
-        lat: 33.85280350000001
-        lng: -84.36225560000001
-    name: LEGOLAND Discovery Center Atlanta
-    opening_hours:
-      open_now: false
-      periods:
-      - close:
-          day: 0
-          time: '1700'
-        open:
-          day: 0
-          time: '1100'
-      - close:
-          day: 1
-          time: '1700'
-        open:
-          day: 1
-          time: '1100'
-      - close:
-          day: 4
-          time: '1700'
-        open:
-          day: 4
-          time: '1100'
-      - close:
-          day: 5
-          time: '1700'
-        open:
-          day: 5
-          time: '1100'
-      - close:
-          day: 6
-          time: '1700'
-        open:
-          day: 6
-          time: '1100'
-      weekday_text:
-      - 'Monday: 11:00 AM – 5:00 PM'
-      - 'Tuesday: Closed'
-      - 'Wednesday: Closed'
-      - 'Thursday: 11:00 AM – 5:00 PM'
-      - 'Friday: 11:00 AM – 5:00 PM'
-      - 'Saturday: 11:00 AM – 5:00 PM'
-      - 'Sunday: 11:00 AM – 5:00 PM'
-    website: https://atlanta.legolanddiscoverycenter.com/
-  - formatted_address: 449 Auburn Ave NE, Atlanta, GA 30312, USA
-    formatted_phone_number: (404) 526-8900
-    geometry:
-      location:
-        lat: 33.75524689999999
-        lng: -84.37302989999999
-    name: The King Center
-    opening_hours:
-      open_now: false
-      periods:
-      - close:
-          day: 0
-          time: '1700'
-        open:
-          day: 0
-          time: 0900
-      - close:
-          day: 1
-          time: '1700'
-        open:
-          day: 1
-          time: 0900
-      - close:
-          day: 2
-          time: '1700'
-        open:
-          day: 2
-          time: 0900
-      - close:
-          day: 3
-          time: '1700'
-        open:
-          day: 3
-          time: 0900
-      - close:
-          day: 4
-          time: '1700'
-        open:
-          day: 4
-          time: 0900
-      - close:
-          day: 5
-          time: '1700'
-        open:
-          day: 5
-          time: 0900
-      - close:
-          day: 6
-          time: '1700'
-        open:
-          day: 6
-          time: 0900
-      weekday_text:
-      - 'Monday: 9:00 AM – 5:00 PM'
-      - 'Tuesday: 9:00 AM – 5:00 PM'
-      - 'Wednesday: 9:00 AM – 5:00 PM'
-      - 'Thursday: 9:00 AM – 5:00 PM'
-      - 'Friday: 9:00 AM – 5:00 PM'
-      - 'Saturday: 9:00 AM – 5:00 PM'
-      - 'Sunday: 9:00 AM – 5:00 PM'
-    website: http://www.thekingcenter.org/
-  - formatted_address: 1750 Mt Vernon Rd, Lithia Springs, GA 30122, USA
-    formatted_phone_number: (770) 732-5871
-    geometry:
-      location:
-        lat: 33.7525384
-        lng: -84.628709
-    name: Sweetwater Creek State Park
-    opening_hours:
-      open_now: true
-      periods:
-      - close:
-          day: 0
-          time: '1930'
-        open:
-          day: 0
-          time: '0700'
-      - close:
-          day: 1
-          time: '1930'
-        open:
-          day: 1
-          time: '0700'
-      - close:
-          day: 2
-          time: '1930'
-        open:
-          day: 2
-          time: '0700'
-      - close:
-          day: 3
-          time: '1930'
-        open:
-          day: 3
-          time: '0700'
-      - close:
-          day: 4
-          time: '1930'
-        open:
-          day: 4
-          time: '0700'
-      - close:
-          day: 5
-          time: '1930'
-        open:
-          day: 5
-          time: '0700'
-      - close:
-          day: 6
-          time: '1930'
-        open:
-          day: 6
-          time: '0700'
-      weekday_text:
-      - 'Monday: 7:00 AM – 7:30 PM'
-      - 'Tuesday: 7:00 AM – 7:30 PM'
-      - 'Wednesday: 7:00 AM – 7:30 PM'
-      - 'Thursday: 7:00 AM – 7:30 PM'
-      - 'Friday: 7:00 AM – 7:30 PM'
-      - 'Saturday: 7:00 AM – 7:30 PM'
-      - 'Sunday: 7:00 AM – 7:30 PM'
-    website: http://gastateparks.org/SweetwaterCreek
-  - formatted_address: 900 Kennesaw Mountain Dr, Kennesaw, GA 30152, USA
-    formatted_phone_number: (770) 427-4686
-    geometry:
-      location:
-        lat: 33.94669439999999
-        lng: -84.598841
-    name: Kennesaw Mountain National Battlefield Park
-    opening_hours:
-      open_now: true
-      periods:
-      - close:
-          day: 0
-          time: '2030'
-        open:
-          day: 0
-          time: '0630'
-      - close:
-          day: 1
-          time: '2030'
-        open:
-          day: 1
-          time: '0630'
-      - close:
-          day: 2
-          time: '2030'
-        open:
-          day: 2
-          time: '0630'
-      - close:
-          day: 3
-          time: '2030'
-        open:
-          day: 3
-          time: '0630'
-      - close:
-          day: 4
-          time: '2030'
-        open:
-          day: 4
-          time: '0630'
-      - close:
-          day: 5
-          time: '2030'
-        open:
-          day: 5
-          time: '0630'
-      - close:
-          day: 6
-          time: '2030'
-        open:
-          day: 6
-          time: '0630'
-      weekday_text:
-      - 'Monday: 6:30 AM – 8:30 PM'
-      - 'Tuesday: 6:30 AM – 8:30 PM'
-      - 'Wednesday: 6:30 AM – 8:30 PM'
-      - 'Thursday: 6:30 AM – 8:30 PM'
-      - 'Friday: 6:30 AM – 8:30 PM'
-      - 'Saturday: 6:30 AM – 8:30 PM'
-      - 'Sunday: 6:30 AM – 8:30 PM'
-    website: http://www.nps.gov/kemo/planyourvisit/basicinfo.htm
-  - formatted_address: Atlanta, GA 30305, USA
-    geometry:
-      location:
-        lat: 33.8416959
-        lng: -84.3662319
-    name: Peachtree Highlands Historic District
-  - formatted_address: 5851 GA-85, Riverdale, GA 30274, USA
-    formatted_phone_number: (770) 907-7102
-    geometry:
-      location:
-        lat: 33.5954411
-        lng: -84.4085382
-    name: Hindu Temple of Atlanta
-    opening_hours:
-      open_now: true
-      periods:
-      - close:
-          day: 0
-          time: '2000'
-        open:
-          day: 0
-          time: 0900
-      - close:
-          day: 1
-          time: '2000'
-        open:
-          day: 1
-          time: 0900
-      - close:
-          day: 2
-          time: '2000'
-        open:
-          day: 2
-          time: 0900
-      - close:
-          day: 3
-          time: '2000'
-        open:
-          day: 3
-          time: 0900
-      - close:
-          day: 4
-          time: '2000'
-        open:
-          day: 4
-          time: 0900
-      - close:
-          day: 5
-          time: '2100'
-        open:
-          day: 5
-          time: 0900
-      - close:
-          day: 6
-          time: '2100'
-        open:
-          day: 6
-          time: 0900
-      weekday_text:
-      - 'Monday: 9:00 AM – 8:00 PM'
-      - 'Tuesday: 9:00 AM – 8:00 PM'
-      - 'Wednesday: 9:00 AM – 8:00 PM'
-      - 'Thursday: 9:00 AM – 8:00 PM'
-      - 'Friday: 9:00 AM – 9:00 PM'
-      - 'Saturday: 9:00 AM – 9:00 PM'
-      - 'Sunday: 9:00 AM – 8:00 PM'
-    website: http://www.hindutempleofatlanta.org/
-  - formatted_address: 800 Cherokee Ave SE, Atlanta, GA 30315, USA
-    formatted_phone_number: (404) 624-5600
-    geometry:
-      location:
-        lat: 33.7340981
-        lng: -84.3722715
-    name: Zoo Atlanta
-    opening_hours:
-      open_now: false
-      periods:
-      - close:
-          day: 0
-          time: '1630'
-        open:
-          day: 0
-          time: 0900
-      - close:
-          day: 1
-          time: '1530'
-        open:
-          day: 1
-          time: 0900
-      - close:
-          day: 2
-          time: '1530'
-        open:
-          day: 2
-          time: 0900
-      - close:
-          day: 3
-          time: '1530'
-        open:
-          day: 3
-          time: 0900
-      - close:
-          day: 4
-          time: '1530'
-        open:
-          day: 4
-          time: 0900
-      - close:
-          day: 5
-          time: '1530'
-        open:
-          day: 5
-          time: 0900
-      - close:
-          day: 6
-          time: '1630'
-        open:
-          day: 6
-          time: 0900
-      weekday_text:
-      - 'Monday: 9:00 AM – 3:30 PM'
-      - 'Tuesday: 9:00 AM – 3:30 PM'
-      - 'Wednesday: 9:00 AM – 3:30 PM'
-      - 'Thursday: 9:00 AM – 3:30 PM'
-      - 'Friday: 9:00 AM – 3:30 PM'
-      - 'Saturday: 9:00 AM – 4:30 PM'
-      - 'Sunday: 9:00 AM – 4:30 PM'
-    website: http://www.zooatlanta.org/
-  - formatted_address: 1425 Market Blvd Ste 100-A, Roswell, GA 30076, USA
-    formatted_phone_number: (678) 745-9900
-    geometry:
-      location:
-        lat: 34.0177434
-        lng: -84.3216276
-    name: Sky Zone Trampoline Park
-    opening_hours:
-      open_now: true
-      periods:
-      - close:
-          day: 0
-          time: '1800'
-        open:
-          day: 0
-          time: '1300'
-      - close:
-          day: 3
-          time: '2000'
-        open:
-          day: 3
-          time: '1600'
-      - close:
-          day: 4
-          time: '2000'
-        open:
-          day: 4
-          time: '1600'
-      - close:
-          day: 5
-          time: '2100'
-        open:
-          day: 5
-          time: '1600'
-      - close:
-          day: 6
-          time: '2200'
-        open:
-          day: 6
-          time: '1100'
-      weekday_text:
-      - 'Monday: Closed'
-      - 'Tuesday: Closed'
-      - 'Wednesday: 4:00 – 8:00 PM'
-      - 'Thursday: 4:00 – 8:00 PM'
-      - 'Friday: 4:00 – 9:00 PM'
-      - 'Saturday: 11:00 AM – 10:00 PM'
-      - 'Sunday: 1:00 – 6:00 PM'
-    website: https://www.skyzone.com/roswell?y_source=1_MTUwOTE3MDgtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D
-  - formatted_address: 168 Luckie St NW, Atlanta, GA 30303, USA
-    formatted_phone_number: (678) 949-9023
-    geometry:
-      location:
-        lat: 33.7589378
-        lng: -84.3916921
-    name: SkyView Atlanta
-    opening_hours:
-      open_now: true
-      periods:
-      - close:
-          day: 0
-          time: '2200'
-        open:
-          day: 0
-          time: '1200'
-      - close:
-          day: 1
-          time: '2200'
-        open:
-          day: 1
-          time: '1200'
-      - close:
-          day: 2
-          time: '2200'
-        open:
-          day: 2
-          time: '1200'
-      - close:
-          day: 3
-          time: '2200'
-        open:
-          day: 3
-          time: '1200'
-      - close:
-          day: 4
-          time: '2200'
-        open:
-          day: 4
-          time: '1200'
-      - close:
-          day: 6
-          time: '0000'
-        open:
-          day: 5
-          time: '1200'
-      - close:
-          day: 0
-          time: '0000'
-        open:
-          day: 6
-          time: '1200'
-      weekday_text:
-      - 'Monday: 12:00 – 10:00 PM'
-      - 'Tuesday: 12:00 – 10:00 PM'
-      - 'Wednesday: 12:00 – 10:00 PM'
-      - 'Thursday: 12:00 – 10:00 PM'
-      - 'Friday: 12:00 PM – 12:00 AM'
-      - 'Saturday: 12:00 PM – 12:00 AM'
-      - 'Sunday: 12:00 – 10:00 PM'
-    website: http://www.skyviewatlanta.com/
+      - 'Thursday: 9:00 AM â€“ 5:00 PM'
+      - 'Friday: 9:00 AM â€“ 5:00 PM'
+      - 'Saturday: 9:00 AM â€“ 5:00 PM'
+      - 'Sunday: 9:00 AM â€“ 5:00 PM'
+    website: https://www.boeingfutureofflight.com/
