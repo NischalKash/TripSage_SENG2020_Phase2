@@ -3,6 +3,8 @@ from django.shortcuts import render
 import xmltodict
 import yaml
 from places_recommendation import *
+from geotext import GeoText
+
 
 TYPES_PLACE_MAP = {
     "adventures": ["tourist_attraction", "stadium"],
@@ -19,13 +21,13 @@ def find_spots(request):
     if request.method == "POST":
         city = request.POST.get("city", "")
         tourist_spots = getRecommendation(city)
-        f = open("user_recommended.yaml", "w+")
+        print(type1,type2)
+        f = open('user_recommended.yaml', 'w+')
         yaml.dump(tourist_spots, f, allow_unicode=True)
         # tourist_spots contains all the recommended places a user can visit when he traverses through his trip!
         # render a html template here but make sure that he can enter a city again if he wants in the following template
 
-
-def myfunction(origin, destination):
+def myfunction(origin,destination):
     api = (
         "https://maps.googleapis.com/maps/api/directions/xml?"
         + "origin="
@@ -77,16 +79,23 @@ def myfunction(origin, destination):
     f = open("sentences.txt", "a")
     f.write(end_location + "\n")
     f.close()
-
     return path
-
 
 def directions(request):
     if request.method == "POST":
         origin = request.POST.get("origin", "")
         destination = request.POST.get("dest", "")
-        direct = myfunction(origin, destination)
-
-        # Here in the directions.html, you have to display the routes and the cities users can enter!
-        # Also display the total_distance and total_duration taken to travel
-        return render(request, "planner/directions.html")
+        global type1
+        global type2
+        type1 = request.POST.get("type", "")
+        type2 = request.POST.get("type2", "")
+        direct = myfunction(origin,destination)
+        cities = []
+        for i in direct:
+            places = GeoText(i[2])
+            for j in places.cities:
+                if j not in cities:
+                    cities.append(j)
+        #Here in the directions.html, you have to display the routes and the cities users can enter!
+        #Also display the total_distance and total_duration taken to travel
+        return render(request, 'planner/directions.html')

@@ -52,9 +52,8 @@ def Places_Recommendation(gmaps, Place, PlaceType):
 
 def getRecommendation(city):
     # Define the Client
-    print(city)
-    API_KEY = "AIzaSyCOUCDt77J8v4d2BnWcarXbHzsJpIAhNVQ"
-    gmaps = googlemaps.Client(key=API_KEY)
+    API_KEY = 'AIzaSyCOUCDt77J8v4d2BnWcarXbHzsJpIAhNVQ'
+    gmaps = googlemaps.Client(key = API_KEY)
     dictionary = {}
     if city not in dictionary:
         dictionary[city] = {}
