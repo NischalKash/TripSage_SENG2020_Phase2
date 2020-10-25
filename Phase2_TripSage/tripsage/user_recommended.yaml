@@ -1,24 +1,182 @@
-New York:
+Atlanta:
   amusement_park:
-  - formatted_address: 182 NJ-10, East Hanover, NJ 07936, USA
-    formatted_phone_number: (973) 428-1166
+  - formatted_address: 1000 Robert E Lee Blvd, Stone Mountain, GA 30083, USA
+    formatted_phone_number: (770) 498-5690
     geometry:
       location:
-        lat: 40.8102778
-        lng: -74.37722219999999
-    name: The Funplex
+        lat: 33.8053189
+        lng: -84.1455315
+    name: Stone Mountain Park
+    website: https://www.stonemountainpark.com/
+  - formatted_address: 275 Riverside Pkwy, Austell, GA 30168, USA
+    formatted_phone_number: (770) 739-3400
+    geometry:
+      location:
+        lat: 33.7706534
+        lng: -84.55117919999999
+    name: Six Flags Over Georgia
+    opening_hours:
+      open_now: true
+      periods:
+      - open:
+          day: 0
+          time: '0000'
+      weekday_text:
+      - 'Monday: Open 24 hours'
+      - 'Tuesday: Open 24 hours'
+      - 'Wednesday: Open 24 hours'
+      - 'Thursday: Open 24 hours'
+      - 'Friday: Open 24 hours'
+      - 'Saturday: Open 24 hours'
+      - 'Sunday: Open 24 hours'
+    website: https://www.sixflags.com/overgeorgia
+  - formatted_address: 1425 Market Blvd Ste 100-A, Roswell, GA 30076, USA
+    formatted_phone_number: (678) 745-9900
+    geometry:
+      location:
+        lat: 34.0177434
+        lng: -84.3216276
+    name: Sky Zone Trampoline Park
     opening_hours:
       open_now: true
       periods:
       - close:
           day: 0
-          time: '2000'
+          time: '1800'
         open:
           day: 0
-          time: '1100'
+          time: '1300'
+      - close:
+          day: 3
+          time: '2000'
+        open:
+          day: 3
+          time: '1600'
       - close:
           day: 4
           time: '2000'
+        open:
+          day: 4
+          time: '1600'
+      - close:
+          day: 5
+          time: '2100'
+        open:
+          day: 5
+          time: '1600'
+      - close:
+          day: 6
+          time: '2200'
+        open:
+          day: 6
+          time: '1100'
+      weekday_text:
+      - 'Monday: Closed'
+      - 'Tuesday: Closed'
+      - 'Wednesday: 4:00 – 8:00 PM'
+      - 'Thursday: 4:00 – 8:00 PM'
+      - 'Friday: 4:00 – 9:00 PM'
+      - 'Saturday: 11:00 AM – 10:00 PM'
+      - 'Sunday: 1:00 – 6:00 PM'
+    website: https://www.skyzone.com/roswell?y_source=1_MTUwOTE3MDgtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D
+  - formatted_address: '250 Cobb Pkwy N #100, Marietta, GA 30062, USA'
+    formatted_phone_number: (770) 590-4067
+    geometry:
+      location:
+        lat: 33.9576352
+        lng: -84.5207461
+    name: Six Flags White Water
+    opening_hours:
+      open_now: false
+      periods:
+      - close:
+          day: 0
+          time: '1800'
+        open:
+          day: 0
+          time: '1200'
+      - close:
+          day: 1
+          time: '1800'
+        open:
+          day: 1
+          time: '1200'
+      - close:
+          day: 2
+          time: '1800'
+        open:
+          day: 2
+          time: '1200'
+      - close:
+          day: 3
+          time: '1800'
+        open:
+          day: 3
+          time: '1200'
+      - close:
+          day: 4
+          time: '1800'
+        open:
+          day: 4
+          time: '1200'
+      - close:
+          day: 5
+          time: '1800'
+        open:
+          day: 5
+          time: '1200'
+      - close:
+          day: 6
+          time: '1800'
+        open:
+          day: 6
+          time: '1200'
+      weekday_text:
+      - 'Monday: 12:00 – 6:00 PM'
+      - 'Tuesday: 12:00 – 6:00 PM'
+      - 'Wednesday: 12:00 – 6:00 PM'
+      - 'Thursday: 12:00 – 6:00 PM'
+      - 'Friday: 12:00 – 6:00 PM'
+      - 'Saturday: 12:00 – 6:00 PM'
+      - 'Sunday: 12:00 – 6:00 PM'
+    website: http://www.sixflags.com/whitewater/
+  - formatted_address: 5400 Brook Hollow Pkwy, Norcross, GA 30071, USA
+    formatted_phone_number: (770) 416-7630
+    geometry:
+      location:
+        lat: 33.925233
+        lng: -84.18507699999999
+    name: Malibu Norcross
+    opening_hours:
+      open_now: true
+      periods:
+      - close:
+          day: 0
+          time: '2100'
+        open:
+          day: 0
+          time: '1200'
+      - close:
+          day: 1
+          time: '2100'
+        open:
+          day: 1
+          time: '1200'
+      - close:
+          day: 2
+          time: '2100'
+        open:
+          day: 2
+          time: '1200'
+      - close:
+          day: 3
+          time: '2100'
+        open:
+          day: 3
+          time: '1200'
+      - close:
+          day: 4
+          time: '2100'
         open:
           day: 4
           time: '1200'
@@ -33,117 +191,31 @@ New York:
           time: '2200'
         open:
           day: 6
-          time: '1100'
+          time: '1200'
       weekday_text:
-      - 'Monday: Closed'
-      - 'Tuesday: Closed'
-      - 'Wednesday: Closed'
-      - 'Thursday: 12:00 â€“ 8:00 PM'
-      - 'Friday: 12:00 â€“ 9:00 PM'
-      - 'Saturday: 11:00 AM â€“ 10:00 PM'
-      - 'Sunday: 11:00 AM â€“ 8:00 PM'
-    website: http://thefunplex.com/
-  - formatted_address: 40 Fort Lee Rd, Leonia, NJ 07605, USA
-    formatted_phone_number: (855) 999-9010
+      - 'Monday: 12:00 – 9:00 PM'
+      - 'Tuesday: 12:00 – 9:00 PM'
+      - 'Wednesday: 12:00 – 9:00 PM'
+      - 'Thursday: 12:00 – 9:00 PM'
+      - 'Friday: 12:00 – 9:00 PM'
+      - 'Saturday: 12:00 – 10:00 PM'
+      - 'Sunday: 12:00 – 9:00 PM'
+    website: http://www.malibunorcross.com/
+  - formatted_address: 575 Riverside Rd, Roswell, GA 30075, USA
+    formatted_phone_number: (770) 594-6158
     geometry:
       location:
-        lat: 40.8729132
-        lng: -73.990647
-    name: 'Field Station: Dinosaurs'
-    opening_hours:
-      open_now: false
-      periods:
-      - close:
-          day: 0
-          time: '0502'
-        open:
-          day: 0
-          time: '0500'
-      weekday_text:
-      - 'Monday: Closed'
-      - 'Tuesday: Closed'
-      - 'Wednesday: Closed'
-      - 'Thursday: Closed'
-      - 'Friday: Closed'
-      - 'Saturday: Closed'
-      - 'Sunday: 5:00 â€“ 5:02 AM'
-    website: http://www.fieldstationdinosaurs.com/
-  - formatted_address: 275 Beachway Ave, Keansburg, NJ 07734, USA
-    formatted_phone_number: (732) 495-5240
+        lat: 34.0063491
+        lng: -84.3462583
+    name: Riverside Sprayground
+    website: https://www.roswellgov.com/sprayground
+  - formatted_address: 213 Haygood Ave, Atlanta, GA 30315, USA
+    formatted_phone_number: (404) 546-6788
     geometry:
       location:
-        lat: 40.4547395
-        lng: -74.1382078
-    name: Runaway Rapids Waterpark
-    opening_hours:
-      open_now: false
-      periods:
-      - close:
-          day: 0
-          time: '1800'
-        open:
-          day: 0
-          time: '1000'
-      - close:
-          day: 1
-          time: '1700'
-        open:
-          day: 1
-          time: '1100'
-      - close:
-          day: 2
-          time: '1700'
-        open:
-          day: 2
-          time: '1100'
-      - close:
-          day: 3
-          time: '1700'
-        open:
-          day: 3
-          time: '1100'
-      - close:
-          day: 4
-          time: '1700'
-        open:
-          day: 4
-          time: '1100'
-      - close:
-          day: 5
-          time: '1700'
-        open:
-          day: 5
-          time: '1100'
-      - close:
-          day: 6
-          time: '1800'
-        open:
-          day: 6
-          time: '1000'
-      weekday_text:
-      - 'Monday: 11:00 AM â€“ 5:00 PM'
-      - 'Tuesday: 11:00 AM â€“ 5:00 PM'
-      - 'Wednesday: 11:00 AM â€“ 5:00 PM'
-      - 'Thursday: 11:00 AM â€“ 5:00 PM'
-      - 'Friday: 11:00 AM â€“ 5:00 PM'
-      - 'Saturday: 10:00 AM â€“ 6:00 PM'
-      - 'Sunday: 10:00 AM â€“ 6:00 PM'
-    website: http://www.keansburgamusementpark.com/
-  - formatted_address: 1 Playland Pkwy, Rye, NY 10580, USA
-    formatted_phone_number: (914) 813-7010
-    geometry:
-      location:
-        lat: 40.96514189999999
-        lng: -73.6751251
-    name: Playland Park
-    website: http://www.playlandpark.org/
-  - formatted_address: New York, NY 10019, USA
-    formatted_phone_number: (212) 982-2229
-    geometry:
-      location:
-        lat: 40.76777939999999
-        lng: -73.97446630000002
-    name: Victorian Gardens Amusement Park
+        lat: 33.7253417
+        lng: -84.3822749
+    name: D.H. Stanton Sprayground
     opening_hours:
       open_now: true
       periods:
@@ -155,656 +227,991 @@ New York:
           time: '1000'
       - close:
           day: 1
-          time: '1900'
+          time: '2000'
         open:
           day: 1
-          time: '1100'
+          time: '1000'
       - close:
           day: 2
-          time: '1900'
+          time: '2000'
         open:
           day: 2
-          time: '1100'
+          time: '1000'
       - close:
           day: 3
-          time: '1900'
+          time: '2000'
         open:
           day: 3
-          time: '1100'
+          time: '1000'
       - close:
           day: 4
-          time: '1900'
+          time: '2000'
         open:
           day: 4
-          time: '1100'
+          time: '1000'
       - close:
           day: 5
           time: '2000'
         open:
           day: 5
-          time: '1100'
+          time: '1000'
       - close:
           day: 6
-          time: '2100'
+          time: '2000'
         open:
           day: 6
           time: '1000'
       weekday_text:
-      - 'Monday: 11:00 AM â€“ 7:00 PM'
-      - 'Tuesday: 11:00 AM â€“ 7:00 PM'
-      - 'Wednesday: 11:00 AM â€“ 7:00 PM'
-      - 'Thursday: 11:00 AM â€“ 7:00 PM'
-      - 'Friday: 11:00 AM â€“ 8:00 PM'
-      - 'Saturday: 10:00 AM â€“ 9:00 PM'
-      - 'Sunday: 10:00 AM â€“ 8:00 PM'
-    website: https://www.victoriangardensnyc.com/
-  - formatted_address: 3059 W 12th St, Brooklyn, NY 11224, USA
-    formatted_phone_number: (718) 372-2592
+      - 'Monday: 10:00 AM – 8:00 PM'
+      - 'Tuesday: 10:00 AM – 8:00 PM'
+      - 'Wednesday: 10:00 AM – 8:00 PM'
+      - 'Thursday: 10:00 AM – 8:00 PM'
+      - 'Friday: 10:00 AM – 8:00 PM'
+      - 'Saturday: 10:00 AM – 8:00 PM'
+      - 'Sunday: 10:00 AM – 8:00 PM'
+    website: http://www.atlantaga.gov/index.aspx?page=971
+  - formatted_address: 1052 Martin St SE, Atlanta, GA 30315, USA
+    formatted_phone_number: (404) 546-6788
     geometry:
       location:
-        lat: 40.5738964
-        lng: -73.97916479999999
-    name: Deno's Wonder Wheel Amusement Park
-    website: http://www.denoswonderwheel.com/?utm_source=GMBSocialClimb&utm_medium=Deno'sWonderWheelAmusementPark
-  - formatted_address: North Bergen, NJ 07047, USA
-    formatted_phone_number: (315) 849-1087
+        lat: 33.725316
+        lng: -84.3822935
+    name: D.H. Stanton Sprayground
+    website: http://beltline.org/parks/d-h-stanton/
+  - formatted_address: 800 Dallas St NE, Atlanta, GA 30308, USA
+    formatted_phone_number: (404) 546-6757
     geometry:
       location:
-        lat: 40.8053731
-        lng: -74.0241367
-    name: Travel in Style
+        lat: 33.7662759
+        lng: -84.3651241
+    name: Historic Fourth Ward Park Splash Pad
+    opening_hours:
+      open_now: true
+      periods:
+      - close:
+          day: 0
+          time: '2000'
+        open:
+          day: 0
+          time: '1000'
+      - close:
+          day: 1
+          time: '2000'
+        open:
+          day: 1
+          time: '1000'
+      - close:
+          day: 2
+          time: '2000'
+        open:
+          day: 2
+          time: '1000'
+      - close:
+          day: 3
+          time: '2000'
+        open:
+          day: 3
+          time: '1000'
+      - close:
+          day: 4
+          time: '2000'
+        open:
+          day: 4
+          time: '1000'
+      - close:
+          day: 5
+          time: '2000'
+        open:
+          day: 5
+          time: '1000'
+      - close:
+          day: 6
+          time: '2000'
+        open:
+          day: 6
+          time: '1000'
+      weekday_text:
+      - 'Monday: 10:00 AM – 8:00 PM'
+      - 'Tuesday: 10:00 AM – 8:00 PM'
+      - 'Wednesday: 10:00 AM – 8:00 PM'
+      - 'Thursday: 10:00 AM – 8:00 PM'
+      - 'Friday: 10:00 AM – 8:00 PM'
+      - 'Saturday: 10:00 AM – 8:00 PM'
+      - 'Sunday: 10:00 AM – 8:00 PM'
+    website: http://www.h4wpc.org/
+  - formatted_address: 275 Riverside Pkwy, Austell, GA 30168, USA
+    formatted_phone_number: (770) 739-3400
+    geometry:
+      location:
+        lat: 33.7701192
+        lng: -84.54828169999999
+    name: Dare Devil Dive
+    website: https://www.sixflags.com/overgeorgia/attractions/dare-devil-dive
+  - formatted_address: Austell, GA 30168, USA
+    geometry:
+      location:
+        lat: 33.7690507
+        lng: -84.5496455
+    name: Lost and Found
+    website: http://sixflags.com/
+  - formatted_address: Austell, GA 30168, USA
+    formatted_phone_number: (770) 739-3400
+    geometry:
+      location:
+        lat: 33.7652294
+        lng: -84.5522854
+    name: Paradise Island
+    website: http://sixflags.com/
+  - formatted_address: 275 Riverside Pkwy, Austell, GA 30168, USA
+    formatted_phone_number: (770) 739-3400
+    geometry:
+      location:
+        lat: 33.7684378
+        lng: -84.5521522
+    name: Dahlonega Mine Train
+    opening_hours:
+      open_now: false
+      periods:
+      - close:
+          day: 1
+          time: '1500'
+        open:
+          day: 1
+          time: '1100'
+      - close:
+          day: 2
+          time: '1500'
+        open:
+          day: 2
+          time: '1100'
+      - close:
+          day: 3
+          time: '1500'
+        open:
+          day: 3
+          time: '1100'
+      - close:
+          day: 4
+          time: '1500'
+        open:
+          day: 4
+          time: '1100'
+      - close:
+          day: 6
+          time: '1500'
+        open:
+          day: 6
+          time: '1100'
+      weekday_text:
+      - 'Monday: 11:00 AM – 3:00 PM'
+      - 'Tuesday: 11:00 AM – 3:00 PM'
+      - 'Wednesday: 11:00 AM – 3:00 PM'
+      - 'Thursday: 11:00 AM – 3:00 PM'
+      - 'Friday: Closed'
+      - 'Saturday: 11:00 AM – 3:00 PM'
+      - 'Sunday: Closed'
+    website: https://www.sixflags.com/overgeorgia/attractions/dahlonega-mine-train
+  - formatted_address: 6 Flags Wy SW, Austell, GA 30168, USA
+    formatted_phone_number: (770) 739-3400
+    geometry:
+      location:
+        lat: 33.7643203
+        lng: -84.5529785
+    name: Hurricane Harbor
     opening_hours:
       open_now: false
       periods:
       - close:
           day: 0
+          time: '1800'
+        open:
+          day: 0
+          time: '1200'
+      - close:
+          day: 1
+          time: '1800'
+        open:
+          day: 1
+          time: '1200'
+      - close:
+          day: 2
+          time: '1800'
+        open:
+          day: 2
+          time: '1200'
+      - close:
+          day: 3
+          time: '1800'
+        open:
+          day: 3
+          time: '1200'
+      - close:
+          day: 4
+          time: '1800'
+        open:
+          day: 4
+          time: '1200'
+      - close:
+          day: 5
+          time: '1800'
+        open:
+          day: 5
+          time: '1200'
+      - close:
+          day: 6
+          time: '1800'
+        open:
+          day: 6
+          time: '1200'
+      weekday_text:
+      - 'Monday: 12:00 – 6:00 PM'
+      - 'Tuesday: 12:00 – 6:00 PM'
+      - 'Wednesday: 12:00 – 6:00 PM'
+      - 'Thursday: 12:00 – 6:00 PM'
+      - 'Friday: 12:00 – 6:00 PM'
+      - 'Saturday: 12:00 – 6:00 PM'
+      - 'Sunday: 12:00 – 6:00 PM'
+    website: https://www.sixflags.com/overgeorgia/hurricane-harbor/overview
+  - formatted_address: Austell, GA 30168, USA
+    formatted_phone_number: (770) 739-3400
+    geometry:
+      location:
+        lat: 33.76434269999999
+        lng: -84.5533884
+    name: Calypso Bay Wave Pool
+    website: http://sixflags.com/
+  - formatted_address: 2696 Peachtree Square, Atlanta, GA 30360, USA
+    formatted_phone_number: (770) 457-3000
+    geometry:
+      location:
+        lat: 33.9244011
+        lng: -84.2758059
+    name: H2Ofun a Wm. Hobbs Ltd, company
+  - formatted_address: 2341 Peeler Rd, Dunwoody, GA 30338, USA
+    formatted_phone_number: (770) 365-0356
+    geometry:
+      location:
+        lat: 33.9355022
+        lng: -84.3010942
+    name: Treetop Quest Dunwoody
+    opening_hours:
+      open_now: false
+      periods:
+      - close:
+          day: 0
+          time: '1600'
+        open:
+          day: 0
+          time: '1000'
+      - close:
+          day: 5
           time: '1400'
         open:
-          day: 0
-          time: '1000'
-      - close:
-          day: 1
-          time: '2100'
-        open:
-          day: 1
-          time: 0800
-      - close:
-          day: 2
-          time: '2100'
-        open:
-          day: 2
-          time: 0800
-      - close:
-          day: 3
-          time: '2100'
-        open:
-          day: 3
-          time: 0800
-      - close:
-          day: 4
-          time: '2100'
-        open:
-          day: 4
-          time: 0800
-      - close:
           day: 5
-          time: '2100'
-        open:
-          day: 5
-          time: 0800
+          time: 0930
       - close:
           day: 6
-          time: '1700'
-        open:
-          day: 6
-          time: 0900
-      weekday_text:
-      - 'Monday: 8:00 AM â€“ 9:00 PM'
-      - 'Tuesday: 8:00 AM â€“ 9:00 PM'
-      - 'Wednesday: 8:00 AM â€“ 9:00 PM'
-      - 'Thursday: 8:00 AM â€“ 9:00 PM'
-      - 'Friday: 8:00 AM â€“ 9:00 PM'
-      - 'Saturday: 9:00 AM â€“ 5:00 PM'
-      - 'Sunday: 10:00 AM â€“ 2:00 PM'
-  - formatted_address: 39 W 32nd St 4th floor, New York, NY 10001, USA
-    formatted_phone_number: (646) 964-5783
-    geometry:
-      location:
-        lat: 40.748168
-        lng: -73.98735099999999
-    name: Clue Chase Escape Room | Herald Square NYC
-    opening_hours:
-      open_now: true
-      periods:
-      - close:
-          day: 1
-          time: '0000'
-        open:
-          day: 0
-          time: '1100'
-      - close:
-          day: 2
-          time: '0000'
-        open:
-          day: 1
-          time: '1100'
-      - close:
-          day: 3
-          time: '0000'
-        open:
-          day: 2
-          time: '1100'
-      - close:
-          day: 4
-          time: '0000'
-        open:
-          day: 3
-          time: '1100'
-      - close:
-          day: 5
-          time: '0000'
-        open:
-          day: 4
-          time: '1100'
-      - close:
-          day: 6
-          time: '0000'
-        open:
-          day: 5
-          time: '1100'
-      - close:
-          day: 0
-          time: '0000'
-        open:
-          day: 6
-          time: '1100'
-      weekday_text:
-      - 'Monday: 11:00 AM â€“ 12:00 AM'
-      - 'Tuesday: 11:00 AM â€“ 12:00 AM'
-      - 'Wednesday: 11:00 AM â€“ 12:00 AM'
-      - 'Thursday: 11:00 AM â€“ 12:00 AM'
-      - 'Friday: 11:00 AM â€“ 12:00 AM'
-      - 'Saturday: 11:00 AM â€“ 12:00 AM'
-      - 'Sunday: 11:00 AM â€“ 12:00 AM'
-    website: http://cluechase.com/
-  - formatted_address: 47-11 Van Dam St, Long Island City, NY 11101, USA
-    formatted_phone_number: (917) 979-6215
-    geometry:
-      location:
-        lat: 40.74220680000001
-        lng: -73.933695
-    name: Virtual World VR
-  - formatted_address: 80-28 Cooper Ave Regal Cinemas Building, Queens, NY 11385,
-      USA
-    formatted_phone_number: (347) 599-1919
-    geometry:
-      location:
-        lat: 40.70944809999999
-        lng: -73.86878320000001
-    name: Laser Bounce - Family Fun Center
-    opening_hours:
-      open_now: true
-      periods:
-      - close:
-          day: 0
-          time: '2200'
-        open:
-          day: 0
-          time: '1000'
-      - close:
-          day: 1
-          time: '2200'
-        open:
-          day: 1
-          time: '1100'
-      - close:
-          day: 2
-          time: '2200'
-        open:
-          day: 2
-          time: '1100'
-      - close:
-          day: 3
-          time: '2200'
-        open:
-          day: 3
-          time: '1100'
-      - close:
-          day: 4
-          time: '2200'
-        open:
-          day: 4
-          time: '1100'
-      - close:
-          day: 6
-          time: '0000'
-        open:
-          day: 5
-          time: '1100'
-      - close:
-          day: 0
-          time: '0000'
+          time: '1600'
         open:
           day: 6
           time: '1000'
-      weekday_text:
-      - 'Monday: 11:00 AM â€“ 10:00 PM'
-      - 'Tuesday: 11:00 AM â€“ 10:00 PM'
-      - 'Wednesday: 11:00 AM â€“ 10:00 PM'
-      - 'Thursday: 11:00 AM â€“ 10:00 PM'
-      - 'Friday: 11:00 AM â€“ 12:00 AM'
-      - 'Saturday: 10:00 AM â€“ 12:00 AM'
-      - 'Sunday: 10:00 AM â€“ 10:00 PM'
-    website: http://laserbounce.com/
-  - formatted_address: 5351 111th St, Corona, NY 11368, USA
-    formatted_phone_number: (718) 788-2676
-    geometry:
-      location:
-        lat: 40.7432938
-        lng: -73.8492741
-    name: Fantasy Forest Amusement Park
-    website: http://fantasyforestnyc.com/
-  - formatted_address: 69 Wesley St, South Hackensack, NJ 07606, USA
-    formatted_phone_number: (201) 212-6454
-    geometry:
-      location:
-        lat: 40.86925529999999
-        lng: -74.0531888
-    name: Urban Air Trampoline Park
-    opening_hours:
-      open_now: true
-      periods:
-      - close:
-          day: 0
-          time: '2100'
-        open:
-          day: 0
-          time: '1000'
-      - close:
-          day: 1
-          time: '2000'
-        open:
-          day: 1
-          time: '1500'
-      - close:
-          day: 2
-          time: '2000'
-        open:
-          day: 2
-          time: '1500'
-      - close:
-          day: 3
-          time: '2000'
-        open:
-          day: 3
-          time: '1500'
-      - close:
-          day: 4
-          time: '2000'
-        open:
-          day: 4
-          time: '1500'
-      - close:
-          day: 5
-          time: '2300'
-        open:
-          day: 5
-          time: '1200'
-      - close:
-          day: 6
-          time: '2300'
-        open:
-          day: 6
-          time: '1000'
-      weekday_text:
-      - 'Monday: 3:00 â€“ 8:00 PM'
-      - 'Tuesday: 3:00 â€“ 8:00 PM'
-      - 'Wednesday: 3:00 â€“ 8:00 PM'
-      - 'Thursday: 3:00 â€“ 8:00 PM'
-      - 'Friday: 12:00 â€“ 11:00 PM'
-      - 'Saturday: 10:00 AM â€“ 11:00 PM'
-      - 'Sunday: 10:00 AM â€“ 9:00 PM'
-    website: https://www.urbanairtrampolinepark.com/locations/new-jersey/south-hackensack
-  - formatted_address: 33 Lecount Pl, New Rochelle, NY 10801, USA
-    formatted_phone_number: (914) 740-8407
-    geometry:
-      location:
-        lat: 40.9110427
-        lng: -73.7796455
-    name: Sky Zone Trampoline Park
-    opening_hours:
-      open_now: true
-      periods:
-      - close:
-          day: 0
-          time: '2200'
-        open:
-          day: 0
-          time: 0900
-      - close:
-          day: 1
-          time: '2100'
-        open:
-          day: 1
-          time: 0900
-      - close:
-          day: 2
-          time: '2100'
-        open:
-          day: 2
-          time: 0900
-      - close:
-          day: 3
-          time: '2100'
-        open:
-          day: 3
-          time: 0900
-      - close:
-          day: 4
-          time: '2100'
-        open:
-          day: 4
-          time: 0900
-      - close:
-          day: 5
-          time: '2200'
-        open:
-          day: 5
-          time: 0900
-      - close:
-          day: 6
-          time: '2200'
-        open:
-          day: 6
-          time: 0900
-      weekday_text:
-      - 'Monday: 9:00 AM â€“ 9:00 PM'
-      - 'Tuesday: 9:00 AM â€“ 9:00 PM'
-      - 'Wednesday: 9:00 AM â€“ 9:00 PM'
-      - 'Thursday: 9:00 AM â€“ 9:00 PM'
-      - 'Friday: 9:00 AM â€“ 10:00 PM'
-      - 'Saturday: 9:00 AM â€“ 10:00 PM'
-      - 'Sunday: 9:00 AM â€“ 10:00 PM'
-    website: https://www.skyzone.com/newrochelle?y_source=1_MTUwOTE2NDItNzE1LWxvY2F0aW9uLndlYnNpdGU%3D
-  - formatted_address: 275 Beachway Ave, Keansburg, NJ 07734, USA
-    formatted_phone_number: (732) 495-1400
-    geometry:
-      location:
-        lat: 40.4547442
-        lng: -74.138195
-    name: Keansburg Amusement Park NJ
-    opening_hours:
-      open_now: true
-      periods:
-      - close:
-          day: 0
-          time: '1900'
-        open:
-          day: 0
-          time: '1100'
-      - close:
-          day: 6
-          time: '1900'
-        open:
-          day: 6
-          time: '1100'
       weekday_text:
       - 'Monday: Closed'
       - 'Tuesday: Closed'
       - 'Wednesday: Closed'
       - 'Thursday: Closed'
-      - 'Friday: Closed'
-      - 'Saturday: 11:00 AM â€“ 7:00 PM'
-      - 'Sunday: 11:00 AM â€“ 7:00 PM'
-    website: http://keansburgamusementpark.com/
-  - formatted_address: 44 Jericho Turnpike f, Mineola, NY 11501, USA
-    formatted_phone_number: (516) 246-9939
+      - 'Friday: 9:30 AM – 2:00 PM'
+      - 'Saturday: 10:00 AM – 4:00 PM'
+      - 'Sunday: 10:00 AM – 4:00 PM'
+    website: http://www.treetopquest.com/
+  - formatted_address: 6040 Unity Dr ste c, Norcross, GA 30071, USA
+    formatted_phone_number: (470) 294-0480
     geometry:
       location:
-        lat: 40.75103000000001
-        lng: -73.636361
-    name: Can You Escape? LI
+        lat: 33.91408620000001
+        lng: -84.2052344
+    name: Amazing Escape
     opening_hours:
       open_now: true
       periods:
       - close:
           day: 0
-          time: '2100'
+          time: '2000'
         open:
           day: 0
-          time: '1230'
+          time: '1200'
       - close:
           day: 1
-          time: '2100'
+          time: '2000'
         open:
           day: 1
           time: '1200'
       - close:
           day: 2
-          time: '2100'
+          time: '2000'
         open:
           day: 2
           time: '1200'
       - close:
           day: 3
-          time: '2100'
+          time: '2000'
         open:
           day: 3
           time: '1200'
       - close:
           day: 4
-          time: '2100'
+          time: '2000'
         open:
           day: 4
           time: '1200'
       - close:
           day: 5
-          time: '2230'
+          time: '2300'
         open:
           day: 5
           time: '1200'
       - close:
           day: 6
-          time: '2230'
+          time: '2300'
         open:
           day: 6
           time: '1200'
       weekday_text:
-      - 'Monday: 12:00 â€“ 9:00 PM'
-      - 'Tuesday: 12:00 â€“ 9:00 PM'
-      - 'Wednesday: 12:00 â€“ 9:00 PM'
-      - 'Thursday: 12:00 â€“ 9:00 PM'
-      - 'Friday: 12:00 â€“ 10:30 PM'
-      - 'Saturday: 12:00 â€“ 10:30 PM'
-      - 'Sunday: 12:30 â€“ 9:00 PM'
-    website: https://www.canyouescapeli.com/
-  - formatted_address: W Front St, Keyport, NJ 07735, USA
-    formatted_phone_number: (973) 256-4190
+      - 'Monday: 12:00 – 8:00 PM'
+      - 'Tuesday: 12:00 – 8:00 PM'
+      - 'Wednesday: 12:00 – 8:00 PM'
+      - 'Thursday: 12:00 – 8:00 PM'
+      - 'Friday: 12:00 – 11:00 PM'
+      - 'Saturday: 12:00 – 11:00 PM'
+      - 'Sunday: 12:00 – 8:00 PM'
+    website: https://www.amazingescape.com/
+  - formatted_address: 1063 Rockbridge Rd SW, Stone Mountain, GA 30087, USA
+    formatted_phone_number: (678) 277-0870
     geometry:
       location:
-        lat: 40.4361049
-        lng: -74.2065152
-    name: Keyport Fireman's Fair
-    website: http://campys.com/
-  - formatted_address: Woodhaven Blvd &, Forest Park Dr, Woodhaven, NY 11421, USA
-    formatted_phone_number: (718) 788-2676
-    geometry:
-      location:
-        lat: 40.70036169999999
-        lng: -73.85673059999999
-    name: Forest Park Carousel Amusement Village
+        lat: 33.84451649999999
+        lng: -84.1334524
+    name: Mountain Park Aquatic Center & Activity Building
     opening_hours:
       open_now: false
-      periods:
-      - close:
-          day: 6
-          time: '0130'
-        open:
-          day: 6
-          time: '0100'
-      weekday_text:
-      - 'Monday: Closed'
-      - 'Tuesday: Closed'
-      - 'Wednesday: Closed'
-      - 'Thursday: Closed'
-      - 'Friday: Closed'
-      - 'Saturday: 1:00 â€“ 1:30 AM'
-      - 'Sunday: Closed'
-    website: http://www.forestparkcarousel.com/
-  - formatted_address: 80 Commerce Dr, Allendale, NJ 07401, USA
-    formatted_phone_number: (201) 574-1800
-    geometry:
-      location:
-        lat: 41.0395444
-        lng: -74.1178018
-    name: Sky Zone Trampoline Park
-    opening_hours:
-      open_now: true
       periods:
       - close:
           day: 0
           time: '1800'
         open:
           day: 0
-          time: '1100'
+          time: '1300'
+      - close:
+          day: 1
+          time: '2100'
+        open:
+          day: 1
+          time: '0600'
+      - close:
+          day: 2
+          time: '2100'
+        open:
+          day: 2
+          time: 0900
       - close:
           day: 3
-          time: '1900'
+          time: '2100'
         open:
           day: 3
-          time: '1500'
+          time: '0600'
       - close:
           day: 4
-          time: '1900'
+          time: '2100'
         open:
           day: 4
-          time: '1500'
+          time: 0900
       - close:
           day: 5
-          time: '1900'
+          time: '1800'
         open:
           day: 5
-          time: '1500'
+          time: 0800
       - close:
           day: 6
-          time: '1900'
+          time: '1800'
         open:
           day: 6
-          time: '1100'
+          time: '1200'
+      weekday_text:
+      - 'Monday: 6:00 AM – 9:00 PM'
+      - 'Tuesday: 9:00 AM – 9:00 PM'
+      - 'Wednesday: 6:00 AM – 9:00 PM'
+      - 'Thursday: 9:00 AM – 9:00 PM'
+      - 'Friday: 8:00 AM – 6:00 PM'
+      - 'Saturday: 12:00 – 6:00 PM'
+      - 'Sunday: 1:00 – 6:00 PM'
+    website: https://www.gwinnettcounty.com/portal/gwinnett/Departments/CommunityServices/ParksandRecreation/OurParksandFacilities/GuidetoYourParks/MountainParkAquaticCenter
+  - formatted_address: 1675 Hwy 85 North, Fayetteville, GA 30214, USA
+    formatted_phone_number: (407) 363-3867
+    geometry:
+      location:
+        lat: 33.4963312
+        lng: -84.42797259999999
+    name: Fun Spot America Theme Parks - Atlanta
+    opening_hours:
+      open_now: true
+      periods:
+      - close:
+          day: 0
+          time: '2200'
+        open:
+          day: 0
+          time: '1200'
+      - close:
+          day: 5
+          time: '2200'
+        open:
+          day: 5
+          time: '1600'
+      - close:
+          day: 6
+          time: '2200'
+        open:
+          day: 6
+          time: '1200'
       weekday_text:
       - 'Monday: Closed'
       - 'Tuesday: Closed'
-      - 'Wednesday: 3:00 â€“ 7:00 PM'
-      - 'Thursday: 3:00 â€“ 7:00 PM'
-      - 'Friday: 3:00 â€“ 7:00 PM'
-      - 'Saturday: 11:00 AM â€“ 7:00 PM'
-      - 'Sunday: 11:00 AM â€“ 6:00 PM'
-    website: https://www.skyzone.com/allendale?y_source=1_MTUwOTE1OTMtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D
-  - formatted_address: 1824 Shore Pkwy, Brooklyn, NY 11214, USA
-    formatted_phone_number: (718) 975-2748
-    geometry:
-      location:
-        lat: 40.5906694
-        lng: -73.99469409999999
-    name: Adventurers Amusement Park
-    website: http://www.adventurerspark.com/
-  - formatted_address: 76 Carter Dr, Edison, NJ 08817, USA
-    formatted_phone_number: (732) 997-7552
-    geometry:
-      location:
-        lat: 40.531583
-        lng: -74.394987
-    name: Revolution Action Park
-    website: https://www.revolutionactionpark.com/
+      - 'Wednesday: Closed'
+      - 'Thursday: Closed'
+      - 'Friday: 4:00 – 10:00 PM'
+      - 'Saturday: 12:00 – 10:00 PM'
+      - 'Sunday: 12:00 – 10:00 PM'
+    website: http://funspotamericaatlanta.com/
   food:
-  - formatted_address: New York, NY, USA
+  - formatted_address: Atlanta, GA, USA
     geometry:
       location:
-        lat: 40.7127753
-        lng: -74.0059728
-    name: New York
-    website: http://www.nyc.gov/
-  - formatted_address: Newark, NJ, USA
+        lat: 33.7489954
+        lng: -84.3879824
+    name: Atlanta
+    website: http://www.atlantaga.gov/
+  - formatted_address: 134 Peachtree St NE, Atlanta, GA 30303, USA
+    formatted_phone_number: (404) 522-0950
     geometry:
       location:
-        lat: 40.735657
-        lng: -74.1723667
-    name: Newark
-    website: http://www.ci.newark.nj.us/
+        lat: 33.75726940000001
+        lng: -84.3882035
+    name: Residence Inn by Marriott Atlanta Downtown
+    opening_hours:
+      open_now: true
+      periods:
+      - open:
+          day: 0
+          time: '0000'
+      weekday_text:
+      - 'Monday: Open 24 hours'
+      - 'Tuesday: Open 24 hours'
+      - 'Wednesday: Open 24 hours'
+      - 'Thursday: Open 24 hours'
+      - 'Friday: Open 24 hours'
+      - 'Saturday: Open 24 hours'
+      - 'Sunday: Open 24 hours'
+    website: https://www.marriott.com/hotels/travel/atldt-residence-inn-atlanta-downtown/?scid=bb1a189a-fec3-4d19-a255-54ba596febe2&y_source=1_Mzg4OTg3Mi03MTUtbG9jYXRpb24uZ29vZ2xlX3dlYnNpdGVfb3ZlcnJpZGU%3D
+  - formatted_address: 110 Marietta St NW, Atlanta, GA 30303, USA
+    formatted_phone_number: (404) 521-2250
+    geometry:
+      location:
+        lat: 33.7569647
+        lng: -84.3929763
+    name: Glenn Hotel, Autograph Collection
+    website: https://www.marriott.com/hotels/travel/atlak-glenn-hotel-autograph-collection/?scid=bb1a189a-fec3-4d19-a255-54ba596febe2&y_source=1_Mzg4OTc5Mi03MTUtbG9jYXRpb24uZ29vZ2xlX3dlYnNpdGVfb3ZlcnJpZGU%3D
+  - formatted_address: 111 Cone St NW, Atlanta, GA 30303, USA
+    formatted_phone_number: (404) 524-7000
+    geometry:
+      location:
+        lat: 33.7578899
+        lng: -84.3898918
+    name: Holiday Inn Express & Suites Atlanta Downtown
+    opening_hours:
+      open_now: true
+      periods:
+      - open:
+          day: 0
+          time: '0000'
+      weekday_text:
+      - 'Monday: Open 24 hours'
+      - 'Tuesday: Open 24 hours'
+      - 'Wednesday: Open 24 hours'
+      - 'Thursday: Open 24 hours'
+      - 'Friday: Open 24 hours'
+      - 'Saturday: Open 24 hours'
+      - 'Sunday: Open 24 hours'
+    website: https://www.ihg.com/holidayinnexpress/hotels/us/en/atlanta/atlws/hoteldetail?cm_mmc=GoogleMaps-_-EX-_-US-_-ATLWS
+  - formatted_address: 133 Carnegie Way NW, Atlanta, GA 30303, USA
+    formatted_phone_number: (404) 222-2416
+    geometry:
+      location:
+        lat: 33.7582034
+        lng: -84.3880886
+    name: Courtyard by Marriott Atlanta Downtown
+    opening_hours:
+      open_now: true
+      periods:
+      - open:
+          day: 0
+          time: '0000'
+      weekday_text:
+      - 'Monday: Open 24 hours'
+      - 'Tuesday: Open 24 hours'
+      - 'Wednesday: Open 24 hours'
+      - 'Thursday: Open 24 hours'
+      - 'Friday: Open 24 hours'
+      - 'Saturday: Open 24 hours'
+      - 'Sunday: Open 24 hours'
+    website: https://www.marriott.com/hotels/travel/atldo-courtyard-atlanta-downtown/?scid=bb1a189a-fec3-4d19-a255-54ba596febe2&y_source=1_NjUwMTA3LTcxNS1sb2NhdGlvbi5nb29nbGVfd2Vic2l0ZV9vdmVycmlkZQ%3D%3D
+  - formatted_address: 176 Peachtree St NW, Atlanta, GA 30303, USA
+    formatted_phone_number: (404) 523-5155
+    geometry:
+      location:
+        lat: 33.7583217
+        lng: -84.38785700000001
+    name: Ellis Hotel, Atlanta, a Tribute Portfolio Hotel
+    opening_hours:
+      open_now: true
+      periods:
+      - open:
+          day: 0
+          time: '0000'
+      weekday_text:
+      - 'Monday: Open 24 hours'
+      - 'Tuesday: Open 24 hours'
+      - 'Wednesday: Open 24 hours'
+      - 'Thursday: Open 24 hours'
+      - 'Friday: Open 24 hours'
+      - 'Saturday: Open 24 hours'
+      - 'Sunday: Open 24 hours'
+    website: https://www.marriott.com/hotels/travel/atlte-ellis-hotel-atlanta-a-tribute-portfolio-hotel/?scid=bb1a189a-fec3-4d19-a255-54ba596febe2&y_source=1_MTA4MTA3NjktNzE1LWxvY2F0aW9uLmdvb2dsZV93ZWJzaXRlX292ZXJyaWRl
+  - formatted_address: 181 Peachtree St NE, Atlanta, GA 30303, USA
+    formatted_phone_number: (404) 659-0400
+    geometry:
+      location:
+        lat: 33.7585793
+        lng: -84.3870657
+    name: The Ritz-Carlton, Atlanta
+    opening_hours:
+      open_now: true
+      periods:
+      - open:
+          day: 0
+          time: '0000'
+      weekday_text:
+      - 'Monday: Open 24 hours'
+      - 'Tuesday: Open 24 hours'
+      - 'Wednesday: Open 24 hours'
+      - 'Thursday: Open 24 hours'
+      - 'Friday: Open 24 hours'
+      - 'Saturday: Open 24 hours'
+      - 'Sunday: Open 24 hours'
+    website: https://www.ritzcarlton.com/en/hotels/georgia/atlanta?scid=bb1a189a-fec3-4d19-a255-54ba596febe2&y_source=1_NTc3MjUzLTcxNS1sb2NhdGlvbi5nb29nbGVfd2Vic2l0ZV9vdmVycmlkZQ==
+  - formatted_address: 161 Ted Turner Dr NW, Atlanta, GA 30303, USA
+    formatted_phone_number: (404) 589-1111
+    geometry:
+      location:
+        lat: 33.7588527
+        lng: -84.3898268
+    name: Hampton Inn & Suites Atlanta-Downtown
+    opening_hours:
+      open_now: true
+      periods:
+      - open:
+          day: 0
+          time: '0000'
+      weekday_text:
+      - 'Monday: Open 24 hours'
+      - 'Tuesday: Open 24 hours'
+      - 'Wednesday: Open 24 hours'
+      - 'Thursday: Open 24 hours'
+      - 'Friday: Open 24 hours'
+      - 'Saturday: Open 24 hours'
+      - 'Sunday: Open 24 hours'
+    website: https://www.hilton.com/en/hotels/atlhshx-hampton-suites-atlanta-downtown/?SEO_id=GMB-HX-ATLHSHX&y_source=1_MjA4MjU2My03MTUtbG9jYXRpb24uZ29vZ2xlX3dlYnNpdGVfb3ZlcnJpZGU%3D
+  - formatted_address: 160 Ted Turner Dr NW, Atlanta, GA 30303, USA
+    formatted_phone_number: (404) 688-8600
+    geometry:
+      location:
+        lat: 33.7593077
+        lng: -84.3899184
+    name: The American Hotel Atlanta Downtown - a DoubleTree by Hilton
+    opening_hours:
+      open_now: true
+      periods:
+      - open:
+          day: 0
+          time: '0000'
+      weekday_text:
+      - 'Monday: Open 24 hours'
+      - 'Tuesday: Open 24 hours'
+      - 'Wednesday: Open 24 hours'
+      - 'Thursday: Open 24 hours'
+      - 'Friday: Open 24 hours'
+      - 'Saturday: Open 24 hours'
+      - 'Sunday: Open 24 hours'
+    website: https://www.hilton.com/en/hotels/atlssdt-the-american-hotel-atlanta-downtown/?SEO_id=GMB-DT-ATLSSDT&y_source=1_MTM3MjUzMS03MTUtbG9jYXRpb24uZ29vZ2xlX3dlYnNpdGVfb3ZlcnJpZGU%3D
+  - formatted_address: 165 Courtland St NE, Atlanta, GA 30303, USA
+    formatted_phone_number: (404) 659-6500
+    geometry:
+      location:
+        lat: 33.75899399999999
+        lng: -84.383111
+    name: Sheraton Atlanta Hotel
+    website: https://www.marriott.com/hotels/travel/atlxs-sheraton-atlanta-hotel/?scid=bb1a189a-fec3-4d19-a255-54ba596febe2
+  - formatted_address: 265 Peachtree St NE, Atlanta, GA 30303, USA
+    formatted_phone_number: (404) 577-1234
+    geometry:
+      location:
+        lat: 33.7613755
+        lng: -84.38735559999999
+    name: Hyatt Regency Atlanta
+    opening_hours:
+      open_now: true
+      periods:
+      - open:
+          day: 0
+          time: '0000'
+      weekday_text:
+      - 'Monday: Open 24 hours'
+      - 'Tuesday: Open 24 hours'
+      - 'Wednesday: Open 24 hours'
+      - 'Thursday: Open 24 hours'
+      - 'Friday: Open 24 hours'
+      - 'Saturday: Open 24 hours'
+      - 'Sunday: Open 24 hours'
+    website: https://www.hyatt.com/en-US/hotel/georgia/hyatt-regency-atlanta/atlra?src=corp_lclb_gmb_seo_nam_atlra
+  - formatted_address: 267 Marietta St NW, Atlanta, GA 30313, USA
+    formatted_phone_number: (404) 223-2300
+    geometry:
+      location:
+        lat: 33.76054309999999
+        lng: -84.3950598
+    name: Embassy Suites by Hilton Atlanta at Centennial Olympic Park
+    opening_hours:
+      open_now: true
+      periods:
+      - open:
+          day: 0
+          time: '0000'
+      weekday_text:
+      - 'Monday: Open 24 hours'
+      - 'Tuesday: Open 24 hours'
+      - 'Wednesday: Open 24 hours'
+      - 'Thursday: Open 24 hours'
+      - 'Friday: Open 24 hours'
+      - 'Saturday: Open 24 hours'
+      - 'Sunday: Open 24 hours'
+    website: https://www.esatl.com/
+  - formatted_address: 255 Courtland St NE, Atlanta, GA 30303, USA
+    formatted_phone_number: (404) 659-2000
+    geometry:
+      location:
+        lat: 33.7615008
+        lng: -84.3836006
+    name: Hilton Atlanta
+    opening_hours:
+      open_now: true
+      periods:
+      - open:
+          day: 0
+          time: '0000'
+      weekday_text:
+      - 'Monday: Open 24 hours'
+      - 'Tuesday: Open 24 hours'
+      - 'Wednesday: Open 24 hours'
+      - 'Thursday: Open 24 hours'
+      - 'Friday: Open 24 hours'
+      - 'Saturday: Open 24 hours'
+      - 'Sunday: Open 24 hours'
+    website: https://www3.hilton.com/en/hotels/georgia/hilton-atlanta-ATLAHHH/index.html?SEO_id=GMB-HH-ATLAHHH&y_source=1_MTIyMDg1MS03MTUtbG9jYXRpb24uZ29vZ2xlX3dlYnNpdGVfb3ZlcnJpZGU%3D
+  - formatted_address: 275 Baker St NW, Atlanta, GA 30313, USA
+    formatted_phone_number: (404) 577-2001
+    geometry:
+      location:
+        lat: 33.7618814
+        lng: -84.3956335
+    name: Hilton Garden Inn Atlanta Downtown
+    opening_hours:
+      open_now: true
+      periods:
+      - open:
+          day: 0
+          time: '0000'
+      weekday_text:
+      - 'Monday: Open 24 hours'
+      - 'Tuesday: Open 24 hours'
+      - 'Wednesday: Open 24 hours'
+      - 'Thursday: Open 24 hours'
+      - 'Friday: Open 24 hours'
+      - 'Saturday: Open 24 hours'
+      - 'Sunday: Open 24 hours'
+    website: https://www.hilton.com/en/hotels/atldogi-hilton-garden-inn-atlanta-downtown/?SEO_id=GMB-GI-ATLDOGI&y_source=1_MjA4MzQyMy03MTUtbG9jYXRpb24uZ29vZ2xlX3dlYnNpdGVfb3ZlcnJpZGU%3D
+  - formatted_address: 311 Courtland St NE, Atlanta, GA 30303, USA
+    formatted_phone_number: (404) 659-4545
+    geometry:
+      location:
+        lat: 33.76302359999999
+        lng: -84.3836503
+    name: Motel 6 Atlanta, GA - Downtown
+    opening_hours:
+      open_now: true
+      periods:
+      - open:
+          day: 0
+          time: '0000'
+      weekday_text:
+      - 'Monday: Open 24 hours'
+      - 'Tuesday: Open 24 hours'
+      - 'Wednesday: Open 24 hours'
+      - 'Thursday: Open 24 hours'
+      - 'Friday: Open 24 hours'
+      - 'Saturday: Open 24 hours'
+      - 'Sunday: Open 24 hours'
+    website: https://www.motel6.com/en/motels.ga.atlanta.4496.html?lid=Local_Milestone_4496&travelAgentNumber=TA001305&corporatePlusNumber=CP792N5W&utm_source=google%20my%20business&utm_medium=listing&utm_campaign=visit%20website
+  - formatted_address: 330 Peachtree St NE, Atlanta, GA 30308, USA
+    formatted_phone_number: (404) 577-1980
+    geometry:
+      location:
+        lat: 33.76350299999999
+        lng: -84.386949
+    name: Hyatt Place Atlanta/Downtown
+    opening_hours:
+      open_now: true
+      periods:
+      - open:
+          day: 0
+          time: '0000'
+      weekday_text:
+      - 'Monday: Open 24 hours'
+      - 'Tuesday: Open 24 hours'
+      - 'Wednesday: Open 24 hours'
+      - 'Thursday: Open 24 hours'
+      - 'Friday: Open 24 hours'
+      - 'Saturday: Open 24 hours'
+      - 'Sunday: Open 24 hours'
+    website: https://www.hyatt.com/en-US/hotel/georgia/hyatt-place-atlanta-downtown/atlzd?src=corp_lclb_gmb_seo_nam_atlzd
+  - formatted_address: 330 W Peachtree St NW, Atlanta, GA 30308, USA
+    formatted_phone_number: (404) 577-6970
+    geometry:
+      location:
+        lat: 33.76355999999999
+        lng: -84.3878187
+    name: Inn At The Peachtrees, Ascend Hotel Collection
+    opening_hours:
+      open_now: true
+      periods:
+      - open:
+          day: 0
+          time: '0000'
+      weekday_text:
+      - 'Monday: Open 24 hours'
+      - 'Tuesday: Open 24 hours'
+      - 'Wednesday: Open 24 hours'
+      - 'Thursday: Open 24 hours'
+      - 'Friday: Open 24 hours'
+      - 'Saturday: Open 24 hours'
+      - 'Sunday: Open 24 hours'
+    website: https://www.choicehotels.com/georgia/atlanta/ascend-hotels/ga045?source=gyxt
+  - formatted_address: 45 Ivan Allen Jr Blvd NW, Atlanta, GA 30308, USA
+    formatted_phone_number: (404) 582-5800
+    geometry:
+      location:
+        lat: 33.765133
+        lng: -84.3892103
+    name: W Atlanta – Downtown
+    opening_hours:
+      open_now: true
+      periods:
+      - open:
+          day: 0
+          time: '0000'
+      weekday_text:
+      - 'Monday: Open 24 hours'
+      - 'Tuesday: Open 24 hours'
+      - 'Wednesday: Open 24 hours'
+      - 'Thursday: Open 24 hours'
+      - 'Friday: Open 24 hours'
+      - 'Saturday: Open 24 hours'
+      - 'Sunday: Open 24 hours'
+    website: https://www.marriott.com/hotels/travel/atlhw-w-atlanta-downtown/?scid=bb1a189a-fec3-4d19-a255-54ba596febe2&y_source=1_MTUwMjc2MS03MTUtbG9jYXRpb24uZ29vZ2xlX3dlYnNpdGVfb3ZlcnJpZGU%3D
+  - formatted_address: 400 W Peachtree St NW, Atlanta, GA 30308, USA
+    formatted_phone_number: (404) 418-1212
+    geometry:
+      location:
+        lat: 33.7654986
+        lng: -84.387985
+    name: Twelve Downtown, Autograph Collection
+    opening_hours:
+      open_now: true
+      periods:
+      - open:
+          day: 0
+          time: '0000'
+      weekday_text:
+      - 'Monday: Open 24 hours'
+      - 'Tuesday: Open 24 hours'
+      - 'Wednesday: Open 24 hours'
+      - 'Thursday: Open 24 hours'
+      - 'Friday: Open 24 hours'
+      - 'Saturday: Open 24 hours'
+      - 'Sunday: Open 24 hours'
+    website: https://www.marriott.com/hotels/travel/atlpk-twelve-downtown-autograph-collection/?scid=bb1a189a-fec3-4d19-a255-54ba596febe2&y_source=1_Mzg5MDIzMi03MTUtbG9jYXRpb24uZ29vZ2xlX3dlYnNpdGVfb3ZlcnJpZGU=
+  - formatted_address: Marietta, GA, USA
+    geometry:
+      location:
+        lat: 33.95260200000001
+        lng: -84.5499327
+    name: Marietta
+    website: http://marietta.georgia.gov/
   tourist_attraction:
-  - formatted_address: Manhattan, New York, NY 10174, USA
+  - formatted_address: 121 Baker St NW, Atlanta, GA 30313, USA
+    formatted_phone_number: (404) 676-5151
     geometry:
       location:
-        lat: 40.751764
-        lng: -73.9755228
-    name: Chrysler Building
-  - formatted_address: Manhattan, NY 10036, USA
-    geometry:
-      location:
-        lat: 40.7579747
-        lng: -73.9855426
-    name: Times Square
+        lat: 33.7625488
+        lng: -84.3925876
+    name: World of Coca-Cola
     opening_hours:
-      open_now: true
+      open_now: false
+      periods:
+      - close:
+          day: 0
+          time: '1700'
+        open:
+          day: 0
+          time: 0900
+      - close:
+          day: 1
+          time: '1700'
+        open:
+          day: 1
+          time: '1000'
+      - close:
+          day: 2
+          time: '1700'
+        open:
+          day: 2
+          time: '1000'
+      - close:
+          day: 3
+          time: '1700'
+        open:
+          day: 3
+          time: '1000'
+      - close:
+          day: 4
+          time: '1700'
+        open:
+          day: 4
+          time: '1000'
+      - close:
+          day: 5
+          time: '1700'
+        open:
+          day: 5
+          time: '1000'
+      - close:
+          day: 6
+          time: '1700'
+        open:
+          day: 6
+          time: 0900
+      weekday_text:
+      - 'Monday: 10:00 AM – 5:00 PM'
+      - 'Tuesday: 10:00 AM – 5:00 PM'
+      - 'Wednesday: 10:00 AM – 5:00 PM'
+      - 'Thursday: 10:00 AM – 5:00 PM'
+      - 'Friday: 10:00 AM – 5:00 PM'
+      - 'Saturday: 9:00 AM – 5:00 PM'
+      - 'Sunday: 9:00 AM – 5:00 PM'
+    website: http://www.worldofcoca-cola.com/
+  - formatted_address: 225 Baker St NW, Atlanta, GA 30313, USA
+    formatted_phone_number: (404) 581-4000
+    geometry:
+      location:
+        lat: 33.76338199999999
+        lng: -84.3951098
+    name: Georgia Aquarium
+    opening_hours:
+      open_now: false
       periods:
       - close:
           day: 0
           time: '1900'
         open:
           day: 0
-          time: '1000'
+          time: 0800
       - close:
           day: 1
-          time: '2000'
+          time: '1800'
         open:
           day: 1
           time: 0900
       - close:
           day: 2
-          time: '2000'
+          time: '1800'
         open:
           day: 2
           time: 0900
       - close:
           day: 3
-          time: '2000'
+          time: '1800'
         open:
           day: 3
           time: 0900
       - close:
           day: 4
-          time: '2000'
+          time: '1800'
         open:
           day: 4
           time: 0900
       - close:
           day: 5
-          time: '2000'
+          time: '1900'
         open:
           day: 5
-          time: 0900
+          time: 0800
       - close:
           day: 6
           time: '1900'
         open:
           day: 6
-          time: '1000'
+          time: 0800
       weekday_text:
-      - 'Monday: 9:00 AM â€“ 8:00 PM'
-      - 'Tuesday: 9:00 AM â€“ 8:00 PM'
-      - 'Wednesday: 9:00 AM â€“ 8:00 PM'
-      - 'Thursday: 9:00 AM â€“ 8:00 PM'
-      - 'Friday: 9:00 AM â€“ 8:00 PM'
-      - 'Saturday: 10:00 AM â€“ 7:00 PM'
-      - 'Sunday: 10:00 AM â€“ 7:00 PM'
-    website: http://timessquarenyc.org/
-  - formatted_address: 2152 Henry Hudson Pkwy, The Bronx, NY 10463, USA
-    formatted_phone_number: (212) 304-5001
+      - 'Monday: 9:00 AM – 6:00 PM'
+      - 'Tuesday: 9:00 AM – 6:00 PM'
+      - 'Wednesday: 9:00 AM – 6:00 PM'
+      - 'Thursday: 9:00 AM – 6:00 PM'
+      - 'Friday: 8:00 AM – 7:00 PM'
+      - 'Saturday: 8:00 AM – 7:00 PM'
+      - 'Sunday: 8:00 AM – 7:00 PM'
+    website: https://www.georgiaaquarium.org/
+  - formatted_address: 660 Peachtree St NE, Atlanta, GA 30308, USA
+    formatted_phone_number: (404) 881-2100
     geometry:
       location:
-        lat: 40.8777134
-        lng: -73.9224308
-    name: Henry Hudson Bridge
+        lat: 33.7726272
+        lng: -84.38564939999999
+    name: Fox Theatre
+    website: http://www.foxtheatre.org/
+  - formatted_address: 1000 Robert E Lee Blvd, Stone Mountain, GA 30083, USA
+    formatted_phone_number: (770) 498-5690
+    geometry:
+      location:
+        lat: 33.8053189
+        lng: -84.1455315
+    name: Stone Mountain Park
+    website: https://www.stonemountainpark.com/
+  - formatted_address: 275 Riverside Pkwy, Austell, GA 30168, USA
+    formatted_phone_number: (770) 739-3400
+    geometry:
+      location:
+        lat: 33.7706534
+        lng: -84.55117919999999
+    name: Six Flags Over Georgia
     opening_hours:
       open_now: true
       periods:
@@ -819,279 +1226,124 @@ New York:
       - 'Friday: Open 24 hours'
       - 'Saturday: Open 24 hours'
       - 'Sunday: Open 24 hours'
-  - formatted_address: Lincoln Center Plaza, New York, NY 10023, USA
-    formatted_phone_number: (212) 875-5456
+    website: https://www.sixflags.com/overgeorgia
+  - formatted_address: 1345 Piedmont Ave NE, Atlanta, GA 30309, USA
+    formatted_phone_number: (404) 876-5859
     geometry:
       location:
-        lat: 40.7724641
-        lng: -73.9834889
-    name: Lincoln Center for the Performing Arts
-    website: http://www.lincolncenter.org/
-  - formatted_address: 1260 6th Ave, New York, NY 10020, USA
-    formatted_phone_number: (212) 465-6741
-    geometry:
-      location:
-        lat: 40.75997599999999
-        lng: -73.9799772
-    name: Radio City Music Hall
-    website: https://www.msg.com/radio-city-music-hall?cmp=van_radiocity
-  - formatted_address: 45 Rockefeller Plaza, New York, NY 10111, USA
-    formatted_phone_number: (212) 588-8601
-    geometry:
-      location:
-        lat: 40.7587402
-        lng: -73.9786736
-    name: Rockefeller Center
-    opening_hours:
-      open_now: true
-      periods:
-      - open:
-          day: 0
-          time: '0000'
-      weekday_text:
-      - 'Monday: Open 24 hours'
-      - 'Tuesday: Open 24 hours'
-      - 'Wednesday: Open 24 hours'
-      - 'Thursday: Open 24 hours'
-      - 'Friday: Open 24 hours'
-      - 'Saturday: Open 24 hours'
-      - 'Sunday: Open 24 hours'
-    website: https://www.rockefellercenter.com/
-  - formatted_address: 11 W 53rd St, New York, NY 10019, USA
-    formatted_phone_number: (212) 708-9400
-    geometry:
-      location:
-        lat: 40.7614327
-        lng: -73.97762159999999
-    name: The Museum of Modern Art
+        lat: 33.790468
+        lng: -84.3736193
+    name: Atlanta Botanical Garden
     opening_hours:
       open_now: false
       periods:
       - close:
           day: 0
-          time: '1730'
+          time: '1900'
         open:
           day: 0
-          time: '1030'
-      - close:
-          day: 1
-          time: '1730'
-        open:
-          day: 1
-          time: '1030'
+          time: 0900
       - close:
           day: 2
-          time: '1730'
+          time: '1900'
         open:
           day: 2
-          time: '1030'
+          time: 0900
       - close:
           day: 3
-          time: '1730'
+          time: '1900'
         open:
           day: 3
-          time: '1030'
+          time: 0900
       - close:
           day: 4
-          time: '1730'
+          time: '1900'
         open:
           day: 4
-          time: '1030'
+          time: 0900
       - close:
           day: 5
-          time: '1730'
+          time: '1900'
         open:
           day: 5
-          time: '1030'
+          time: 0900
       - close:
           day: 6
-          time: '1730'
+          time: '1900'
         open:
           day: 6
-          time: '1030'
-      weekday_text:
-      - 'Monday: 10:30 AM â€“ 5:30 PM'
-      - 'Tuesday: 10:30 AM â€“ 5:30 PM'
-      - 'Wednesday: 10:30 AM â€“ 5:30 PM'
-      - 'Thursday: 10:30 AM â€“ 5:30 PM'
-      - 'Friday: 10:30 AM â€“ 5:30 PM'
-      - 'Saturday: 10:30 AM â€“ 5:30 PM'
-      - 'Sunday: 10:30 AM â€“ 5:30 PM'
-    website: https://www.moma.org/
-  - formatted_address: 200 Central Park West, New York, NY 10024, USA
-    formatted_phone_number: (212) 769-5100
-    geometry:
-      location:
-        lat: 40.78132409999999
-        lng: -73.9739882
-    name: American Museum of Natural History
-    opening_hours:
-      open_now: false
-      periods:
-      - close:
-          day: 0
-          time: '1730'
-        open:
-          day: 0
-          time: '1000'
-      - close:
-          day: 3
-          time: '1730'
-        open:
-          day: 3
-          time: '1000'
-      - close:
-          day: 4
-          time: '1730'
-        open:
-          day: 4
-          time: '1000'
-      - close:
-          day: 5
-          time: '1730'
-        open:
-          day: 5
-          time: '1000'
-      - close:
-          day: 6
-          time: '1730'
-        open:
-          day: 6
-          time: '1000'
+          time: 0900
       weekday_text:
       - 'Monday: Closed'
-      - 'Tuesday: Closed'
-      - 'Wednesday: 10:00 AM â€“ 5:30 PM'
-      - 'Thursday: 10:00 AM â€“ 5:30 PM'
-      - 'Friday: 10:00 AM â€“ 5:30 PM'
-      - 'Saturday: 10:00 AM â€“ 5:30 PM'
-      - 'Sunday: 10:00 AM â€“ 5:30 PM'
-    website: https://www.amnh.org/
-  - formatted_address: 20 W 34th St, New York, NY 10001, USA
-    formatted_phone_number: (212) 736-3100
+      - 'Tuesday: 9:00 AM – 7:00 PM'
+      - 'Wednesday: 9:00 AM – 7:00 PM'
+      - 'Thursday: 9:00 AM – 7:00 PM'
+      - 'Friday: 9:00 AM – 7:00 PM'
+      - 'Saturday: 9:00 AM – 7:00 PM'
+      - 'Sunday: 9:00 AM – 7:00 PM'
+    website: http://www.atlantabg.org/
+  - formatted_address: 1313 Netherworld Way, Stone Mountain, GA 30087, USA
+    formatted_phone_number: (404) 608-2484
     geometry:
       location:
-        lat: 40.7484405
-        lng: -73.98566439999999
-    name: Empire State Building
+        lat: 33.81858609999999
+        lng: -84.11885699999999
+    name: Netherworld Haunted House
     opening_hours:
       open_now: true
       periods:
       - close:
           day: 0
-          time: '2200'
+          time: '2300'
         open:
           day: 0
-          time: '1100'
-      - close:
-          day: 1
-          time: '2200'
-        open:
-          day: 1
-          time: '1100'
+          time: '1900'
       - close:
           day: 2
-          time: '2200'
+          time: '2230'
         open:
           day: 2
-          time: '1100'
+          time: '1900'
       - close:
           day: 3
-          time: '2200'
+          time: '2230'
         open:
           day: 3
-          time: '1100'
+          time: '1900'
       - close:
           day: 4
-          time: '2200'
+          time: '2230'
         open:
           day: 4
-          time: '1100'
-      - close:
-          day: 5
-          time: '2200'
-        open:
-          day: 5
-          time: '1100'
+          time: '1900'
       - close:
           day: 6
-          time: '2200'
+          time: '0000'
         open:
-          day: 6
-          time: '1100'
-      weekday_text:
-      - 'Monday: 11:00 AM â€“ 10:00 PM'
-      - 'Tuesday: 11:00 AM â€“ 10:00 PM'
-      - 'Wednesday: 11:00 AM â€“ 10:00 PM'
-      - 'Thursday: 11:00 AM â€“ 10:00 PM'
-      - 'Friday: 11:00 AM â€“ 10:00 PM'
-      - 'Saturday: 11:00 AM â€“ 10:00 PM'
-      - 'Sunday: 11:00 AM â€“ 10:00 PM'
-    website: https://www.esbnyc.com/
-  - formatted_address: 1071 5th Ave, New York, NY 10128, USA
-    formatted_phone_number: (212) 423-3500
-    geometry:
-      location:
-        lat: 40.7829796
-        lng: -73.9589706
-    name: Solomon R. Guggenheim Museum
-    opening_hours:
-      open_now: false
-      periods:
+          day: 5
+          time: '1900'
       - close:
           day: 0
-          time: '1800'
-        open:
-          day: 0
-          time: '1100'
-      - close:
-          day: 1
-          time: '1800'
-        open:
-          day: 1
-          time: '1100'
-      - close:
-          day: 4
-          time: '1800'
-        open:
-          day: 4
-          time: '1100'
-      - close:
-          day: 5
-          time: '1800'
-        open:
-          day: 5
-          time: '1100'
-      - close:
-          day: 6
-          time: '1800'
+          time: '0000'
         open:
           day: 6
-          time: '1100'
+          time: '1900'
       weekday_text:
-      - 'Monday: 11:00 AM â€“ 6:00 PM'
-      - 'Tuesday: Closed'
-      - 'Wednesday: Closed'
-      - 'Thursday: 11:00 AM â€“ 6:00 PM'
-      - 'Friday: 11:00 AM â€“ 6:00 PM'
-      - 'Saturday: 11:00 AM â€“ 6:00 PM'
-      - 'Sunday: 11:00 AM â€“ 6:00 PM'
-    website: https://www.guggenheim.org/
-  - formatted_address: 4 Pennsylvania Plaza, New York, NY 10001, USA
-    formatted_phone_number: (212) 465-6741
+      - 'Monday: Closed'
+      - 'Tuesday: 7:00 – 10:30 PM'
+      - 'Wednesday: 7:00 – 10:30 PM'
+      - 'Thursday: 7:00 – 10:30 PM'
+      - 'Friday: 7:00 PM – 12:00 AM'
+      - 'Saturday: 7:00 PM – 12:00 AM'
+      - 'Sunday: 7:00 – 11:00 PM'
+    website: http://www.fearworld.com/
+  - formatted_address: 1280 Peachtree St NE, Atlanta, GA 30309, USA
+    formatted_phone_number: (404) 733-4400
     geometry:
       location:
-        lat: 40.7505045
-        lng: -73.9934387
-    name: Madison Square Garden
-    website: https://www.msg.com/madison-square-garden?cmp=van_thegarden
-  - formatted_address: 99 Margaret Corbin Dr, New York, NY 10040, USA
-    formatted_phone_number: (212) 923-3700
-    geometry:
-      location:
-        lat: 40.86486279999999
-        lng: -73.9317274
-    name: The Met Cloisters
+        lat: 33.7900632
+        lng: -84.38555199999999
+    name: High Museum of Art
     opening_hours:
       open_now: false
       periods:
@@ -1100,55 +1352,12 @@ New York:
           time: '1700'
         open:
           day: 0
-          time: '1000'
+          time: '1200'
       - close:
-          day: 1
+          day: 2
           time: '1700'
         open:
-          day: 1
-          time: '1000'
-      - close:
-          day: 4
-          time: '1700'
-        open:
-          day: 4
-          time: '1000'
-      - close:
-          day: 5
-          time: '1700'
-        open:
-          day: 5
-          time: '1000'
-      - close:
-          day: 6
-          time: '1700'
-        open:
-          day: 6
-          time: '1000'
-      weekday_text:
-      - 'Monday: 10:00 AM â€“ 5:00 PM'
-      - 'Tuesday: Closed'
-      - 'Wednesday: Closed'
-      - 'Thursday: 10:00 AM â€“ 5:00 PM'
-      - 'Friday: 10:00 AM â€“ 5:00 PM'
-      - 'Saturday: 10:00 AM â€“ 5:00 PM'
-      - 'Sunday: 10:00 AM â€“ 5:00 PM'
-    website: https://www.metmuseum.org/visit/plan-your-visit/met-cloisters
-  - formatted_address: Pier 86, W 46th St, New York, NY 10036, USA
-    formatted_phone_number: (212) 245-0072
-    geometry:
-      location:
-        lat: 40.7645266
-        lng: -73.99960759999999
-    name: Intrepid Sea, Air & Space Museum
-    opening_hours:
-      open_now: false
-      periods:
-      - close:
-          day: 0
-          time: '1700'
-        open:
-          day: 0
+          day: 2
           time: '1000'
       - close:
           day: 3
@@ -1176,28 +1385,193 @@ New York:
           time: '1000'
       weekday_text:
       - 'Monday: Closed'
+      - 'Tuesday: 10:00 AM – 5:00 PM'
+      - 'Wednesday: 10:00 AM – 5:00 PM'
+      - 'Thursday: 10:00 AM – 5:00 PM'
+      - 'Friday: 10:00 AM – 5:00 PM'
+      - 'Saturday: 10:00 AM – 5:00 PM'
+      - 'Sunday: 12:00 – 5:00 PM'
+    website: http://www.high.org/
+  - formatted_address: 130 West Paces Ferry Rd NW, Atlanta, GA 30305, USA
+    formatted_phone_number: (404) 814-4000
+    geometry:
+      location:
+        lat: 33.84211209999999
+        lng: -84.3860302
+    name: Atlanta History Center
+    opening_hours:
+      open_now: false
+      periods:
+      - close:
+          day: 0
+          time: '1600'
+        open:
+          day: 0
+          time: 0900
+      - close:
+          day: 2
+          time: '1600'
+        open:
+          day: 2
+          time: 0900
+      - close:
+          day: 3
+          time: '1600'
+        open:
+          day: 3
+          time: 0900
+      - close:
+          day: 4
+          time: '1600'
+        open:
+          day: 4
+          time: 0900
+      - close:
+          day: 5
+          time: '1600'
+        open:
+          day: 5
+          time: 0900
+      - close:
+          day: 6
+          time: '1600'
+        open:
+          day: 6
+          time: 0900
+      weekday_text:
+      - 'Monday: Closed'
+      - 'Tuesday: 9:00 AM – 4:00 PM'
+      - 'Wednesday: 9:00 AM – 4:00 PM'
+      - 'Thursday: 9:00 AM – 4:00 PM'
+      - 'Friday: 9:00 AM – 4:00 PM'
+      - 'Saturday: 9:00 AM – 4:00 PM'
+      - 'Sunday: 9:00 AM – 4:00 PM'
+    website: http://www.atlantahistorycenter.com/
+  - formatted_address: 190 Marietta St NW, Atlanta, GA 30303, USA
+    formatted_phone_number: (404) 827-2300
+    geometry:
+      location:
+        lat: 33.7577472
+        lng: -84.39486939999999
+    name: CNN Studio Tours
+    website: http://tours.cnn.com/#
+  - formatted_address: 450 Auburn Ave NE, Atlanta, GA 30312, USA
+    formatted_phone_number: (404) 331-5190
+    geometry:
+      location:
+        lat: 33.756175
+        lng: -84.3734444
+    name: Martin Luther King, Jr. National Historical Park
+    opening_hours:
+      open_now: false
+      periods:
+      - close:
+          day: 0
+          time: '1700'
+        open:
+          day: 0
+          time: 0900
+      - close:
+          day: 1
+          time: '1700'
+        open:
+          day: 1
+          time: 0900
+      - close:
+          day: 2
+          time: '1700'
+        open:
+          day: 2
+          time: 0900
+      - close:
+          day: 3
+          time: '1700'
+        open:
+          day: 3
+          time: 0900
+      - close:
+          day: 4
+          time: '1700'
+        open:
+          day: 4
+          time: 0900
+      - close:
+          day: 5
+          time: '1700'
+        open:
+          day: 5
+          time: 0900
+      - close:
+          day: 6
+          time: '1700'
+        open:
+          day: 6
+          time: 0900
+      weekday_text:
+      - 'Monday: 9:00 AM – 5:00 PM'
+      - 'Tuesday: 9:00 AM – 5:00 PM'
+      - 'Wednesday: 9:00 AM – 5:00 PM'
+      - 'Thursday: 9:00 AM – 5:00 PM'
+      - 'Friday: 9:00 AM – 5:00 PM'
+      - 'Saturday: 9:00 AM – 5:00 PM'
+      - 'Sunday: 9:00 AM – 5:00 PM'
+    website: http://www.nps.gov/malu/index.htm
+  - formatted_address: 3500 Peachtree Rd NE, Atlanta, GA 30326, USA
+    formatted_phone_number: (404) 848-9252
+    geometry:
+      location:
+        lat: 33.85280350000001
+        lng: -84.36225560000001
+    name: LEGOLAND Discovery Center Atlanta
+    opening_hours:
+      open_now: false
+      periods:
+      - close:
+          day: 0
+          time: '1700'
+        open:
+          day: 0
+          time: '1100'
+      - close:
+          day: 1
+          time: '1700'
+        open:
+          day: 1
+          time: '1100'
+      - close:
+          day: 4
+          time: '1700'
+        open:
+          day: 4
+          time: '1100'
+      - close:
+          day: 5
+          time: '1700'
+        open:
+          day: 5
+          time: '1100'
+      - close:
+          day: 6
+          time: '1700'
+        open:
+          day: 6
+          time: '1100'
+      weekday_text:
+      - 'Monday: 11:00 AM – 5:00 PM'
       - 'Tuesday: Closed'
-      - 'Wednesday: 10:00 AM â€“ 5:00 PM'
-      - 'Thursday: 10:00 AM â€“ 5:00 PM'
-      - 'Friday: 10:00 AM â€“ 5:00 PM'
-      - 'Saturday: 10:00 AM â€“ 5:00 PM'
-      - 'Sunday: 10:00 AM â€“ 5:00 PM'
-    website: http://www.intrepidmuseum.org/
-  - formatted_address: 476 5th Ave, New York, NY 10018, USA
-    formatted_phone_number: (917) 275-6975
+      - 'Wednesday: Closed'
+      - 'Thursday: 11:00 AM – 5:00 PM'
+      - 'Friday: 11:00 AM – 5:00 PM'
+      - 'Saturday: 11:00 AM – 5:00 PM'
+      - 'Sunday: 11:00 AM – 5:00 PM'
+    website: https://atlanta.legolanddiscoverycenter.com/
+  - formatted_address: 449 Auburn Ave NE, Atlanta, GA 30312, USA
+    formatted_phone_number: (404) 526-8900
     geometry:
       location:
-        lat: 40.75318230000001
-        lng: -73.9822534
-    name: New York Public Library - Stephen A. Schwarzman Building
-    website: http://www.nypl.org/locations/schwarzman
-  - formatted_address: 602 Surf Ave, Brooklyn, NY 11224, USA
-    formatted_phone_number: (718) 265-3474
-    geometry:
-      location:
-        lat: 40.5742632
-        lng: -73.9748754
-    name: New York Aquarium
+        lat: 33.75524689999999
+        lng: -84.37302989999999
+    name: The King Center
     opening_hours:
       open_now: false
       periods:
@@ -1206,59 +1580,120 @@ New York:
           time: '1700'
         open:
           day: 0
-          time: '1000'
+          time: 0900
       - close:
           day: 1
           time: '1700'
         open:
           day: 1
-          time: '1000'
+          time: 0900
       - close:
           day: 2
           time: '1700'
         open:
           day: 2
-          time: '1000'
+          time: 0900
       - close:
           day: 3
           time: '1700'
         open:
           day: 3
-          time: '1000'
+          time: 0900
       - close:
           day: 4
           time: '1700'
         open:
           day: 4
-          time: '1000'
+          time: 0900
       - close:
           day: 5
           time: '1700'
         open:
           day: 5
-          time: '1000'
+          time: 0900
       - close:
           day: 6
           time: '1700'
         open:
           day: 6
-          time: '1000'
+          time: 0900
       weekday_text:
-      - 'Monday: 10:00 AM â€“ 5:00 PM'
-      - 'Tuesday: 10:00 AM â€“ 5:00 PM'
-      - 'Wednesday: 10:00 AM â€“ 5:00 PM'
-      - 'Thursday: 10:00 AM â€“ 5:00 PM'
-      - 'Friday: 10:00 AM â€“ 5:00 PM'
-      - 'Saturday: 10:00 AM â€“ 5:00 PM'
-      - 'Sunday: 10:00 AM â€“ 5:00 PM'
-    website: http://www.nyaquarium.com/
-  - formatted_address: 5th Ave, New York, NY 10022, USA
-    formatted_phone_number: (212) 753-2261
+      - 'Monday: 9:00 AM – 5:00 PM'
+      - 'Tuesday: 9:00 AM – 5:00 PM'
+      - 'Wednesday: 9:00 AM – 5:00 PM'
+      - 'Thursday: 9:00 AM – 5:00 PM'
+      - 'Friday: 9:00 AM – 5:00 PM'
+      - 'Saturday: 9:00 AM – 5:00 PM'
+      - 'Sunday: 9:00 AM – 5:00 PM'
+    website: http://www.thekingcenter.org/
+  - formatted_address: 1750 Mt Vernon Rd, Lithia Springs, GA 30122, USA
+    formatted_phone_number: (770) 732-5871
     geometry:
       location:
-        lat: 40.7586117
-        lng: -73.9761953
-    name: St. Patrick's Cathedral
+        lat: 33.7525384
+        lng: -84.628709
+    name: Sweetwater Creek State Park
+    opening_hours:
+      open_now: true
+      periods:
+      - close:
+          day: 0
+          time: '1930'
+        open:
+          day: 0
+          time: '0700'
+      - close:
+          day: 1
+          time: '1930'
+        open:
+          day: 1
+          time: '0700'
+      - close:
+          day: 2
+          time: '1930'
+        open:
+          day: 2
+          time: '0700'
+      - close:
+          day: 3
+          time: '1930'
+        open:
+          day: 3
+          time: '0700'
+      - close:
+          day: 4
+          time: '1930'
+        open:
+          day: 4
+          time: '0700'
+      - close:
+          day: 5
+          time: '1930'
+        open:
+          day: 5
+          time: '0700'
+      - close:
+          day: 6
+          time: '1930'
+        open:
+          day: 6
+          time: '0700'
+      weekday_text:
+      - 'Monday: 7:00 AM – 7:30 PM'
+      - 'Tuesday: 7:00 AM – 7:30 PM'
+      - 'Wednesday: 7:00 AM – 7:30 PM'
+      - 'Thursday: 7:00 AM – 7:30 PM'
+      - 'Friday: 7:00 AM – 7:30 PM'
+      - 'Saturday: 7:00 AM – 7:30 PM'
+      - 'Sunday: 7:00 AM – 7:30 PM'
+    website: http://gastateparks.org/SweetwaterCreek
+  - formatted_address: 900 Kennesaw Mountain Dr, Kennesaw, GA 30152, USA
+    formatted_phone_number: (770) 427-4686
+    geometry:
+      location:
+        lat: 33.94669439999999
+        lng: -84.598841
+    name: Kennesaw Mountain National Battlefield Park
     opening_hours:
       open_now: true
       periods:
@@ -1267,240 +1702,287 @@ New York:
           time: '2030'
         open:
           day: 0
-          time: '0700'
+          time: '0630'
       - close:
           day: 1
           time: '2030'
         open:
           day: 1
-          time: '0700'
+          time: '0630'
       - close:
           day: 2
           time: '2030'
         open:
           day: 2
-          time: '0700'
+          time: '0630'
       - close:
           day: 3
           time: '2030'
         open:
           day: 3
-          time: '0700'
+          time: '0630'
       - close:
           day: 4
           time: '2030'
         open:
           day: 4
-          time: '0700'
+          time: '0630'
       - close:
           day: 5
           time: '2030'
         open:
           day: 5
-          time: '0700'
+          time: '0630'
       - close:
           day: 6
           time: '2030'
         open:
           day: 6
-          time: '0700'
+          time: '0630'
       weekday_text:
-      - 'Monday: 7:00 AM â€“ 8:30 PM'
-      - 'Tuesday: 7:00 AM â€“ 8:30 PM'
-      - 'Wednesday: 7:00 AM â€“ 8:30 PM'
-      - 'Thursday: 7:00 AM â€“ 8:30 PM'
-      - 'Friday: 7:00 AM â€“ 8:30 PM'
-      - 'Saturday: 7:00 AM â€“ 8:30 PM'
-      - 'Sunday: 7:00 AM â€“ 8:30 PM'
-    website: https://www.saintpatrickscathedral.org/
-  - formatted_address: Battery Park City, New York, NY 10004, USA
-    formatted_phone_number: (212) 344-3491
+      - 'Monday: 6:30 AM – 8:30 PM'
+      - 'Tuesday: 6:30 AM – 8:30 PM'
+      - 'Wednesday: 6:30 AM – 8:30 PM'
+      - 'Thursday: 6:30 AM – 8:30 PM'
+      - 'Friday: 6:30 AM – 8:30 PM'
+      - 'Saturday: 6:30 AM – 8:30 PM'
+      - 'Sunday: 6:30 AM – 8:30 PM'
+    website: http://www.nps.gov/kemo/planyourvisit/basicinfo.htm
+  - formatted_address: Atlanta, GA 30305, USA
     geometry:
       location:
-        lat: 40.703141
-        lng: -74.0159996
-    name: The Battery
+        lat: 33.8416959
+        lng: -84.3662319
+    name: Peachtree Highlands Historic District
+  - formatted_address: 5851 GA-85, Riverdale, GA 30274, USA
+    formatted_phone_number: (770) 907-7102
+    geometry:
+      location:
+        lat: 33.5954411
+        lng: -84.4085382
+    name: Hindu Temple of Atlanta
     opening_hours:
       open_now: true
       periods:
       - close:
-          day: 1
-          time: '0000'
+          day: 0
+          time: '2000'
         open:
           day: 0
-          time: '0600'
+          time: 0900
       - close:
-          day: 2
-          time: '0000'
+          day: 1
+          time: '2000'
         open:
           day: 1
-          time: '0600'
+          time: 0900
       - close:
-          day: 3
-          time: '0000'
+          day: 2
+          time: '2000'
         open:
           day: 2
-          time: '0600'
+          time: 0900
       - close:
-          day: 4
-          time: '0000'
+          day: 3
+          time: '2000'
         open:
           day: 3
-          time: '0600'
+          time: 0900
       - close:
-          day: 5
-          time: '0000'
+          day: 4
+          time: '2000'
         open:
           day: 4
-          time: '0600'
+          time: 0900
       - close:
-          day: 6
-          time: '0000'
+          day: 5
+          time: '2100'
         open:
           day: 5
-          time: '0600'
+          time: 0900
       - close:
-          day: 0
-          time: '0000'
+          day: 6
+          time: '2100'
         open:
           day: 6
-          time: '0600'
+          time: 0900
       weekday_text:
-      - 'Monday: 6:00 AM â€“ 12:00 AM'
-      - 'Tuesday: 6:00 AM â€“ 12:00 AM'
-      - 'Wednesday: 6:00 AM â€“ 12:00 AM'
-      - 'Thursday: 6:00 AM â€“ 12:00 AM'
-      - 'Friday: 6:00 AM â€“ 12:00 AM'
-      - 'Saturday: 6:00 AM â€“ 12:00 AM'
-      - 'Sunday: 6:00 AM â€“ 12:00 AM'
-    website: http://www.thebattery.org/
-  - formatted_address: Brooklyn, NY, USA
-    formatted_phone_number: (718) 965-8951
+      - 'Monday: 9:00 AM – 8:00 PM'
+      - 'Tuesday: 9:00 AM – 8:00 PM'
+      - 'Wednesday: 9:00 AM – 8:00 PM'
+      - 'Thursday: 9:00 AM – 8:00 PM'
+      - 'Friday: 9:00 AM – 9:00 PM'
+      - 'Saturday: 9:00 AM – 9:00 PM'
+      - 'Sunday: 9:00 AM – 8:00 PM'
+    website: http://www.hindutempleofatlanta.org/
+  - formatted_address: 800 Cherokee Ave SE, Atlanta, GA 30315, USA
+    formatted_phone_number: (404) 624-5600
     geometry:
       location:
-        lat: 40.6602037
-        lng: -73.9689558
-    name: Prospect Park
-    opening_hours:
-      open_now: true
-      periods:
-      - close:
-          day: 1
-          time: '0100'
-        open:
-          day: 0
-          time: '0500'
-      - close:
-          day: 2
-          time: '0100'
-        open:
-          day: 1
-          time: '0500'
-      - close:
-          day: 3
-          time: '0100'
-        open:
-          day: 2
-          time: '0500'
-      - close:
-          day: 4
-          time: '0100'
-        open:
-          day: 3
-          time: '0500'
-      - close:
-          day: 5
-          time: '0100'
-        open:
-          day: 4
-          time: '0500'
-      - close:
-          day: 6
-          time: '0100'
-        open:
-          day: 5
-          time: '0500'
-      - close:
-          day: 0
-          time: '0100'
-        open:
-          day: 6
-          time: '0500'
-      weekday_text:
-      - 'Monday: 5:00 AM â€“ 1:00 AM'
-      - 'Tuesday: 5:00 AM â€“ 1:00 AM'
-      - 'Wednesday: 5:00 AM â€“ 1:00 AM'
-      - 'Thursday: 5:00 AM â€“ 1:00 AM'
-      - 'Friday: 5:00 AM â€“ 1:00 AM'
-      - 'Saturday: 5:00 AM â€“ 1:00 AM'
-      - 'Sunday: 5:00 AM â€“ 1:00 AM'
-    website: https://www.prospectpark.org/
-  - formatted_address: 881 7th Ave, New York, NY 10019, USA
-    formatted_phone_number: (212) 247-7800
-    geometry:
-      location:
-        lat: 40.7651258
-        lng: -73.97992359999999
-    name: Carnegie Hall
-    website: http://www.carnegiehall.org/
-  - formatted_address: East 64th Street, New York, NY 10021, USA
-    formatted_phone_number: (212) 439-6500
-    geometry:
-      location:
-        lat: 40.767778
-        lng: -73.9718335
-    name: Central Park Zoo
+        lat: 33.7340981
+        lng: -84.3722715
+    name: Zoo Atlanta
     opening_hours:
       open_now: false
       periods:
       - close:
           day: 0
-          time: '1730'
+          time: '1630'
         open:
           day: 0
-          time: '1000'
+          time: 0900
       - close:
           day: 1
-          time: '1700'
+          time: '1530'
         open:
           day: 1
-          time: '1000'
+          time: 0900
       - close:
           day: 2
-          time: '1700'
+          time: '1530'
         open:
           day: 2
-          time: '1000'
+          time: 0900
       - close:
           day: 3
-          time: '1700'
+          time: '1530'
         open:
           day: 3
-          time: '1000'
+          time: 0900
       - close:
           day: 4
-          time: '1700'
+          time: '1530'
         open:
           day: 4
-          time: '1000'
+          time: 0900
       - close:
           day: 5
-          time: '1700'
+          time: '1530'
         open:
           day: 5
-          time: '1000'
+          time: 0900
       - close:
           day: 6
-          time: '1730'
+          time: '1630'
         open:
           day: 6
-          time: '1000'
+          time: 0900
       weekday_text:
-      - 'Monday: 10:00 AM â€“ 5:00 PM'
-      - 'Tuesday: 10:00 AM â€“ 5:00 PM'
-      - 'Wednesday: 10:00 AM â€“ 5:00 PM'
-      - 'Thursday: 10:00 AM â€“ 5:00 PM'
-      - 'Friday: 10:00 AM â€“ 5:00 PM'
-      - 'Saturday: 10:00 AM â€“ 5:30 PM'
-      - 'Sunday: 10:00 AM â€“ 5:30 PM'
-    website: http://www.centralparkzoo.com/
+      - 'Monday: 9:00 AM – 3:30 PM'
+      - 'Tuesday: 9:00 AM – 3:30 PM'
+      - 'Wednesday: 9:00 AM – 3:30 PM'
+      - 'Thursday: 9:00 AM – 3:30 PM'
+      - 'Friday: 9:00 AM – 3:30 PM'
+      - 'Saturday: 9:00 AM – 4:30 PM'
+      - 'Sunday: 9:00 AM – 4:30 PM'
+    website: http://www.zooatlanta.org/
+  - formatted_address: 1425 Market Blvd Ste 100-A, Roswell, GA 30076, USA
+    formatted_phone_number: (678) 745-9900
+    geometry:
+      location:
+        lat: 34.0177434
+        lng: -84.3216276
+    name: Sky Zone Trampoline Park
+    opening_hours:
+      open_now: true
+      periods:
+      - close:
+          day: 0
+          time: '1800'
+        open:
+          day: 0
+          time: '1300'
+      - close:
+          day: 3
+          time: '2000'
+        open:
+          day: 3
+          time: '1600'
+      - close:
+          day: 4
+          time: '2000'
+        open:
+          day: 4
+          time: '1600'
+      - close:
+          day: 5
+          time: '2100'
+        open:
+          day: 5
+          time: '1600'
+      - close:
+          day: 6
+          time: '2200'
+        open:
+          day: 6
+          time: '1100'
+      weekday_text:
+      - 'Monday: Closed'
+      - 'Tuesday: Closed'
+      - 'Wednesday: 4:00 – 8:00 PM'
+      - 'Thursday: 4:00 – 8:00 PM'
+      - 'Friday: 4:00 – 9:00 PM'
+      - 'Saturday: 11:00 AM – 10:00 PM'
+      - 'Sunday: 1:00 – 6:00 PM'
+    website: https://www.skyzone.com/roswell?y_source=1_MTUwOTE3MDgtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D
+  - formatted_address: 168 Luckie St NW, Atlanta, GA 30303, USA
+    formatted_phone_number: (678) 949-9023
+    geometry:
+      location:
+        lat: 33.7589378
+        lng: -84.3916921
+    name: SkyView Atlanta
+    opening_hours:
+      open_now: true
+      periods:
+      - close:
+          day: 0
+          time: '2200'
+        open:
+          day: 0
+          time: '1200'
+      - close:
+          day: 1
+          time: '2200'
+        open:
+          day: 1
+          time: '1200'
+      - close:
+          day: 2
+          time: '2200'
+        open:
+          day: 2
+          time: '1200'
+      - close:
+          day: 3
+          time: '2200'
+        open:
+          day: 3
+          time: '1200'
+      - close:
+          day: 4
+          time: '2200'
+        open:
+          day: 4
+          time: '1200'
+      - close:
+          day: 6
+          time: '0000'
+        open:
+          day: 5
+          time: '1200'
+      - close:
+          day: 0
+          time: '0000'
+        open:
+          day: 6
+          time: '1200'
+      weekday_text:
+      - 'Monday: 12:00 – 10:00 PM'
+      - 'Tuesday: 12:00 – 10:00 PM'
+      - 'Wednesday: 12:00 – 10:00 PM'
+      - 'Thursday: 12:00 – 10:00 PM'
+      - 'Friday: 12:00 PM – 12:00 AM'
+      - 'Saturday: 12:00 PM – 12:00 AM'
+      - 'Sunday: 12:00 – 10:00 PM'
+    website: http://www.skyviewatlanta.com/
