@@ -103,6 +103,7 @@ def directions(request):
         direct = myfunction(origin,destination)
         cities = []
         duration_list = []
+        duration_list.append("Departed from "+origin)
         start = start_time_obj
         for i in direct:
             places = GeoText(i[2])
@@ -110,7 +111,6 @@ def directions(request):
                 if j not in cities:
                     cities.append(j)
             num_of_hours = 0
-            num_of_mins = 0
             a = i[1].split()
             if 'hours' in a:
                 num_of_hours = int(a[0])
@@ -119,11 +119,11 @@ def directions(request):
                 num_of_mins = int(a[0])
             hours_added = datetime.timedelta(hours=num_of_hours, minutes=num_of_mins)
             start += hours_added
-            duration_list.append([start,i[2]])
+            string_time = start.strftime("%m/%d/%Y, %H:%M:%S")
+            print(string_time)
+            duration_list.append(i[2]+" Arrival Time : "+string_time)
 
-        for i in duration_list:
-            print(i)
-
+        duration_list.append("Arrived at "+destination)
         final_dictionary = {'directions': duration_list, 'cities': cities}
 
         #Here in the directions.html, you have to display the routes and the cities users can enter!

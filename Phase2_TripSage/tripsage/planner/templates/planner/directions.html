@@ -72,7 +72,7 @@
       <form action='find_spots' method="post">
     {% csrf_token %}
   <li>
-    <label for="city" style="color:black; font-size: 15px;">Enter City you want to review through:</label><br>
+    <label for="city" style="color:black; font-size: 15px;">Select City you would like to review</label><br>
     <select style="width: 400px; margin-left: 505px;" class="form-control" id="city" name="city">
       {% for city in cities %}
       <option>{{ city }}</option>
