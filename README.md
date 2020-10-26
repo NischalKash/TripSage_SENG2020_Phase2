@@ -5,6 +5,7 @@
 [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit)
 [![Build Status](https://travis-ci.org/NischalKash/TripSage_SENG2020_Phase2.svg?branch=main)](https://travis-ci.org/NischalKash/TripSage_SENG2020_Phase2)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![codecov](https://codecov.io/gh/NischalKash/TripSage_SENG2020_Phase2/branch/main/graph/badge.svg?token=6X0OPSX1VY)](undefined)
 # TripSage
 The only Itinerary planner, you will ever need
 
