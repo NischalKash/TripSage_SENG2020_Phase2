@@ -11,6 +11,7 @@ TYPES_PLACE_MAP = {
     "kids": ["amusement_park", "museum"],
     "relaxing": ["art_gallery", "church", "spa"],
 }
+#Base Function, which displays the home page
 def home(request):
     return render(request, "planner/home.html")
 
@@ -87,7 +88,7 @@ def myfunction(origin, destination):
     f.close()
     return path
 
-
+#This function takes in the information from the user to form trip itenary!
 def directions(request):
     if request.method == "POST":
         origin = request.POST.get("origin", "")
