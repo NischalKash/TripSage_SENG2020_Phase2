@@ -11,28 +11,37 @@ TYPES_PLACE_MAP = {
     "kids": ["amusement_park", "museum"],
     "relaxing": ["art_gallery", "church", "spa"],
 }
+
 #Base Function, which displays the home page
 def home(request):
     return render(request, "planner/home.html")
 
 def find_spots(request):
     if request.method == "POST":
+        #Receive the city name that the user wants to review through as per his wish
         city = request.POST.get("city", "")
+
+        #This could be none as well thats why we have assigned it initially as empty
         tourist_spots2 = ""
+
+        #Call the function in places_recommendations.py file which we have imported which will return a dictionary of all the
+        #suggested tourist spots according to the city entry by User
+
         tourist_spots1 = getRecommendation(city,type1)
         if type2 != 'none':
             tourist_spots2 = getRecommendation(city,type2)
+
+        #Dump the data into the yaml file so that we have a better code readability
         f = open('user_recommended1.yaml', 'w+')
         yaml.dump(tourist_spots1, f, allow_unicode=True)
         f = open("user_recommended2.yaml", "w+")
         yaml.dump(tourist_spots2, f, allow_unicode=True)
 
-
         # tourist_spots contains all the recommended places a user can visit when he traverses through his trip!
         # render a html template here but make sure that he can enter a city again if he wants in the following template
 
-
 def myfunction(origin, destination):
+    #Query google api to find out the directions from origin to destination
     api = (
         "https://maps.googleapis.com/maps/api/directions/xml?"
         + "origin="
@@ -41,9 +50,12 @@ def myfunction(origin, destination):
         + destination
         + "&key=AIzaSyAQ5u_nKOFgS_fsmE7cjDLxrqIuFRnjnk8"
     )
+    #Receive the data from Google Cloud in XML Format
     data_dict = xmltodict.parse(requests.get(api).content)
+    #Convert XML Formal to JSON
     results = json.loads(json.dumps(data_dict))
 
+    #Put the Json data into meta.yaml file so inorder to have better readability
     f = open("meta.yaml", "w+")
     yaml.dump(results, f, allow_unicode=True)
 
@@ -53,16 +65,19 @@ def myfunction(origin, destination):
         except yaml.YAMLError as exc:
             print(exc)
     path = []
+
+    #Access the yaml file contains to obtain total_distance,total_distance,start_location and end_location
     contents = yaml_content["DirectionsResponse"]["route"]["leg"]["step"]
     total_distance = yaml_content["DirectionsResponse"]["route"]["leg"]["distance"][
         "text"
     ]
-    total_duration = yaml_content["DirectionsResponse"]["route"]["leg"]["duration"][
+    total_distance = yaml_content["DirectionsResponse"]["route"]["leg"]["duration"][
         "text"
     ]
     start_location = yaml_content["DirectionsResponse"]["route"]["leg"]["start_address"]
     end_location = yaml_content["DirectionsResponse"]["route"]["leg"]["end_address"]
 
+    #Data Cleaning
     for i in contents:
         directions = i["html_instructions"].replace("<b>", "")
         directions = directions.replace("</b>", "")
@@ -70,6 +85,8 @@ def myfunction(origin, destination):
         directions = directions.replace('<div style="font-size:0.9em">', "")
         directions = directions.replace("</div>", "")
         path.append([i["distance"]["text"], i["duration"]["text"], directions])
+
+    #Create and store the directions into sentences.txt to have a developer friendly document
     f = open("sentences.txt", "w")
     f.write("")
     f.close()
