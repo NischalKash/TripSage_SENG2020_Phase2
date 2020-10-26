@@ -4,8 +4,8 @@ setup(
 	name='Code',
 	version='1.0',
 	description='CSC 510 Software Engineering Project Phase 2',
- 	author='Nischal Kashyap',
-	author_email='nkashya@ncsu.edu',
+ 	author='Sharath Bangalore Ramesh Kumar',
+	author_email='sbangal2@ncsu.edu',
 	url='https://github.com/NischalKash/TripSage_SENG2020_Phase2.git',
 	packages=['code'],
 	classifiers=[
@@ -16,6 +16,7 @@ setup(
 	license="MIT",
 	install_requires = [
 		'numpy',
-		'django'
+		'django',
+                'googlemaps'
 	]
       )

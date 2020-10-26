@@ -1,19 +1,24 @@
 language: python
-
 python:
- - 3.6
+  - 3.6
 
-install:
- - pip install -r requirements.txt
+    # Write install command after writing requirements.md file
+install: 
+  - pip install -r requirements.txt
 
-script:
- - pytest --pylint
- - python test_sample.py test
+script: 
+  - pwd
+  - python Phase2_TripSage/tripsage/planner/functionaltesting.py
+
 
 notifications:
- email:
-   - nrpandes@ncsu.edu
-   - arames22@ncsu.edu
-   - nkashya@ncsu.edu
-   - mvijaya2@ncsu.edu
-   - sbangal2@ncsu.edu
+  email:
+    recipients: 
+      - mvijaya2@ncsu.edu
+      - nkashya@ncsu.edu
+      - sbangal2@ncsu.edu
+      - nrpandes@ncsu.edu
+      - arames22@ncsu.edu
+    
+    on_success: never
+    on_failure: always
