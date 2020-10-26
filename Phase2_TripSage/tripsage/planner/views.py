@@ -5,7 +5,9 @@ import yaml
 from places_recommendation import *
 from geotext import GeoText
 import datetime
+import urllib.parse
 
+# Mapping of types to subtypes
 TYPES_PLACE_MAP = {
     "adventures": ["tourist_attraction", "stadium"],
     "kids": ["amusement_park", "museum"],
@@ -16,6 +18,43 @@ TYPES_PLACE_MAP = {
 def home(request):
     return render(request, "planner/home.html")
 
+# Function for parsing information from the dictionary.
+def getItemsForMapping(city, dict, subtype, locations):
+    for item in dict[city][subtype]:
+        temp = []
+        string = item['name']
+                
+        temp.append(string)
+
+        googleURL = 'https://www.google.com/maps/search/?api=1&query=' + urllib.parse.quote(item['name'])
+        
+        temp.append(googleURL)
+
+        locations.append(temp)
+    return locations
+
+# We must parse information from a variety of subtypes based on given type
+def getMapString(city, dicts, types, locations):
+    if(types == "adventures"):
+        locations = getItemsForMapping(city, dicts, "tourist_attraction", locations)
+        locations = getItemsForMapping(city, dicts, "stadium", locations)
+        locations = getItemsForMapping(city, dicts, "zoo", locations)
+    elif(types == "kids"):
+        locations = getItemsForMapping(city, dicts, "amusement_park", locations)
+        locations = getItemsForMapping(city, dicts, "museum", locations)
+        locations = getItemsForMapping(city, dicts, "restaurant", locations)
+    elif(types == "relaxing"):
+        locations = getItemsForMapping(city, dicts, "art_gallery", locations)
+        locations = getItemsForMapping(city, dicts, "church", locations)
+        locations = getItemsForMapping(city, dicts, "spa", locations)
+        locations = getItemsForMapping(city, dicts, "park", locations)
+    elif(types == "other"):
+        locations = getItemsForMapping(city, dicts, "hospital", locations)
+        locations = getItemsForMapping(city, dicts, "police", locations)  
+    
+    return locations
+    
+    
 def find_spots(request):
     if request.method == "POST":
         #Receive the city name that the user wants to review through as per his wish
@@ -26,21 +65,26 @@ def find_spots(request):
 
         #Call the function in places_recommendations.py file which we have imported which will return a dictionary of all the
         #suggested tourist spots according to the city entry by User
-
+        type1 = request.session['type1']
+        type2 = request.session['type2']
+        
         tourist_spots1 = getRecommendation(city,type1)
         if type2 != 'none':
             tourist_spots2 = getRecommendation(city,type2)
 
-        #Dump the data into the yaml file so that we have a better code readability
-        # f = open('user_recommended1.yaml', 'w+')
-        # yaml.dump(tourist_spots1, f, allow_unicode=True)
-        # f = open("user_recommended2.yaml", "w+")
-        # yaml.dump(tourist_spots2, f, allow_unicode=True)
-        print(tourist_spots1)
-        print(tourist_spots2)
+        
+        locations = []
+        # Retrieve all tourist locations from source to destination based on filters
+        locations = getMapString(city, tourist_spots1, type1, locations)
 
-        context = {"type1": tourist_spots1, "type2": tourist_spots2}
-        return render(request, "planner/recommendations.html", )
+        if type2 != 'none':
+            locations = getMapString(city, tourist_spots2, type2, locations)
+
+        
+        # Pass the context object to output page.
+        context = {"location": locations, "source": request.session['src'], "destination": request.session['dest'], 'type1': type1.title(), 'type2': '' if type2 == 'none' else type2.title()}
+
+        return render(request, "planner/recommendations.html", context)
 
         # tourist_spots contains all the recommended places a user can visit when he traverses through his trip!
         # render a html template here but make sure that he can enter a city again if he wants in the following template
@@ -116,13 +160,12 @@ def directions(request):
         #receive origin and destination from the user
         origin = request.POST.get("origin", "")
         destination = request.POST.get("dest", "")
-        global type1
-        global type2
 
         #receive preference type of trip from the users, we take in two types
-        type1 = request.POST.get("type", "")
-        type2 = request.POST.get("type2", "")
-
+        request.session['type1'] = request.POST.get("type", "")
+        request.session['type2'] = request.POST.get("type2", "")
+        request.session['src'] = origin
+        request.session['dest'] = destination
         #Receive the start of the trip with data and time from the user
         date_type = request.POST.get("date_start", "")
         time_started = request.POST.get("start_time", "")
