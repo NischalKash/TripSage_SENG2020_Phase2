@@ -4,7 +4,7 @@ import xmltodict
 import yaml
 from places_recommendation import *
 from geotext import GeoText
-
+import datetime
 
 TYPES_PLACE_MAP = {
     "adventures": ["tourist_attraction", "stadium"],
@@ -20,17 +20,18 @@ def home(request):
 def find_spots(request):
     if request.method == "POST":
         city = request.POST.get("city", "")
-        tourist_spots1 = getRecommendation(city,type1)
-        tourist_spots2 = getRecommendation(city,type2)
-        f = open('user_recommended1.yaml', 'w+')
+        tourist_spots1 = getRecommendation(city, type1)
+        tourist_spots2 = getRecommendation(city, type2)
+        f = open("user_recommended1.yaml", "w+")
         yaml.dump(tourist_spots1, f, allow_unicode=True)
-        f = open('user_recommended2.yaml', 'w+')
+        f = open("user_recommended2.yaml", "w+")
         yaml.dump(tourist_spots2, f, allow_unicode=True)
 
         # tourist_spots contains all the recommended places a user can visit when he traverses through his trip!
         # render a html template here but make sure that he can enter a city again if he wants in the following template
 
-def myfunction(origin,destination):
+
+def myfunction(origin, destination):
     api = (
         "https://maps.googleapis.com/maps/api/directions/xml?"
         + "origin="
@@ -65,6 +66,8 @@ def myfunction(origin,destination):
         directions = i["html_instructions"].replace("<b>", "")
         directions = directions.replace("</b>", "")
         directions = directions.replace("<wbr/>", "")
+        directions = directions.replace('<div style="font-size:0.9em">', "")
+        directions = directions.replace("</div>", "")
         path.append([i["distance"]["text"], i["duration"]["text"], directions])
     f = open("sentences.txt", "w")
     f.write("")
@@ -84,6 +87,7 @@ def myfunction(origin,destination):
     f.close()
     return path
 
+
 def directions(request):
     if request.method == "POST":
         origin = request.POST.get("origin", "")
@@ -92,13 +96,38 @@ def directions(request):
         global type2
         type1 = request.POST.get("type", "")
         type2 = request.POST.get("type2", "")
-        direct = myfunction(origin,destination)
+        date_type = request.POST.get("date_start", "")
+        time_started = request.POST.get("start_time", "")
+        print(date_type)
+        print(time_started)
+        start_time = date_type + " " + time_started + ":00.00000"
+        start_time_obj = datetime.datetime.strptime(start_time, "%Y-%m-%d %H:%M:%S.%f")
+        direct = myfunction(origin, destination)
         cities = []
+        duration_list = []
+        duration_list.append("Departed from " + origin)
+        start = start_time_obj
         for i in direct:
             places = GeoText(i[2])
             for j in places.cities:
                 if j not in cities:
                     cities.append(j)
-        #Here in the directions.html, you have to display the routes and the cities users can enter!
-        #Also display the total_distance and total_duration taken to travel
-        return render(request, 'planner/directions.html')
+            num_of_hours = 0
+            a = i[1].split()
+            if "hours" in a:
+                num_of_hours = int(a[0])
+                num_of_mins = int(a[2])
+            else:
+                num_of_mins = int(a[0])
+            hours_added = datetime.timedelta(hours=num_of_hours, minutes=num_of_mins)
+            start += hours_added
+            string_time = start.strftime("%m/%d/%Y, %H:%M:%S")
+            print(string_time)
+            duration_list.append(i[2] + " Arrival Time : " + string_time)
+
+        duration_list.append("Arrived at " + destination)
+        final_dictionary = {"directions": duration_list, "cities": cities}
+
+        # Here in the directions.html, you have to display the routes and the cities users can enter!
+        # Also display the total_distance and total_duration taken to travel
+        return render(request, "planner/directions.html", final_dictionary)
