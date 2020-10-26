@@ -91,23 +91,33 @@ def myfunction(origin, destination):
 #This function takes in the information from the user to form trip itenary!
 def directions(request):
     if request.method == "POST":
+        #receive origin and destination from the user
         origin = request.POST.get("origin", "")
         destination = request.POST.get("dest", "")
         global type1
         global type2
+
+        #receive preference type of trip from the users, we take in two types
         type1 = request.POST.get("type", "")
         type2 = request.POST.get("type2", "")
+
+        #Receive the start of the trip with data and time from the user
         date_type = request.POST.get("date_start", "")
         time_started = request.POST.get("start_time", "")
-        print(date_type,type(date_type))
-        print(time_started,type(time_started))
+
+        #Convert the string time type to datetime object
         start_time = date_type + " " + time_started + ":00.00000"
         start_time_obj = datetime.datetime.strptime(start_time, "%Y-%m-%d %H:%M:%S.%f")
+
+        #Call this function which determines the directions user has to follow from origin to destination!
         direct = myfunction(origin, destination)
         cities = []
         duration_list = []
         duration_list.append("Departed from " + origin)
         start = start_time_obj
+
+        #This block of code is determine the ETA of the user at each direction points
+        #Also determine the cities that the user encounters while travelling through this route!
         for i in direct:
             places = GeoText(i[2])
             for j in places.cities:
