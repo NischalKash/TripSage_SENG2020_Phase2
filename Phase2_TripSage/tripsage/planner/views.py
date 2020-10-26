@@ -22,7 +22,7 @@ def find_spots(request):
         city = request.POST.get("city", "")
 
         #This could be none as well thats why we have assigned it initially as empty
-        tourist_spots2 = ""
+        tourist_spots2 = {}
 
         #Call the function in places_recommendations.py file which we have imported which will return a dictionary of all the
         #suggested tourist spots according to the city entry by User
@@ -32,10 +32,15 @@ def find_spots(request):
             tourist_spots2 = getRecommendation(city,type2)
 
         #Dump the data into the yaml file so that we have a better code readability
-        f = open('user_recommended1.yaml', 'w+')
-        yaml.dump(tourist_spots1, f, allow_unicode=True)
-        f = open("user_recommended2.yaml", "w+")
-        yaml.dump(tourist_spots2, f, allow_unicode=True)
+        # f = open('user_recommended1.yaml', 'w+')
+        # yaml.dump(tourist_spots1, f, allow_unicode=True)
+        # f = open("user_recommended2.yaml", "w+")
+        # yaml.dump(tourist_spots2, f, allow_unicode=True)
+        print(tourist_spots1)
+        print(tourist_spots2)
+
+        context = {"type1": tourist_spots1, "type2": tourist_spots2}
+        return render(request, "planner/recommendations.html", )
 
         # tourist_spots contains all the recommended places a user can visit when he traverses through his trip!
         # render a html template here but make sure that he can enter a city again if he wants in the following template
@@ -71,7 +76,7 @@ def myfunction(origin, destination):
     total_distance = yaml_content["DirectionsResponse"]["route"]["leg"]["distance"][
         "text"
     ]
-    total_distance = yaml_content["DirectionsResponse"]["route"]["leg"]["duration"][
+    total_duration = yaml_content["DirectionsResponse"]["route"]["leg"]["duration"][
         "text"
     ]
     start_location = yaml_content["DirectionsResponse"]["route"]["leg"]["start_address"]
