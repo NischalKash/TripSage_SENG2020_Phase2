@@ -9,6 +9,7 @@ Slight left to stay on Wade Ave
 Continue straight to stay on Wade Ave
 Keep left to continue on Wade Avenue, follow signs for I-40 W/RDU Intl Airport/Durham/Blue Ridge Rd
 Merge onto I-40 W
+<<<<<<< Updated upstream
 Take exit 131 for I-40 W toward I-785 N/Greensboro/Winston-Salem
 Keep left to continue on I-40 W/I-85BL S
 Keep right at the fork to continue on I-40 W/US-220 S, follow signs for Interstate 40 W/Winston - SalemContinue to follow I-40 WEntering Tennessee
@@ -46,3 +47,12 @@ Turn left onto N Los Angeles St
 Turn right onto E 1st St
 Continue straight onto W 1st St
 Los Angeles, CA, USA
+=======
+Take exit 279B to merge onto NC-147 N toward Durham/Downtown
+Take exit 12B toward Roxboro St/Mangum St/US-15 N/US-501 N
+Merge onto Jackie Robinson Dr/N Service Rd E W
+Slight right toward S Roxboro St
+Slight right onto S Roxboro St
+Turn left onto E Main St
+Durham, NC, USA
+>>>>>>> Stashed changes
