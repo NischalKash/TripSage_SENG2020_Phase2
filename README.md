@@ -6,6 +6,7 @@
 [![Build Status](https://travis-ci.org/NischalKash/TripSage_SENG2020_Phase2.svg?branch=main)](https://travis-ci.org/NischalKash/TripSage_SENG2020_Phase2)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 [![codecov](https://codecov.io/gh/NischalKash/TripSage_SENG2020_Phase2/branch/main/graph/badge.svg?token=6X0OPSX1VY)](undefined)
+[![DOI](https://zenodo.org/badge/306192455.svg)](https://zenodo.org/badge/latestdoi/306192455)
 # TripSage
 The only Itinerary planner, you will ever need
 
