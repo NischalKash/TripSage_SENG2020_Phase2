@@ -179,7 +179,7 @@ New Bern:
         lng: -77.05770559999999
     name: Fort Totten Park
     opening_hours:
-      open_now: true
+      open_now: false
       periods:
       - close:
           day: 0
@@ -366,7 +366,7 @@ New Bern:
         lng: -77.0401309
     name: Creekside Park
     opening_hours:
-      open_now: true
+      open_now: false
       periods:
       - close:
           day: 0
@@ -427,7 +427,7 @@ New Bern:
         lng: -77.0157621
     name: New Bern Civil War Battlefield Park
     opening_hours:
-      open_now: true
+      open_now: false
       periods:
       - close:
           day: 0
@@ -488,7 +488,7 @@ New Bern:
         lng: -76.9603092
     name: Latham-Whitehurst Nature Park
     opening_hours:
-      open_now: true
+      open_now: false
       periods:
       - close:
           day: 0
@@ -562,7 +562,7 @@ New Bern:
         lng: -76.90272999999999
     name: City Park
     opening_hours:
-      open_now: true
+      open_now: false
       periods:
       - close:
           day: 0

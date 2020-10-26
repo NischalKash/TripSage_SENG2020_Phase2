@@ -10,7 +10,6 @@ from more_itertools import unique_everseen
 
 
 def Places_Recommendation(gmaps, Place, PlaceType):
-    print(Place)
     Address = Place
     geocode_result = gmaps.geocode(Address)
     x = geocode_result[0]["geometry"]["location"]["lat"]

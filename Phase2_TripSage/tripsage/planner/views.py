@@ -11,21 +11,21 @@ TYPES_PLACE_MAP = {
     "kids": ["amusement_park", "museum"],
     "relaxing": ["art_gallery", "church", "spa"],
 }
-
-
 def home(request):
     return render(request, "planner/home.html")
-
 
 def find_spots(request):
     if request.method == "POST":
         city = request.POST.get("city", "")
-        tourist_spots1 = getRecommendation(city, type1)
-        tourist_spots2 = getRecommendation(city, type2)
-        f = open("user_recommended1.yaml", "w+")
+        tourist_spots2 = ""
+        tourist_spots1 = getRecommendation(city,type1)
+        if type2 != 'none':
+            tourist_spots2 = getRecommendation(city,type2)
+        f = open('user_recommended1.yaml', 'w+')
         yaml.dump(tourist_spots1, f, allow_unicode=True)
         f = open("user_recommended2.yaml", "w+")
         yaml.dump(tourist_spots2, f, allow_unicode=True)
+
 
         # tourist_spots contains all the recommended places a user can visit when he traverses through his trip!
         # render a html template here but make sure that he can enter a city again if he wants in the following template
@@ -98,8 +98,8 @@ def directions(request):
         type2 = request.POST.get("type2", "")
         date_type = request.POST.get("date_start", "")
         time_started = request.POST.get("start_time", "")
-        print(date_type)
-        print(time_started)
+        print(date_type,type(date_type))
+        print(time_started,type(time_started))
         start_time = date_type + " " + time_started + ":00.00000"
         start_time_obj = datetime.datetime.strptime(start_time, "%Y-%m-%d %H:%M:%S.%f")
         direct = myfunction(origin, destination)
@@ -122,12 +122,8 @@ def directions(request):
             hours_added = datetime.timedelta(hours=num_of_hours, minutes=num_of_mins)
             start += hours_added
             string_time = start.strftime("%m/%d/%Y, %H:%M:%S")
-            print(string_time)
-            duration_list.append(i[2] + " Arrival Time : " + string_time)
+            duration_list.append(i[2]+" Arrival Time : "+string_time)
 
         duration_list.append("Arrived at " + destination)
         final_dictionary = {"directions": duration_list, "cities": cities}
-
-        # Here in the directions.html, you have to display the routes and the cities users can enter!
-        # Also display the total_distance and total_duration taken to travel
         return render(request, "planner/directions.html", final_dictionary)
