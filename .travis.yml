@@ -5,10 +5,11 @@ python:
     # Write install command after writing requirements.md file
 install: 
   - pip install -r requirements.txt
+  - pip install codecov
 
 script: 
   - pwd
-  - python Phase2_TripSage/tripsage/planner/functionaltesting.py
+  - coverage run Phase2_TripSage/tripsage/planner/functionaltesting.py
 
 
 notifications:
@@ -22,3 +23,7 @@ notifications:
     
     on_success: never
     on_failure: always
+    
+after_success:
+  - export CODECOV_TOKEN="4f39a2fc-3240-4cac-bd78-ac33c0336ebb"
+  - bash <(curl -s https://codecov.io/bash)
