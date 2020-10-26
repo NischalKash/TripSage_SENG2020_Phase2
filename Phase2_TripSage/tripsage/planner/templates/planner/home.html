@@ -85,16 +85,16 @@
         <p>
         <form action='directions' method="post">
           {% csrf_token %}
-          <label for="origin" style="color:black; font-size: 15px;">Origin:</label><br>
+          <label for="origin" style="color:black; font-size: 17px; font-family:'Courier New'"><b>Origin:</b></label><br>
           <input style="width: 400px;" type="text" id="origin" name="origin" />
           <br><br>
-          <label for="dest" style="color:black; font-size: 15px;">Destination:</label><br>
+          <label for="dest" style="color:black; font-size: 17px; font-family:'Courier New'"><b>Destination:</b></label><br>
           <input style="width: 400px;" type="text" id="dest" name="dest" />
           <br><br>
 
-          <label for="type" style="color:black; font-size: 15px;">Trip Type First Preference:</label><br>
+          <label for="type" style="color:black; font-size: 17px; font-family:'Courier New'"><b>Trip Type Preference 1:</b></label><br>
 
-          <select style="width: 400px; margin-left: 505px;" class="form-control" id="type" name="type">
+          <select style="width: 400px; margin-left: 470px;" class="form-control" id="type" name="type">
             <option value="adventures">Adventures</option>
             <option value="kids">Kids</option>
             <option value="relaxing">Relaxing</option>
@@ -103,10 +103,11 @@
 
           <br><br>
 
-          <label for="type2" style="color:black; font-size: 15px;">Trip Type Second Preference:</label><br>
+          <label for="type2" style="color:black; font-size: 17px;font-family:'Courier New'"><b>Trip Type Preference 2:</b></label><br>
 
 
-          <select style="width: 400px; margin-left: 505px;" class="form-control" id="type2" name="type2">
+          <select style="width: 400px; margin-left: 470px;" class="form-control" id="type2" name="type2">
+              <option value="none">None</option>
             <option value="adventures">Adventures</option>
             <option value="kids">Kids</option>
             <option value="relaxing">Relaxing</option>
@@ -114,11 +115,11 @@
           </select>
           <br><br>
 
-  <label for="date_start" style="color:black; font-size: 15px;">Date of Travelling</label>
-  <input style="width: 400px; margin-left: 505px;" class="form-control" type="date" id="date_start" name="date_start">
+          <label for="date_start" style="color:black; font-size: 17px;font-family:'Courier New'"><b>Date of Travelling</b></label>
+  <input style="width: 400px; margin-left: 470px;" class="form-control" type="date" id="date_start" name="date_start">
     <br><br>
-      <label for="start_time" style="color:black; font-size: 15px;">Expected Time of Departing</label>
-  <input style="width: 400px; margin-left: 505px;" class="form-control" type="time" id="start_time" name="start_time">
+          <label for="start_time" style="color:black; font-size: 17px;font-family:'Courier New'"><b>Expected Time of Departing</b></label>
+  <input style="width: 400px; margin-left: 470px;" class="form-control" type="time" id="start_time" name="start_time">
     <br><br>
           <button class="btn-danger" type="submit">Directions and TouristSpots</button>
         </form>
