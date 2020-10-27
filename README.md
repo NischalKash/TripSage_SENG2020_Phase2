@@ -40,21 +40,21 @@ This tutorial also covers Django.</br>
 4. Next, open your browser and type in `localhost:8000` in the search bar to open the webUI of the application.
 5. The UI typically looks as shown below and here you can enter the start and destination of your choice and look at the results based on your specifications.
 </br>
-###Home page of TripSage App:
+### Home page of TripSage App:
 
 ![1](https://user-images.githubusercontent.com/65666095/97259147-735d0d00-17f0-11eb-9ef3-e78cecf28be9.jpeg)
 
-Route map for trip from Raleigh to Seattle
+### Route map for trip from Raleigh to Seattle
 
 ![2](https://user-images.githubusercontent.com/65666095/97259330-f2524580-17f0-11eb-933c-09cceca4663f.jpeg)
 
 ![3](https://user-images.githubusercontent.com/65666095/97259498-478e5700-17f1-11eb-95bc-620563edc020.jpeg)
 
-Result of adventurous places to visit between the jouney from Raleigh to Seattle
+### Result of adventurous places to visit between the jouney from Raleigh to Seattle
 
 ![4](https://user-images.githubusercontent.com/65666095/97259512-507f2880-17f1-11eb-931e-d11dfb727dce.jpeg)
 
-You can also review places to visit at any intermeditiary city on the journey
+### You can also review places to visit at any intermeditiary city on the journey
 
 ![5](https://user-images.githubusercontent.com/65666095/97259595-89b79880-17f1-11eb-8aae-76911ad5627d.jpeg)
 
