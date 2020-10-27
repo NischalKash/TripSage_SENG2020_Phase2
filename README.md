@@ -10,8 +10,6 @@
 # TripSage
 The only Itinerary planner, you will ever need
 
-See UI Mockups at : [TRIPSAGE](http://xd.adobe.com/view/4b11902d-7907-4938-846e-cf4fd00181af-1e42/)
-
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/yO8Xo6UvWUQ/0.jpg)](https://www.youtube.com/watch?v=yO8Xo6UvWUQ)
 </br>
 </br>
@@ -36,11 +34,13 @@ Check out the basics: https://developer.mozilla.org/en-US/docs/Learn/Server-side
 This tutorial also covers Django.</br>
 </br>
 ### How to Run: </br>
-Clone the git repository to the desired folder location on your system
-Navigate to the folder TripSage. This is the Django project. tripHome is the application for the project. A project can have multiple applications. </br>
-Run on the command line: </br>
-python manage.py runserver </br>
+1. Run `pip install -r requirements.txt`
+2. Clone the project repo onto your local machine https://github.com/NischalKash/TripSage_SENG2020_Phase2.git
+3. Execute manage.py using the command `python3 manage.py runserver` at 'Phase2_TripSage/tripsage/'. This runs the Django server such that we can open the webUI for the project on the browser.
+4. Next, open your browser and type in `localhost:8000` in the search bar to open the webUI of the application.
+5. The UI typically looks as shown below and here you can enter the start and destination of your choice and look at the results based on your specifications.
 </br>
+![image](https://user-images.githubusercontent.com/65666095/97241847-aab7c380-17c8-11eb-9709-e0a604a3e597.png)</br>
 ### Project Structure:</br>
 (Disclaimer: Need some knowledge of Django to understand Project structure, please go through above resources if needed)</br>
 TripSage/</br>
