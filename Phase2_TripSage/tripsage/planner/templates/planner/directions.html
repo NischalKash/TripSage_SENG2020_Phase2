@@ -73,7 +73,7 @@
     {% csrf_token %}
   <li>
     <label for="city" style="color:black; font-size: 15px;">Select City you would like to review</label><br>
-    <select style="width: 400px; margin-left: 505px;" class="form-control" id="city" name="city">
+    <select style="width: 400px; position: relative; display: block; margin: 0 auto;" class="form-control" id="city" name="city">
       {% for city in cities %}
       <option>{{ city }}</option>
       {% endfor %}
@@ -91,6 +91,8 @@
                 <button type="button" class="close" data-dismiss="modal">&times;</button>
               </div>
               <div class="modal-body">
+                <p style="font-size: 15px;"><strong>Total Distance:</strong> {{total_distance}}</p>
+                <p style="font-size: 15px;"><strong>Total Duration:</strong> {{total_duration}}</p>
                 <ul class="list-group">
                   {% for direction in directions %}
                   <li class="list-group-item">{{ direction }}</li><br>
