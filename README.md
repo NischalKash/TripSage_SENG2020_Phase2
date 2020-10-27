@@ -40,6 +40,7 @@ This tutorial also covers Django.</br>
 4. Next, open your browser and type in `localhost:8000` in the search bar to open the webUI of the application.
 5. The UI typically looks as shown below and here you can enter the start and destination of your choice and look at the results based on your specifications.
 </br>
+
 ### Home page of TripSage App:
 
 ![1](https://user-images.githubusercontent.com/65666095/97259147-735d0d00-17f0-11eb-9ef3-e78cecf28be9.jpeg)
