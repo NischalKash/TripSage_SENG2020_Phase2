@@ -34,29 +34,44 @@ Check out the basics: https://developer.mozilla.org/en-US/docs/Learn/Server-side
 This tutorial also covers Django.</br>
 </br>
 ### How to Run: </br>
-1. Run `pip install -r requirements.txt`
-2. Clone the project repo onto your local machine https://github.com/NischalKash/TripSage_SENG2020_Phase2.git
+1. Clone the project repo onto your local machine https://github.com/NischalKash/TripSage_SENG2020_Phase2.git
+2. Run `pip install -r requirements.txt`
 3. Execute manage.py using the command `python3 manage.py runserver` at 'Phase2_TripSage/tripsage/'. This runs the Django server such that we can open the webUI for the project on the browser.
 4. Next, open your browser and type in `localhost:8000` in the search bar to open the webUI of the application.
 5. The UI typically looks as shown below and here you can enter the start and destination of your choice and look at the results based on your specifications.
 </br>
-![image](https://user-images.githubusercontent.com/65666095/97241847-aab7c380-17c8-11eb-9709-e0a604a3e597.png)</br>
+
+### Home page of TripSage App:
+
+![1](https://user-images.githubusercontent.com/65666095/97259147-735d0d00-17f0-11eb-9ef3-e78cecf28be9.jpeg)
+
+### Route map for trip from Raleigh to Seattle
+
+![2](https://user-images.githubusercontent.com/65666095/97259330-f2524580-17f0-11eb-933c-09cceca4663f.jpeg)
+
+![3](https://user-images.githubusercontent.com/65666095/97259498-478e5700-17f1-11eb-95bc-620563edc020.jpeg)
+
+### Result of adventurous places to visit between the jouney from Raleigh to Seattle
+
+![4](https://user-images.githubusercontent.com/65666095/97259512-507f2880-17f1-11eb-931e-d11dfb727dce.jpeg)
+
+### You can also review places to visit at any intermeditiary city on the journey
+
+![5](https://user-images.githubusercontent.com/65666095/97259595-89b79880-17f1-11eb-8aae-76911ad5627d.jpeg)
+
 ### Project Structure:</br>
 (Disclaimer: Need some knowledge of Django to understand Project structure, please go through above resources if needed)</br>
-TripSage/</br>
-&nbsp; tripHome/</br>
-&nbsp;&nbsp; models.py </br>
-&nbsp;&nbsp; views.py </br>
+Phase2_TripSage/</br>
+&nbsp; tripsage/</br>
+&nbsp;&nbsp; tripsage/ </br>
 &nbsp;&nbsp;&nbsp; urls.py </br>
-&nbsp;&nbsp;&nbsp; templates/ </br>
-&nbsp;&nbsp;&nbsp;&nbsp; index.html </br>
-&nbsp;&nbsp;&nbsp;&nbsp; base_generic.html </br>
-&nbsp;&nbsp;&nbsp;&nbsp; result.html</br>
-&nbsp;&nbsp;&nbsp; static/ </br>
-&nbsp;&nbsp;&nbsp;&nbsp; js/ </br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; custom.js </br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; resultsPage.js </br>
-</br>
+&nbsp;&nbsp; planner/ </br>
+&nbsp;&nbsp;&nbsp; templates </br>
+&nbsp;&nbsp;&nbsp;&nbsp; directions.html </br>
+&nbsp;&nbsp;&nbsp;&nbsp; home.html </br>
+&nbsp;&nbsp;&nbsp;&nbsp; recommendations.html </br>
+&nbsp;&nbsp;&nbsp; views.py</br>
+&nbsp;&nbsp;&nbsp; functionaltesting.py</br>
 
 </br>
 
