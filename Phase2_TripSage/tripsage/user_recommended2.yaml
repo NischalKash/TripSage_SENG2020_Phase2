@@ -1,83 +1,96 @@
-Billings:
+Montgomery:
   stadium:
-  - formatted_address: 308 6th Ave N, Billings, MT 59101, USA
-    formatted_phone_number: (406) 256-2400
+  - formatted_address: 1215 Madison Ave, Montgomery, AL 36104, USA
+    formatted_phone_number: (334) 240-4200
     geometry:
       location:
-        lat: 45.8002688
-        lng: -108.4775334
-    name: MetraPark Arena
+        lat: 32.3821668
+        lng: -86.29114969999999
+    name: Paterson Field
+    website: http://paterson-field.edan.io/
+  - formatted_address: 401 W Osceola St, Wetumpka, AL 36092, USA
+    geometry:
+      location:
+        lat: 32.54509439999999
+        lng: -86.21172020000002
+    name: Hohenberg Field
+  - formatted_address: University, 1022, Madison Ave, Montgomery, AL 36104, USA
+    formatted_phone_number: (404) 862-4730
+    geometry:
+      location:
+        lat: 32.379522
+        lng: -86.2930272
+    name: Raycom Media Camellia Bowl
+    website: http://www.camelliabowl.com/
+  tourist_attraction:
+  - formatted_address: 2301 Coliseum Pkwy, Montgomery, AL 36110, USA
+    formatted_phone_number: (334) 625-4900
+    geometry:
+      location:
+        lat: 32.4198404
+        lng: -86.2751933
+    name: Montgomery Zoo & Mann Wildlife Learning Museum
     opening_hours:
       open_now: true
       periods:
       - close:
+          day: 0
+          time: '1600'
+        open:
+          day: 0
+          time: 0900
+      - close:
           day: 1
-          time: '1700'
+          time: '1600'
         open:
           day: 1
-          time: '1000'
+          time: 0900
       - close:
           day: 2
-          time: '1700'
+          time: '1600'
         open:
           day: 2
-          time: '1000'
+          time: 0900
       - close:
           day: 3
-          time: '1700'
+          time: '1600'
         open:
           day: 3
-          time: '1000'
+          time: 0900
       - close:
           day: 4
-          time: '1700'
+          time: '1600'
         open:
           day: 4
-          time: '1000'
+          time: 0900
       - close:
           day: 5
-          time: '1700'
+          time: '1600'
         open:
           day: 5
-          time: '1000'
+          time: 0900
       - close:
           day: 6
-          time: '1700'
+          time: '1600'
         open:
           day: 6
-          time: '1000'
+          time: 0900
       weekday_text:
-      - 'Monday: 10:00 AM – 5:00 PM'
-      - 'Tuesday: 10:00 AM – 5:00 PM'
-      - 'Wednesday: 10:00 AM – 5:00 PM'
-      - 'Thursday: 10:00 AM – 5:00 PM'
-      - 'Friday: 10:00 AM – 5:00 PM'
-      - 'Saturday: 10:00 AM – 5:00 PM'
-      - 'Sunday: Closed'
-    website: http://www.metrapark.com/
-  - formatted_address: 401 Grand Ave, Billings, MT 59102, USA
-    formatted_phone_number: (406) 281-5400
+      - 'Monday: 9:00 AM â€“ 4:00 PM'
+      - 'Tuesday: 9:00 AM â€“ 4:00 PM'
+      - 'Wednesday: 9:00 AM â€“ 4:00 PM'
+      - 'Thursday: 9:00 AM â€“ 4:00 PM'
+      - 'Friday: 9:00 AM â€“ 4:00 PM'
+      - 'Saturday: 9:00 AM â€“ 4:00 PM'
+      - 'Sunday: 9:00 AM â€“ 4:00 PM'
+    website: http://www.montgomeryzoo.com/
+  - formatted_address: 1 Museum Dr, Montgomery, AL 36117, USA
+    formatted_phone_number: (334) 625-4333
     geometry:
       location:
-        lat: 45.7851155
-        lng: -108.523845
-    name: Daylis Stadium
-    website: http://www.billingsseniorhigh.com/
-  - formatted_address: 1500 University Drive, Billings, MT 59101, USA
-    geometry:
-      location:
-        lat: 45.797964
-        lng: -108.5188147
-    name: Avitus Group Stadium
-    website: http://www.msubsports.com/sports/2010/8/30/SB_0830104434.aspx
-  tourist_attraction:
-  - formatted_address: 3401 Coburn Rd, Billings, MT 59101, USA
-    formatted_phone_number: (406) 254-7342
-    geometry:
-      location:
-        lat: 45.737818
-        lng: -108.43111
-    name: Pictograph Cave State Park
+        lat: 32.3510221
+        lng: -86.20648349999999
+    name: Montgomery Museum of Fine Arts
     opening_hours:
       open_now: false
       periods:
@@ -86,6 +99,73 @@ Billings:
           time: '1700'
         open:
           day: 0
+          time: '1200'
+      - close:
+          day: 2
+          time: '1700'
+        open:
+          day: 2
+          time: '1000'
+      - close:
+          day: 3
+          time: '1700'
+        open:
+          day: 3
+          time: '1000'
+      - close:
+          day: 4
+          time: '1700'
+        open:
+          day: 4
+          time: '1000'
+      - close:
+          day: 5
+          time: '1700'
+        open:
+          day: 5
+          time: '1000'
+      - close:
+          day: 6
+          time: '1700'
+        open:
+          day: 6
+          time: '1000'
+      weekday_text:
+      - 'Monday: Closed'
+      - 'Tuesday: 10:00 AM â€“ 5:00 PM'
+      - 'Wednesday: 10:00 AM â€“ 5:00 PM'
+      - 'Thursday: 10:00 AM â€“ 5:00 PM'
+      - 'Friday: 10:00 AM â€“ 5:00 PM'
+      - 'Saturday: 10:00 AM â€“ 5:00 PM'
+      - 'Sunday: 12:00 â€“ 5:00 PM'
+    website: http://www.mmfa.org/
+  - formatted_address: Montgomery, AL 36117, USA
+    geometry:
+      location:
+        lat: 32.312996
+        lng: -86.133134
+    name: Thompson Park
+  - formatted_address: 252 Montgomery St, Montgomery, AL 36104, USA
+    formatted_phone_number: (334) 241-8615
+    geometry:
+      location:
+        lat: 32.3768141
+        lng: -86.31117050000002
+    name: Rosa Parks Museum
+    opening_hours:
+      open_now: true
+      periods:
+      - close:
+          day: 1
+          time: '1700'
+        open:
+          day: 1
+          time: 0900
+      - close:
+          day: 2
+          time: '1700'
+        open:
+          day: 2
           time: 0900
       - close:
           day: 3
@@ -105,218 +185,235 @@ Billings:
         open:
           day: 5
           time: 0900
+      weekday_text:
+      - 'Monday: 9:00 AM â€“ 5:00 PM'
+      - 'Tuesday: 9:00 AM â€“ 5:00 PM'
+      - 'Wednesday: 9:00 AM â€“ 5:00 PM'
+      - 'Thursday: 9:00 AM â€“ 5:00 PM'
+      - 'Friday: 9:00 AM â€“ 5:00 PM'
+      - 'Saturday: Closed'
+      - 'Sunday: Closed'
+    website: http://troy.edu/rosaparks
+  - formatted_address: 454 Dexter Ave, Montgomery, AL 36104, USA
+    formatted_phone_number: (334) 263-3970
+    geometry:
+      location:
+        lat: 32.3772533
+        lng: -86.30270329999999
+    name: Dexter Avenue King Memorial Baptist Church
+    website: http://www.dexterkingmemorial.org/
+  - formatted_address: 644 Washington Ave, Montgomery, AL 36130, USA
+    formatted_phone_number: (334) 242-1861
+    geometry:
+      location:
+        lat: 32.37613909999999
+        lng: -86.2999284
+    name: First White House of the Confederacy
+    website: https://www.thefirstwhitehouse.com/
+  - formatted_address: '919 Felder Ave # 919, Montgomery, AL 36106, USA'
+    formatted_phone_number: (334) 264-4222
+    geometry:
+      location:
+        lat: 32.35869059999999
+        lng: -86.29228130000001
+    name: The Scott and Zelda Fitzgerald Museum
+    opening_hours:
+      open_now: false
+      periods:
+      - close:
+          day: 4
+          time: '2200'
+        open:
+          day: 4
+          time: '1000'
+      - close:
+          day: 5
+          time: '2200'
+        open:
+          day: 5
+          time: '1000'
       - close:
           day: 6
-          time: '1700'
+          time: '2200'
         open:
           day: 6
-          time: 0900
+          time: '1000'
       weekday_text:
       - 'Monday: Closed'
       - 'Tuesday: Closed'
-      - 'Wednesday: 9:00 AM – 5:00 PM'
-      - 'Thursday: 9:00 AM – 5:00 PM'
-      - 'Friday: 9:00 AM – 5:00 PM'
-      - 'Saturday: 9:00 AM – 5:00 PM'
-      - 'Sunday: 9:00 AM – 5:00 PM'
-    website: http://stateparks.mt.gov/pictograph-cave/
-  - formatted_address: 962 Ashley Ct S, Billings, MT 59105, USA
-    formatted_phone_number: (406) 657-8371
+      - 'Wednesday: Closed'
+      - 'Thursday: 10:00 AM â€“ 3:00 PM'
+      - 'Friday: 10:00 AM â€“ 3:00 PM'
+      - 'Saturday: 10:00 AM â€“ 3:00 PM'
+      - 'Sunday: Closed'
+    website: https://www.thefitzgeraldmuseum.org/
+  - formatted_address: 301 Columbus St, Montgomery, AL 36104, USA
+    formatted_phone_number: (334) 240-4500
     geometry:
       location:
-        lat: 45.81796019999999
-        lng: -108.4951853
-    name: Walsh Park
+        lat: 32.3822899
+        lng: -86.304985
+    name: Old Alabama Town
+    opening_hours:
+      open_now: true
+      periods:
+      - close:
+          day: 4
+          time: '1600'
+        open:
+          day: 4
+          time: '1000'
+      - close:
+          day: 5
+          time: '1600'
+        open:
+          day: 5
+          time: '1000'
+      - close:
+          day: 6
+          time: '1600'
+        open:
+          day: 6
+          time: '1000'
+      weekday_text:
+      - 'Monday: Closed'
+      - 'Tuesday: Closed'
+      - 'Wednesday: Closed'
+      - 'Thursday: 10:00 AM â€“ 4:00 PM'
+      - 'Friday: 10:00 AM â€“ 4:00 PM'
+      - 'Saturday: 10:00 AM â€“ 4:00 PM'
+      - 'Sunday: Closed'
+    website: http://www.oldalabamatown.com/
+  - formatted_address: 210 S Court St, Montgomery, AL 36104, USA
+    formatted_phone_number: (334) 414-8647
+    geometry:
+      location:
+        lat: 32.374614
+        lng: -86.30910899999999
+    name: Freedom Rides Museum
+    opening_hours:
+      open_now: false
+      periods:
+      - close:
+          day: 2
+          time: '1600'
+        open:
+          day: 2
+          time: '1100'
+      - close:
+          day: 3
+          time: '1600'
+        open:
+          day: 3
+          time: '1100'
+      - close:
+          day: 4
+          time: '1600'
+        open:
+          day: 4
+          time: '1100'
+      - close:
+          day: 5
+          time: '1600'
+        open:
+          day: 5
+          time: '1100'
+      - close:
+          day: 6
+          time: '1600'
+        open:
+          day: 6
+          time: '1000'
+      weekday_text:
+      - 'Monday: Closed'
+      - 'Tuesday: 11:00 AM â€“ 4:00 PM'
+      - 'Wednesday: 11:00 AM â€“ 4:00 PM'
+      - 'Thursday: 11:00 AM â€“ 4:00 PM'
+      - 'Friday: 11:00 AM â€“ 4:00 PM'
+      - 'Saturday: 10:00 AM â€“ 4:00 PM'
+      - 'Sunday: Closed'
+    website: http://www.freedomridesmuseum.org/
+  - formatted_address: 2415 W Cloverdale Park, Montgomery, AL 36106, USA
+    formatted_phone_number: (334) 625-2300
+    geometry:
+      location:
+        lat: 32.35474050000001
+        lng: -86.29250119999999
+    name: Cloverdale Park
     opening_hours:
       open_now: true
       periods:
       - close:
           day: 0
-          time: '2200'
+          time: '1800'
         open:
           day: 0
-          time: '0500'
+          time: '0600'
       - close:
           day: 1
-          time: '2200'
+          time: '1800'
         open:
           day: 1
-          time: '0500'
+          time: '0600'
       - close:
           day: 2
-          time: '2200'
+          time: '1800'
         open:
           day: 2
-          time: '0500'
+          time: '0600'
       - close:
           day: 3
-          time: '2200'
+          time: '1800'
         open:
           day: 3
-          time: '0500'
+          time: '0600'
       - close:
           day: 4
-          time: '2200'
+          time: '1800'
         open:
           day: 4
-          time: '0500'
+          time: '0600'
       - close:
           day: 5
-          time: '2200'
+          time: '1800'
         open:
           day: 5
-          time: '0500'
+          time: '0600'
       - close:
           day: 6
-          time: '2200'
+          time: '1800'
         open:
           day: 6
-          time: '0500'
+          time: '0600'
       weekday_text:
-      - 'Monday: 5:00 AM – 10:00 PM'
-      - 'Tuesday: 5:00 AM – 10:00 PM'
-      - 'Wednesday: 5:00 AM – 10:00 PM'
-      - 'Thursday: 5:00 AM – 10:00 PM'
-      - 'Friday: 5:00 AM – 10:00 PM'
-      - 'Saturday: 5:00 AM – 10:00 PM'
-      - 'Sunday: 5:00 AM – 10:00 PM'
-  - formatted_address: 3953 Parkwood Dr, Billings, MT 59106, USA
-    formatted_phone_number: (406) 657-8371
+      - 'Monday: 6:00 AM â€“ 6:00 PM'
+      - 'Tuesday: 6:00 AM â€“ 6:00 PM'
+      - 'Wednesday: 6:00 AM â€“ 6:00 PM'
+      - 'Thursday: 6:00 AM â€“ 6:00 PM'
+      - 'Friday: 6:00 AM â€“ 6:00 PM'
+      - 'Saturday: 6:00 AM â€“ 6:00 PM'
+      - 'Sunday: 6:00 AM â€“ 6:00 PM'
+  - formatted_address: 1121 S Lawrence St, Montgomery, AL 36104, USA
+    formatted_phone_number: (334) 625-2300
     geometry:
       location:
-        lat: 45.81472979999999
-        lng: -108.6682102
-    name: Ironwood Park
-    opening_hours:
-      open_now: true
-      periods:
-      - close:
-          day: 0
-          time: '2200'
-        open:
-          day: 0
-          time: '0500'
-      - close:
-          day: 1
-          time: '2200'
-        open:
-          day: 1
-          time: '0500'
-      - close:
-          day: 2
-          time: '2200'
-        open:
-          day: 2
-          time: '0500'
-      - close:
-          day: 3
-          time: '2200'
-        open:
-          day: 3
-          time: '0500'
-      - close:
-          day: 4
-          time: '2200'
-        open:
-          day: 4
-          time: '0500'
-      - close:
-          day: 5
-          time: '2200'
-        open:
-          day: 5
-          time: '0500'
-      - close:
-          day: 6
-          time: '2200'
-        open:
-          day: 6
-          time: '0500'
-      weekday_text:
-      - 'Monday: 5:00 AM – 10:00 PM'
-      - 'Tuesday: 5:00 AM – 10:00 PM'
-      - 'Wednesday: 5:00 AM – 10:00 PM'
-      - 'Thursday: 5:00 AM – 10:00 PM'
-      - 'Friday: 5:00 AM – 10:00 PM'
-      - 'Saturday: 5:00 AM – 10:00 PM'
-      - 'Sunday: 5:00 AM – 10:00 PM'
-    website: http://www.billingsparks.org/park/ironwood/
-  - formatted_address: 3512 Boothill Rd, Huntley, MT 59037, USA
-    formatted_phone_number: (406) 348-2048
+        lat: 32.36245700000001
+        lng: -86.3054238
+    name: Bellinger Hill Park
+  - formatted_address: 325 E Vandiver Blvd, Montgomery, AL 36110, USA
+    formatted_phone_number: (334) 240-4900
     geometry:
       location:
-        lat: 45.86143200000001
-        lng: -108.318702
-    name: Happy Pappy's Holdup
-    website: http://www.westernromancecompany.com/pappyholdup.html
-  - formatted_address: Central Ave, Billings, MT 59102, USA
-    formatted_phone_number: (406) 657-8371
+        lat: 32.4177778
+        lng: -86.2777778
+    name: Mann Wildlife Learning Museum
+  - formatted_address: 525 E Vandiver Blvd, Montgomery, AL 36110, USA
+    formatted_phone_number: (334) 240-4514
     geometry:
       location:
-        lat: 45.7705303
-        lng: -108.5377431
-    name: Central Park
-    opening_hours:
-      open_now: true
-      periods:
-      - close:
-          day: 0
-          time: '2200'
-        open:
-          day: 0
-          time: '0500'
-      - close:
-          day: 1
-          time: '2200'
-        open:
-          day: 1
-          time: '0500'
-      - close:
-          day: 2
-          time: '2200'
-        open:
-          day: 2
-          time: '0500'
-      - close:
-          day: 3
-          time: '2200'
-        open:
-          day: 3
-          time: '0500'
-      - close:
-          day: 4
-          time: '2200'
-        open:
-          day: 4
-          time: '0500'
-      - close:
-          day: 5
-          time: '2200'
-        open:
-          day: 5
-          time: '0500'
-      - close:
-          day: 6
-          time: '2200'
-        open:
-          day: 6
-          time: '0500'
-      weekday_text:
-      - 'Monday: 5:00 AM – 10:00 PM'
-      - 'Tuesday: 5:00 AM – 10:00 PM'
-      - 'Wednesday: 5:00 AM – 10:00 PM'
-      - 'Thursday: 5:00 AM – 10:00 PM'
-      - 'Friday: 5:00 AM – 10:00 PM'
-      - 'Saturday: 5:00 AM – 10:00 PM'
-      - 'Sunday: 5:00 AM – 10:00 PM'
-    website: http://www.billingsparks.org/parks/central
-  - formatted_address: Charlene St, Billings, MT 59101, USA
-    formatted_phone_number: (406) 657-8371
-    geometry:
-      location:
-        lat: 45.7874854
-        lng: -108.4785261
-    name: Coulson Park
+        lat: 32.4194187
+        lng: -86.27362680000002
+    name: Chisholm Park
     opening_hours:
       open_now: true
       periods:
@@ -331,819 +428,253 @@ Billings:
       - 'Friday: Open 24 hours'
       - 'Saturday: Open 24 hours'
       - 'Sunday: Open 24 hours'
-    website: http://www.billingsparks.org/park/coulson/
-  - formatted_address: 390 N 23rd St, Billings, MT 59101, USA
-    formatted_phone_number: (406) 657-8371
+  - formatted_address: 544 Maxwell Blvd, Montgomery, AL 36104, USA
+    formatted_phone_number: (334) 625-2300
     geometry:
       location:
-        lat: 45.7780127
-        lng: -108.5584463
-    name: Burg Park
+        lat: 32.3778174
+        lng: -86.31881489999999
+    name: Wright Brother's Park
+  - formatted_address: 2227 N Country Club Dr, Montgomery, AL 36106, USA
+    formatted_phone_number: (334) 625-2300
+    geometry:
+      location:
+        lat: 32.3560271
+        lng: -86.2790995
+    name: Country Club Drive Park
+  - formatted_address: 3174 Cloverdale Rd, Montgomery, AL 36106, USA
+    formatted_phone_number: (334) 625-2300
+    geometry:
+      location:
+        lat: 32.3483648
+        lng: -86.2921841
+    name: Audubon Park
+  - formatted_address: '130 Commerce St #700, Montgomery, AL 36104, USA'
+    formatted_phone_number: (334) 523-1947
+    geometry:
+      location:
+        lat: 32.37977209999999
+        lng: -86.3111981
+    name: Escapology Montgomery
     opening_hours:
       open_now: true
       periods:
       - close:
           day: 0
-          time: '2200'
+          time: '2000'
         open:
           day: 0
-          time: '0500'
-      - close:
-          day: 1
-          time: '2200'
-        open:
-          day: 1
-          time: '0500'
+          time: '1400'
       - close:
           day: 2
-          time: '2200'
+          time: '2300'
         open:
           day: 2
-          time: '0500'
+          time: '1500'
       - close:
           day: 3
-          time: '2200'
+          time: '2300'
         open:
           day: 3
-          time: '0500'
+          time: '1500'
       - close:
           day: 4
-          time: '2200'
+          time: '2300'
         open:
           day: 4
-          time: '0500'
-      - close:
-          day: 5
-          time: '2200'
-        open:
-          day: 5
-          time: '0500'
+          time: '1500'
       - close:
           day: 6
-          time: '2200'
+          time: '0000'
+        open:
+          day: 5
+          time: '1100'
+      - close:
+          day: 0
+          time: '0000'
         open:
           day: 6
-          time: '0500'
+          time: '1100'
       weekday_text:
-      - 'Monday: 5:00 AM – 10:00 PM'
-      - 'Tuesday: 5:00 AM – 10:00 PM'
-      - 'Wednesday: 5:00 AM – 10:00 PM'
-      - 'Thursday: 5:00 AM – 10:00 PM'
-      - 'Friday: 5:00 AM – 10:00 PM'
-      - 'Saturday: 5:00 AM – 10:00 PM'
-      - 'Sunday: 5:00 AM – 10:00 PM'
-    website: http://www.billingsparks.org/park/burg/
-  - formatted_address: Orchard Ln & N Carlton Ave SW, Billings, MT 59101, USA
-    formatted_phone_number: (406) 657-8371
+      - 'Monday: Closed'
+      - 'Tuesday: 3:00 â€“ 11:00 PM'
+      - 'Wednesday: 3:00 â€“ 11:00 PM'
+      - 'Thursday: 3:00 â€“ 11:00 PM'
+      - 'Friday: 11:00 AM â€“ 12:00 AM'
+      - 'Saturday: 11:00 AM â€“ 12:00 AM'
+      - 'Sunday: 2:00 â€“ 8:00 PM'
+    website: https://www.escapology.com/montgomery-al/
+  - formatted_address: 400 Washington Ave, Montgomery, AL 36104, USA
+    formatted_phone_number: (334) 956-8439
     geometry:
       location:
-        lat: 45.7530656
-        lng: -108.5240584
-    name: Ponderosa Park
+        lat: 32.37614719999999
+        lng: -86.3033583
+    name: Civil Rights Memorial
     opening_hours:
       open_now: true
       periods:
       - close:
-          day: 0
-          time: '2200'
-        open:
-          day: 0
-          time: '0500'
-      - close:
           day: 1
-          time: '2200'
+          time: '1630'
         open:
           day: 1
           time: '0500'
       - close:
           day: 2
-          time: '2200'
+          time: '1630'
         open:
           day: 2
           time: '0500'
       - close:
           day: 3
-          time: '2200'
+          time: '1630'
         open:
           day: 3
           time: '0500'
       - close:
           day: 4
-          time: '2200'
+          time: '1630'
         open:
           day: 4
           time: '0500'
       - close:
           day: 5
-          time: '2200'
+          time: '1630'
         open:
           day: 5
           time: '0500'
       - close:
           day: 6
-          time: '2200'
+          time: '1600'
         open:
           day: 6
-          time: '0500'
+          time: '1000'
       weekday_text:
-      - 'Monday: 5:00 AM – 10:00 PM'
-      - 'Tuesday: 5:00 AM – 10:00 PM'
-      - 'Wednesday: 5:00 AM – 10:00 PM'
-      - 'Thursday: 5:00 AM – 10:00 PM'
-      - 'Friday: 5:00 AM – 10:00 PM'
-      - 'Saturday: 5:00 AM – 10:00 PM'
-      - 'Sunday: 5:00 AM – 10:00 PM'
-    website: http://www.billingsparks.org/park/ponderosa/
-  - formatted_address: 2609 13th St W, Billings, MT 59102, USA
-    formatted_phone_number: (406) 657-8371
+      - 'Monday: 9:00 AM â€“ 4:30 PM'
+      - 'Tuesday: 9:00 AM â€“ 4:30 PM'
+      - 'Wednesday: 9:00 AM â€“ 4:30 PM'
+      - 'Thursday: 9:00 AM â€“ 4:30 PM'
+      - 'Friday: 9:00 AM â€“ 4:30 PM'
+      - 'Saturday: 10:00 AM â€“ 4:00 PM'
+      - 'Sunday: Closed'
+    website: https://www.splcenter.org/civil-rights-memorial
+  - formatted_address: 142-158 S Union St, Montgomery, AL 36104, USA
     geometry:
       location:
-        lat: 45.7961162
-        lng: -108.5496507
-    name: Veterans Park
+        lat: 32.37583790000001
+        lng: -86.30037829999999
+    name: Museum of Alabama
+    website: http://www.museum.alabama.gov/
+  - formatted_address: 1010 Forest Ave, Montgomery, AL 36106, USA
+    formatted_phone_number: (334) 625-2300
+    geometry:
+      location:
+        lat: 32.3691305
+        lng: -86.28719009999999
+    name: Oak Park
     opening_hours:
       open_now: true
       periods:
       - close:
-          day: 0
-          time: '2200'
-        open:
-          day: 0
-          time: '0500'
-      - close:
           day: 1
-          time: '2200'
+          time: '1630'
         open:
           day: 1
-          time: '0500'
+          time: '0730'
       - close:
           day: 2
-          time: '2200'
+          time: '1630'
         open:
           day: 2
-          time: '0500'
+          time: '0730'
       - close:
           day: 3
-          time: '2200'
+          time: '1630'
         open:
           day: 3
-          time: '0500'
+          time: '0730'
       - close:
           day: 4
-          time: '2200'
+          time: '1630'
         open:
           day: 4
-          time: '0500'
+          time: '0730'
       - close:
           day: 5
-          time: '2200'
+          time: '1630'
         open:
           day: 5
-          time: '0500'
-      - close:
-          day: 6
-          time: '2200'
-        open:
-          day: 6
-          time: '0500'
+          time: '0730'
       weekday_text:
-      - 'Monday: 5:00 AM – 10:00 PM'
-      - 'Tuesday: 5:00 AM – 10:00 PM'
-      - 'Wednesday: 5:00 AM – 10:00 PM'
-      - 'Thursday: 5:00 AM – 10:00 PM'
-      - 'Friday: 5:00 AM – 10:00 PM'
-      - 'Saturday: 5:00 AM – 10:00 PM'
-      - 'Sunday: 5:00 AM – 10:00 PM'
-    website: http://www.billingsparks.org/park/veterans/
-  - formatted_address: 1810 Westwood Dr, Billings, MT 59102, USA
-    formatted_phone_number: (406) 657-8371
-    geometry:
-      location:
-        lat: 45.7880774
-        lng: -108.5874872
-    name: Westwood Park
-  - formatted_address: 18th St W, Billings, MT 59102, USA
-    formatted_phone_number: (406) 657-8371
-    geometry:
-      location:
-        lat: 45.7816369
-        lng: -108.562078
-    name: Trails End Park
-    opening_hours:
-      open_now: true
-      periods:
-      - close:
-          day: 0
-          time: '2200'
-        open:
-          day: 0
-          time: '0500'
-      - close:
-          day: 1
-          time: '2200'
-        open:
-          day: 1
-          time: '0500'
-      - close:
-          day: 2
-          time: '2200'
-        open:
-          day: 2
-          time: '0500'
-      - close:
-          day: 3
-          time: '2200'
-        open:
-          day: 3
-          time: '0500'
-      - close:
-          day: 4
-          time: '2200'
-        open:
-          day: 4
-          time: '0500'
-      - close:
-          day: 5
-          time: '2200'
-        open:
-          day: 5
-          time: '0500'
-      - close:
-          day: 6
-          time: '2200'
-        open:
-          day: 6
-          time: '0500'
-      weekday_text:
-      - 'Monday: 5:00 AM – 10:00 PM'
-      - 'Tuesday: 5:00 AM – 10:00 PM'
-      - 'Wednesday: 5:00 AM – 10:00 PM'
-      - 'Thursday: 5:00 AM – 10:00 PM'
-      - 'Friday: 5:00 AM – 10:00 PM'
-      - 'Saturday: 5:00 AM – 10:00 PM'
-      - 'Sunday: 5:00 AM – 10:00 PM'
-    website: http://www.billingsparks.org/
-  - formatted_address: 2112 Beloit Dr, Billings, MT 59102, USA
-    formatted_phone_number: (406) 657-8371
-    geometry:
-      location:
-        lat: 45.76330249999999
-        lng: -108.5662201
-    name: Sacajawea Park
-    opening_hours:
-      open_now: true
-      periods:
-      - close:
-          day: 0
-          time: '2200'
-        open:
-          day: 0
-          time: '0500'
-      - close:
-          day: 1
-          time: '2200'
-        open:
-          day: 1
-          time: '0500'
-      - close:
-          day: 2
-          time: '2200'
-        open:
-          day: 2
-          time: '0500'
-      - close:
-          day: 3
-          time: '2200'
-        open:
-          day: 3
-          time: '0500'
-      - close:
-          day: 4
-          time: '2200'
-        open:
-          day: 4
-          time: '0500'
-      - close:
-          day: 5
-          time: '2200'
-        open:
-          day: 5
-          time: '0500'
-      - close:
-          day: 6
-          time: '2200'
-        open:
-          day: 6
-          time: '0500'
-      weekday_text:
-      - 'Monday: 5:00 AM – 10:00 PM'
-      - 'Tuesday: 5:00 AM – 10:00 PM'
-      - 'Wednesday: 5:00 AM – 10:00 PM'
-      - 'Thursday: 5:00 AM – 10:00 PM'
-      - 'Friday: 5:00 AM – 10:00 PM'
-      - 'Saturday: 5:00 AM – 10:00 PM'
-      - 'Sunday: 5:00 AM – 10:00 PM'
-    website: http://www.billingsparks.org/park/sacajawea/
-  - formatted_address: 4548 Rangeview Dr, Billings, MT 59106, USA
-    formatted_phone_number: (406) 657-8371
-    geometry:
-      location:
-        lat: 45.79092290000001
-        lng: -108.6306962
-    name: Rimrock West
-    opening_hours:
-      open_now: true
-      periods:
-      - close:
-          day: 0
-          time: '2200'
-        open:
-          day: 0
-          time: '0500'
-      - close:
-          day: 1
-          time: '2200'
-        open:
-          day: 1
-          time: '0500'
-      - close:
-          day: 2
-          time: '2200'
-        open:
-          day: 2
-          time: '0500'
-      - close:
-          day: 3
-          time: '2200'
-        open:
-          day: 3
-          time: '0500'
-      - close:
-          day: 4
-          time: '2200'
-        open:
-          day: 4
-          time: '0500'
-      - close:
-          day: 5
-          time: '2200'
-        open:
-          day: 5
-          time: '0500'
-      - close:
-          day: 6
-          time: '2200'
-        open:
-          day: 6
-          time: '0500'
-      weekday_text:
-      - 'Monday: 5:00 AM – 10:00 PM'
-      - 'Tuesday: 5:00 AM – 10:00 PM'
-      - 'Wednesday: 5:00 AM – 10:00 PM'
-      - 'Thursday: 5:00 AM – 10:00 PM'
-      - 'Friday: 5:00 AM – 10:00 PM'
-      - 'Saturday: 5:00 AM – 10:00 PM'
-      - 'Sunday: 5:00 AM – 10:00 PM'
-    website: http://www.billingsparks.org/park/rimrock-west/
-  - formatted_address: 1123 21st St W, Billings, MT 59102, USA
-    formatted_phone_number: (406) 657-8371
-    geometry:
-      location:
-        lat: 45.7814615
-        lng: -108.5703076
-    name: Burlington Park
-    opening_hours:
-      open_now: true
-      periods:
-      - close:
-          day: 0
-          time: '2200'
-        open:
-          day: 0
-          time: '0500'
-      - close:
-          day: 1
-          time: '2200'
-        open:
-          day: 1
-          time: '0500'
-      - close:
-          day: 2
-          time: '2200'
-        open:
-          day: 2
-          time: '0500'
-      - close:
-          day: 3
-          time: '2200'
-        open:
-          day: 3
-          time: '0500'
-      - close:
-          day: 4
-          time: '2200'
-        open:
-          day: 4
-          time: '0500'
-      - close:
-          day: 5
-          time: '2200'
-        open:
-          day: 5
-          time: '0500'
-      - close:
-          day: 6
-          time: '2200'
-        open:
-          day: 6
-          time: '0500'
-      weekday_text:
-      - 'Monday: 5:00 AM – 10:00 PM'
-      - 'Tuesday: 5:00 AM – 10:00 PM'
-      - 'Wednesday: 5:00 AM – 10:00 PM'
-      - 'Thursday: 5:00 AM – 10:00 PM'
-      - 'Friday: 5:00 AM – 10:00 PM'
-      - 'Saturday: 5:00 AM – 10:00 PM'
-      - 'Sunday: 5:00 AM – 10:00 PM'
-    website: http://www.billingsparks.org/park/burlington/
-  - formatted_address: Crow ln and Sioux ln, Billings, MT 59105, USA
-    formatted_phone_number: (406) 657-8371
-    geometry:
-      location:
-        lat: 45.82522539999999
-        lng: -108.473726
-    name: Arrowhead Park
-    opening_hours:
-      open_now: true
-      periods:
-      - close:
-          day: 0
-          time: '2200'
-        open:
-          day: 0
-          time: '0500'
-      - close:
-          day: 1
-          time: '2200'
-        open:
-          day: 1
-          time: '0500'
-      - close:
-          day: 2
-          time: '2200'
-        open:
-          day: 2
-          time: '0500'
-      - close:
-          day: 3
-          time: '2200'
-        open:
-          day: 3
-          time: '0500'
-      - close:
-          day: 4
-          time: '2200'
-        open:
-          day: 4
-          time: '0500'
-      - close:
-          day: 5
-          time: '2200'
-        open:
-          day: 5
-          time: '0500'
-      - close:
-          day: 6
-          time: '2200'
-        open:
-          day: 6
-          time: '0500'
-      weekday_text:
-      - 'Monday: 5:00 AM – 10:00 PM'
-      - 'Tuesday: 5:00 AM – 10:00 PM'
-      - 'Wednesday: 5:00 AM – 10:00 PM'
-      - 'Thursday: 5:00 AM – 10:00 PM'
-      - 'Friday: 5:00 AM – 10:00 PM'
-      - 'Saturday: 5:00 AM – 10:00 PM'
-      - 'Sunday: 5:00 AM – 10:00 PM'
-    website: http://www.billingsparks.org/park/arrowhead
-  - formatted_address: 5th Street West & Terry Avenue, Billings, MT 59101, USA
-    formatted_phone_number: (406) 657-8371
-    geometry:
-      location:
-        lat: 45.7748445
-        lng: -108.5293567
-    name: Terry Park
-    opening_hours:
-      open_now: true
-      periods:
-      - close:
-          day: 0
-          time: '2200'
-        open:
-          day: 0
-          time: '0500'
-      - close:
-          day: 1
-          time: '2200'
-        open:
-          day: 1
-          time: '0500'
-      - close:
-          day: 2
-          time: '2200'
-        open:
-          day: 2
-          time: '0500'
-      - close:
-          day: 3
-          time: '2200'
-        open:
-          day: 3
-          time: '0500'
-      - close:
-          day: 4
-          time: '2200'
-        open:
-          day: 4
-          time: '0500'
-      - close:
-          day: 5
-          time: '2200'
-        open:
-          day: 5
-          time: '0500'
-      - close:
-          day: 6
-          time: '2200'
-        open:
-          day: 6
-          time: '0500'
-      weekday_text:
-      - 'Monday: 5:00 AM – 10:00 PM'
-      - 'Tuesday: 5:00 AM – 10:00 PM'
-      - 'Wednesday: 5:00 AM – 10:00 PM'
-      - 'Thursday: 5:00 AM – 10:00 PM'
-      - 'Friday: 5:00 AM – 10:00 PM'
-      - 'Saturday: 5:00 AM – 10:00 PM'
-      - 'Sunday: 5:00 AM – 10:00 PM'
-    website: http://www.billingsparks.org/park/terry/
-  - formatted_address: '815 S 27th St #4513, Billings, MT 59101, USA'
-    formatted_phone_number: (406) 294-5270
-    geometry:
-      location:
-        lat: 45.7740199
-        lng: -108.495338
-    name: Visit Southeast Montana
-    website: http://southeastmontana.com/
-  - formatted_address: Swords Park Dr, Billings, MT 59105, USA
-    formatted_phone_number: (406) 657-8371
-    geometry:
-      location:
-        lat: 45.7992314
-        lng: -108.5074293
-    name: Swords Park
-    opening_hours:
-      open_now: true
-      periods:
-      - close:
-          day: 0
-          time: '2200'
-        open:
-          day: 0
-          time: '0500'
-      - close:
-          day: 1
-          time: '2200'
-        open:
-          day: 1
-          time: '0500'
-      - close:
-          day: 2
-          time: '2200'
-        open:
-          day: 2
-          time: '0500'
-      - close:
-          day: 3
-          time: '2200'
-        open:
-          day: 3
-          time: '0500'
-      - close:
-          day: 4
-          time: '2200'
-        open:
-          day: 4
-          time: '0500'
-      - close:
-          day: 5
-          time: '2200'
-        open:
-          day: 5
-          time: '0500'
-      - close:
-          day: 6
-          time: '2200'
-        open:
-          day: 6
-          time: '0500'
-      weekday_text:
-      - 'Monday: 5:00 AM – 10:00 PM'
-      - 'Tuesday: 5:00 AM – 10:00 PM'
-      - 'Wednesday: 5:00 AM – 10:00 PM'
-      - 'Thursday: 5:00 AM – 10:00 PM'
-      - 'Friday: 5:00 AM – 10:00 PM'
-      - 'Saturday: 5:00 AM – 10:00 PM'
-      - 'Sunday: 5:00 AM – 10:00 PM'
-    website: http://billingsparks.org/
-  - formatted_address: 543 Aronson Ave, Billings, MT 59105, USA
-    formatted_phone_number: (406) 969-3131
-    geometry:
-      location:
-        lat: 45.8078478
-        lng: -108.4931231
-    name: Oasis
-    opening_hours:
-      open_now: false
-      periods:
-      - close:
-          day: 0
-          time: '1900'
-        open:
-          day: 0
-          time: '1200'
-      - close:
-          day: 1
-          time: '1900'
-        open:
-          day: 1
-          time: '1200'
-      - close:
-          day: 2
-          time: '1900'
-        open:
-          day: 2
-          time: '1200'
-      - close:
-          day: 3
-          time: '1900'
-        open:
-          day: 3
-          time: '1200'
-      - close:
-          day: 4
-          time: '1900'
-        open:
-          day: 4
-          time: '1200'
-      - close:
-          day: 5
-          time: '1900'
-        open:
-          day: 5
-          time: '1200'
-      - close:
-          day: 6
-          time: '1900'
-        open:
-          day: 6
-          time: '1200'
-      weekday_text:
-      - 'Monday: 12:00 – 7:00 PM'
-      - 'Tuesday: 12:00 – 7:00 PM'
-      - 'Wednesday: 12:00 – 7:00 PM'
-      - 'Thursday: 12:00 – 7:00 PM'
-      - 'Friday: 12:00 – 7:00 PM'
-      - 'Saturday: 12:00 – 7:00 PM'
-      - 'Sunday: 12:00 – 7:00 PM'
-    website: http://billingsoasis.com/
-  - formatted_address: 911 15th St W, Billings, MT 59102, USA
-    formatted_phone_number: (406) 657-8371
-    geometry:
-      location:
-        lat: 45.7803298
-        lng: -108.5533119
-    name: Spring Creek Park
-    opening_hours:
-      open_now: true
-      periods:
-      - close:
-          day: 0
-          time: '2200'
-        open:
-          day: 0
-          time: '0500'
-      - close:
-          day: 1
-          time: '2200'
-        open:
-          day: 1
-          time: '0500'
-      - close:
-          day: 2
-          time: '2200'
-        open:
-          day: 2
-          time: '0500'
-      - close:
-          day: 3
-          time: '2200'
-        open:
-          day: 3
-          time: '0500'
-      - close:
-          day: 4
-          time: '2200'
-        open:
-          day: 4
-          time: '0500'
-      - close:
-          day: 5
-          time: '2200'
-        open:
-          day: 5
-          time: '0500'
-      - close:
-          day: 6
-          time: '2200'
-        open:
-          day: 6
-          time: '0500'
-      weekday_text:
-      - 'Monday: 5:00 AM – 10:00 PM'
-      - 'Tuesday: 5:00 AM – 10:00 PM'
-      - 'Wednesday: 5:00 AM – 10:00 PM'
-      - 'Thursday: 5:00 AM – 10:00 PM'
-      - 'Friday: 5:00 AM – 10:00 PM'
-      - 'Saturday: 5:00 AM – 10:00 PM'
-      - 'Sunday: 5:00 AM – 10:00 PM'
-    website: http://www.billingsparks.org/park/spring-creek/
+      - 'Monday: 7:30 AM â€“ 4:30 PM'
+      - 'Tuesday: 7:30 AM â€“ 4:30 PM'
+      - 'Wednesday: 7:30 AM â€“ 4:30 PM'
+      - 'Thursday: 7:30 AM â€“ 4:30 PM'
+      - 'Friday: 7:30 AM â€“ 4:30 PM'
+      - 'Saturday: Closed'
+      - 'Sunday: Closed'
+    website: https://www.funinmontgomery.com/Home/Components/FacilityDirectory/FacilityDirectory/232/3056?npage=3
   zoo:
-  - formatted_address: 2100 Shiloh Rd, Billings, MT 59106, USA
-    formatted_phone_number: (406) 652-8100
+  - formatted_address: 2301 Coliseum Pkwy, Montgomery, AL 36110, USA
+    formatted_phone_number: (334) 625-4900
     geometry:
       location:
-        lat: 45.7322513
-        lng: -108.6210697
-    name: ZooMontana
+        lat: 32.4198404
+        lng: -86.2751933
+    name: Montgomery Zoo & Mann Wildlife Learning Museum
     opening_hours:
       open_now: true
       periods:
       - close:
           day: 0
-          time: '1400'
+          time: '1600'
         open:
           day: 0
           time: '1000'
       - close:
           day: 1
-          time: '1400'
+          time: '1600'
         open:
           day: 1
           time: '1000'
       - close:
           day: 2
-          time: '1400'
+          time: '1600'
         open:
           day: 2
           time: '1000'
       - close:
           day: 3
-          time: '1400'
+          time: '1600'
         open:
           day: 3
           time: '1000'
       - close:
           day: 4
-          time: '1400'
+          time: '1600'
         open:
           day: 4
           time: '1000'
       - close:
           day: 5
-          time: '1400'
+          time: '1600'
         open:
           day: 5
           time: '1000'
       - close:
           day: 6
-          time: '1400'
+          time: '1600'
         open:
           day: 6
           time: '1000'
       weekday_text:
-      - 'Monday: 10:00 AM – 2:00 PM'
-      - 'Tuesday: 10:00 AM – 2:00 PM'
-      - 'Wednesday: 10:00 AM – 2:00 PM'
-      - 'Thursday: 10:00 AM – 2:00 PM'
-      - 'Friday: 10:00 AM – 2:00 PM'
-      - 'Saturday: 10:00 AM – 2:00 PM'
-      - 'Sunday: 10:00 AM – 2:00 PM'
-    website: http://zoomontana.org/
-  - formatted_address: 625 Mattson Ln, Billings, MT 59105, USA
-    geometry:
-      location:
-        lat: 45.83062489999999
-        lng: -108.4697414
-    name: Melons place
+      - 'Monday: 9:00 AM â€“ 4:00 PM'
+      - 'Tuesday: 9:00 AM â€“ 4:00 PM'
+      - 'Wednesday: 9:00 AM â€“ 4:00 PM'
+      - 'Thursday: 9:00 AM â€“ 4:00 PM'
+      - 'Friday: 9:00 AM â€“ 4:00 PM'
+      - 'Saturday: 9:00 AM â€“ 4:00 PM'
+      - 'Sunday: 9:00 AM â€“ 4:00 PM'
+    website: http://www.montgomeryzoo.com/
+

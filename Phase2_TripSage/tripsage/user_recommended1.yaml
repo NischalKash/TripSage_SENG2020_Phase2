@@ -1,64 +1,89 @@
-Billings:
-  art_gallery:
-  - formatted_address: 327 S 24th St W, Billings, MT 59102, USA
-    formatted_phone_number: (406) 656-8954
+Montgomery:
+  amusement_park:
+  - formatted_address: Montgomery St, Montgomery, AL 36104, USA
     geometry:
       location:
-        lat: 45.763375
-        lng: -108.575734
-    name: Buffalo Chips Indian Arts & Crafts
+        lat: 32.37582469999999
+        lng: -86.31214399999999
+    name: Funtown
+  museum:
+  - formatted_address: 2301 Coliseum Pkwy, Montgomery, AL 36110, USA
+    formatted_phone_number: (334) 625-4900
+    geometry:
+      location:
+        lat: 32.4198404
+        lng: -86.2751933
+    name: Montgomery Zoo & Mann Wildlife Learning Museum
+    opening_hours:
+      open_now: true
+      periods:
+      - close:
+          day: 0
+          time: '1600'
+        open:
+          day: 0
+          time: 0900
+      - close:
+          day: 1
+          time: '1600'
+        open:
+          day: 1
+          time: 0900
+      - close:
+          day: 2
+          time: '1600'
+        open:
+          day: 2
+          time: 0900
+      - close:
+          day: 3
+          time: '1600'
+        open:
+          day: 3
+          time: 0900
+      - close:
+          day: 4
+          time: '1600'
+        open:
+          day: 4
+          time: 0900
+      - close:
+          day: 5
+          time: '1600'
+        open:
+          day: 5
+          time: 0900
+      - close:
+          day: 6
+          time: '1600'
+        open:
+          day: 6
+          time: 0900
+      weekday_text:
+      - 'Monday: 9:00 AM â€“ 4:00 PM'
+      - 'Tuesday: 9:00 AM â€“ 4:00 PM'
+      - 'Wednesday: 9:00 AM â€“ 4:00 PM'
+      - 'Thursday: 9:00 AM â€“ 4:00 PM'
+      - 'Friday: 9:00 AM â€“ 4:00 PM'
+      - 'Saturday: 9:00 AM â€“ 4:00 PM'
+      - 'Sunday: 9:00 AM â€“ 4:00 PM'
+    website: http://www.montgomeryzoo.com/
+  - formatted_address: 1 Museum Dr, Montgomery, AL 36117, USA
+    formatted_phone_number: (334) 625-4333
+    geometry:
+      location:
+        lat: 32.3510221
+        lng: -86.20648349999999
+    name: Montgomery Museum of Fine Arts
     opening_hours:
       open_now: false
       periods:
       - close:
-          day: 2
-          time: '1800'
-        open:
-          day: 2
-          time: 0930
-      - close:
-          day: 3
-          time: '1800'
-        open:
-          day: 3
-          time: 0930
-      - close:
-          day: 4
-          time: '1800'
-        open:
-          day: 4
-          time: 0930
-      - close:
-          day: 5
-          time: '1800'
-        open:
-          day: 5
-          time: 0930
-      - close:
-          day: 6
+          day: 0
           time: '1700'
         open:
-          day: 6
-          time: 0930
-      weekday_text:
-      - 'Monday: Closed'
-      - 'Tuesday: 9:30 AM – 6:00 PM'
-      - 'Wednesday: 9:30 AM – 6:00 PM'
-      - 'Thursday: 9:30 AM – 6:00 PM'
-      - 'Friday: 9:30 AM – 6:00 PM'
-      - 'Saturday: 9:30 AM – 5:00 PM'
-      - 'Sunday: Closed'
-    website: http://www.buffalochipsindianart.com/
-  - formatted_address: '1005 24th St W #4, Billings, MT 59102, USA'
-    formatted_phone_number: (406) 294-0199
-    geometry:
-      location:
-        lat: 45.7797253
-        lng: -108.5758847
-    name: Sunrise Studio & Art Gallery
-    opening_hours:
-      open_now: false
-      periods:
+          day: 0
+          time: '1200'
       - close:
           day: 2
           time: '1700'
@@ -91,109 +116,20 @@ Billings:
           time: '1100'
       weekday_text:
       - 'Monday: Closed'
-      - 'Tuesday: 10:00 AM – 5:00 PM'
-      - 'Wednesday: 10:00 AM – 5:00 PM'
-      - 'Thursday: 10:00 AM – 5:00 PM'
-      - 'Friday: 10:00 AM – 5:00 PM'
-      - 'Saturday: 11:00 AM – 5:00 PM'
-      - 'Sunday: Closed'
-    website: http://sunriseartgallerymt.com
-  - formatted_address: 2511 Montana Ave, Billings, MT 59101, USA
-    formatted_phone_number: (406) 860-3859
+      - 'Tuesday: 10:00 AM â€“ 5:00 PM'
+      - 'Wednesday: 10:00 AM â€“ 5:00 PM'
+      - 'Thursday: 10:00 AM â€“ 5:00 PM'
+      - 'Friday: 10:00 AM â€“ 5:00 PM'
+      - 'Saturday: 10:00 AM â€“ 5:00 PM'
+      - 'Sunday: 12:00 â€“ 5:00 PM'
+    website: http://www.mmfa.org/
+  - formatted_address: 252 Montgomery St, Montgomery, AL 36104, USA
+    formatted_phone_number: (334) 241-8615
     geometry:
       location:
-        lat: 45.7828397
-        lng: -108.5019286
-    name: Robert Tompkins Fine Art
-    website: http://rtompkins.com/
-  church:
-  - formatted_address: 820 W 9th St, Laurel, MT 59044, USA
-    formatted_phone_number: (406) 628-6200
-    geometry:
-      location:
-        lat: 45.6770574
-        lng: -108.7839785
-    name: The Rock Church
-    opening_hours:
-      open_now: false
-      periods:
-      - close:
-          day: 1
-          time: '0000'
-        open:
-          day: 0
-          time: '1000'
-      weekday_text:
-      - 'Monday: Closed'
-      - 'Tuesday: Closed'
-      - 'Wednesday: Closed'
-      - 'Thursday: Closed'
-      - 'Friday: Closed'
-      - 'Saturday: Closed'
-      - 'Sunday: 10:00 AM – 12:00 AM'
-    website: http://www.therockmontana.com/
-  - formatted_address: 2929 Belvedere Dr, Billings, MT 59102, USA
-    formatted_phone_number: (406) 628-1527
-    geometry:
-      location:
-        lat: 45.783207
-        lng: -108.59127
-    name: The Church of Jesus Christ of Latter-day Saints
-    opening_hours:
-      open_now: false
-      periods:
-      - close:
-          day: 0
-          time: '2100'
-        open:
-          day: 0
-          time: 0900
-      - close:
-          day: 2
-          time: '2100'
-        open:
-          day: 2
-          time: 0900
-      - close:
-          day: 3
-          time: '2100'
-        open:
-          day: 3
-          time: 0900
-      - close:
-          day: 4
-          time: '2100'
-        open:
-          day: 4
-          time: 0900
-      - close:
-          day: 5
-          time: '2100'
-        open:
-          day: 5
-          time: 0900
-      - close:
-          day: 6
-          time: '2100'
-        open:
-          day: 6
-          time: 0900
-      weekday_text:
-      - 'Monday: Closed'
-      - 'Tuesday: 9:00 AM – 9:00 PM'
-      - 'Wednesday: 9:00 AM – 9:00 PM'
-      - 'Thursday: 9:00 AM – 9:00 PM'
-      - 'Friday: 9:00 AM – 9:00 PM'
-      - 'Saturday: 9:00 AM – 9:00 PM'
-      - 'Sunday: 9:00 AM – 9:00 PM'
-    website: https://www.lds.org/locations?lang=eng
-  - formatted_address: 215 N 31st St, Billings, MT 59101, USA
-    formatted_phone_number: (406) 259-3389
-    geometry:
-      location:
-        lat: 45.78194439999999
-        lng: -108.5105556
-    name: St. Patrick's Co-Cathedral
+        lat: 32.3768141
+        lng: -86.31117050000002
+    name: Rosa Parks Museum
     opening_hours:
       open_now: true
       periods:
@@ -202,363 +138,209 @@ Billings:
           time: '1600'
         open:
           day: 1
-          time: 0830
+          time: 0900
       - close:
           day: 2
           time: '1600'
         open:
           day: 2
-          time: 0830
+          time: 0900
       - close:
           day: 3
           time: '1600'
         open:
           day: 3
-          time: 0830
+          time: 0900
       - close:
           day: 4
           time: '1600'
         open:
           day: 4
-          time: 0830
+          time: 0900
       - close:
           day: 5
           time: '1600'
         open:
           day: 5
-          time: 0830
+          time: 0900
       weekday_text:
-      - 'Monday: 8:30 AM – 4:00 PM'
-      - 'Tuesday: 8:30 AM – 4:00 PM'
-      - 'Wednesday: 8:30 AM – 4:00 PM'
-      - 'Thursday: 8:30 AM – 4:00 PM'
-      - 'Friday: 8:30 AM – 4:00 PM'
+      - 'Monday: 9:00 AM â€“ 5:00 PM'
+      - 'Tuesday: 9:00 AM â€“ 5:00 PM'
+      - 'Wednesday: 9:00 AM â€“ 5:00 PM'
+      - 'Thursday: 9:00 AM â€“ 5:00 PM'
+      - 'Friday: 9:00 AM â€“ 5:00 PM'
       - 'Saturday: Closed'
       - 'Sunday: Closed'
-    website: http://stpatrickcocathedral.org/
-  park:
-  - formatted_address: 3401 Coburn Rd, Billings, MT 59101, USA
-    formatted_phone_number: (406) 254-7342
+    website: http://troy.edu/rosaparks
+  restaurant:
+  - formatted_address: 7020 Eastchase Pkwy, Montgomery, AL 36117, USA
+    formatted_phone_number: (334) 396-1770
     geometry:
       location:
-        lat: 45.737818
-        lng: -108.43111
-    name: Pictograph Cave State Park
-    opening_hours:
-      open_now: false
-      periods:
-      - close:
-          day: 0
-          time: '1700'
-        open:
-          day: 0
-          time: 0900
-      - close:
-          day: 3
-          time: '1700'
-        open:
-          day: 3
-          time: 0900
-      - close:
-          day: 4
-          time: '1700'
-        open:
-          day: 4
-          time: 0900
-      - close:
-          day: 5
-          time: '1700'
-        open:
-          day: 5
-          time: 0900
-      - close:
-          day: 6
-          time: '1700'
-        open:
-          day: 6
-          time: 0900
-      weekday_text:
-      - 'Monday: Closed'
-      - 'Tuesday: Closed'
-      - 'Wednesday: 9:00 AM – 5:00 PM'
-      - 'Thursday: 9:00 AM – 5:00 PM'
-      - 'Friday: 9:00 AM – 5:00 PM'
-      - 'Saturday: 9:00 AM – 5:00 PM'
-      - 'Sunday: 9:00 AM – 5:00 PM'
-    website: http://stateparks.mt.gov/pictograph-cave/
-  - formatted_address: 447 Hallowell Ln, Billings, MT 59101, USA
-    formatted_phone_number: (406) 657-8371
-    geometry:
-      location:
-        lat: 45.7609667
-        lng: -108.521686
-    name: Optimist Park
+        lat: 32.3590913
+        lng: -86.1678852
+    name: Bonefish Grill
     opening_hours:
       open_now: true
       periods:
       - close:
           day: 0
-          time: '2200'
+          time: '2100'
         open:
           day: 0
-          time: '0500'
+          time: '1100'
       - close:
           day: 1
           time: '2200'
         open:
           day: 1
-          time: '0500'
+          time: '1100'
       - close:
           day: 2
           time: '2200'
         open:
           day: 2
-          time: '0500'
+          time: '1100'
       - close:
           day: 3
           time: '2200'
         open:
           day: 3
-          time: '0500'
+          time: '1100'
       - close:
           day: 4
           time: '2200'
         open:
           day: 4
-          time: '0500'
+          time: '1100'
       - close:
           day: 5
-          time: '2200'
+          time: '2300'
         open:
           day: 5
-          time: '0500'
+          time: '1100'
       - close:
           day: 6
-          time: '2200'
+          time: '2300'
         open:
           day: 6
-          time: '0500'
+          time: '1100'
       weekday_text:
-      - 'Monday: 5:00 AM – 10:00 PM'
-      - 'Tuesday: 5:00 AM – 10:00 PM'
-      - 'Wednesday: 5:00 AM – 10:00 PM'
-      - 'Thursday: 5:00 AM – 10:00 PM'
-      - 'Friday: 5:00 AM – 10:00 PM'
-      - 'Saturday: 5:00 AM – 10:00 PM'
-      - 'Sunday: 5:00 AM – 10:00 PM'
-    website: http://www.billingsparks.org/park/optimist/
-  - formatted_address: 390 N 23rd St, Billings, MT 59101, USA
-    formatted_phone_number: (406) 657-8371
+      - 'Monday: 11:00 AM â€“ 10:00 PM'
+      - 'Tuesday: 11:00 AM â€“ 10:00 PM'
+      - 'Wednesday: 11:00 AM â€“ 10:00 PM'
+      - 'Thursday: 11:00 AM â€“ 10:00 PM'
+      - 'Friday: 11:00 AM â€“ 11:00 PM'
+      - 'Saturday: 11:00 AM â€“ 11:00 PM'
+      - 'Sunday: 11:00 AM â€“ 9:00 PM'
+    website: https://www.bonefishgrill.com/
+  - formatted_address: 201 Monroe St Suite 162, Montgomery, AL 36104, USA
+    formatted_phone_number: (334) 293-4773
     geometry:
       location:
-        lat: 45.8000998
-        lng: -108.5907463
-    name: Kiwanis-Durland Park
-    opening_hours:
-      open_now: true
-      periods:
-      - close:
-          day: 0
-          time: '2200'
-        open:
-          day: 0
-          time: '0500'
-      - close:
-          day: 1
-          time: '2200'
-        open:
-          day: 1
-          time: '0500'
-      - close:
-          day: 2
-          time: '2200'
-        open:
-          day: 2
-          time: '0500'
-      - close:
-          day: 3
-          time: '2200'
-        open:
-          day: 3
-          time: '0500'
-      - close:
-          day: 4
-          time: '2200'
-        open:
-          day: 4
-          time: '0500'
-      - close:
-          day: 5
-          time: '2200'
-        open:
-          day: 5
-          time: '0500'
-      - close:
-          day: 6
-          time: '2200'
-        open:
-          day: 6
-          time: '0500'
-      weekday_text:
-      - 'Monday: 5:00 AM – 10:00 PM'
-      - 'Tuesday: 5:00 AM – 10:00 PM'
-      - 'Wednesday: 5:00 AM – 10:00 PM'
-      - 'Thursday: 5:00 AM – 10:00 PM'
-      - 'Friday: 5:00 AM – 10:00 PM'
-      - 'Saturday: 5:00 AM – 10:00 PM'
-      - 'Sunday: 5:00 AM – 10:00 PM'
-    website: http://www.billingsparks.org/park/kiwanis-durland/
-  spa:
-  - formatted_address: 1504 24th St W, Billings, MT 59102, USA
-    formatted_phone_number: (406) 655-1701
-    geometry:
-      location:
-        lat: 45.78572090000001
-        lng: -108.5772283
-    name: Sanctuary-Aveda Spa & Salon
+        lat: 32.37930590000001
+        lng: -86.3056766
+    name: Chick-fil-A
     opening_hours:
       open_now: true
       periods:
       - close:
           day: 1
-          time: '1800'
+          time: '1430'
         open:
           day: 1
-          time: 0900
+          time: '0730'
       - close:
           day: 2
-          time: '2000'
+          time: '1430'
         open:
           day: 2
-          time: 0900
+          time: '0730'
       - close:
           day: 3
-          time: '2000'
+          time: '1430'
         open:
           day: 3
-          time: 0900
+          time: '0730'
       - close:
           day: 4
-          time: '2000'
+          time: '1430'
         open:
           day: 4
-          time: 0900
+          time: '0730'
       - close:
           day: 5
-          time: '2000'
+          time: '1430'
         open:
           day: 5
-          time: 0900
-      - close:
-          day: 6
-          time: '1700'
-        open:
-          day: 6
-          time: 0800
+          time: '0730'
       weekday_text:
-      - 'Monday: 9:00 AM – 6:00 PM'
-      - 'Tuesday: 9:00 AM – 8:00 PM'
-      - 'Wednesday: 9:00 AM – 8:00 PM'
-      - 'Thursday: 9:00 AM – 8:00 PM'
-      - 'Friday: 9:00 AM – 8:00 PM'
-      - 'Saturday: 8:00 AM – 5:00 PM'
-      - 'Sunday: Closed'
-    website: http://www.sanctuaryspaandsalon.com/
-  - formatted_address: '2501 Montana Ave #3, Billings, MT 59101, USA'
-    formatted_phone_number: (406) 294-4325
-    geometry:
-      location:
-        lat: 45.7831946
-        lng: -108.5016775
-    name: Transformation Spa & Wellness
-    opening_hours:
-      open_now: true
-      periods:
-      - close:
-          day: 1
-          time: '1900'
-        open:
-          day: 1
-          time: 0900
-      - close:
-          day: 2
-          time: '1900'
-        open:
-          day: 2
-          time: 0900
-      - close:
-          day: 3
-          time: '1900'
-        open:
-          day: 3
-          time: 0900
-      - close:
-          day: 4
-          time: '1900'
-        open:
-          day: 4
-          time: 0900
-      - close:
-          day: 5
-          time: '1900'
-        open:
-          day: 5
-          time: 0900
-      weekday_text:
-      - 'Monday: 9:00 AM – 7:00 PM'
-      - 'Tuesday: 9:00 AM – 7:00 PM'
-      - 'Wednesday: 9:00 AM – 7:00 PM'
-      - 'Thursday: 9:00 AM – 7:00 PM'
-      - 'Friday: 9:00 AM – 7:00 PM'
+      - 'Monday: 7:30 AM â€“ 2:30 PM'
+      - 'Tuesday: 7:30 AM â€“ 2:30 PM'
+      - 'Wednesday: 7:30 AM â€“ 2:30 PM'
+      - 'Thursday: 7:30 AM â€“ 2:30 PM'
+      - 'Friday: 7:30 AM â€“ 2:30 PM'
       - 'Saturday: Closed'
       - 'Sunday: Closed'
-    website: http://www.transformationspa.com/
-  - formatted_address: '410 Lake Elmo Dr #2, Billings, MT 59105, USA'
-    formatted_phone_number: (406) 534-1686
+    website: https://www.chick-fil-a.com/rsatower
+  - formatted_address: 2739 Legends Pkwy, Prattville, AL 36066, USA
+    formatted_phone_number: (334) 730-4466
     geometry:
       location:
-        lat: 45.8058079
-        lng: -108.4764617
-    name: Euphoria Salon and Boutique
+        lat: 32.459387
+        lng: -86.39814199999999
+    name: Moe's Southwest Grill
     opening_hours:
-      open_now: false
+      open_now: true
       periods:
       - close:
+          day: 0
+          time: '2100'
+        open:
+          day: 0
+          time: '1100'
+      - close:
+          day: 1
+          time: '2100'
+        open:
+          day: 1
+          time: '1100'
+      - close:
           day: 2
-          time: '1700'
+          time: '2100'
         open:
           day: 2
-          time: 0900
+          time: '1100'
       - close:
           day: 3
-          time: '1700'
+          time: '2100'
         open:
           day: 3
-          time: 0900
+          time: '1100'
       - close:
           day: 4
-          time: '1700'
+          time: '2100'
         open:
           day: 4
-          time: 0900
+          time: '1100'
       - close:
           day: 5
-          time: '1700'
+          time: '2100'
         open:
           day: 5
-          time: 0900
+          time: '1100'
       - close:
           day: 6
-          time: '1400'
+          time: '2100'
         open:
           day: 6
-          time: 0900
+          time: '1100'
       weekday_text:
-      - 'Monday: Closed'
-      - 'Tuesday: 9:00 AM – 5:00 PM'
-      - 'Wednesday: 9:00 AM – 5:00 PM'
-      - 'Thursday: 9:00 AM – 5:00 PM'
-      - 'Friday: 9:00 AM – 5:00 PM'
-      - 'Saturday: 9:00 AM – 2:00 PM'
-      - 'Sunday: Closed'
-    website: https://euphoriasalonandboutique.business.site/
+      - 'Monday: 11:00 AM â€“ 9:00 PM'
+      - 'Tuesday: 11:00 AM â€“ 9:00 PM'
+      - 'Wednesday: 11:00 AM â€“ 9:00 PM'
+      - 'Thursday: 11:00 AM â€“ 9:00 PM'
+      - 'Friday: 11:00 AM â€“ 9:00 PM'
+      - 'Saturday: 11:00 AM â€“ 9:00 PM'
+      - 'Sunday: 11:00 AM â€“ 9:00 PM'
+    website: https://www.moes.com/find-a-moes/alabama/prattville/627?utm_source=google&utm_medium=organic&utm_campaign=localmaps
