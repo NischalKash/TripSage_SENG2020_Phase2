@@ -34,8 +34,8 @@ Check out the basics: https://developer.mozilla.org/en-US/docs/Learn/Server-side
 This tutorial also covers Django.</br>
 </br>
 ### How to Run: </br>
-1. Run `pip install -r requirements.txt`
-2. Clone the project repo onto your local machine https://github.com/NischalKash/TripSage_SENG2020_Phase2.git
+1. Clone the project repo onto your local machine https://github.com/NischalKash/TripSage_SENG2020_Phase2.git
+2. Run `pip install -r requirements.txt`
 3. Execute manage.py using the command `python3 manage.py runserver` at 'Phase2_TripSage/tripsage/'. This runs the Django server such that we can open the webUI for the project on the browser.
 4. Next, open your browser and type in `localhost:8000` in the search bar to open the webUI of the application.
 5. The UI typically looks as shown below and here you can enter the start and destination of your choice and look at the results based on your specifications.
@@ -61,20 +61,17 @@ This tutorial also covers Django.</br>
 
 ### Project Structure:</br>
 (Disclaimer: Need some knowledge of Django to understand Project structure, please go through above resources if needed)</br>
-TripSage/</br>
-&nbsp; tripHome/</br>
-&nbsp;&nbsp; models.py </br>
-&nbsp;&nbsp; views.py </br>
+Phase2_TripSage/</br>
+&nbsp; tripsage/</br>
+&nbsp;&nbsp; tripsage/ </br>
 &nbsp;&nbsp;&nbsp; urls.py </br>
-&nbsp;&nbsp;&nbsp; templates/ </br>
-&nbsp;&nbsp;&nbsp;&nbsp; index.html </br>
-&nbsp;&nbsp;&nbsp;&nbsp; base_generic.html </br>
-&nbsp;&nbsp;&nbsp;&nbsp; result.html</br>
-&nbsp;&nbsp;&nbsp; static/ </br>
-&nbsp;&nbsp;&nbsp;&nbsp; js/ </br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; custom.js </br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; resultsPage.js </br>
-</br>
+&nbsp;&nbsp; planner/ </br>
+&nbsp;&nbsp;&nbsp; templates </br>
+&nbsp;&nbsp;&nbsp;&nbsp; directions.html </br>
+&nbsp;&nbsp;&nbsp;&nbsp; home.html </br>
+&nbsp;&nbsp;&nbsp;&nbsp; recommendations.html </br>
+&nbsp;&nbsp;&nbsp; views.py</br>
+&nbsp;&nbsp;&nbsp; functionaltesting.py</br>
 
 </br>
 
