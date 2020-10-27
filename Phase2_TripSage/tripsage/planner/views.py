@@ -71,7 +71,6 @@ def find_spots(request):
         tourist_spots1 = getRecommendation(city,type1)
         if type2 != 'none':
             tourist_spots2 = getRecommendation(city,type2)
-
         
         locations = []
         # Retrieve all tourist locations from source to destination based on filters
@@ -86,8 +85,6 @@ def find_spots(request):
 
         return render(request, "planner/recommendations.html", context)
 
-        # tourist_spots contains all the recommended places a user can visit when he traverses through his trip!
-        # render a html template here but make sure that he can enter a city again if he wants in the following template
 
 def myfunction(origin, destination):
     #Query google api to find out the directions from origin to destination
