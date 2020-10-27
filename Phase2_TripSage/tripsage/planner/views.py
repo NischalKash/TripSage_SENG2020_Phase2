@@ -149,7 +149,7 @@ def myfunction(origin, destination):
     f = open("sentences.txt", "a")
     f.write(end_location + "\n")
     f.close()
-    return path
+    return path, total_distance, total_duration
 
 #This function takes in the information from the user to form trip itenary!
 def directions(request):
@@ -172,7 +172,11 @@ def directions(request):
         start_time_obj = datetime.datetime.strptime(start_time, "%Y-%m-%d %H:%M:%S.%f")
 
         #Call this function which determines the directions user has to follow from origin to destination!
-        direct = myfunction(origin, destination)
+        direct, total_distance, total_duration = myfunction(origin, destination)
+
+        request.session['total_distance'] = total_distance
+        request.session['total_duration'] = total_duration
+
         cities = []
         duration_list = []
         duration_list.append("Departed from " + origin)
@@ -198,5 +202,5 @@ def directions(request):
             duration_list.append(i[2]+" Arrival Time : "+string_time)
 
         duration_list.append("Arrived at " + destination)
-        final_dictionary = {"directions": duration_list, "cities": cities}
+        final_dictionary = {"directions": duration_list, "cities": cities, "total_duration": total_duration, "total_distance": total_distance}
         return render(request, "planner/directions.html", final_dictionary)

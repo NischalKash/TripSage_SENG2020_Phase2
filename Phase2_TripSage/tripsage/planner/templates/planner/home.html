@@ -52,6 +52,12 @@
         font-size: 3.5rem;
       }
     }
+    .form-control{
+      width: 400px;
+      position: relative;
+      display: block;
+      margin: 0 auto;
+    }
 
     .dropdown-menu {
       width: 400px;
@@ -98,7 +104,7 @@
 
           <label for="type" style="color:black; font-size: 17px; font-family:'Courier New'"><b>Trip Type Preference 1:</b></label><br>
 
-          <select style="width: 400px; margin-left: 470px;" class="form-control" id="type" name="type">
+          <select class="form-control" id="type" name="type">
             <option value="adventures">Adventures</option>
             <option value="kids">Kids</option>
             <option value="relaxing">Relaxing</option>
@@ -110,7 +116,7 @@
           <label for="type2" style="color:black; font-size: 17px;font-family:'Courier New'"><b>Trip Type Preference 2:</b></label><br>
 
 
-          <select style="width: 400px; margin-left: 470px;" class="form-control" id="type2" name="type2">
+          <select class="form-control" id="type2" name="type2">
               <option value="none">None</option>
             <option value="adventures">Adventures</option>
             <option value="kids">Kids</option>
@@ -120,10 +126,10 @@
           <br><br>
 
           <label for="date_start" style="color:black; font-size: 17px;font-family:'Courier New'"><b>Date of Travelling</b></label>
-  <input style="width: 400px; margin-left: 470px;" class="form-control" type="date" min = '2020-10-26' id="date_start" name="date_start">
-    <br><br>
+  <input style="width: 400px; position: relative; display: block; margin: 0 auto;" type="date" min = '2020-10-26' id="date_start" name="date_start">
+    <br>
           <label for="start_time" style="color:black; font-size: 17px;font-family:'Courier New'"><b>Expected Time of Departing</b></label>
-  <input style="width: 400px; margin-left: 470px;" class="form-control" type="time" id="start_time" name="start_time">
+  <input style="width: 400px; position: relative; display: block; margin: 0 auto;" type="time" id="start_time" name="start_time">
     <br><br>
           <button class="btn-danger" type="submit">Directions and Tourist Spots</button>
         </form>
