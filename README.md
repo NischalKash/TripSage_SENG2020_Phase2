@@ -10,8 +10,6 @@
 # TripSage
 The only Itinerary planner, you will ever need
 
-See UI Mockups at : [TRIPSAGE](http://xd.adobe.com/view/4b11902d-7907-4938-846e-cf4fd00181af-1e42/)
-
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/yO8Xo6UvWUQ/0.jpg)](https://www.youtube.com/watch?v=yO8Xo6UvWUQ)
 </br>
 </br>
