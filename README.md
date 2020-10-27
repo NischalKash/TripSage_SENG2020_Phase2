@@ -42,6 +42,7 @@ This tutorial also covers Django.</br>
 4. Next, open your browser and type in `localhost:8000` in the search bar to open the webUI of the application.
 5. The UI typically looks as shown below and here you can enter the start and destination of your choice and look at the results based on your specifications.
 </br>
+![image](https://user-images.githubusercontent.com/65666095/97241847-aab7c380-17c8-11eb-9709-e0a604a3e597.png)</br>
 ### Project Structure:</br>
 (Disclaimer: Need some knowledge of Django to understand Project structure, please go through above resources if needed)</br>
 TripSage/</br>
